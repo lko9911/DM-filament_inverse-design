@@ -1,0 +1,227 @@
+full_filament_candidate_matrices_raw = [
+  # assignment_candidate_counts=[{"assignment_index": 1, "candidate_count": 13}, {"assignment_index": 2, "candidate_count": 1}]
+  # assignment_combination_formula=A1(13) x A2(1)
+  # assignment_combination_candidate_count=13
+  # matrices_written=13
+  # candidate 1 | candidate_indices_by_assignment=[1, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 2 | candidate_indices_by_assignment=[2, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 3 | candidate_indices_by_assignment=[3, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 4 | candidate_indices_by_assignment=[4, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 5 | candidate_indices_by_assignment=[5, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 6 | candidate_indices_by_assignment=[6, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 7 | candidate_indices_by_assignment=[7, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 8 | candidate_indices_by_assignment=[8, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 9 | candidate_indices_by_assignment=[9, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 10 | candidate_indices_by_assignment=[10, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 11 | candidate_indices_by_assignment=[11, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 12 | candidate_indices_by_assignment=[12, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ],
+  # candidate 13 | candidate_indices_by_assignment=[13, 1] | columns=["A1s1", "A1s2", "A1s3", "A1s4", "A1s5", "A1s6", "A1s7", "A1s8", "A1s9", "A1s10", "A1s11", "A1s12", "A1s13", "A2s1", "A2s2"]
+  [
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA"]
+  ]
+]

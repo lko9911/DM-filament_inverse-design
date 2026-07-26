@@ -1,0 +1,9 @@
+{
+  "library_summary": null,
+  "library_loaded": false,
+  "guided_assignment_count": 0,
+  "resolved_assignments": [],
+  "skip_reason": "No property-guided assignments; the source workbook is not required.",
+  "source_property_program": "C:\\Users\\user\\Desktop\\AML_Research\\DM-filament_inverse-design\\input\\config\\Property_x-axis_block.json",
+  "resolved_property_program": "C:\\Users\\user\\Desktop\\AML_Research\\DM-filament_inverse-design\\test_sample\\derived\\property_guided\\resolved_property_program.json"
+}

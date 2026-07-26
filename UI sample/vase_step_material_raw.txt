@@ -1,0 +1,34 @@
+material_name_matrix_raw = [
+  [
+    ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA"],
+    ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+    ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"]
+  ],
+  [
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"],
+    ["PLA", "CPLA"]
+  ]
+]

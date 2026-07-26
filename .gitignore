@@ -1,0 +1,8 @@
+test_sample/derived/simulation/beam_step_adjacency_clusters_best_switch_eta_ranked.json
+test_sample/derived/simulation/beam_step_adjacency_clusters_best_switch_eta_ranked.txt
+out/**/simulation/intermediate/beam_step_adjacency_clusters_best_switch_eta_ranked.json
+out/**/simulation/intermediate/beam_step_adjacency_clusters_best_switch_eta_ranked.txt
+out/**/result/candidate_rank_*/*_FeedStart_*/
+out/**/result/candidate_rank_*/*_FeedStart_*.txt
+out/**/result/candidate_rank_*/*_FeedStart_*.mp4
+out/**/result/candidate_rank_*/*_FeedStart_*.png

@@ -1,0 +1,8 @@
+Origmai
+
+GA: number 17
+astar: 21 (defalt 3) 23 (defalt 50)
+beam: 21
+bfs: 21
+dfs: 21
+dijkstra: 21

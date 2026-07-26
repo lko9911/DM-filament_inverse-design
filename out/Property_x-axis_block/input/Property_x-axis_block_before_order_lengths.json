@@ -1,0 +1,34 @@
+[
+  {
+    "assignment_index": 1,
+    "source_component_index": 1,
+    "source_component_name": "Custom",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 39.0,
+    "component_voxel_count": 20
+  },
+  {
+    "assignment_index": 2,
+    "source_component_index": 2,
+    "source_component_name": "Body6",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 2781.042859999893,
+    "component_voxel_count": 1391
+  },
+  {
+    "assignment_index": 3,
+    "source_component_index": 3,
+    "source_component_name": "Body5",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 4578.749340000061,
+    "component_voxel_count": 2290
+  },
+  {
+    "assignment_index": 4,
+    "source_component_index": 4,
+    "source_component_name": "Body4",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 1916.99286000001,
+    "component_voxel_count": 959
+  }
+]

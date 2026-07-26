@@ -1,0 +1,246 @@
+assignment_candidate_matrices_raw = [
+  # assignment 1 | candidate_count=13 | matrix_shape=14x13
+  [
+    # candidate 1, 14 x A1_steps
+    [
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA"]
+    ],
+    # candidate 2, 14 x A1_steps
+    [
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 3, 14 x A1_steps
+    [
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 4, 14 x A1_steps
+    [
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 5, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 6, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 7, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 8, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 9, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 10, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 11, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 12, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA"]
+    ],
+    # candidate 13, 14 x A1_steps
+    [
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "CPLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "CPLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "PLA", "PLA", "PLA", "CPLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA", "PLA"],
+      ["CPLA", "CPLA", "PLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "CPLA", "PLA", "PLA", "PLA"]
+    ]
+  ],
+  # assignment 2 | candidate_count=1 | matrix_shape=14x2
+  [
+    # candidate 1, 14 x A2_steps
+    [
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"],
+      ["PLA", "CPLA"]
+    ]
+  ]
+]

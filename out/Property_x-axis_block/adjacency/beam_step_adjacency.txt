@@ -1,0 +1,922 @@
+source_text_path: test_sample\derived\matrices\assignment_candidate_matrix.txt
+search_algorithm: repeated_layer_exact
+repeated_layer_exact: runs=1, layers=150, run_layer_counts=[150], run_steps_per_layer=[3], template_combinations=4, expanded_steps=450
+total_step_count: 450
+score_rule: step_score = S(t-1,t) + S(t-2,t) when t-2 exists, else S(t-1,t)
+local_gradient_stage: per-Gradient local score maximization, then local material-switch minimization, then global search
+search_time_seconds: 0.085589
+ga_parameters: population_size=240, generations=350, elite_count=12, mutation_rate=0.06, tournament_size=4, random_seed=42, max_best_candidates=200
+best_score: 4186
+best_tie_count: 1
+
+local_gradient_preselection:
+
+generation_history:
+
+parsed_steps:
+step_001 | assignment 1 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_002 | assignment 2 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_003 | assignment 3 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_004 | assignment 4 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_005 | assignment 5 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_006 | assignment 6 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_007 | assignment 7 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_008 | assignment 8 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_009 | assignment 9 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_010 | assignment 10 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_011 | assignment 11 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_012 | assignment 12 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_013 | assignment 13 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_014 | assignment 14 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_015 | assignment 15 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_016 | assignment 16 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_017 | assignment 17 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_018 | assignment 18 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_019 | assignment 19 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_020 | assignment 20 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_021 | assignment 21 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_022 | assignment 22 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_023 | assignment 23 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_024 | assignment 24 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_025 | assignment 25 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_026 | assignment 26 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_027 | assignment 27 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_028 | assignment 28 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_029 | assignment 29 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_030 | assignment 30 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_031 | assignment 31 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_032 | assignment 32 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_033 | assignment 33 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_034 | assignment 34 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_035 | assignment 35 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_036 | assignment 36 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_037 | assignment 37 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_038 | assignment 38 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_039 | assignment 39 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_040 | assignment 40 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_041 | assignment 41 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_042 | assignment 42 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_043 | assignment 43 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_044 | assignment 44 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_045 | assignment 45 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_046 | assignment 46 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_047 | assignment 47 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_048 | assignment 48 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_049 | assignment 49 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_050 | assignment 50 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_051 | assignment 51 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_052 | assignment 52 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_053 | assignment 53 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_054 | assignment 54 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_055 | assignment 55 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_056 | assignment 56 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_057 | assignment 57 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_058 | assignment 58 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_059 | assignment 59 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_060 | assignment 60 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_061 | assignment 61 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_062 | assignment 62 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_063 | assignment 63 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_064 | assignment 64 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_065 | assignment 65 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_066 | assignment 66 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_067 | assignment 67 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_068 | assignment 68 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_069 | assignment 69 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_070 | assignment 70 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_071 | assignment 71 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_072 | assignment 72 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_073 | assignment 73 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_074 | assignment 74 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_075 | assignment 75 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_076 | assignment 76 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_077 | assignment 77 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_078 | assignment 78 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_079 | assignment 79 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_080 | assignment 80 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_081 | assignment 81 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_082 | assignment 82 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_083 | assignment 83 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_084 | assignment 84 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_085 | assignment 85 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_086 | assignment 86 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_087 | assignment 87 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_088 | assignment 88 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_089 | assignment 89 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_090 | assignment 90 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_091 | assignment 91 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_092 | assignment 92 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_093 | assignment 93 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_094 | assignment 94 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_095 | assignment 95 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_096 | assignment 96 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_097 | assignment 97 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_098 | assignment 98 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_099 | assignment 99 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_100 | assignment 100 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_101 | assignment 101 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_102 | assignment 102 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_103 | assignment 103 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_104 | assignment 104 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_105 | assignment 105 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_106 | assignment 106 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_107 | assignment 107 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_108 | assignment 108 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_109 | assignment 109 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_110 | assignment 110 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_111 | assignment 111 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_112 | assignment 112 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_113 | assignment 113 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_114 | assignment 114 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_115 | assignment 115 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_116 | assignment 116 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_117 | assignment 117 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_118 | assignment 118 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_119 | assignment 119 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_120 | assignment 120 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_121 | assignment 121 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_122 | assignment 122 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_123 | assignment 123 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_124 | assignment 124 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_125 | assignment 125 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_126 | assignment 126 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_127 | assignment 127 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_128 | assignment 128 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_129 | assignment 129 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_130 | assignment 130 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_131 | assignment 131 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_132 | assignment 132 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_133 | assignment 133 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_134 | assignment 134 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_135 | assignment 135 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_136 | assignment 136 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_137 | assignment 137 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_138 | assignment 138 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_139 | assignment 139 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_140 | assignment 140 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_141 | assignment 141 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_142 | assignment 142 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_143 | assignment 143 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_144 | assignment 144 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_145 | assignment 145 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_146 | assignment 146 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_147 | assignment 147 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_148 | assignment 148 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_149 | assignment 149 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_150 | assignment 150 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_151 | assignment 151 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_152 | assignment 152 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_153 | assignment 153 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_154 | assignment 154 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_155 | assignment 155 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_156 | assignment 156 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_157 | assignment 157 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_158 | assignment 158 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_159 | assignment 159 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_160 | assignment 160 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_161 | assignment 161 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_162 | assignment 162 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_163 | assignment 163 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_164 | assignment 164 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_165 | assignment 165 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_166 | assignment 166 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_167 | assignment 167 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_168 | assignment 168 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_169 | assignment 169 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_170 | assignment 170 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_171 | assignment 171 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_172 | assignment 172 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_173 | assignment 173 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_174 | assignment 174 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_175 | assignment 175 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_176 | assignment 176 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_177 | assignment 177 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_178 | assignment 178 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_179 | assignment 179 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_180 | assignment 180 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_181 | assignment 181 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_182 | assignment 182 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_183 | assignment 183 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_184 | assignment 184 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_185 | assignment 185 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_186 | assignment 186 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_187 | assignment 187 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_188 | assignment 188 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_189 | assignment 189 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_190 | assignment 190 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_191 | assignment 191 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_192 | assignment 192 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_193 | assignment 193 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_194 | assignment 194 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_195 | assignment 195 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_196 | assignment 196 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_197 | assignment 197 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_198 | assignment 198 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_199 | assignment 199 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_200 | assignment 200 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_201 | assignment 201 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_202 | assignment 202 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_203 | assignment 203 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_204 | assignment 204 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_205 | assignment 205 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_206 | assignment 206 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_207 | assignment 207 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_208 | assignment 208 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_209 | assignment 209 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_210 | assignment 210 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_211 | assignment 211 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_212 | assignment 212 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_213 | assignment 213 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_214 | assignment 214 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_215 | assignment 215 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_216 | assignment 216 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_217 | assignment 217 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_218 | assignment 218 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_219 | assignment 219 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_220 | assignment 220 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_221 | assignment 221 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_222 | assignment 222 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_223 | assignment 223 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_224 | assignment 224 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_225 | assignment 225 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_226 | assignment 226 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_227 | assignment 227 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_228 | assignment 228 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_229 | assignment 229 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_230 | assignment 230 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_231 | assignment 231 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_232 | assignment 232 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_233 | assignment 233 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_234 | assignment 234 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_235 | assignment 235 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_236 | assignment 236 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_237 | assignment 237 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_238 | assignment 238 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_239 | assignment 239 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_240 | assignment 240 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_241 | assignment 241 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_242 | assignment 242 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_243 | assignment 243 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_244 | assignment 244 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_245 | assignment 245 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_246 | assignment 246 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_247 | assignment 247 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_248 | assignment 248 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_249 | assignment 249 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_250 | assignment 250 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_251 | assignment 251 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_252 | assignment 252 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_253 | assignment 253 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_254 | assignment 254 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_255 | assignment 255 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_256 | assignment 256 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_257 | assignment 257 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_258 | assignment 258 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_259 | assignment 259 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_260 | assignment 260 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_261 | assignment 261 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_262 | assignment 262 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_263 | assignment 263 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_264 | assignment 264 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_265 | assignment 265 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_266 | assignment 266 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_267 | assignment 267 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_268 | assignment 268 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_269 | assignment 269 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_270 | assignment 270 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_271 | assignment 271 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_272 | assignment 272 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_273 | assignment 273 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_274 | assignment 274 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_275 | assignment 275 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_276 | assignment 276 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_277 | assignment 277 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_278 | assignment 278 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_279 | assignment 279 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_280 | assignment 280 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_281 | assignment 281 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_282 | assignment 282 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_283 | assignment 283 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_284 | assignment 284 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_285 | assignment 285 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_286 | assignment 286 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_287 | assignment 287 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_288 | assignment 288 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_289 | assignment 289 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_290 | assignment 290 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_291 | assignment 291 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_292 | assignment 292 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_293 | assignment 293 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_294 | assignment 294 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_295 | assignment 295 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_296 | assignment 296 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_297 | assignment 297 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_298 | assignment 298 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_299 | assignment 299 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_300 | assignment 300 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_301 | assignment 301 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_302 | assignment 302 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_303 | assignment 303 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_304 | assignment 304 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_305 | assignment 305 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_306 | assignment 306 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_307 | assignment 307 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_308 | assignment 308 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_309 | assignment 309 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_310 | assignment 310 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_311 | assignment 311 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_312 | assignment 312 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_313 | assignment 313 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_314 | assignment 314 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_315 | assignment 315 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_316 | assignment 316 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_317 | assignment 317 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_318 | assignment 318 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_319 | assignment 319 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_320 | assignment 320 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_321 | assignment 321 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_322 | assignment 322 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_323 | assignment 323 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_324 | assignment 324 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_325 | assignment 325 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_326 | assignment 326 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_327 | assignment 327 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_328 | assignment 328 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_329 | assignment 329 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_330 | assignment 330 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_331 | assignment 331 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_332 | assignment 332 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_333 | assignment 333 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_334 | assignment 334 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_335 | assignment 335 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_336 | assignment 336 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_337 | assignment 337 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_338 | assignment 338 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_339 | assignment 339 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_340 | assignment 340 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_341 | assignment 341 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_342 | assignment 342 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_343 | assignment 343 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_344 | assignment 344 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_345 | assignment 345 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_346 | assignment 346 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_347 | assignment 347 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_348 | assignment 348 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_349 | assignment 349 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_350 | assignment 350 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_351 | assignment 351 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_352 | assignment 352 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_353 | assignment 353 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_354 | assignment 354 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_355 | assignment 355 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_356 | assignment 356 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_357 | assignment 357 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_358 | assignment 358 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_359 | assignment 359 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_360 | assignment 360 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_361 | assignment 361 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_362 | assignment 362 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_363 | assignment 363 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_364 | assignment 364 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_365 | assignment 365 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_366 | assignment 366 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_367 | assignment 367 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_368 | assignment 368 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_369 | assignment 369 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_370 | assignment 370 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_371 | assignment 371 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_372 | assignment 372 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_373 | assignment 373 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_374 | assignment 374 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_375 | assignment 375 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_376 | assignment 376 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_377 | assignment 377 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_378 | assignment 378 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_379 | assignment 379 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_380 | assignment 380 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_381 | assignment 381 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_382 | assignment 382 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_383 | assignment 383 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_384 | assignment 384 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_385 | assignment 385 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_386 | assignment 386 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_387 | assignment 387 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_388 | assignment 388 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_389 | assignment 389 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_390 | assignment 390 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_391 | assignment 391 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_392 | assignment 392 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_393 | assignment 393 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_394 | assignment 394 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_395 | assignment 395 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_396 | assignment 396 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_397 | assignment 397 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_398 | assignment 398 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_399 | assignment 399 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_400 | assignment 400 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_401 | assignment 401 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_402 | assignment 402 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_403 | assignment 403 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_404 | assignment 404 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_405 | assignment 405 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_406 | assignment 406 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_407 | assignment 407 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_408 | assignment 408 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_409 | assignment 409 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_410 | assignment 410 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_411 | assignment 411 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_412 | assignment 412 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_413 | assignment 413 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_414 | assignment 414 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_415 | assignment 415 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_416 | assignment 416 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_417 | assignment 417 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_418 | assignment 418 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_419 | assignment 419 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_420 | assignment 420 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_421 | assignment 421 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_422 | assignment 422 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_423 | assignment 423 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_424 | assignment 424 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_425 | assignment 425 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_426 | assignment 426 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_427 | assignment 427 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_428 | assignment 428 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_429 | assignment 429 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_430 | assignment 430 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_431 | assignment 431 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_432 | assignment 432 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_433 | assignment 433 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_434 | assignment 434 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_435 | assignment 435 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_436 | assignment 436 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_437 | assignment 437 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_438 | assignment 438 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_439 | assignment 439 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_440 | assignment 440 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_441 | assignment 441 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_442 | assignment 442 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_443 | assignment 443 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_444 | assignment 444 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_445 | assignment 445 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_446 | assignment 446 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_447 | assignment 447 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_448 | assignment 448 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_449 | assignment 449 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_450 | assignment 450 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+
+best_candidates:
+01. score 4186 | eta_sum 300.000000 | material_switch_count 2 | step_scores [8, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6, 8, 14, 6] | selected_case_keys case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001, case_00001, case_01009, case_00001
+
+best_candidate_switch_eta:
+01. material_switch_count 2 | eta_sum 300.000000

@@ -41,6 +41,7 @@ try:
         build_property_payload,
         component_voxel_count,
         default_state,
+        normalize_gradient_direction,
     )
     from .full_gcode_object_property_designer import (
         canonical_component_name,
@@ -64,6 +65,7 @@ except ImportError:
         build_property_payload,
         component_voxel_count,
         default_state,
+        normalize_gradient_direction,
     )
     from full_gcode_object_property_designer import (
         canonical_component_name,
@@ -87,6 +89,7 @@ OUTPUT_JSON = r"input\config\Property_sample.json"
 VOXEL_THRESHOLD_E = 2.0
 REORDER_GCODE_STRATEGY_ENV_KEY = "B_FDM_REORDERED_GCODE_STRATEGY"
 BRIGHTER_MODE_ENV_KEY = "B_FDM_BRIGHTER_MODE"
+REGION_RECOGNITION_MODE_ENV_KEY = "B_FDM_REGION_RECOGNITION_MODE"
 DEFAULT_REORDER_GCODE_STRATEGY = "reorder_mesh_occurrences_within_each_layer_keep_xyz"
 
 PREVIEW_COLORS = [
@@ -176,6 +179,15 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
         self.output_path = output_path
         self.voxel_threshold_e = voxel_threshold_e
         self.states = {component.index: default_state(component) for component in components}
+        configured_recognition_mode = os.environ.get(
+            REGION_RECOGNITION_MODE_ENV_KEY
+        )
+        self.region_recognition_mode_from_env = configured_recognition_mode is not None
+        self.region_recognition_mode = (
+            "z-axis"
+            if str(configured_recognition_mode).strip().lower() == "z-axis"
+            else "layer-region"
+        )
         self.restore_states_from_existing_output()
         self.active_index = components[0].index
         self.syncing = False
@@ -459,6 +471,13 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
             payload = json.loads(self.output_path.read_text(encoding="utf-8"))
         except Exception:
             return
+        if not self.region_recognition_mode_from_env:
+            recognition_mode = str(
+                payload.get("region_recognition_mode", "layer-region")
+            ).strip().lower()
+            self.region_recognition_mode = (
+                "z-axis" if recognition_mode == "z-axis" else "layer-region"
+            )
 
         components_by_name = {
             component.display_name or component.path.name: component
@@ -483,7 +502,12 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
             property_type = str(assignment.get("Property_type", state.get("property_type", "Property")))
             state["property_type"] = property_type
             state["gradient_steps"] = int(assignment.get("gradient_steps", state.get("gradient_steps", 1)))
-            state["gradient_direction"] = str(assignment.get("gradient_direction", state.get("gradient_direction", "printing")))
+            state["gradient_direction"] = normalize_gradient_direction(
+                assignment.get(
+                    "gradient_direction",
+                    state.get("gradient_direction", "printing"),
+                )
+            )
             state["eta"] = float(assignment.get("eta", state.get("eta", 0.0)))
             state["eta_mode"] = str(assignment.get("eta_mode", state.get("eta_mode", "auto")))
             state["property_mpa"] = float(assignment.get("target_mpa", state.get("property_mpa", 0.0)))
@@ -814,7 +838,9 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
         self.ratio_start_spin.setValue(float(state["material_start_ratio"]))
         self.ratio_end_spin.setValue(float(state["material_end_ratio"]))
         self.gradient_steps_spin.setValue(int(state["gradient_steps"]))
-        self.gradient_direction_combo.setCurrentText(str(state["gradient_direction"]))
+        self.gradient_direction_combo.setCurrentText(
+            normalize_gradient_direction(state["gradient_direction"])
+        )
         eta_mode = str(state.get("eta_mode", "auto")).strip().lower()
         eta_mode_index = self.eta_mode_combo.findData(eta_mode)
         self.eta_mode_combo.setCurrentIndex(max(0, eta_mode_index))
@@ -860,7 +886,9 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
             self.ratio_end_spin.setValue(0.0)
             self.syncing = False
         state["gradient_steps"] = 1 if state["property_type"] == "Property" else int(self.gradient_steps_spin.value())
-        state["gradient_direction"] = self.gradient_direction_combo.currentText()
+        state["gradient_direction"] = normalize_gradient_direction(
+            self.gradient_direction_combo.currentText()
+        )
         state["eta_mode"] = str(self.eta_mode_combo.currentData() or "auto")
         state["eta"] = float(self.eta_spin.value())
         state["property_mpa"] = float(self.property_mpa_spin.value())
@@ -1160,6 +1188,7 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
             self.voxel_threshold_e,
             brighter_mode=bool(self.brighter_checkbox.isChecked()),
         )
+        payload["region_recognition_mode"] = self.region_recognition_mode
         payload["brighter_mode"] = any(bool(state.get("brighter_mode", False)) for state in self.states_for_output().values())
         payload["disabled_source_component_indices"] = [
             int(component.index)
@@ -1256,7 +1285,9 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
             assignment = payload["assignments"][output_index - 1]
             property_type = str(assignment.get("Property_type", "Property"))
             effective_steps = 1 if property_type == "Property" else int(assignment.get("gradient_steps", 1))
-            gradient_direction = str(assignment.get("gradient_direction", "printing"))
+            gradient_direction = normalize_gradient_direction(
+                assignment.get("gradient_direction", "printing")
+            )
             component_total_e = float(component.total_e)
             if property_type == "Property" or gradient_direction != "layer":
                 mapped_step_lengths = [component_total_e / effective_steps] * effective_steps

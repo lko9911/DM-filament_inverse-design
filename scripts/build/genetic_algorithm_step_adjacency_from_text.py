@@ -754,6 +754,35 @@ def detect_repeated_layer_template(
     return runs[0]
 
 
+def select_repeated_layer_best_states(
+    evaluated: list[CandidateState],
+) -> list[CandidateState]:
+    if not evaluated:
+        return []
+    min_switch_count = min(
+        int(state.material_switch_count or 0)
+        for state in evaluated
+    )
+    min_switch_states = [
+        state
+        for state in evaluated
+        if int(state.material_switch_count or 0) == min_switch_count
+    ]
+    best_score = max(state.total_score for state in min_switch_states)
+    best_states = [
+        state
+        for state in min_switch_states
+        if state.total_score == best_score
+    ]
+    best_states.sort(
+        key=lambda state: (
+            -state.eta_sum,
+            state.selected_case_keys,
+        )
+    )
+    return best_states[:GA_MAX_BEST_CANDIDATES]
+
+
 def run_repeated_layer_exact(
     step_candidates: list[list[StepCandidate]],
     positions_by_layer: list[list[int]],
@@ -784,25 +813,7 @@ def run_repeated_layer_exact(
 
     if not evaluated:
         return [], {}
-    best_score = max(state.total_score for state in evaluated)
-    best_score_states = [state for state in evaluated if state.total_score == best_score]
-    min_switch_count = min(
-        int(state.material_switch_count or 0)
-        for state in best_score_states
-    )
-    best_states = [
-        state
-        for state in best_score_states
-        if int(state.material_switch_count or 0) == min_switch_count
-    ]
-    best_states.sort(
-        key=lambda state: (
-            -state.total_score,
-            int(state.material_switch_count or 0),
-            -state.eta_sum,
-            state.selected_case_keys,
-        )
-    )
+    best_states = select_repeated_layer_best_states(evaluated)
     return best_states[:GA_MAX_BEST_CANDIDATES], {
         "run_count": 1,
         "layer_count": len(positions_by_layer),
@@ -847,22 +858,7 @@ def run_repeated_layer_runs_exact(
 
     if not evaluated:
         return [], {}
-    best_score = max(state.total_score for state in evaluated)
-    best_score_states = [state for state in evaluated if state.total_score == best_score]
-    min_switch_count = min(int(state.material_switch_count or 0) for state in best_score_states)
-    best_states = [
-        state
-        for state in best_score_states
-        if int(state.material_switch_count or 0) == min_switch_count
-    ]
-    best_states.sort(
-        key=lambda state: (
-            -state.total_score,
-            int(state.material_switch_count or 0),
-            -state.eta_sum,
-            state.selected_case_keys,
-        )
-    )
+    best_states = select_repeated_layer_best_states(evaluated)
     return best_states[:GA_MAX_BEST_CANDIDATES], {
         "run_count": len(layer_runs),
         "layer_count": sum(len(run) for run in layer_runs),

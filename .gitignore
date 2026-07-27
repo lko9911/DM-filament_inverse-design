@@ -6,3 +6,4 @@ out/**/result/candidate_rank_*/*_FeedStart_*/
 out/**/result/candidate_rank_*/*_FeedStart_*.txt
 out/**/result/candidate_rank_*/*_FeedStart_*.mp4
 out/**/result/candidate_rank_*/*_FeedStart_*.png
+out/**/result_old_*/

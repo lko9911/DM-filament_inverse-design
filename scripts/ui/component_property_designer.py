@@ -22,6 +22,8 @@ DEFAULT_OUTPUT_PATH = PROJECT_ROOT / "input" / "config" / "Property_sample_UIver
 UNKNOWN_MATERIAL = "UNKNOWN"
 NO_MATERIAL = "NO_MATERIAL"
 AUTO_MIXED_ETA = 2.0
+MIN_GRADIENT_STEPS = 1
+MAX_GRADIENT_STEPS = 99
 COLOR_OPTIONS = list(COLOR_PROFILE_OPTIONS)
 MATERIAL_OPTIONS = [
     *COLOR_OPTIONS,
@@ -37,6 +39,13 @@ PROPERTY_TYPE_OPTIONS = ["Property", "Gradient"]
 GRADIENT_DIRECTION_OPTIONS = ["printing", "layer"]
 ASSIGNMENT_MODE_OPTIONS = ["manual", "property_guided"]
 PROPERTY_TARGET_OPTIONS = ["Eb", "elongation", "R0", "GF", "color"]
+
+
+def normalize_gradient_direction(value: object) -> str:
+    normalized = str(value).strip().lower().replace("_", "-").replace(" ", "-")
+    if normalized in {"layer", "z", "z-axis", "zaxis"}:
+        return "layer"
+    return "printing"
 
 
 def infer_material_from_component_name(component: "ComponentModel") -> str | None:
@@ -213,6 +222,10 @@ def clamp_float(value: object, default: float, min_value: float = 0.0, max_value
         return default
 
 
+def clamp_gradient_steps(value: object, default: int = MIN_GRADIENT_STEPS) -> int:
+    return clamp_int(value, default, MIN_GRADIENT_STEPS, MAX_GRADIENT_STEPS)
+
+
 def component_voxel_count(total_e: float, voxel_threshold_e: float) -> int:
     if voxel_threshold_e <= 0.0:
         return 1
@@ -258,8 +271,12 @@ def build_property_payload(
             "start_layer": layer_start,
             "end_layer": layer_start + layer_count - 1,
             "Property_type": str(state["property_type"]),
-            "gradient_steps": clamp_int(state["gradient_steps"], 1, 1, 99),
-            "gradient_direction": str(state["gradient_direction"]),
+            "gradient_steps": (
+                clamp_gradient_steps(state["gradient_steps"])
+                if str(state["property_type"]) == "Gradient"
+                else 1
+            ),
+            "gradient_direction": normalize_gradient_direction(state["gradient_direction"]),
             "eta": clamp_float(state["eta"], 0.0, 0.0, 999.0),
             "eta_mode": str(state.get("eta_mode", "auto")).strip().lower(),
             "assignment_mode": str(state.get("assignment_mode", "manual")),
@@ -297,9 +314,11 @@ def build_property_payload(
                 "gradient_end_value": clamp_float(state.get("gradient_end_value"), 0.0, 0.0, 999999.0)
                 if state.get("gradient_end_value") not in {None, ""}
                 else None,
-                "gradient_direction": str(state.get("gradient_direction", "printing")),
+                "gradient_direction": normalize_gradient_direction(
+                    state.get("gradient_direction", "printing")
+                ),
                 "gradient_type": "linear",
-                "gradient_steps": clamp_int(state.get("gradient_steps"), 1, 1, 99),
+                "gradient_steps": clamp_gradient_steps(state.get("gradient_steps")),
                 "allow_fallback": bool(state.get("allow_fallback", True)),
             }
         elif assignment["Property_type"] == "Gradient":
@@ -346,8 +365,17 @@ def build_property_payload(
                 start_ratio = float(color_recipe["material_start_ratio"])
                 end_ratio = float(color_recipe["material_end_ratio"])
             eta_mode = "manual" if assignment["eta_mode"] == "manual" else "auto"
+            fixed_recipe_eta = (
+                color_recipe.get("fixed_eta")
+                if color_recipe is not None
+                else None
+            )
+            if fixed_recipe_eta is not None:
+                eta_mode = "manual"
             assignment["eta_mode"] = eta_mode
-            if eta_mode == "auto":
+            if fixed_recipe_eta is not None:
+                assignment["eta"] = float(fixed_recipe_eta)
+            elif eta_mode == "auto":
                 if assignment_brighter_mode and material_start != "WHITE":
                     assignment["eta"] = 4.0 if material_count >= 2 else 2.0
                 else:
@@ -409,7 +437,7 @@ def default_state(component: ComponentModel) -> dict[str, object]:
         "material_end": MATERIAL_OPTIONS[component.index % len(MATERIAL_OPTIONS)],
         "material_start_ratio": 100.0,
         "material_end_ratio": 0.0,
-        "gradient_steps": inferred_gradient_steps or 1,
+        "gradient_steps": clamp_gradient_steps(inferred_gradient_steps) if inferred_gradient_steps else 1,
         "gradient_direction": "printing",
         "eta": AUTO_MIXED_ETA,
         "eta_mode": "auto",
@@ -618,7 +646,10 @@ def launch_ui(
     def save_active_text_fields() -> None:
         state = states[active_index]
         state["order"] = clamp_int(order_box.text, int(state["order"]), 1, 99)
-        state["gradient_steps"] = clamp_int(steps_box.text, int(state["gradient_steps"]), 1, 99)
+        if str(state.get("property_type")) == "Gradient":
+            state["gradient_steps"] = clamp_gradient_steps(steps_box.text, int(state["gradient_steps"]))
+        else:
+            state["gradient_steps"] = 1
         state["eta"] = clamp_float(eta_box.text, float(state["eta"]), 0.0, 999.0)
         state["material_start_ratio"] = clamp_float(ratio_start_box.text, float(state["material_start_ratio"]), 0.0, 100.0)
         state["material_end_ratio"] = clamp_float(ratio_end_box.text, float(state["material_end_ratio"]), 0.0, 100.0)
@@ -647,6 +678,11 @@ def launch_ui(
         if syncing["value"]:
             return
         states[active_index]["property_type"] = label
+        if label == "Gradient":
+            states[active_index]["gradient_steps"] = clamp_gradient_steps(states[active_index]["gradient_steps"])
+        else:
+            states[active_index]["gradient_steps"] = 1
+        sync_controls()
         refresh_plot()
 
     def on_start_material(label: str) -> None:
@@ -664,7 +700,7 @@ def launch_ui(
     def on_direction(label: str) -> None:
         if syncing["value"]:
             return
-        states[active_index]["gradient_direction"] = label
+        states[active_index]["gradient_direction"] = normalize_gradient_direction(label)
         refresh_plot()
 
     def on_text_submit(_text: str) -> None:

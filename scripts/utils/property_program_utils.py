@@ -259,7 +259,8 @@ def choose_material_pair_from_compositions(
         start_material = max(
             material_names,
             key=lambda material: (
-                abs(float(end_composition.get(material, 0.0)) - float(start_composition.get(material, 0.0))),
+                float(start_composition.get(material, 0.0))
+                - float(end_composition.get(material, 0.0)),
                 material == "CYAN",
                 material,
             ),

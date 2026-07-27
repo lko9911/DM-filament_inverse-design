@@ -35,6 +35,18 @@ def resolve_default_gcode_path() -> Path:
     return DEFAULT_GCODE_DIR
 
 
+def to_windows_extended_path(path: Path | str) -> Path:
+    resolved = str(Path(path).resolve())
+    if os.name != "nt":
+        return Path(resolved)
+    normalized = resolved.replace("/", "\\")
+    if normalized.startswith("\\\\?\\"):
+        return Path(normalized)
+    if normalized.startswith("\\\\"):
+        return Path("\\\\?\\UNC\\" + normalized.lstrip("\\"))
+    return Path("\\\\?\\" + normalized)
+
+
 DEFAULT_GCODE_PATH = resolve_default_gcode_path()
 DESIGNER_DEPENDENCY_IMPORTS = "import PyQt5, vtkmodules"
 PIPELINE_DEPENDENCY_IMPORTS = "import tqdm, numpy, matplotlib, openpyxl"
@@ -56,6 +68,8 @@ GA_RANDOM_SEED_ENV_KEY = "B_FDM_GA_RANDOM_SEED"
 GA_MAX_BEST_CANDIDATES_ENV_KEY = "B_FDM_GA_MAX_BEST_CANDIDATES"
 ETA_SUM_FITNESS_WEIGHT_ENV_KEY = "B_FDM_ETA_SUM_FITNESS_WEIGHT"
 BRIGHTER_MODE_ENV_KEY = "B_FDM_BRIGHTER_MODE"
+REGION_RECOGNITION_MODE_ENV_KEY = "B_FDM_REGION_RECOGNITION_MODE"
+SAVE_SIMULATION_GIF_ENV_KEY = "B_FDM_SAVE_SIMULATION_GIF"
 SPIRAL_FEED_START_ENV_KEY = "B_FDM_SPIRAL_FEED_START_MM"
 SPIRAL_FEED_END_ENV_KEY = "B_FDM_SPIRAL_FEED_END_MM"
 REORDER_GCODE_STRATEGY_ENV_KEY = "B_FDM_REORDERED_GCODE_STRATEGY"
@@ -129,6 +143,7 @@ class PipelineUI(tk.Tk):
         self.prepare_only_var = tk.BooleanVar(value=False)
         self.run_all_after_opt_var = tk.BooleanVar(value=False)
         self.brighter_mode_var = tk.BooleanVar(value=False)
+        self.region_recognition_mode_var = tk.StringVar(value="layer-region")
         self.prusa_xl_enabled_var = tk.BooleanVar(value=True)
         self.prusa_xl_purge_enabled_var = tk.BooleanVar(value=True)
         self.prusa_xl_center_model_var = tk.BooleanVar(value=True)
@@ -199,6 +214,19 @@ class PipelineUI(tk.Tk):
         ttk.Label(options, text="Print end feed").grid(row=2, column=2, sticky="w", pady=(10, 0))
         ttk.Entry(options, textvariable=self.feed_length_end_var, width=10).grid(row=2, column=3, sticky="ew", padx=(6, 12), pady=(10, 0))
         ttk.Checkbutton(options, text="Brighter", variable=self.brighter_mode_var).grid(row=2, column=4, columnspan=2, sticky="w", pady=(10, 0))
+        ttk.Label(options, text="Region recognition").grid(
+            row=2,
+            column=6,
+            sticky="w",
+            pady=(10, 0),
+        )
+        ttk.Combobox(
+            options,
+            textvariable=self.region_recognition_mode_var,
+            values=["layer-region", "z-axis"],
+            state="readonly",
+            width=12,
+        ).grid(row=2, column=7, sticky="ew", pady=(10, 0))
         ttk.Label(options, text="Start margin material").grid(row=3, column=0, sticky="w", pady=(10, 0))
         ttk.Combobox(
             options,
@@ -617,6 +645,9 @@ class PipelineUI(tk.Tk):
             launch_env = os.environ.copy()
             launch_env[REORDER_GCODE_STRATEGY_ENV_KEY] = WITHIN_LAYER_REORDER_GCODE_STRATEGY
             launch_env[BRIGHTER_MODE_ENV_KEY] = "1" if self.brighter_mode_var.get() else "0"
+            launch_env[REGION_RECOGNITION_MODE_ENV_KEY] = (
+                self.region_recognition_mode_var.get().strip()
+            )
             # Source_DM_filament consumes the prepared filament in the reverse
             # direction, matching the swap used by run_dm_for_selected_candidate.
             launch_env[SPIRAL_FEED_START_ENV_KEY] = self.feed_length_end_var.get().strip()
@@ -627,6 +658,7 @@ class PipelineUI(tk.Tk):
                 f"       Python: {designer_python}\n"
                 f"       G-code: {gcode_path}\n"
                 f"       Output: {self.property_path_var.get()}\n"
+                f"       Region recognition: {self.region_recognition_mode_var.get()}\n"
             )
             subprocess.Popen(command, cwd=PROJECT_ROOT, env=launch_env)
             self.status_var.set("Sample info generated and property-guided designer launched.")
@@ -830,7 +862,19 @@ class PipelineUI(tk.Tk):
             env[GA_MAX_BEST_CANDIDATES_ENV_KEY] = self.ga_max_best_candidates_var.get().strip()
             env[ETA_SUM_FITNESS_WEIGHT_ENV_KEY] = self.eta_sum_fitness_weight_var.get().strip()
             env[BRIGHTER_MODE_ENV_KEY] = "1" if self.brighter_mode_var.get() else "0"
+            env[REGION_RECOGNITION_MODE_ENV_KEY] = (
+                self.region_recognition_mode_var.get().strip()
+            )
+            env[SAVE_SIMULATION_GIF_ENV_KEY] = (
+                "1"
+                if self.region_recognition_mode_var.get().strip() == "z-axis"
+                else "0"
+            )
             env[RUN_SOURCE_DM_FILAMENT_ENV_KEY] = "0"
+            if env[SAVE_SIMULATION_GIF_ENV_KEY] == "1":
+                self.log_queue.put(
+                    "[INFO] z-axis recognition: simulation PNG and GIF generation enabled.\n"
+                )
             self._stream_subprocess([str(pipeline_python), str(MAIN_PY)], env=env)
 
         def on_success() -> None:
@@ -969,12 +1013,15 @@ class PipelineUI(tk.Tk):
                 dm_gcode_path = dm_output_dir / f"{dm_output_name}_mod.txt"
                 prusa_xl_gcode_path = dm_output_dir / f"{dm_output_name}_mod_PrusaXL.gcode"
                 effective_po_path = dm_output_dir / "po_material_switches.txt"
-                if not dm_gcode_path.exists():
+                dm_gcode_fs_path = to_windows_extended_path(dm_gcode_path)
+                prusa_xl_gcode_fs_path = to_windows_extended_path(prusa_xl_gcode_path)
+                effective_po_fs_path = to_windows_extended_path(effective_po_path)
+                if not dm_gcode_fs_path.exists():
                     raise FileNotFoundError(
                         "DM G-code was not created at the expected path:\n"
                         f"{dm_gcode_path}"
                     )
-                if not effective_po_path.exists():
+                if not effective_po_fs_path.exists():
                     raise FileNotFoundError(
                         "DM material sequence report was not created at the expected path:\n"
                         f"{effective_po_path}"
@@ -984,11 +1031,11 @@ class PipelineUI(tk.Tk):
                     str(pipeline_python),
                     str(PRUSA_XL_CONVERTER_PY),
                     "--input",
-                    str(dm_gcode_path),
+                    str(dm_gcode_fs_path),
                     "--po",
-                    str(effective_po_path),
+                    str(effective_po_fs_path),
                     "--output",
-                    str(prusa_xl_gcode_path),
+                    str(prusa_xl_gcode_fs_path),
                     "--purge-x",
                     str(prusa_xl_purge_x),
                     "--purge-y",
@@ -1006,7 +1053,7 @@ class PipelineUI(tk.Tk):
                     prusa_command.append("--no-center-model-on-bed")
 
                 self._stream_subprocess(prusa_command)
-                if not prusa_xl_gcode_path.exists():
+                if not prusa_xl_gcode_fs_path.exists():
                     raise FileNotFoundError(
                         "Prusa XL G-code was not created at the expected path:\n"
                         f"{prusa_xl_gcode_path}"

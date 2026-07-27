@@ -132,6 +132,11 @@ def build_layer_segments(start_layer: int, end_layer: int, gradient_steps: int) 
     return segments
 
 
+def _is_z_axis_direction(direction: object) -> bool:
+    normalized = str(direction).strip().lower().replace("_", "-").replace(" ", "-")
+    return normalized in {"layer", "z", "z-axis", "zaxis"}
+
+
 def get_total_step_count(property_program: dict) -> int:
     assignments = get_assignments_in_spatial_order(property_program)
     return sum(get_effective_gradient_steps(property_program, assignment) for assignment in assignments)
@@ -218,7 +223,7 @@ def build_length_matrix(sample_info: dict, property_program: dict) -> tuple[list
         elif mapped_step_lengths is not None:
             assignment_steps = mapped_step_lengths[mapped_offset : mapped_offset + gradient_steps]
             mapped_offset += gradient_steps
-            if gradient_direction == "layer":
+            if _is_z_axis_direction(gradient_direction):
                 start_layer = int(assignment["start_layer"])
                 end_layer = int(assignment["end_layer"])
                 layer_segments = build_layer_segments(start_layer, end_layer, gradient_steps)
@@ -264,7 +269,7 @@ def build_length_matrix(sample_info: dict, property_program: dict) -> tuple[list
                             "step_filament_e_mm": step_filament,
                         }
                     )
-        elif gradient_direction == "layer":
+        elif _is_z_axis_direction(gradient_direction):
             start_layer = int(assignment["start_layer"])
             end_layer = int(assignment["end_layer"])
             layer_segments = build_layer_segments(start_layer, end_layer, gradient_steps)

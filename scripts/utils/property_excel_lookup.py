@@ -18,15 +18,19 @@ def _profile(
     start_count: int,
     end_count: int,
     swatch_hex: str,
+    fixed_eta: float | None = None,
 ) -> dict[str, object]:
     total = start_count + end_count
-    return {
+    profile: dict[str, object] = {
         "material_start": material_start,
         "material_end": material_end,
         "material_start_ratio": 100.0 * start_count / total,
         "material_end_ratio": 100.0 * end_count / total,
         "swatch_hex": swatch_hex,
     }
+    if fixed_eta is not None:
+        profile["fixed_eta"] = float(fixed_eta)
+    return profile
 
 
 # Figure 3d-f: five intermediate colors between each pair of CMY primaries,
@@ -51,6 +55,7 @@ COLOR_PROFILE_RECIPES: dict[str, dict[str, object]] = {
     "C50_M50": _profile("CYAN", "MAGENTA", 24, 24, "#633279"),
     "C33_M67": _profile("CYAN", "MAGENTA", 16, 32, "#84265f"),
     "C17_M83": _profile("CYAN", "MAGENTA", 8, 40, "#b32763"),
+    "PURPLE": _profile("CYAN", "MAGENTA", 10, 38, "#a92862", fixed_eta=1.5),
     "BLACK": _profile("BLACK", None, 48, 0, "#111111"),
     "WHITE": _profile("WHITE", None, 48, 0, "#f2f2f2"),
 }
@@ -66,7 +71,6 @@ LEGACY_COLOR_PROFILE_ALIASES = {
     "TEAL": "Y17_C83",
     "BLUE": "C50_M50",
     "NAVY": "C67_M33",
-    "PURPLE": "C33_M67",
     "PINK": "C17_M83",
 }
 
@@ -281,6 +285,9 @@ def resolve_color_recipe(
     profile_row = _nearest_excel_row(target_cmy, rows)
     material_count = 1 if material_end is None or end_ratio <= 1e-9 else 2
     eta = 0.0 if material_count == 1 else float(matched_row.eta if matched_row and matched_row.eta is not None else 0.0)
+    fixed_eta = None if brighter_mode else profile.get("fixed_eta")
+    if fixed_eta is not None:
+        eta = float(fixed_eta)
 
     recipe = {
         "requested_color": color_key,
@@ -300,6 +307,7 @@ def resolve_color_recipe(
         "material_start_ratio": start_ratio,
         "material_end_ratio": end_ratio,
         "eta": eta,
+        "fixed_eta": None if fixed_eta is None else float(fixed_eta),
         "swatch_hex": profile["swatch_hex"],
         "matched_excel_row": (
             {

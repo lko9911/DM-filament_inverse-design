@@ -123,7 +123,12 @@ def get_assignment_step_target_counts(
     resolved_step_targets = assignment.get("resolved_step_targets")
     if isinstance(resolved_step_targets, list) and step_index < len(resolved_step_targets):
         resolved_step_target = resolved_step_targets[step_index]
-        start_ratio = normalize_ratio_value(resolved_step_target.get("material_start_ratio", 100.0))
+        start_ratio = normalize_ratio_value(
+            resolved_step_target.get(
+                "ratio_start",
+                resolved_step_target.get("material_start_ratio", 100.0),
+            )
+        )
         return counts_from_start_ratio(start_ratio)
 
     assignment_type = get_assignment_property_type(property_program, assignment)
@@ -291,6 +296,21 @@ def filter_target_eta_candidates(
             enriched_candidate["eta_target_error"] = eta_error
             filtered.append(enriched_candidate)
 
+    if filtered:
+        min_ratio_error = min(
+            float(candidate["material_start_ratio_error"])
+            for candidate in filtered
+        )
+        filtered = [
+            candidate
+            for candidate in filtered
+            if abs(
+                float(candidate["material_start_ratio_error"])
+                - min_ratio_error
+            )
+            <= 1e-12
+        ]
+
     filtered.sort(
         key=lambda item: (
             float(item.get("eta_target_error", 0.0)),
@@ -299,6 +319,59 @@ def filter_target_eta_candidates(
         )
     )
     return filtered
+
+
+def material_compactness_key(
+    case_rows: list[object],
+    material_name: str,
+) -> tuple[int, int]:
+    material_indices = [
+        index
+        for index, row in enumerate(case_rows)
+        if str(row) == material_name
+    ]
+    if not material_indices:
+        return (10**9, 10**9)
+
+    run_count = 1 + sum(
+        current_index != previous_index + 1
+        for previous_index, current_index in zip(
+            material_indices,
+            material_indices[1:],
+        )
+    )
+    first_index = material_indices[0]
+    last_index = material_indices[-1]
+    internal_gap_weight = sum(
+        ROW_WEIGHTS[index]
+        for index in range(first_index, last_index + 1)
+        if str(case_rows[index]) != material_name
+    )
+    return (run_count, internal_gap_weight)
+
+
+def filter_compact_material_candidates(
+    candidates: list[dict[str, object]],
+    material_name: str,
+) -> list[dict[str, object]]:
+    if not candidates:
+        return []
+    best_key = min(
+        material_compactness_key(
+            list(candidate.get("case_rows", [])),
+            material_name,
+        )
+        for candidate in candidates
+    )
+    return [
+        candidate
+        for candidate in candidates
+        if material_compactness_key(
+            list(candidate.get("case_rows", [])),
+            material_name,
+        )
+        == best_key
+    ]
 
 
 def get_fixed_case_rows_for_step(
@@ -377,6 +450,65 @@ def get_resolved_step_target(
         return None
     target = resolved_step_targets[local_step_index]
     return target if isinstance(target, dict) else None
+
+
+def build_repeated_layer_template_summary(
+    property_program: dict[str, object],
+    candidate_matrix: list[dict[str, object]],
+) -> dict[str, object] | None:
+    assignments_by_index = {
+        int(assignment["assignment_index"]): assignment
+        for assignment in property_program.get("assignments", [])
+        if isinstance(assignment, dict) and "assignment_index" in assignment
+    }
+    cells_by_layer: dict[int, list[dict[str, object]]] = {}
+    for cell in candidate_matrix:
+        assignment = assignments_by_index.get(int(cell["assignment_index"]))
+        event = assignment.get("layer_region_event") if isinstance(assignment, dict) else None
+        if not isinstance(event, dict) or "layer_index" not in event:
+            return None
+        cells_by_layer.setdefault(int(event["layer_index"]), []).append(cell)
+
+    ordered_layers = sorted(cells_by_layer)
+    if len(ordered_layers) <= 1:
+        return None
+
+    def cell_signature(cell: dict[str, object]) -> tuple[object, ...]:
+        return (
+            cell.get("assignment_property_type"),
+            cell.get("assignment_material_start"),
+            cell.get("assignment_material_end"),
+            cell.get("target_material_start_count"),
+            cell.get("target_material_end_count"),
+            tuple(
+                str(candidate.get("case_key"))
+                for candidate in cell.get("candidates", [])
+                if isinstance(candidate, dict)
+            ),
+        )
+
+    template_cells = cells_by_layer[ordered_layers[0]]
+    template_signature = tuple(cell_signature(cell) for cell in template_cells)
+    if not template_signature:
+        return None
+    if any(
+        tuple(cell_signature(cell) for cell in cells_by_layer[layer_index])
+        != template_signature
+        for layer_index in ordered_layers[1:]
+    ):
+        return None
+
+    template_pattern_count = prod(
+        int(cell.get("candidate_count", 0))
+        for cell in template_cells
+    )
+    return {
+        "layer_count": len(ordered_layers),
+        "steps_per_layer": len(template_cells),
+        "template_pattern_count": template_pattern_count,
+        "expanded_step_count": len(candidate_matrix),
+        "layer_indices": ordered_layers,
+    }
 
 
 
@@ -498,6 +630,18 @@ def build_assignment_candidate_matrix(
             elif assignment_type == "Gradient" and gradient_steps == 1 and not eta_fixed_single_material:
                 candidates = filter_target_eta_candidates(candidates, eta_limit)
 
+            compact_material_preference = None
+            if (
+                assignment_type == "Property"
+                and str(assignment.get("requested_color", "")).strip().upper()
+                == "PURPLE"
+            ):
+                candidates = filter_compact_material_candidates(
+                    candidates,
+                    "Material_end",
+                )
+                compact_material_preference = "Material_end"
+
             step_cell = {
                 "global_step_index": global_step_index,
                 "assignment_index": assignment_index,
@@ -533,6 +677,7 @@ def build_assignment_candidate_matrix(
                 "candidate_target_material_start_ratio": candidate_target_start_ratio,
                 "resolved_step_target": resolved_step_target,
                 "fixed_case_rows": fixed_case_rows,
+                "compact_material_preference": compact_material_preference,
                 "ratio_tolerance": RATIO_TOLERANCE,
                 "candidate_count": len(candidates),
                 "candidates": candidates,
@@ -570,12 +715,22 @@ def build_assignment_candidate_matrix(
             }
         )
 
+    repeated_layer_template = build_repeated_layer_template_summary(
+        property_program,
+        candidate_matrix,
+    )
+    unconstrained_pattern_count = total_pattern_count
+    if repeated_layer_template is not None:
+        total_pattern_count = int(repeated_layer_template["template_pattern_count"])
+
     return {
         "property_type": get_property_type(property_program),
         "matrix_rows": 1,
         "matrix_cols": len(candidate_matrix),
         "total_step_count": len(candidate_matrix),
         "total_pattern_count": total_pattern_count,
+        "unconstrained_cartesian_pattern_count": unconstrained_pattern_count,
+        "repeated_layer_template": repeated_layer_template,
         "eta_min": ETA_MIN,
         "eta_max": ETA_MAX,
         "brighter_mode": global_brighter_mode,
@@ -597,6 +752,14 @@ def format_candidate_matrix_text(payload: dict) -> str:
     lines.append(f"matrix_rows: {payload['matrix_rows']}")
     lines.append(f"matrix_cols: {payload['matrix_cols']}")
     lines.append(f"total_pattern_count: {payload['total_pattern_count']}")
+    lines.append(
+        "unconstrained_cartesian_pattern_count: "
+        f"{payload.get('unconstrained_cartesian_pattern_count', payload['total_pattern_count'])}"
+    )
+    lines.append(
+        "repeated_layer_template: "
+        f"{payload.get('repeated_layer_template')}"
+    )
     lines.append(f"eta_min: {payload.get('eta_min')}")
     lines.append(f"eta_max: {payload.get('eta_max')}")
     lines.append(f"brighter_mode: {payload.get('brighter_mode', False)}")
@@ -666,6 +829,17 @@ def format_candidate_matrix_text(payload: dict) -> str:
     return "\n".join(lines)
 
 
+def format_theoretical_pattern_count(value: object) -> str:
+    count_text = str(int(value))
+    if len(count_text) <= 18:
+        return count_text
+    significant_digits = count_text[:4]
+    return (
+        f"{significant_digits[0]}.{significant_digits[1:]}e+{len(count_text) - 1} "
+        f"({len(count_text)} digits; exact value saved in JSON)"
+    )
+
+
 def main() -> None:
     property_program = load_json(PROPERTY_PROGRAM_PATH)
     material_dictionary = load_json(MATERIAL_DICTIONARY_PATH)
@@ -675,7 +849,24 @@ def main() -> None:
     OUTPUT_TXT_PATH.write_text(format_candidate_matrix_text(payload), encoding="utf-8")
 
     print(f"Total step count: {payload['total_step_count']}")
-    print(f"Total pattern count: {payload['total_pattern_count']}")
+    repeated_layer_template = payload.get("repeated_layer_template")
+    if isinstance(repeated_layer_template, dict):
+        print(
+            "Repeated layer template pattern count: "
+            f"{payload['total_pattern_count']} "
+            f"({repeated_layer_template['steps_per_layer']} regions x "
+            f"{repeated_layer_template['layer_count']} layers; "
+            "occurrence lengths remain exact)"
+        )
+        print(
+            "Unconstrained Cartesian count (not used): "
+            f"{format_theoretical_pattern_count(payload['unconstrained_cartesian_pattern_count'])}"
+        )
+    else:
+        print(
+            "Theoretical Cartesian pattern count (not enumerated): "
+            f"{format_theoretical_pattern_count(payload['total_pattern_count'])}"
+        )
     print(f"Saved JSON to: {OUTPUT_JSON_PATH}")
     print(f"Saved TXT to: {OUTPUT_TXT_PATH}")
 

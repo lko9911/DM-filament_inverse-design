@@ -136,6 +136,7 @@ ETA_MIN_ENV_KEY = "B_FDM_ETA_MIN"
 ETA_MAX_ENV_KEY = "B_FDM_ETA_MAX"
 RUN_SOURCE_DM_FILAMENT_ENV_KEY = "B_FDM_RUN_SOURCE_DM_FILAMENT"
 SOURCE_DM_MATLAB_COMMAND_ENV_KEY = "B_FDM_MATLAB_COMMAND"
+REGION_RECOGNITION_MODE_ENV_KEY = "B_FDM_REGION_RECOGNITION_MODE"
 
 # 0 keeps every best-score tie at each beam step.
 # Set this to N > 0 to keep at most N best-score states per step.
@@ -595,6 +596,17 @@ def load_json(path: Path) -> dict:
     if not path.exists():
         raise FileNotFoundError(f"JSON file not found: {path}")
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def resolve_region_recognition_mode(property_path: Path) -> str:
+    configured_mode = os.environ.get(REGION_RECOGNITION_MODE_ENV_KEY)
+    if configured_mode is None:
+        configured_mode = load_json(property_path).get(
+            "region_recognition_mode",
+            "layer-region",
+        )
+    normalized = str(configured_mode).strip().lower().replace("_", "-")
+    return "z-axis" if normalized in {"z", "z-axis", "zaxis"} else "layer-region"
 
 
 def normalize_material_name(name: str) -> str:
@@ -1659,12 +1671,26 @@ def main() -> None:
     )
     if property_guided_summary.get("resolved_assignments"):
         EFFECTIVE_PROPERTY_PATH = resolved_property_path
-    expanded_property_path, layer_region_summary = expand_layer_region_program_to_path(
-        EFFECTIVE_PROPERTY_PATH,
-        LAYER_REGION_EXPANDED_OUTPUT_PATH,
+    region_recognition_mode = resolve_region_recognition_mode(
+        EFFECTIVE_PROPERTY_PATH
     )
-    if int(layer_region_summary.get("expanded_event_count", 0)) > 0:
-        EFFECTIVE_PROPERTY_PATH = expanded_property_path
+    if region_recognition_mode == "z-axis":
+        layer_region_summary = {
+            "expanded_event_count": 0,
+            "reason": (
+                "z-axis mode uses the component-level property program directly, "
+                "matching the b-FDM_main2 workflow."
+            ),
+        }
+    else:
+        expanded_property_path, layer_region_summary = (
+            expand_layer_region_program_to_path(
+                EFFECTIVE_PROPERTY_PATH,
+                LAYER_REGION_EXPANDED_OUTPUT_PATH,
+            )
+        )
+        if int(layer_region_summary.get("expanded_event_count", 0)) > 0:
+            EFFECTIVE_PROPERTY_PATH = expanded_property_path
 
     # Show the flow first so this file also works as a readable project map.
     print_workflow_overview()
@@ -1678,6 +1704,11 @@ def main() -> None:
     if property_guided_summary.get("resolved_assignments"):
         print("Property-guided resolved assignments:")
         print(f"  {len(property_guided_summary.get('resolved_assignments', []))}")
+    print("Region recognition mode:")
+    print(f"  {region_recognition_mode}")
+    if region_recognition_mode == "z-axis":
+        print("Z-axis component behavior:")
+        print("  Using the component-level Property/Gradient assignments directly.")
     if int(layer_region_summary.get("expanded_event_count", 0)) > 0:
         print("Layer-region execution events:")
         print(f"  {layer_region_summary['expanded_event_count']}")

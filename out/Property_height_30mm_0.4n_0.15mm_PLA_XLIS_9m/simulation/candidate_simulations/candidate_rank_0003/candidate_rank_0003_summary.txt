@@ -1,0 +1,12 @@
+rank: 3
+original_candidate_rank: 1244
+score: 380
+material_switch_count: 5
+eta_sum: 27.250000
+selected_case_keys: case_00001, case_00001, case_04095, case_01021, case_01009, case_00241, case_00193, case_00001, case_16192, case_15424, case_15376, case_12304, case_12290, case_00001, case_00097, case_00241, case_01009, case_01021, case_04093
+json: test_sample\derived\simulation\candidate_simulations\candidate_rank_0003\candidate_rank_0003_simulation.json
+txt: test_sample\derived\simulation\candidate_simulations\candidate_rank_0003\candidate_rank_0003_simulation.txt
+png: test_sample\derived\simulation\candidate_simulations\candidate_rank_0003\candidate_rank_0003_simulation.png
+gif: test_sample\derived\simulation\candidate_simulations\candidate_rank_0003\candidate_rank_0003_simulation.gif
+ratio_eta_png: test_sample\derived\simulation\candidate_simulations\candidate_rank_0003\candidate_rank_0003_ratio_eta_plot.png
+ratio_eta_json: test_sample\derived\simulation\candidate_simulations\candidate_rank_0003\candidate_rank_0003_ratio_eta_plot.json

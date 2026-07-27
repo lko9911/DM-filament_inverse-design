@@ -1,0 +1,66 @@
+[
+  {
+    "assignment_index": 1,
+    "source_component_index": 1,
+    "source_component_name": "Custom",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 39.0,
+    "component_voxel_count": 20
+  },
+  {
+    "assignment_index": 2,
+    "source_component_index": 2,
+    "source_component_name": "MAGENTA",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 102.24897999999995,
+    "component_voxel_count": 52
+  },
+  {
+    "assignment_index": 3,
+    "source_component_index": 3,
+    "source_component_name": "M_to_Y_5step",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 331.2128300000004,
+    "component_voxel_count": 166
+  },
+  {
+    "assignment_index": 4,
+    "source_component_index": 4,
+    "source_component_name": "YELLOW",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 102.18453999999994,
+    "component_voxel_count": 52
+  },
+  {
+    "assignment_index": 5,
+    "source_component_index": 5,
+    "source_component_name": "Y_to_C_5step",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 331.17430999999925,
+    "component_voxel_count": 166
+  },
+  {
+    "assignment_index": 6,
+    "source_component_index": 6,
+    "source_component_name": "CYAN",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 102.18454000000008,
+    "component_voxel_count": 52
+  },
+  {
+    "assignment_index": 7,
+    "source_component_index": 7,
+    "source_component_name": "C_to_P_4step",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 279.5942499999992,
+    "component_voxel_count": 140
+  },
+  {
+    "assignment_index": 8,
+    "source_component_index": 8,
+    "source_component_name": "PURPLE",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 102.24273999999987,
+    "component_voxel_count": 52
+  }
+]

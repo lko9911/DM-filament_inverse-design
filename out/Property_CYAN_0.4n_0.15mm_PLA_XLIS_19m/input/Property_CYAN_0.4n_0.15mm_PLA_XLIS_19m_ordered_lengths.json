@@ -1,0 +1,117 @@
+[
+  {
+    "assignment_index": 1,
+    "source_component_index": 1,
+    "source_component_name": "Custom",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 39.0,
+    "component_voxel_count": 20,
+    "mapped_step_lengths_e_mm": [
+      39.0
+    ]
+  },
+  {
+    "assignment_index": 2,
+    "source_component_index": 2,
+    "source_component_name": "MAGENTA",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 102.24897999999995,
+    "component_voxel_count": 52,
+    "mapped_step_lengths_e_mm": [
+      102.24897999999995
+    ]
+  },
+  {
+    "assignment_index": 3,
+    "source_component_index": 3,
+    "source_component_name": "M_to_Y_5step",
+    "property_type": "Gradient",
+    "gradient_direction": "printing",
+    "effective_step_count": 5,
+    "component_total_filament_e_mm": 331.2128300000004,
+    "component_voxel_count": 166,
+    "mapped_step_lengths_e_mm": [
+      66.24256600000008,
+      66.24256600000008,
+      66.24256600000008,
+      66.24256600000008,
+      66.24256600000008
+    ]
+  },
+  {
+    "assignment_index": 4,
+    "source_component_index": 4,
+    "source_component_name": "YELLOW",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 102.18453999999994,
+    "component_voxel_count": 52,
+    "mapped_step_lengths_e_mm": [
+      102.18453999999994
+    ]
+  },
+  {
+    "assignment_index": 5,
+    "source_component_index": 5,
+    "source_component_name": "Y_to_C_5step",
+    "property_type": "Gradient",
+    "gradient_direction": "printing",
+    "effective_step_count": 5,
+    "component_total_filament_e_mm": 331.17430999999925,
+    "component_voxel_count": 166,
+    "mapped_step_lengths_e_mm": [
+      66.23486199999985,
+      66.23486199999985,
+      66.23486199999985,
+      66.23486199999985,
+      66.23486199999985
+    ]
+  },
+  {
+    "assignment_index": 6,
+    "source_component_index": 6,
+    "source_component_name": "CYAN",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 102.18454000000008,
+    "component_voxel_count": 52,
+    "mapped_step_lengths_e_mm": [
+      102.18454000000008
+    ]
+  },
+  {
+    "assignment_index": 7,
+    "source_component_index": 7,
+    "source_component_name": "C_to_P_4step",
+    "property_type": "Gradient",
+    "gradient_direction": "printing",
+    "effective_step_count": 4,
+    "component_total_filament_e_mm": 279.5942499999992,
+    "component_voxel_count": 140,
+    "mapped_step_lengths_e_mm": [
+      69.8985624999998,
+      69.8985624999998,
+      69.8985624999998,
+      69.8985624999998
+    ]
+  },
+  {
+    "assignment_index": 8,
+    "source_component_index": 8,
+    "source_component_name": "PURPLE",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 102.24273999999987,
+    "component_voxel_count": 52,
+    "mapped_step_lengths_e_mm": [
+      102.24273999999987
+    ]
+  }
+]

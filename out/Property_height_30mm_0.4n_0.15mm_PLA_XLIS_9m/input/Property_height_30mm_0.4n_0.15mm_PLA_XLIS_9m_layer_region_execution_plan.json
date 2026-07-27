@@ -1,0 +1,4611 @@
+{
+  "schema": "b_fdm.layer_region_execution_plan.v1",
+  "resolution_mode": "layer_region_occurrence",
+  "source_gcode": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_height_30mm_0.4n_0.15mm_PLA_XLIS_9m\\input\\Property_height_30mm_0.4n_0.15mm_PLA_XLIS_9m_ordered.gcode",
+  "event_count": 200,
+  "mapped_deposition_e_mm": 221.17029000000002,
+  "skipped_region_deposition_e_mm": {},
+  "non_region_deposition_e_mm": 39.0,
+  "events": [
+    {
+      "sequence_index": 1,
+      "layer_index": 0,
+      "layer_label": 0,
+      "layer_z": 0.2,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 1561,
+      "source_line_end": 1599,
+      "extrusion_e_mm": 1.4384800000000004,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 1
+    },
+    {
+      "sequence_index": 2,
+      "layer_index": 1,
+      "layer_label": 1,
+      "layer_z": 0.35,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 1626,
+      "source_line_end": 1663,
+      "extrusion_e_mm": 1.1041800000000004,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 2
+    },
+    {
+      "sequence_index": 3,
+      "layer_index": 2,
+      "layer_label": 2,
+      "layer_z": 0.5,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 1689,
+      "source_line_end": 1725,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 3
+    },
+    {
+      "sequence_index": 4,
+      "layer_index": 3,
+      "layer_label": 3,
+      "layer_z": 0.65,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 1751,
+      "source_line_end": 1787,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 4
+    },
+    {
+      "sequence_index": 5,
+      "layer_index": 4,
+      "layer_label": 4,
+      "layer_z": 0.8,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 1812,
+      "source_line_end": 1848,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 5
+    },
+    {
+      "sequence_index": 6,
+      "layer_index": 5,
+      "layer_label": 5,
+      "layer_z": 0.95,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 1873,
+      "source_line_end": 1910,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 6
+    },
+    {
+      "sequence_index": 7,
+      "layer_index": 6,
+      "layer_label": 6,
+      "layer_z": 1.1,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 1935,
+      "source_line_end": 1972,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 7
+    },
+    {
+      "sequence_index": 8,
+      "layer_index": 7,
+      "layer_label": 7,
+      "layer_z": 1.25,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 1997,
+      "source_line_end": 2033,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 8
+    },
+    {
+      "sequence_index": 9,
+      "layer_index": 8,
+      "layer_label": 8,
+      "layer_z": 1.4,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 2059,
+      "source_line_end": 2095,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 9
+    },
+    {
+      "sequence_index": 10,
+      "layer_index": 9,
+      "layer_label": 9,
+      "layer_z": 1.55,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "source_line_start": 2121,
+      "source_line_end": 2156,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 2,
+      "execution_step_index": 10
+    },
+    {
+      "sequence_index": 11,
+      "layer_index": 10,
+      "layer_label": 10,
+      "layer_z": 1.7,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2185,
+      "source_line_end": 2221,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 11
+    },
+    {
+      "sequence_index": 12,
+      "layer_index": 11,
+      "layer_label": 11,
+      "layer_z": 1.85,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2246,
+      "source_line_end": 2281,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 12
+    },
+    {
+      "sequence_index": 13,
+      "layer_index": 12,
+      "layer_label": 12,
+      "layer_z": 2.0,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2306,
+      "source_line_end": 2343,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 13
+    },
+    {
+      "sequence_index": 14,
+      "layer_index": 13,
+      "layer_label": 13,
+      "layer_z": 2.15,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2368,
+      "source_line_end": 2403,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 14
+    },
+    {
+      "sequence_index": 15,
+      "layer_index": 14,
+      "layer_label": 14,
+      "layer_z": 2.3,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2428,
+      "source_line_end": 2464,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 15
+    },
+    {
+      "sequence_index": 16,
+      "layer_index": 15,
+      "layer_label": 15,
+      "layer_z": 2.45,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2490,
+      "source_line_end": 2525,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 16
+    },
+    {
+      "sequence_index": 17,
+      "layer_index": 16,
+      "layer_label": 16,
+      "layer_z": 2.6,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2550,
+      "source_line_end": 2586,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 17
+    },
+    {
+      "sequence_index": 18,
+      "layer_index": 17,
+      "layer_label": 17,
+      "layer_z": 2.75,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2611,
+      "source_line_end": 2647,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 18
+    },
+    {
+      "sequence_index": 19,
+      "layer_index": 18,
+      "layer_label": 18,
+      "layer_z": 2.9,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2672,
+      "source_line_end": 2708,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 19
+    },
+    {
+      "sequence_index": 20,
+      "layer_index": 19,
+      "layer_label": 19,
+      "layer_z": 3.05,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2733,
+      "source_line_end": 2769,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 20
+    },
+    {
+      "sequence_index": 21,
+      "layer_index": 20,
+      "layer_label": 20,
+      "layer_z": 3.2,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2794,
+      "source_line_end": 2830,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 21
+    },
+    {
+      "sequence_index": 22,
+      "layer_index": 21,
+      "layer_label": 21,
+      "layer_z": 3.35,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2855,
+      "source_line_end": 2891,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 22
+    },
+    {
+      "sequence_index": 23,
+      "layer_index": 22,
+      "layer_label": 22,
+      "layer_z": 3.5,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2916,
+      "source_line_end": 2952,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 23
+    },
+    {
+      "sequence_index": 24,
+      "layer_index": 23,
+      "layer_label": 23,
+      "layer_z": 3.65,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 2977,
+      "source_line_end": 3013,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 24
+    },
+    {
+      "sequence_index": 25,
+      "layer_index": 24,
+      "layer_label": 24,
+      "layer_z": 3.8,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3038,
+      "source_line_end": 3074,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 25
+    },
+    {
+      "sequence_index": 26,
+      "layer_index": 25,
+      "layer_label": 25,
+      "layer_z": 3.95,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3099,
+      "source_line_end": 3135,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 26
+    },
+    {
+      "sequence_index": 27,
+      "layer_index": 26,
+      "layer_label": 26,
+      "layer_z": 4.1,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3160,
+      "source_line_end": 3195,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 27
+    },
+    {
+      "sequence_index": 28,
+      "layer_index": 27,
+      "layer_label": 27,
+      "layer_z": 4.25,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3221,
+      "source_line_end": 3257,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 28
+    },
+    {
+      "sequence_index": 29,
+      "layer_index": 28,
+      "layer_label": 28,
+      "layer_z": 4.4,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3282,
+      "source_line_end": 3319,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 29
+    },
+    {
+      "sequence_index": 30,
+      "layer_index": 29,
+      "layer_label": 29,
+      "layer_z": 4.55,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3344,
+      "source_line_end": 3381,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 30
+    },
+    {
+      "sequence_index": 31,
+      "layer_index": 30,
+      "layer_label": 30,
+      "layer_z": 4.7,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3406,
+      "source_line_end": 3441,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 31
+    },
+    {
+      "sequence_index": 32,
+      "layer_index": 31,
+      "layer_label": 31,
+      "layer_z": 4.85,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3466,
+      "source_line_end": 3503,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 32
+    },
+    {
+      "sequence_index": 33,
+      "layer_index": 32,
+      "layer_label": 32,
+      "layer_z": 5.0,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3528,
+      "source_line_end": 3563,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 33
+    },
+    {
+      "sequence_index": 34,
+      "layer_index": 33,
+      "layer_label": 33,
+      "layer_z": 5.15,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3588,
+      "source_line_end": 3624,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 34
+    },
+    {
+      "sequence_index": 35,
+      "layer_index": 34,
+      "layer_label": 34,
+      "layer_z": 5.3,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3650,
+      "source_line_end": 3685,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 35
+    },
+    {
+      "sequence_index": 36,
+      "layer_index": 35,
+      "layer_label": 35,
+      "layer_z": 5.45,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3710,
+      "source_line_end": 3746,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 36
+    },
+    {
+      "sequence_index": 37,
+      "layer_index": 36,
+      "layer_label": 36,
+      "layer_z": 5.6,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3771,
+      "source_line_end": 3807,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 37
+    },
+    {
+      "sequence_index": 38,
+      "layer_index": 37,
+      "layer_label": 37,
+      "layer_z": 5.75,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3832,
+      "source_line_end": 3868,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 38
+    },
+    {
+      "sequence_index": 39,
+      "layer_index": 38,
+      "layer_label": 38,
+      "layer_z": 5.9,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3893,
+      "source_line_end": 3929,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 39
+    },
+    {
+      "sequence_index": 40,
+      "layer_index": 39,
+      "layer_label": 39,
+      "layer_z": 6.05,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 3954,
+      "source_line_end": 3990,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 40
+    },
+    {
+      "sequence_index": 41,
+      "layer_index": 40,
+      "layer_label": 40,
+      "layer_z": 6.2,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4015,
+      "source_line_end": 4051,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 41
+    },
+    {
+      "sequence_index": 42,
+      "layer_index": 41,
+      "layer_label": 41,
+      "layer_z": 6.35,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4076,
+      "source_line_end": 4112,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 42
+    },
+    {
+      "sequence_index": 43,
+      "layer_index": 42,
+      "layer_label": 42,
+      "layer_z": 6.5,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4137,
+      "source_line_end": 4173,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 43
+    },
+    {
+      "sequence_index": 44,
+      "layer_index": 43,
+      "layer_label": 43,
+      "layer_z": 6.65,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4198,
+      "source_line_end": 4234,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 44
+    },
+    {
+      "sequence_index": 45,
+      "layer_index": 44,
+      "layer_label": 44,
+      "layer_z": 6.8,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4259,
+      "source_line_end": 4295,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 45
+    },
+    {
+      "sequence_index": 46,
+      "layer_index": 45,
+      "layer_label": 45,
+      "layer_z": 6.95,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4320,
+      "source_line_end": 4355,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 46
+    },
+    {
+      "sequence_index": 47,
+      "layer_index": 46,
+      "layer_label": 46,
+      "layer_z": 7.1,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4380,
+      "source_line_end": 4417,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 47
+    },
+    {
+      "sequence_index": 48,
+      "layer_index": 47,
+      "layer_label": 47,
+      "layer_z": 7.25,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4442,
+      "source_line_end": 4477,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 48
+    },
+    {
+      "sequence_index": 49,
+      "layer_index": 48,
+      "layer_label": 48,
+      "layer_z": 7.4,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4502,
+      "source_line_end": 4539,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 49
+    },
+    {
+      "sequence_index": 50,
+      "layer_index": 49,
+      "layer_label": 49,
+      "layer_z": 7.55,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4564,
+      "source_line_end": 4599,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 50
+    },
+    {
+      "sequence_index": 51,
+      "layer_index": 50,
+      "layer_label": 50,
+      "layer_z": 7.7,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4624,
+      "source_line_end": 4662,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 51
+    },
+    {
+      "sequence_index": 52,
+      "layer_index": 51,
+      "layer_label": 51,
+      "layer_z": 7.85,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4687,
+      "source_line_end": 4723,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 52
+    },
+    {
+      "sequence_index": 53,
+      "layer_index": 52,
+      "layer_label": 52,
+      "layer_z": 8.0,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4748,
+      "source_line_end": 4784,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 53
+    },
+    {
+      "sequence_index": 54,
+      "layer_index": 53,
+      "layer_label": 53,
+      "layer_z": 8.15,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4810,
+      "source_line_end": 4845,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 54
+    },
+    {
+      "sequence_index": 55,
+      "layer_index": 54,
+      "layer_label": 54,
+      "layer_z": 8.3,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4870,
+      "source_line_end": 4906,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 55
+    },
+    {
+      "sequence_index": 56,
+      "layer_index": 55,
+      "layer_label": 55,
+      "layer_z": 8.45,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4931,
+      "source_line_end": 4967,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 56
+    },
+    {
+      "sequence_index": 57,
+      "layer_index": 56,
+      "layer_label": 56,
+      "layer_z": 8.6,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 4992,
+      "source_line_end": 5028,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 57
+    },
+    {
+      "sequence_index": 58,
+      "layer_index": 57,
+      "layer_label": 57,
+      "layer_z": 8.75,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5053,
+      "source_line_end": 5089,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 58
+    },
+    {
+      "sequence_index": 59,
+      "layer_index": 58,
+      "layer_label": 58,
+      "layer_z": 8.9,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5114,
+      "source_line_end": 5150,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 59
+    },
+    {
+      "sequence_index": 60,
+      "layer_index": 59,
+      "layer_label": 59,
+      "layer_z": 9.05,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5175,
+      "source_line_end": 5211,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 60
+    },
+    {
+      "sequence_index": 61,
+      "layer_index": 60,
+      "layer_label": 60,
+      "layer_z": 9.2,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5236,
+      "source_line_end": 5272,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 61
+    },
+    {
+      "sequence_index": 62,
+      "layer_index": 61,
+      "layer_label": 61,
+      "layer_z": 9.35,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5297,
+      "source_line_end": 5333,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 62
+    },
+    {
+      "sequence_index": 63,
+      "layer_index": 62,
+      "layer_label": 62,
+      "layer_z": 9.5,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5358,
+      "source_line_end": 5393,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 63
+    },
+    {
+      "sequence_index": 64,
+      "layer_index": 63,
+      "layer_label": 63,
+      "layer_z": 9.65,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5419,
+      "source_line_end": 5455,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 64
+    },
+    {
+      "sequence_index": 65,
+      "layer_index": 64,
+      "layer_label": 64,
+      "layer_z": 9.8,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5480,
+      "source_line_end": 5515,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 65
+    },
+    {
+      "sequence_index": 66,
+      "layer_index": 65,
+      "layer_label": 65,
+      "layer_z": 9.95,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "source_line_start": 5540,
+      "source_line_end": 5577,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 3,
+      "execution_step_index": 66
+    },
+    {
+      "sequence_index": 67,
+      "layer_index": 66,
+      "layer_label": 66,
+      "layer_z": 10.1,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 5605,
+      "source_line_end": 5640,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 67
+    },
+    {
+      "sequence_index": 68,
+      "layer_index": 67,
+      "layer_label": 67,
+      "layer_z": 10.25,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 5665,
+      "source_line_end": 5702,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 68
+    },
+    {
+      "sequence_index": 69,
+      "layer_index": 68,
+      "layer_label": 68,
+      "layer_z": 10.4,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 5727,
+      "source_line_end": 5762,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 69
+    },
+    {
+      "sequence_index": 70,
+      "layer_index": 69,
+      "layer_label": 69,
+      "layer_z": 10.55,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 5787,
+      "source_line_end": 5824,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 70
+    },
+    {
+      "sequence_index": 71,
+      "layer_index": 70,
+      "layer_label": 70,
+      "layer_z": 10.7,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 5849,
+      "source_line_end": 5884,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 71
+    },
+    {
+      "sequence_index": 72,
+      "layer_index": 71,
+      "layer_label": 71,
+      "layer_z": 10.85,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 5909,
+      "source_line_end": 5945,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 72
+    },
+    {
+      "sequence_index": 73,
+      "layer_index": 72,
+      "layer_label": 72,
+      "layer_z": 11.0,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 5971,
+      "source_line_end": 6006,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 73
+    },
+    {
+      "sequence_index": 74,
+      "layer_index": 73,
+      "layer_label": 73,
+      "layer_z": 11.15,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 6032,
+      "source_line_end": 6069,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 74
+    },
+    {
+      "sequence_index": 75,
+      "layer_index": 74,
+      "layer_label": 74,
+      "layer_z": 11.3,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 6094,
+      "source_line_end": 6130,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 75
+    },
+    {
+      "sequence_index": 76,
+      "layer_index": 75,
+      "layer_label": 75,
+      "layer_z": 11.45,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 6155,
+      "source_line_end": 6191,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 76
+    },
+    {
+      "sequence_index": 77,
+      "layer_index": 76,
+      "layer_label": 76,
+      "layer_z": 11.6,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "source_line_start": 6216,
+      "source_line_end": 6252,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 4,
+      "execution_step_index": 77
+    },
+    {
+      "sequence_index": 78,
+      "layer_index": 77,
+      "layer_label": 77,
+      "layer_z": 11.75,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6280,
+      "source_line_end": 6316,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 78
+    },
+    {
+      "sequence_index": 79,
+      "layer_index": 78,
+      "layer_label": 78,
+      "layer_z": 11.9,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6341,
+      "source_line_end": 6377,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 79
+    },
+    {
+      "sequence_index": 80,
+      "layer_index": 79,
+      "layer_label": 79,
+      "layer_z": 12.05,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6402,
+      "source_line_end": 6438,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 80
+    },
+    {
+      "sequence_index": 81,
+      "layer_index": 80,
+      "layer_label": 80,
+      "layer_z": 12.2,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6463,
+      "source_line_end": 6499,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 81
+    },
+    {
+      "sequence_index": 82,
+      "layer_index": 81,
+      "layer_label": 81,
+      "layer_z": 12.35,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6524,
+      "source_line_end": 6559,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 82
+    },
+    {
+      "sequence_index": 83,
+      "layer_index": 82,
+      "layer_label": 82,
+      "layer_z": 12.5,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6584,
+      "source_line_end": 6621,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 83
+    },
+    {
+      "sequence_index": 84,
+      "layer_index": 83,
+      "layer_label": 83,
+      "layer_z": 12.65,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6646,
+      "source_line_end": 6681,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 84
+    },
+    {
+      "sequence_index": 85,
+      "layer_index": 84,
+      "layer_label": 84,
+      "layer_z": 12.8,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6706,
+      "source_line_end": 6743,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 85
+    },
+    {
+      "sequence_index": 86,
+      "layer_index": 85,
+      "layer_label": 85,
+      "layer_z": 12.95,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6768,
+      "source_line_end": 6803,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 86
+    },
+    {
+      "sequence_index": 87,
+      "layer_index": 86,
+      "layer_label": 86,
+      "layer_z": 13.1,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6828,
+      "source_line_end": 6865,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 87
+    },
+    {
+      "sequence_index": 88,
+      "layer_index": 87,
+      "layer_label": 87,
+      "layer_z": 13.25,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6890,
+      "source_line_end": 6925,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 88
+    },
+    {
+      "sequence_index": 89,
+      "layer_index": 88,
+      "layer_label": 88,
+      "layer_z": 13.4,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 6950,
+      "source_line_end": 6987,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 89
+    },
+    {
+      "sequence_index": 90,
+      "layer_index": 89,
+      "layer_label": 89,
+      "layer_z": 13.55,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7012,
+      "source_line_end": 7047,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 90
+    },
+    {
+      "sequence_index": 91,
+      "layer_index": 90,
+      "layer_label": 90,
+      "layer_z": 13.7,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7072,
+      "source_line_end": 7108,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 91
+    },
+    {
+      "sequence_index": 92,
+      "layer_index": 91,
+      "layer_label": 91,
+      "layer_z": 13.85,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7134,
+      "source_line_end": 7169,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 92
+    },
+    {
+      "sequence_index": 93,
+      "layer_index": 92,
+      "layer_label": 92,
+      "layer_z": 14.0,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7194,
+      "source_line_end": 7230,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 93
+    },
+    {
+      "sequence_index": 94,
+      "layer_index": 93,
+      "layer_label": 93,
+      "layer_z": 14.15,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7255,
+      "source_line_end": 7291,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 94
+    },
+    {
+      "sequence_index": 95,
+      "layer_index": 94,
+      "layer_label": 94,
+      "layer_z": 14.3,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7316,
+      "source_line_end": 7352,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 95
+    },
+    {
+      "sequence_index": 96,
+      "layer_index": 95,
+      "layer_label": 95,
+      "layer_z": 14.45,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7377,
+      "source_line_end": 7415,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 96
+    },
+    {
+      "sequence_index": 97,
+      "layer_index": 96,
+      "layer_label": 96,
+      "layer_z": 14.6,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7440,
+      "source_line_end": 7476,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 97
+    },
+    {
+      "sequence_index": 98,
+      "layer_index": 97,
+      "layer_label": 97,
+      "layer_z": 14.75,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7501,
+      "source_line_end": 7537,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 98
+    },
+    {
+      "sequence_index": 99,
+      "layer_index": 98,
+      "layer_label": 98,
+      "layer_z": 14.9,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7562,
+      "source_line_end": 7597,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 99
+    },
+    {
+      "sequence_index": 100,
+      "layer_index": 99,
+      "layer_label": 99,
+      "layer_z": 15.05,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7623,
+      "source_line_end": 7659,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 100
+    },
+    {
+      "sequence_index": 101,
+      "layer_index": 100,
+      "layer_label": 100,
+      "layer_z": 15.2,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7684,
+      "source_line_end": 7719,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 101
+    },
+    {
+      "sequence_index": 102,
+      "layer_index": 101,
+      "layer_label": 101,
+      "layer_z": 15.35,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7744,
+      "source_line_end": 7781,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 102
+    },
+    {
+      "sequence_index": 103,
+      "layer_index": 102,
+      "layer_label": 102,
+      "layer_z": 15.5,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7806,
+      "source_line_end": 7841,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 103
+    },
+    {
+      "sequence_index": 104,
+      "layer_index": 103,
+      "layer_label": 103,
+      "layer_z": 15.65,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7866,
+      "source_line_end": 7903,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 104
+    },
+    {
+      "sequence_index": 105,
+      "layer_index": 104,
+      "layer_label": 104,
+      "layer_z": 15.8,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7928,
+      "source_line_end": 7963,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 105
+    },
+    {
+      "sequence_index": 106,
+      "layer_index": 105,
+      "layer_label": 105,
+      "layer_z": 15.95,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 7988,
+      "source_line_end": 8025,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 106
+    },
+    {
+      "sequence_index": 107,
+      "layer_index": 106,
+      "layer_label": 106,
+      "layer_z": 16.1,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8050,
+      "source_line_end": 8085,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 107
+    },
+    {
+      "sequence_index": 108,
+      "layer_index": 107,
+      "layer_label": 107,
+      "layer_z": 16.25,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8110,
+      "source_line_end": 8147,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 108
+    },
+    {
+      "sequence_index": 109,
+      "layer_index": 108,
+      "layer_label": 108,
+      "layer_z": 16.4,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8172,
+      "source_line_end": 8207,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 109
+    },
+    {
+      "sequence_index": 110,
+      "layer_index": 109,
+      "layer_label": 109,
+      "layer_z": 16.55,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8232,
+      "source_line_end": 8268,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 110
+    },
+    {
+      "sequence_index": 111,
+      "layer_index": 110,
+      "layer_label": 110,
+      "layer_z": 16.7,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8294,
+      "source_line_end": 8329,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 111
+    },
+    {
+      "sequence_index": 112,
+      "layer_index": 111,
+      "layer_label": 111,
+      "layer_z": 16.85,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8354,
+      "source_line_end": 8390,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 112
+    },
+    {
+      "sequence_index": 113,
+      "layer_index": 112,
+      "layer_label": 112,
+      "layer_z": 17.0,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8415,
+      "source_line_end": 8451,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 113
+    },
+    {
+      "sequence_index": 114,
+      "layer_index": 113,
+      "layer_label": 113,
+      "layer_z": 17.15,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8476,
+      "source_line_end": 8512,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 114
+    },
+    {
+      "sequence_index": 115,
+      "layer_index": 114,
+      "layer_label": 114,
+      "layer_z": 17.3,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8537,
+      "source_line_end": 8573,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 115
+    },
+    {
+      "sequence_index": 116,
+      "layer_index": 115,
+      "layer_label": 115,
+      "layer_z": 17.45,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8598,
+      "source_line_end": 8634,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 116
+    },
+    {
+      "sequence_index": 117,
+      "layer_index": 116,
+      "layer_label": 116,
+      "layer_z": 17.6,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8659,
+      "source_line_end": 8695,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 117
+    },
+    {
+      "sequence_index": 118,
+      "layer_index": 117,
+      "layer_label": 117,
+      "layer_z": 17.75,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8720,
+      "source_line_end": 8756,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 118
+    },
+    {
+      "sequence_index": 119,
+      "layer_index": 118,
+      "layer_label": 118,
+      "layer_z": 17.9,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8782,
+      "source_line_end": 8819,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 119
+    },
+    {
+      "sequence_index": 120,
+      "layer_index": 119,
+      "layer_label": 119,
+      "layer_z": 18.05,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8844,
+      "source_line_end": 8879,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 120
+    },
+    {
+      "sequence_index": 121,
+      "layer_index": 120,
+      "layer_label": 120,
+      "layer_z": 18.2,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8904,
+      "source_line_end": 8941,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 121
+    },
+    {
+      "sequence_index": 122,
+      "layer_index": 121,
+      "layer_label": 121,
+      "layer_z": 18.35,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 8966,
+      "source_line_end": 9001,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 122
+    },
+    {
+      "sequence_index": 123,
+      "layer_index": 122,
+      "layer_label": 122,
+      "layer_z": 18.5,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9026,
+      "source_line_end": 9063,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 123
+    },
+    {
+      "sequence_index": 124,
+      "layer_index": 123,
+      "layer_label": 123,
+      "layer_z": 18.65,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9088,
+      "source_line_end": 9123,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 124
+    },
+    {
+      "sequence_index": 125,
+      "layer_index": 124,
+      "layer_label": 124,
+      "layer_z": 18.8,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9148,
+      "source_line_end": 9185,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 125
+    },
+    {
+      "sequence_index": 126,
+      "layer_index": 125,
+      "layer_label": 125,
+      "layer_z": 18.95,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9210,
+      "source_line_end": 9245,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 126
+    },
+    {
+      "sequence_index": 127,
+      "layer_index": 126,
+      "layer_label": 126,
+      "layer_z": 19.1,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9270,
+      "source_line_end": 9307,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 127
+    },
+    {
+      "sequence_index": 128,
+      "layer_index": 127,
+      "layer_label": 127,
+      "layer_z": 19.25,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9332,
+      "source_line_end": 9367,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 128
+    },
+    {
+      "sequence_index": 129,
+      "layer_index": 128,
+      "layer_label": 128,
+      "layer_z": 19.4,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9392,
+      "source_line_end": 9429,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 129
+    },
+    {
+      "sequence_index": 130,
+      "layer_index": 129,
+      "layer_label": 129,
+      "layer_z": 19.55,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9454,
+      "source_line_end": 9489,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 130
+    },
+    {
+      "sequence_index": 131,
+      "layer_index": 130,
+      "layer_label": 130,
+      "layer_z": 19.7,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9514,
+      "source_line_end": 9550,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 131
+    },
+    {
+      "sequence_index": 132,
+      "layer_index": 131,
+      "layer_label": 131,
+      "layer_z": 19.85,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "source_line_start": 9575,
+      "source_line_end": 9611,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 5,
+      "execution_step_index": 132
+    },
+    {
+      "sequence_index": 133,
+      "layer_index": 132,
+      "layer_label": 132,
+      "layer_z": 20.0,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 9639,
+      "source_line_end": 9675,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 133
+    },
+    {
+      "sequence_index": 134,
+      "layer_index": 133,
+      "layer_label": 133,
+      "layer_z": 20.15,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 9700,
+      "source_line_end": 9736,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 134
+    },
+    {
+      "sequence_index": 135,
+      "layer_index": 134,
+      "layer_label": 134,
+      "layer_z": 20.3,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 9761,
+      "source_line_end": 9796,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 135
+    },
+    {
+      "sequence_index": 136,
+      "layer_index": 135,
+      "layer_label": 135,
+      "layer_z": 20.45,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 9822,
+      "source_line_end": 9858,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 136
+    },
+    {
+      "sequence_index": 137,
+      "layer_index": 136,
+      "layer_label": 136,
+      "layer_z": 20.6,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 9883,
+      "source_line_end": 9918,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 137
+    },
+    {
+      "sequence_index": 138,
+      "layer_index": 137,
+      "layer_label": 137,
+      "layer_z": 20.75,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 9943,
+      "source_line_end": 9980,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 138
+    },
+    {
+      "sequence_index": 139,
+      "layer_index": 138,
+      "layer_label": 138,
+      "layer_z": 20.9,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 10005,
+      "source_line_end": 10040,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 139
+    },
+    {
+      "sequence_index": 140,
+      "layer_index": 139,
+      "layer_label": 139,
+      "layer_z": 21.05,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 10065,
+      "source_line_end": 10102,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 140
+    },
+    {
+      "sequence_index": 141,
+      "layer_index": 140,
+      "layer_label": 140,
+      "layer_z": 21.2,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 10127,
+      "source_line_end": 10164,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 141
+    },
+    {
+      "sequence_index": 142,
+      "layer_index": 141,
+      "layer_label": 141,
+      "layer_z": 21.35,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 10189,
+      "source_line_end": 10226,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 142
+    },
+    {
+      "sequence_index": 143,
+      "layer_index": 142,
+      "layer_label": 142,
+      "layer_z": 21.5,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 10251,
+      "source_line_end": 10286,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 143
+    },
+    {
+      "sequence_index": 144,
+      "layer_index": 143,
+      "layer_label": 143,
+      "layer_z": 21.65,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "source_line_start": 10311,
+      "source_line_end": 10348,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 6,
+      "execution_step_index": 144
+    },
+    {
+      "sequence_index": 145,
+      "layer_index": 144,
+      "layer_label": 144,
+      "layer_z": 21.8,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10376,
+      "source_line_end": 10411,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 145
+    },
+    {
+      "sequence_index": 146,
+      "layer_index": 145,
+      "layer_label": 145,
+      "layer_z": 21.95,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10436,
+      "source_line_end": 10473,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 146
+    },
+    {
+      "sequence_index": 147,
+      "layer_index": 146,
+      "layer_label": 146,
+      "layer_z": 22.1,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10498,
+      "source_line_end": 10533,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 147
+    },
+    {
+      "sequence_index": 148,
+      "layer_index": 147,
+      "layer_label": 147,
+      "layer_z": 22.25,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10558,
+      "source_line_end": 10595,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 148
+    },
+    {
+      "sequence_index": 149,
+      "layer_index": 148,
+      "layer_label": 148,
+      "layer_z": 22.4,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10620,
+      "source_line_end": 10655,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 149
+    },
+    {
+      "sequence_index": 150,
+      "layer_index": 149,
+      "layer_label": 149,
+      "layer_z": 22.55,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10680,
+      "source_line_end": 10716,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 150
+    },
+    {
+      "sequence_index": 151,
+      "layer_index": 150,
+      "layer_label": 150,
+      "layer_z": 22.7,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10741,
+      "source_line_end": 10777,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 151
+    },
+    {
+      "sequence_index": 152,
+      "layer_index": 151,
+      "layer_label": 151,
+      "layer_z": 22.85,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10802,
+      "source_line_end": 10838,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 152
+    },
+    {
+      "sequence_index": 153,
+      "layer_index": 152,
+      "layer_label": 152,
+      "layer_z": 23.0,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10863,
+      "source_line_end": 10899,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 153
+    },
+    {
+      "sequence_index": 154,
+      "layer_index": 153,
+      "layer_label": 153,
+      "layer_z": 23.15,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10924,
+      "source_line_end": 10959,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 154
+    },
+    {
+      "sequence_index": 155,
+      "layer_index": 154,
+      "layer_label": 154,
+      "layer_z": 23.3,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 10984,
+      "source_line_end": 11021,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 155
+    },
+    {
+      "sequence_index": 156,
+      "layer_index": 155,
+      "layer_label": 155,
+      "layer_z": 23.45,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11046,
+      "source_line_end": 11081,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 156
+    },
+    {
+      "sequence_index": 157,
+      "layer_index": 156,
+      "layer_label": 156,
+      "layer_z": 23.6,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11106,
+      "source_line_end": 11143,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 157
+    },
+    {
+      "sequence_index": 158,
+      "layer_index": 157,
+      "layer_label": 157,
+      "layer_z": 23.75,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11168,
+      "source_line_end": 11203,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 158
+    },
+    {
+      "sequence_index": 159,
+      "layer_index": 158,
+      "layer_label": 158,
+      "layer_z": 23.9,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11228,
+      "source_line_end": 11265,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 159
+    },
+    {
+      "sequence_index": 160,
+      "layer_index": 159,
+      "layer_label": 159,
+      "layer_z": 24.05,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11290,
+      "source_line_end": 11325,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 160
+    },
+    {
+      "sequence_index": 161,
+      "layer_index": 160,
+      "layer_label": 160,
+      "layer_z": 24.2,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11350,
+      "source_line_end": 11387,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 161
+    },
+    {
+      "sequence_index": 162,
+      "layer_index": 161,
+      "layer_label": 161,
+      "layer_z": 24.35,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11412,
+      "source_line_end": 11447,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 162
+    },
+    {
+      "sequence_index": 163,
+      "layer_index": 162,
+      "layer_label": 162,
+      "layer_z": 24.5,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11472,
+      "source_line_end": 11510,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 163
+    },
+    {
+      "sequence_index": 164,
+      "layer_index": 163,
+      "layer_label": 163,
+      "layer_z": 24.65,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11535,
+      "source_line_end": 11570,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 164
+    },
+    {
+      "sequence_index": 165,
+      "layer_index": 164,
+      "layer_label": 164,
+      "layer_z": 24.8,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11595,
+      "source_line_end": 11632,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 165
+    },
+    {
+      "sequence_index": 166,
+      "layer_index": 165,
+      "layer_label": 165,
+      "layer_z": 24.95,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11657,
+      "source_line_end": 11692,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 166
+    },
+    {
+      "sequence_index": 167,
+      "layer_index": 166,
+      "layer_label": 166,
+      "layer_z": 25.1,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11717,
+      "source_line_end": 11754,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 167
+    },
+    {
+      "sequence_index": 168,
+      "layer_index": 167,
+      "layer_label": 167,
+      "layer_z": 25.25,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11779,
+      "source_line_end": 11814,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 168
+    },
+    {
+      "sequence_index": 169,
+      "layer_index": 168,
+      "layer_label": 168,
+      "layer_z": 25.4,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11839,
+      "source_line_end": 11875,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 169
+    },
+    {
+      "sequence_index": 170,
+      "layer_index": 169,
+      "layer_label": 169,
+      "layer_z": 25.55,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11900,
+      "source_line_end": 11936,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 170
+    },
+    {
+      "sequence_index": 171,
+      "layer_index": 170,
+      "layer_label": 170,
+      "layer_z": 25.7,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 11961,
+      "source_line_end": 11996,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 171
+    },
+    {
+      "sequence_index": 172,
+      "layer_index": 171,
+      "layer_label": 171,
+      "layer_z": 25.85,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12022,
+      "source_line_end": 12058,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 172
+    },
+    {
+      "sequence_index": 173,
+      "layer_index": 172,
+      "layer_label": 172,
+      "layer_z": 26.0,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12083,
+      "source_line_end": 12118,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 173
+    },
+    {
+      "sequence_index": 174,
+      "layer_index": 173,
+      "layer_label": 173,
+      "layer_z": 26.15,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12143,
+      "source_line_end": 12180,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 174
+    },
+    {
+      "sequence_index": 175,
+      "layer_index": 174,
+      "layer_label": 174,
+      "layer_z": 26.3,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12205,
+      "source_line_end": 12240,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 175
+    },
+    {
+      "sequence_index": 176,
+      "layer_index": 175,
+      "layer_label": 175,
+      "layer_z": 26.45,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12265,
+      "source_line_end": 12302,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 176
+    },
+    {
+      "sequence_index": 177,
+      "layer_index": 176,
+      "layer_label": 176,
+      "layer_z": 26.6,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12327,
+      "source_line_end": 12362,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 177
+    },
+    {
+      "sequence_index": 178,
+      "layer_index": 177,
+      "layer_label": 177,
+      "layer_z": 26.75,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12387,
+      "source_line_end": 12424,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 178
+    },
+    {
+      "sequence_index": 179,
+      "layer_index": 178,
+      "layer_label": 178,
+      "layer_z": 26.9,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12449,
+      "source_line_end": 12484,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 179
+    },
+    {
+      "sequence_index": 180,
+      "layer_index": 179,
+      "layer_label": 179,
+      "layer_z": 27.05,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12509,
+      "source_line_end": 12546,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 180
+    },
+    {
+      "sequence_index": 181,
+      "layer_index": 180,
+      "layer_label": 180,
+      "layer_z": 27.2,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12571,
+      "source_line_end": 12606,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 181
+    },
+    {
+      "sequence_index": 182,
+      "layer_index": 181,
+      "layer_label": 181,
+      "layer_z": 27.35,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12631,
+      "source_line_end": 12668,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 182
+    },
+    {
+      "sequence_index": 183,
+      "layer_index": 182,
+      "layer_label": 182,
+      "layer_z": 27.5,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12693,
+      "source_line_end": 12728,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 183
+    },
+    {
+      "sequence_index": 184,
+      "layer_index": 183,
+      "layer_label": 183,
+      "layer_z": 27.65,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12753,
+      "source_line_end": 12790,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 184
+    },
+    {
+      "sequence_index": 185,
+      "layer_index": 184,
+      "layer_label": 184,
+      "layer_z": 27.8,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12815,
+      "source_line_end": 12852,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 185
+    },
+    {
+      "sequence_index": 186,
+      "layer_index": 185,
+      "layer_label": 185,
+      "layer_z": 27.95,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12877,
+      "source_line_end": 12914,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 186
+    },
+    {
+      "sequence_index": 187,
+      "layer_index": 186,
+      "layer_label": 186,
+      "layer_z": 28.1,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12939,
+      "source_line_end": 12974,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 187
+    },
+    {
+      "sequence_index": 188,
+      "layer_index": 187,
+      "layer_label": 187,
+      "layer_z": 28.25,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "source_line_start": 12999,
+      "source_line_end": 13035,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 7,
+      "execution_step_index": 188
+    },
+    {
+      "sequence_index": 189,
+      "layer_index": 188,
+      "layer_label": 188,
+      "layer_z": 28.4,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13063,
+      "source_line_end": 13099,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 189
+    },
+    {
+      "sequence_index": 190,
+      "layer_index": 189,
+      "layer_label": 189,
+      "layer_z": 28.55,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13124,
+      "source_line_end": 13159,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 190
+    },
+    {
+      "sequence_index": 191,
+      "layer_index": 190,
+      "layer_label": 190,
+      "layer_z": 28.7,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13184,
+      "source_line_end": 13221,
+      "extrusion_e_mm": 1.10417,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 191
+    },
+    {
+      "sequence_index": 192,
+      "layer_index": 191,
+      "layer_label": 191,
+      "layer_z": 28.85,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13246,
+      "source_line_end": 13281,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 192
+    },
+    {
+      "sequence_index": 193,
+      "layer_index": 192,
+      "layer_label": 192,
+      "layer_z": 29.0,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13306,
+      "source_line_end": 13343,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 193
+    },
+    {
+      "sequence_index": 194,
+      "layer_index": 193,
+      "layer_label": 193,
+      "layer_z": 29.15,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13368,
+      "source_line_end": 13403,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 194
+    },
+    {
+      "sequence_index": 195,
+      "layer_index": 194,
+      "layer_label": 194,
+      "layer_z": 29.3,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13428,
+      "source_line_end": 13465,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 195
+    },
+    {
+      "sequence_index": 196,
+      "layer_index": 195,
+      "layer_label": 195,
+      "layer_z": 29.45,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13490,
+      "source_line_end": 13525,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 196
+    },
+    {
+      "sequence_index": 197,
+      "layer_index": 196,
+      "layer_label": 196,
+      "layer_z": 29.6,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13550,
+      "source_line_end": 13587,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 197
+    },
+    {
+      "sequence_index": 198,
+      "layer_index": 197,
+      "layer_label": 197,
+      "layer_z": 29.75,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13612,
+      "source_line_end": 13647,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 198
+    },
+    {
+      "sequence_index": 199,
+      "layer_index": 198,
+      "layer_label": 198,
+      "layer_z": 29.9,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13672,
+      "source_line_end": 13709,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 199
+    },
+    {
+      "sequence_index": 200,
+      "layer_index": 199,
+      "layer_label": 199,
+      "layer_z": 30.05,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "source_line_start": 13734,
+      "source_line_end": 14194,
+      "extrusion_e_mm": 1.1041800000000002,
+      "segment_count": 20,
+      "feature_types": [
+        "External perimeter"
+      ],
+      "bounds_xy": [
+        175.25,
+        184.75,
+        175.25,
+        184.75
+      ],
+      "source_component_index": 8,
+      "execution_step_index": 200
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+optimal_candidate_rule:
+Choose the beam_step_adjacency_clusters_best candidate by Score Final priority: gradient_eta_target_error_sum ascending, material_switch_count ascending, score descending, rank ascending.
+
+rank: 1242
+score: 380
+min_material_switch_count: 5
+eta_sum: 27.250000
+eta_avg: 1.434211
+eta_min: 0.000000
+eta_max: 2.000000
+selected_case_keys: case_00001, case_00001, case_04095, case_01021, case_01009, case_00241, case_00193, case_00001, case_16192, case_15424, case_15376, case_12304, case_12290, case_00001, case_00049, case_00241, case_01009, case_01021, case_04093
+step_scores: [14, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 20, 19, 21, 22, 22, 22, 22]
+
+material_switch_events:
+  - switch_1: row=13, col=16, MAGENTA->YELLOW
+  - switch_2: row=13, col=5, YELLOW->CYAN
+  - switch_3: row=12, col=18, CYAN->MAGENTA
+  - switch_4: row=7, col=10, MAGENTA->CYAN
+  - switch_5: row=5, col=13, CYAN->YELLOW

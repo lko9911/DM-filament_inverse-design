@@ -1,6 +1,6 @@
 {
-  "sample_info_path": "C:\\Users\\user\\Desktop\\AML_Research\\DM-filament_inverse-design\\input\\config\\sample_info_x-axis_block.json",
-  "property_program_path": "C:\\Users\\user\\Desktop\\AML_Research\\DM-filament_inverse-design\\test_sample\\derived\\layer_region\\expanded_property_program.json",
+  "sample_info_path": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\input\\config\\sample_info_x-axis_block.json",
+  "property_program_path": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\test_sample\\derived\\layer_region\\expanded_property_program.json",
   "property_type": "Gradient",
   "assignment_count": 450,
   "base_step_count": 450,

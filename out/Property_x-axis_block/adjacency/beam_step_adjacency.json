@@ -16,7 +16,7 @@
   "total_step_count": 450,
   "score_rule": "step_score = S(t-1,t) + S(t-2,t) when t-2 exists, else S(t-1,t)",
   "local_gradient_preselection": [],
-  "search_time_seconds": 0.08558940000148141,
+  "search_time_seconds": 0.08662189997266978,
   "ga_parameters": {
     "population_size": 240,
     "generations": 350,

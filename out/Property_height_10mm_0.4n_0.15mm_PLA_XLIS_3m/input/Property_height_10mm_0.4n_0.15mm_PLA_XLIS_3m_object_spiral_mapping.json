@@ -1,0 +1,1440 @@
+{
+  "schema": "b_fdm.object_spiral_mapping.v1",
+  "mapped_length_mm": 73.20691000000001,
+  "total_length_with_feed_mm": 213.20690999999985,
+  "inner_radius_mm": 50.0,
+  "outer_radius_mm": 51.43849213228957,
+  "pitch_mm": 2.15,
+  "manufacturing_order": "reverse_execution",
+  "consumption_order": "execution",
+  "segments": [
+    {
+      "role": "start_feed",
+      "sequence_index": null,
+      "layer_index": null,
+      "layer_label": null,
+      "region_name": null,
+      "occurrence_index": null,
+      "filament_start_mm": 0.0,
+      "filament_end_mm": 130.0,
+      "length_mm": 130.0,
+      "spiral_start_xyz": [
+        -1.8261011528829543,
+        49.96664241851197,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -25.619838569419805,
+        -43.96130078564691,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 66,
+      "layer_index": 65,
+      "layer_label": 65,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "filament_start_mm": 130.0,
+      "filament_end_mm": 131.10413,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -25.619838569419805,
+        -43.96130078564691,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -24.663557790659564,
+        -44.51333140329791,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 65,
+      "layer_index": 64,
+      "layer_label": 64,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "filament_start_mm": 131.10413,
+      "filament_end_mm": 132.20826,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -24.663557790659564,
+        -44.51333140329791,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -23.695524814125424,
+        -45.04448378781693,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 64,
+      "layer_index": 63,
+      "layer_label": 63,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "filament_start_mm": 132.20826,
+      "filament_end_mm": 133.31239,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -23.695524814125424,
+        -45.04448378781693,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -22.71619701279085,
+        -45.55451096883206,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 63,
+      "layer_index": 62,
+      "layer_label": 62,
+      "region_name": "REGION_PURPLE",
+      "occurrence_index": 1,
+      "filament_start_mm": 133.31239,
+      "filament_end_mm": 134.41652,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -22.71619701279085,
+        -45.55451096883206,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -21.726036874497698,
+        -46.043176024878,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 62,
+      "layer_index": 61,
+      "layer_label": 61,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 134.41652,
+      "filament_end_mm": 135.52065,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -21.726036874497698,
+        -46.043176024878,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -20.725511780664092,
+        -46.51025218752304,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 61,
+      "layer_index": 60,
+      "layer_label": 60,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 135.52065,
+      "filament_end_mm": 136.62478,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -20.725511780664092,
+        -46.51025218752304,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -19.715093782903715,
+        -46.95552294062113,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 60,
+      "layer_index": 59,
+      "layer_label": 59,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 136.62478,
+      "filament_end_mm": 137.72890999999998,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -19.715093782903715,
+        -46.95552294062113,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -18.695259377692803,
+        -47.37878211463515,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 59,
+      "layer_index": 58,
+      "layer_label": 58,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 137.72890999999998,
+      "filament_end_mm": 138.83303999999998,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -18.695259377692803,
+        -47.37878211463515,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -17.66648927916609,
+        -47.77983397600648,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 58,
+      "layer_index": 57,
+      "layer_label": 57,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 138.83303999999998,
+      "filament_end_mm": 139.93716999999998,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -17.66648927916609,
+        -47.77983397600648,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -16.629268190165007,
+        -48.15849331152824,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 57,
+      "layer_index": 56,
+      "layer_label": 56,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 139.93716999999998,
+      "filament_end_mm": 141.04129999999998,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -16.629268190165007,
+        -48.15849331152824,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -15.584084571651017,
+        -48.51458550768879,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 56,
+      "layer_index": 55,
+      "layer_label": 55,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 141.04129999999998,
+      "filament_end_mm": 142.14542999999998,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -15.584084571651017,
+        -48.51458550768879,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -14.531430410580873,
+        -48.847946624959675,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 55,
+      "layer_index": 54,
+      "layer_label": 54,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 142.14542999999998,
+      "filament_end_mm": 143.24955999999997,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -14.531430410580873,
+        -48.847946624959675,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -13.471800986369754,
+        -49.15842346699426,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 54,
+      "layer_index": 53,
+      "layer_label": 53,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 143.24955999999997,
+      "filament_end_mm": 144.35368999999997,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -13.471800986369754,
+        -49.15842346699426,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -12.405694636041417,
+        -49.4458736447156,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 53,
+      "layer_index": 52,
+      "layer_label": 52,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 144.35368999999997,
+      "filament_end_mm": 145.45781999999997,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -12.405694636041417,
+        -49.4458736447156,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -11.333612518191158,
+        -49.71016563526594,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 52,
+      "layer_index": 51,
+      "layer_label": 51,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 145.45781999999997,
+      "filament_end_mm": 146.56194999999997,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -11.333612518191158,
+        -49.71016563526594,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -10.25605837585147,
+        -49.951178835803056,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 51,
+      "layer_index": 50,
+      "layer_label": 50,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 146.56194999999997,
+      "filament_end_mm": 147.66607999999997,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -10.25605837585147,
+        -49.951178835803056,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -9.173538298402441,
+        -50.16880361211707,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 50,
+      "layer_index": 49,
+      "layer_label": 49,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 147.66607999999997,
+      "filament_end_mm": 148.77020999999996,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -9.173538298402441,
+        -50.16880361211707,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -8.086560482613129,
+        -50.362941342058676,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 49,
+      "layer_index": 48,
+      "layer_label": 48,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 148.77020999999996,
+      "filament_end_mm": 149.87433999999996,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -8.086560482613129,
+        -50.362941342058676,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -6.995634992945306,
+        -50.53350445376082,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 48,
+      "layer_index": 47,
+      "layer_label": 47,
+      "region_name": "REGION_C2P_4step",
+      "occurrence_index": 1,
+      "filament_start_mm": 149.87433999999996,
+      "filament_end_mm": 150.97846999999996,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -6.995634992945306,
+        -50.53350445376082,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -5.90127352122013,
+        -50.68041645864531,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 47,
+      "layer_index": 46,
+      "layer_label": 46,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "filament_start_mm": 150.97846999999996,
+      "filament_end_mm": 152.08259999999996,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -5.90127352122013,
+        -50.68041645864531,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -4.803989145772484,
+        -50.80361197920373,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 46,
+      "layer_index": 45,
+      "layer_label": 45,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "filament_start_mm": 152.08259999999996,
+      "filament_end_mm": 153.18672999999995,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -4.803989145772484,
+        -50.80361197920373,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -3.7042960901950504,
+        -50.90303677154824,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 45,
+      "layer_index": 44,
+      "layer_label": 44,
+      "region_name": "REGION_CYAN",
+      "occurrence_index": 1,
+      "filament_start_mm": 153.18672999999995,
+      "filament_end_mm": 154.29085999999995,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -3.7042960901950504,
+        -50.90303677154824,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -2.602709481795566,
+        -50.978647742727155,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 44,
+      "layer_index": 43,
+      "layer_label": 43,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 154.29085999999995,
+      "filament_end_mm": 155.39498999999995,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -2.602709481795566,
+        -50.978647742727155,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -1.49974510987643,
+        -51.0304129628047,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 43,
+      "layer_index": 42,
+      "layer_label": 42,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 155.39498999999995,
+      "filament_end_mm": 156.49911999999995,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -1.49974510987643,
+        -51.0304129628047,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        -0.39591918394414016,
+        -51.05831167170633,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 42,
+      "layer_index": 41,
+      "layer_label": 41,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 156.49911999999995,
+      "filament_end_mm": 157.60324999999995,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        -0.39591918394414016,
+        -51.05831167170633,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        0.7082519080237767,
+        -51.062334280832424,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 41,
+      "layer_index": 40,
+      "layer_label": 40,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 157.60324999999995,
+      "filament_end_mm": 158.70737999999994,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        0.7082519080237767,
+        -51.062334280832424,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        1.8122518411573079,
+        -51.04248236944733,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 40,
+      "layer_index": 39,
+      "layer_label": 39,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 158.70737999999994,
+      "filament_end_mm": 159.81150999999994,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        1.8122518411573079,
+        -51.04248236944733,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        2.9155645949907707,
+        -50.99876867585171,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 39,
+      "layer_index": 38,
+      "layer_label": 38,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 159.81150999999994,
+      "filament_end_mm": 160.91563999999994,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        2.9155645949907707,
+        -50.99876867585171,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        4.01767469438581,
+        -50.931217083349054,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 38,
+      "layer_index": 37,
+      "layer_label": 37,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 160.91563999999994,
+      "filament_end_mm": 162.01976999999994,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        4.01767469438581,
+        -50.931217083349054,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        5.118067449936609,
+        -50.83986260102042,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 37,
+      "layer_index": 36,
+      "layer_label": 36,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 162.01976999999994,
+      "filament_end_mm": 163.12389999999994,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        5.118067449936609,
+        -50.83986260102042,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        6.216229197783409,
+        -50.72475133932182,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 36,
+      "layer_index": 35,
+      "layer_label": 35,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 163.12389999999994,
+      "filament_end_mm": 164.22802999999993,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        6.216229197783409,
+        -50.72475133932182,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        7.311647538689811,
+        -50.58594048052405,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 35,
+      "layer_index": 34,
+      "layer_label": 34,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 164.22802999999993,
+      "filament_end_mm": 165.33215999999993,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        7.311647538689811,
+        -50.58594048052405,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        8.40381157629639,
+        -50.423498244014,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 34,
+      "layer_index": 33,
+      "layer_label": 33,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 165.33215999999993,
+      "filament_end_mm": 166.43628999999993,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        8.40381157629639,
+        -50.423498244014,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        9.492212154427527,
+        -50.237503846481296,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 33,
+      "layer_index": 32,
+      "layer_label": 32,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 166.43628999999993,
+      "filament_end_mm": 167.54041999999993,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        9.492212154427527,
+        -50.237503846481296,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        10.576342093347742,
+        -50.02804745701519,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 32,
+      "layer_index": 31,
+      "layer_label": 31,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 167.54041999999993,
+      "filament_end_mm": 168.64454999999992,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        10.576342093347742,
+        -50.02804745701519,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        11.655696424860139,
+        -49.79523014713838,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 31,
+      "layer_index": 30,
+      "layer_label": 30,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 168.64454999999992,
+      "filament_end_mm": 169.74867999999992,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        11.655696424860139,
+        -49.79523014713838,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        12.729772626130263,
+        -49.539163835809696,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 30,
+      "layer_index": 29,
+      "layer_label": 29,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 169.74867999999992,
+      "filament_end_mm": 170.85280999999992,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        12.729772626130263,
+        -49.539163835809696,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        13.798070852138094,
+        -49.259971229425695,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 29,
+      "layer_index": 28,
+      "layer_label": 28,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 170.85280999999992,
+      "filament_end_mm": 171.95693999999992,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        13.798070852138094,
+        -49.259971229425695,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        14.860094166644508,
+        -48.957785756857284,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 28,
+      "layer_index": 27,
+      "layer_label": 27,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 171.95693999999992,
+      "filament_end_mm": 173.06106999999992,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        14.860094166644508,
+        -48.957785756857284,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        15.915348771570798,
+        -48.63275149955701,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 27,
+      "layer_index": 26,
+      "layer_label": 26,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 173.06106999999992,
+      "filament_end_mm": 174.1651999999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        15.915348771570798,
+        -48.63275149955701,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        16.963344234687867,
+        -48.28502311677536,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 26,
+      "layer_index": 25,
+      "layer_label": 25,
+      "region_name": "REGION_Y2C_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 174.1651999999999,
+      "filament_end_mm": 175.2693299999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        16.963344234687867,
+        -48.28502311677536,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        18.00359371550429,
+        -47.914765765929346,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 25,
+      "layer_index": 24,
+      "layer_label": 24,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "filament_start_mm": 175.2693299999999,
+      "filament_end_mm": 176.3734599999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        18.00359371550429,
+        -47.914765765929346,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        19.03561418925472,
+        -47.52215501816564,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 24,
+      "layer_index": 23,
+      "layer_label": 23,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "filament_start_mm": 176.3734599999999,
+      "filament_end_mm": 177.4775899999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        19.03561418925472,
+        -47.52215501816564,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        20.05892666889092,
+        -47.10737676916235,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 23,
+      "layer_index": 22,
+      "layer_label": 22,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "filament_start_mm": 177.4775899999999,
+      "filament_end_mm": 178.5817199999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        20.05892666889092,
+        -47.10737676916235,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        21.07305642496391,
+        -46.670627145220855,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 22,
+      "layer_index": 21,
+      "layer_label": 21,
+      "region_name": "REGION_YELLOW",
+      "occurrence_index": 1,
+      "filament_start_mm": 178.5817199999999,
+      "filament_end_mm": 179.6858499999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        21.07305642496391,
+        -46.670627145220855,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        22.07753320331391,
+        -46.212112404691446,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 21,
+      "layer_index": 20,
+      "layer_label": 20,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 179.6858499999999,
+      "filament_end_mm": 180.7899799999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        22.07753320331391,
+        -46.212112404691446,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        23.071891440448212,
+        -45.73204883479323,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 20,
+      "layer_index": 19,
+      "layer_label": 19,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 180.7899799999999,
+      "filament_end_mm": 181.8941099999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        23.071891440448212,
+        -45.73204883479323,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        24.05567047653796,
+        -45.2306626438702,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 19,
+      "layer_index": 18,
+      "layer_label": 18,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 181.8941099999999,
+      "filament_end_mm": 182.9982399999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        24.05567047653796,
+        -45.2306626438702,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        25.02841476590208,
+        -44.70818984915564,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 18,
+      "layer_index": 17,
+      "layer_label": 17,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 182.9982399999999,
+      "filament_end_mm": 184.1023699999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        25.02841476590208,
+        -44.70818984915564,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        25.989674084923532,
+        -44.16487616008432,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 17,
+      "layer_index": 16,
+      "layer_label": 16,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 184.1023699999999,
+      "filament_end_mm": 185.2064999999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        25.989674084923532,
+        -44.16487616008432,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        26.93900373726914,
+        -43.60097685722949,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 16,
+      "layer_index": 15,
+      "layer_label": 15,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 185.2064999999999,
+      "filament_end_mm": 186.3106299999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        26.93900373726914,
+        -43.60097685722949,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        27.875964756348615,
+        -43.01675666691274,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 15,
+      "layer_index": 14,
+      "layer_label": 14,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 186.3106299999999,
+      "filament_end_mm": 187.4147599999999,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        27.875964756348615,
+        -43.01675666691274,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        28.800124104901798,
+        -42.41248963156157,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 14,
+      "layer_index": 13,
+      "layer_label": 13,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 187.4147599999999,
+      "filament_end_mm": 188.51888999999989,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        28.800124104901798,
+        -42.41248963156157,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        29.71105487163926,
+        -41.78845897587254,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 13,
+      "layer_index": 12,
+      "layer_label": 12,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 188.51888999999989,
+      "filament_end_mm": 189.62301999999988,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        29.71105487163926,
+        -41.78845897587254,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        30.60833646484491,
+        -41.14495696884924,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 12,
+      "layer_index": 11,
+      "layer_label": 11,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 189.62301999999988,
+      "filament_end_mm": 190.72714999999988,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        30.60833646484491,
+        -41.14495696884924,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        31.491554802846487,
+        -40.4822847817906,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 11,
+      "layer_index": 10,
+      "layer_label": 10,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 190.72714999999988,
+      "filament_end_mm": 191.83127999999988,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        31.491554802846487,
+        -40.4822847817906,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        32.3603025012852,
+        -39.80075234228949,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 10,
+      "layer_index": 9,
+      "layer_label": 9,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 191.83127999999988,
+      "filament_end_mm": 192.93540999999988,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        32.3603025012852,
+        -39.80075234228949,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        33.2141790570888,
+        -39.100678184323954,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 9,
+      "layer_index": 8,
+      "layer_label": 8,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 192.93540999999988,
+      "filament_end_mm": 194.03953999999987,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        33.2141790570888,
+        -39.100678184323954,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        34.05279102907527,
+        -38.38238929450903,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 8,
+      "layer_index": 7,
+      "layer_label": 7,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 194.03953999999987,
+      "filament_end_mm": 195.14366999999987,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        34.05279102907527,
+        -38.38238929450903,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        34.875752215098736,
+        -37.6462209545932,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 7,
+      "layer_index": 6,
+      "layer_label": 6,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 195.14366999999987,
+      "filament_end_mm": 196.24779999999987,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        34.875752215098736,
+        -37.6462209545932,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        35.682683825671376,
+        -36.89251658026753,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 6,
+      "layer_index": 5,
+      "layer_label": 5,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 196.24779999999987,
+      "filament_end_mm": 197.35192999999987,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        35.682683825671376,
+        -36.89251658026753,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        36.473214653976584,
+        -36.1216275563747,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 5,
+      "layer_index": 4,
+      "layer_label": 4,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 197.35192999999987,
+      "filament_end_mm": 198.45605999999987,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        36.473214653976584,
+        -36.1216275563747,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        37.246981242203724,
+        -35.33391306859477,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 4,
+      "layer_index": 3,
+      "layer_label": 3,
+      "region_name": "REGION_M2Y_5step",
+      "occurrence_index": 1,
+      "filament_start_mm": 198.45605999999987,
+      "filament_end_mm": 199.56018999999986,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        37.246981242203724,
+        -35.33391306859477,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        38.003628044132256,
+        -34.52973993169015,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 3,
+      "layer_index": 2,
+      "layer_label": 2,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "filament_start_mm": 199.56018999999986,
+      "filament_end_mm": 200.66431999999986,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        38.003628044132256,
+        -34.52973993169015,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        38.74280758389361,
+        -33.70948241439456,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 2,
+      "layer_index": 1,
+      "layer_label": 1,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "filament_start_mm": 200.66431999999986,
+      "filament_end_mm": 201.76844999999986,
+      "length_mm": 1.1041299999999978,
+      "spiral_start_xyz": [
+        38.74280758389361,
+        -33.70948241439456,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        39.46418061083786,
+        -32.873522061036645,
+        0.0
+      ]
+    },
+    {
+      "role": "mapped_occurrence",
+      "sequence_index": 1,
+      "layer_index": 0,
+      "layer_label": 0,
+      "region_name": "REGION_MAGENTA",
+      "occurrence_index": 1,
+      "filament_start_mm": 201.76844999999986,
+      "filament_end_mm": 203.20690999999985,
+      "length_mm": 1.438459999999992,
+      "spiral_start_xyz": [
+        39.46418061083786,
+        -32.873522061036645,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        40.37673479943705,
+        -31.761513981560228,
+        0.0
+      ]
+    },
+    {
+      "role": "end_feed",
+      "sequence_index": null,
+      "layer_index": null,
+      "layer_label": null,
+      "region_name": null,
+      "occurrence_index": null,
+      "filament_start_mm": 203.20690999999985,
+      "filament_end_mm": 213.20690999999985,
+      "length_mm": 10.0,
+      "spiral_start_xyz": [
+        40.37673479943705,
+        -31.761513981560228,
+        0.0
+      ],
+      "spiral_end_xyz": [
+        45.814420664420304,
+        -23.387118933873687,
+        0.0
+      ]
+    }
+  ]
+}

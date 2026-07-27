@@ -1,0 +1,332 @@
+{
+  "rank": 9232,
+  "score": 380,
+  "material_switch_count": 5,
+  "eta_sum": 27.0,
+  "active_materials": [
+    "MAGENTA",
+    "YELLOW",
+    "CYAN"
+  ],
+  "steps": [
+    {
+      "step_index": 1,
+      "assignment_index": 1,
+      "assignment_step_index": 1,
+      "start_voxel_index": 1,
+      "end_voxel_index": 20,
+      "start_layer": 1,
+      "end_layer": 1,
+      "case_key": "case_00001",
+      "start_material": "MAGENTA",
+      "end_material": "MAGENTA",
+      "material_ratios": {
+        "MAGENTA": 1.0
+      },
+      "eta": 0.0
+    },
+    {
+      "step_index": 2,
+      "assignment_index": 2,
+      "assignment_step_index": 1,
+      "start_voxel_index": 21,
+      "end_voxel_index": 34,
+      "start_layer": 2,
+      "end_layer": 25,
+      "case_key": "case_00001",
+      "start_material": "MAGENTA",
+      "end_material": "MAGENTA",
+      "material_ratios": {
+        "MAGENTA": 1.0
+      },
+      "eta": 0.0
+    },
+    {
+      "step_index": 3,
+      "assignment_index": 3,
+      "assignment_step_index": 1,
+      "start_voxel_index": 35,
+      "end_voxel_index": 48,
+      "start_layer": 27,
+      "end_layer": 50,
+      "case_key": "case_08196",
+      "start_material": "MAGENTA",
+      "end_material": "YELLOW",
+      "material_ratios": {
+        "YELLOW": 0.14583333333333334,
+        "MAGENTA": 0.8541666666666666
+      },
+      "eta": 1.25
+    },
+    {
+      "step_index": 4,
+      "assignment_index": 3,
+      "assignment_step_index": 2,
+      "start_voxel_index": 49,
+      "end_voxel_index": 62,
+      "start_layer": 52,
+      "end_layer": 75,
+      "case_key": "case_14344",
+      "start_material": "MAGENTA",
+      "end_material": "YELLOW",
+      "material_ratios": {
+        "YELLOW": 0.3333333333333333,
+        "MAGENTA": 0.6666666666666666
+      },
+      "eta": 1.5
+    },
+    {
+      "step_index": 5,
+      "assignment_index": 3,
+      "assignment_step_index": 3,
+      "start_voxel_index": 63,
+      "end_voxel_index": 77,
+      "start_layer": 77,
+      "end_layer": 102,
+      "case_key": "case_15376",
+      "start_material": "MAGENTA",
+      "end_material": "YELLOW",
+      "material_ratios": {
+        "YELLOW": 0.5,
+        "MAGENTA": 0.5
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 6,
+      "assignment_index": 3,
+      "assignment_step_index": 4,
+      "start_voxel_index": 78,
+      "end_voxel_index": 91,
+      "start_layer": 104,
+      "end_layer": 128,
+      "case_key": "case_15424",
+      "start_material": "MAGENTA",
+      "end_material": "YELLOW",
+      "material_ratios": {
+        "YELLOW": 0.6666666666666666,
+        "MAGENTA": 0.3333333333333333
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 7,
+      "assignment_index": 3,
+      "assignment_step_index": 5,
+      "start_voxel_index": 92,
+      "end_voxel_index": 106,
+      "start_layer": 129,
+      "end_layer": 155,
+      "case_key": "case_16000",
+      "start_material": "MAGENTA",
+      "end_material": "YELLOW",
+      "material_ratios": {
+        "YELLOW": 0.8333333333333334,
+        "MAGENTA": 0.16666666666666666
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 8,
+      "assignment_index": 4,
+      "assignment_step_index": 1,
+      "start_voxel_index": 107,
+      "end_voxel_index": 121,
+      "start_layer": 157,
+      "end_layer": 181,
+      "case_key": "case_00001",
+      "start_material": "YELLOW",
+      "end_material": "YELLOW",
+      "material_ratios": {
+        "YELLOW": 1.0
+      },
+      "eta": 0.0
+    },
+    {
+      "step_index": 9,
+      "assignment_index": 5,
+      "assignment_step_index": 1,
+      "start_voxel_index": 122,
+      "end_voxel_index": 135,
+      "start_layer": 183,
+      "end_layer": 206,
+      "case_key": "case_00385",
+      "start_material": "YELLOW",
+      "end_material": "CYAN",
+      "material_ratios": {
+        "YELLOW": 0.8333333333333334,
+        "CYAN": 0.16666666666666666
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 10,
+      "assignment_index": 5,
+      "assignment_step_index": 2,
+      "start_voxel_index": 136,
+      "end_voxel_index": 149,
+      "start_layer": 208,
+      "end_layer": 231,
+      "case_key": "case_00481",
+      "start_material": "YELLOW",
+      "end_material": "CYAN",
+      "material_ratios": {
+        "YELLOW": 0.6666666666666666,
+        "CYAN": 0.3333333333333333
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 11,
+      "assignment_index": 5,
+      "assignment_step_index": 3,
+      "start_voxel_index": 150,
+      "end_voxel_index": 164,
+      "start_layer": 233,
+      "end_layer": 258,
+      "case_key": "case_01009",
+      "start_material": "YELLOW",
+      "end_material": "CYAN",
+      "material_ratios": {
+        "YELLOW": 0.5,
+        "CYAN": 0.5
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 12,
+      "assignment_index": 5,
+      "assignment_step_index": 4,
+      "start_voxel_index": 165,
+      "end_voxel_index": 178,
+      "start_layer": 260,
+      "end_layer": 283,
+      "case_key": "case_04081",
+      "start_material": "YELLOW",
+      "end_material": "CYAN",
+      "material_ratios": {
+        "YELLOW": 0.3541666666666667,
+        "CYAN": 0.6458333333333334
+      },
+      "eta": 1.75
+    },
+    {
+      "step_index": 13,
+      "assignment_index": 5,
+      "assignment_step_index": 5,
+      "start_voxel_index": 179,
+      "end_voxel_index": 193,
+      "start_layer": 285,
+      "end_layer": 310,
+      "case_key": "case_04095",
+      "start_material": "YELLOW",
+      "end_material": "CYAN",
+      "material_ratios": {
+        "YELLOW": 0.14583333333333334,
+        "CYAN": 0.8541666666666666
+      },
+      "eta": 1.25
+    },
+    {
+      "step_index": 14,
+      "assignment_index": 6,
+      "assignment_step_index": 1,
+      "start_voxel_index": 194,
+      "end_voxel_index": 208,
+      "start_layer": 312,
+      "end_layer": 336,
+      "case_key": "case_00001",
+      "start_material": "CYAN",
+      "end_material": "CYAN",
+      "material_ratios": {
+        "CYAN": 1.0
+      },
+      "eta": 0.0
+    },
+    {
+      "step_index": 15,
+      "assignment_index": 7,
+      "assignment_step_index": 1,
+      "start_voxel_index": 209,
+      "end_voxel_index": 222,
+      "start_layer": 338,
+      "end_layer": 361,
+      "case_key": "case_00049",
+      "start_material": "CYAN",
+      "end_material": "MAGENTA",
+      "material_ratios": {
+        "CYAN": 0.8333333333333334,
+        "MAGENTA": 0.16666666666666666
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 16,
+      "assignment_index": 7,
+      "assignment_step_index": 2,
+      "start_voxel_index": 223,
+      "end_voxel_index": 237,
+      "start_layer": 363,
+      "end_layer": 388,
+      "case_key": "case_00241",
+      "start_material": "CYAN",
+      "end_material": "MAGENTA",
+      "material_ratios": {
+        "CYAN": 0.6666666666666666,
+        "MAGENTA": 0.3333333333333333
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 17,
+      "assignment_index": 7,
+      "assignment_step_index": 3,
+      "start_voxel_index": 238,
+      "end_voxel_index": 251,
+      "start_layer": 390,
+      "end_layer": 413,
+      "case_key": "case_01009",
+      "start_material": "CYAN",
+      "end_material": "MAGENTA",
+      "material_ratios": {
+        "CYAN": 0.5,
+        "MAGENTA": 0.5
+      },
+      "eta": 2.0
+    },
+    {
+      "step_index": 18,
+      "assignment_index": 7,
+      "assignment_step_index": 4,
+      "start_voxel_index": 252,
+      "end_voxel_index": 266,
+      "start_layer": 415,
+      "end_layer": 440,
+      "case_key": "case_01021",
+      "start_material": "CYAN",
+      "end_material": "MAGENTA",
+      "material_ratios": {
+        "CYAN": 0.3541666666666667,
+        "MAGENTA": 0.6458333333333334
+      },
+      "eta": 1.75
+    },
+    {
+      "step_index": 19,
+      "assignment_index": 8,
+      "assignment_step_index": 1,
+      "start_voxel_index": 267,
+      "end_voxel_index": 281,
+      "start_layer": 442,
+      "end_layer": 466,
+      "case_key": "case_04093",
+      "start_material": "CYAN",
+      "end_material": "MAGENTA",
+      "material_ratios": {
+        "CYAN": 0.20833333333333334,
+        "MAGENTA": 0.7916666666666666
+      },
+      "eta": 1.5
+    }
+  ]
+}

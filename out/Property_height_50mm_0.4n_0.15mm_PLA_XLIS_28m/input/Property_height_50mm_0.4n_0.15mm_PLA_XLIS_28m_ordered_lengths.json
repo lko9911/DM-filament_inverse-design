@@ -1,0 +1,117 @@
+[
+  {
+    "assignment_index": 1,
+    "source_component_index": 1,
+    "source_component_name": "Unassigned extrusion",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 39.0,
+    "component_voxel_count": 20,
+    "mapped_step_lengths_e_mm": [
+      39.0
+    ]
+  },
+  {
+    "assignment_index": 2,
+    "source_component_index": 2,
+    "source_component_name": "REGION_MAGENTA",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 39.74445999999998,
+    "component_voxel_count": 20,
+    "mapped_step_lengths_e_mm": [
+      39.74445999999998
+    ]
+  },
+  {
+    "assignment_index": 3,
+    "source_component_index": 3,
+    "source_component_name": "REGION_M2Y_5step",
+    "property_type": "Gradient",
+    "gradient_direction": "printing",
+    "effective_step_count": 5,
+    "component_total_filament_e_mm": 200.39532000000446,
+    "component_voxel_count": 101,
+    "mapped_step_lengths_e_mm": [
+      40.07906400000089,
+      40.07906400000089,
+      40.07906400000089,
+      40.07906400000089,
+      40.07906400000089
+    ]
+  },
+  {
+    "assignment_index": 4,
+    "source_component_index": 4,
+    "source_component_name": "REGION_YELLOW",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 41.38598999999993,
+    "component_voxel_count": 21,
+    "mapped_step_lengths_e_mm": [
+      41.38598999999993
+    ]
+  },
+  {
+    "assignment_index": 5,
+    "source_component_index": 5,
+    "source_component_name": "REGION_Y2C_5step",
+    "property_type": "Gradient",
+    "gradient_direction": "printing",
+    "effective_step_count": 5,
+    "component_total_filament_e_mm": 200.39532000000446,
+    "component_voxel_count": 101,
+    "mapped_step_lengths_e_mm": [
+      40.07906400000089,
+      40.07906400000089,
+      40.07906400000089,
+      40.07906400000089,
+      40.07906400000089
+    ]
+  },
+  {
+    "assignment_index": 6,
+    "source_component_index": 6,
+    "source_component_name": "REGION_CYAN",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 41.38598999999993,
+    "component_voxel_count": 21,
+    "mapped_step_lengths_e_mm": [
+      41.38598999999993
+    ]
+  },
+  {
+    "assignment_index": 7,
+    "source_component_index": 7,
+    "source_component_name": "REGION_C2P_4step",
+    "property_type": "Gradient",
+    "gradient_direction": "printing",
+    "effective_step_count": 4,
+    "component_total_filament_e_mm": 161.1875400000023,
+    "component_voxel_count": 81,
+    "mapped_step_lengths_e_mm": [
+      40.29688500000057,
+      40.29688500000057,
+      40.29688500000057,
+      40.29688500000057
+    ]
+  },
+  {
+    "assignment_index": 8,
+    "source_component_index": 8,
+    "source_component_name": "REGION_PURPLE",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 41.38598999999993,
+    "component_voxel_count": 21,
+    "mapped_step_lengths_e_mm": [
+      41.38598999999993
+    ]
+  }
+]

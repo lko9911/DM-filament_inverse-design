@@ -1,6 +1,6 @@
 {
-  "source_adjacency_json": "C:\\Users\\user\\Desktop\\AML_Research\\DM-filament_inverse-design\\out\\Property_x-axis_block\\adjacency\\beam_step_adjacency.json",
-  "source_score_final_json": "C:\\Users\\user\\Desktop\\AML_Research\\DM-filament_inverse-design\\out\\Property_x-axis_block\\simulation\\intermediate\\beam_step_adjacency_clusters_best_switch_eta_ranked.json",
+  "source_adjacency_json": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_x-axis_block\\adjacency\\beam_step_adjacency.json",
+  "source_score_final_json": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_x-axis_block\\simulation\\intermediate\\beam_step_adjacency_clusters_best_switch_eta_ranked.json",
   "local_summary": {
     "gradient_assignment_count": 0,
     "gradient_assignments": []

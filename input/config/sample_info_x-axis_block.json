@@ -1,5 +1,5 @@
 {
-  "source_gcode": "C:\\Users\\user\\Desktop\\AML_Research\\DM-filament_inverse-design\\input\\gcode\\x-axis_block.gcode",
+  "source_gcode": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\input\\gcode\\x-axis_block.gcode",
   "voxel_threshold_e": 2.0,
   "total_filament_e_mm": 9315.78506,
   "voxel_count": 4660,

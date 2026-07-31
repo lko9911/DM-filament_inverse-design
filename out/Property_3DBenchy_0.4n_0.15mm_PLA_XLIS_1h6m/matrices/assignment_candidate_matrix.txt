@@ -1,0 +1,57 @@
+matrix_rows: 1
+matrix_cols: 19
+total_pattern_count: 502688807534592
+unconstrained_cartesian_pattern_count: 502688807534592
+repeated_layer_template: None
+eta_min: None
+eta_max: None
+brighter_mode: False
+has_assignment_brighter_mode: True
+
+assignment_01 pattern_count: 1
+assignment_02 pattern_count: 1
+assignment_03 pattern_count: 226576
+assignment_04 pattern_count: 1
+assignment_05 pattern_count: 226576
+assignment_06 pattern_count: 1
+assignment_07 pattern_count: 9792
+assignment_08 pattern_count: 1
+
+step_001 | assignment 1 | local_step 1 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_002 | assignment 2 | local_step 1 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_003 | assignment 3 | local_step 1 | materials MAGENTA->YELLOW | target 40/8 (0.833333/0.166667) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 17
+  candidates: case_00008, case_00025, case_00049, case_00097, case_00193, case_00385, case_00769, case_01537, case_04100, case_06146, case_08199, case_12291, case_14337, case_00013, case_03073, case_08196, case_12290
+step_004 | assignment 3 | local_step 2 | materials MAGENTA->YELLOW | target 32/16 (0.666667/0.333333) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 14
+  candidates: case_00032, case_00121, case_00241, case_00481, case_00961, case_01921, case_07682, case_08223, case_14344, case_15873, case_12304, case_15364, case_00061, case_03841
+step_005 | assignment 3 | local_step 3 | materials MAGENTA->YELLOW | target 24/24 (0.500000/0.500000) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_006 | assignment 3 | local_step 4 | materials MAGENTA->YELLOW | target 16/32 (0.333333/0.666667) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 14
+  candidates: case_00512, case_02041, case_08162, case_08703, case_14464, case_15424, case_15904, case_16144, case_16264, case_16353, case_12544, case_16324, case_01021, case_04081
+step_007 | assignment 3 | local_step 5 | materials MAGENTA->YELLOW | target 8/40 (0.166667/0.833333) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 17
+  candidates: case_02048, case_04094, case_08186, case_10239, case_12285, case_14848, case_15616, case_16000, case_16192, case_16288, case_16336, case_16360, case_16377, case_04095, case_08189, case_13312, case_16372
+step_008 | assignment 4 | local_step 1 | materials YELLOW->YELLOW | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_009 | assignment 5 | local_step 1 | materials YELLOW->CYAN | target 40/8 (0.833333/0.166667) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 17
+  candidates: case_00008, case_00025, case_00049, case_00097, case_00193, case_00385, case_00769, case_01537, case_04100, case_06146, case_08199, case_12291, case_14337, case_00013, case_03073, case_08196, case_12290
+step_010 | assignment 5 | local_step 2 | materials YELLOW->CYAN | target 32/16 (0.666667/0.333333) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 14
+  candidates: case_00032, case_00121, case_00241, case_00481, case_00961, case_01921, case_07682, case_08223, case_14344, case_15873, case_12304, case_15364, case_00061, case_03841
+step_011 | assignment 5 | local_step 3 | materials YELLOW->CYAN | target 24/24 (0.500000/0.500000) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_012 | assignment 5 | local_step 4 | materials YELLOW->CYAN | target 16/32 (0.333333/0.666667) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 14
+  candidates: case_00512, case_02041, case_08162, case_08703, case_14464, case_15424, case_15904, case_16144, case_16264, case_16353, case_12544, case_16324, case_01021, case_04081
+step_013 | assignment 5 | local_step 5 | materials YELLOW->CYAN | target 8/40 (0.166667/0.833333) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 17
+  candidates: case_02048, case_04094, case_08186, case_10239, case_12285, case_14848, case_15616, case_16000, case_16192, case_16288, case_16336, case_16360, case_16377, case_04095, case_08189, case_13312, case_16372
+step_014 | assignment 6 | local_step 1 | materials CYAN->CYAN | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_015 | assignment 7 | local_step 1 | materials CYAN->MAGENTA | target 40/8 (0.833333/0.166667) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 17
+  candidates: case_00008, case_00025, case_00049, case_00097, case_00193, case_00385, case_00769, case_01537, case_04100, case_06146, case_08199, case_12291, case_14337, case_00013, case_03073, case_08196, case_12290
+step_016 | assignment 7 | local_step 2 | materials CYAN->MAGENTA | target 33/15 (0.687500/0.312500) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 18
+  candidates: case_00061, case_03841, case_00031, case_00032, case_00121, case_00241, case_00481, case_00961, case_01921, case_06152, case_07681, case_07682, case_08208, case_08223, case_14343, case_14344, case_15362, case_15873
+step_017 | assignment 7 | local_step 3 | materials CYAN->MAGENTA | target 25/23 (0.520833/0.479167) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_018 | assignment 7 | local_step 4 | materials CYAN->MAGENTA | target 18/30 (0.375000/0.625000) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 8
+  candidates: case_00511, case_08161, case_08448, case_16322, case_01021, case_04081, case_12416, case_16260
+step_019 | assignment 8 | local_step 1 | materials CYAN->MAGENTA | target 10/38 (0.208333/0.791667) | ratio_tol<= 0.020833 | eta>= None | eta<= 1.5 | eta_target 1.5 | candidate_count 1
+  candidates: case_04093

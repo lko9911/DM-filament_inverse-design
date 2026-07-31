@@ -1,0 +1,392 @@
+source_text_path: test_sample\derived\matrices\assignment_candidate_matrix.txt
+search_algorithm: genetic_algorithm
+total_step_count: 19
+score_rule: step_score = S(t-1,t) + S(t-2,t) when t-2 exists, else S(t-1,t)
+local_gradient_stage: per-Gradient local score maximization, then local material-switch minimization, then global search
+search_time_seconds: 4.427132
+ga_parameters: population_size=240, generations=350, elite_count=12, mutation_rate=0.06, tournament_size=4, random_seed=42, max_best_candidates=200
+best_score: 383
+best_tie_count: 122
+
+local_gradient_preselection:
+  assignment_03 | local_steps 5 | combinations 226576 | best_local_score 117 | best_score_tie_count 70 | best_local_switch 2 | best_pattern_count_after_switch 28 | best_local_eta_sum_min 8.250000 | best_local_eta_sum_max 9.000000
+    pattern_01: case_00049, case_00241, case_01009, case_01021, case_04095
+    pattern_02: case_00049, case_00241, case_01009, case_01021, case_08189
+    pattern_03: case_00049, case_00241, case_01009, case_04081, case_04095
+    pattern_04: case_00049, case_00241, case_01009, case_04081, case_08189
+    pattern_05: case_00097, case_00241, case_01009, case_01021, case_04095
+    pattern_06: case_00097, case_00241, case_01009, case_01021, case_08189
+    pattern_07: case_00097, case_00241, case_01009, case_04081, case_08189
+    pattern_08: case_00097, case_00481, case_01009, case_04081, case_04095
+    pattern_09: case_00097, case_00481, case_01009, case_04081, case_08189
+    pattern_10: case_00193, case_00241, case_01009, case_01021, case_04095
+    pattern_11: case_00193, case_00241, case_01009, case_01021, case_08189
+    pattern_12: case_00385, case_00481, case_01009, case_04081, case_04095
+    pattern_13: case_00385, case_00961, case_01009, case_04081, case_08189
+    pattern_14: case_00769, case_00961, case_01009, case_04081, case_04095
+    pattern_15: case_00769, case_00961, case_01009, case_04081, case_08189
+    pattern_16: case_00049, case_00241, case_01009, case_02041, case_08189
+    pattern_17: case_00097, case_00481, case_01009, case_02041, case_04095
+    pattern_18: case_00385, case_00961, case_01009, case_02041, case_04095
+    pattern_19: case_00769, case_00961, case_01009, case_02041, case_04095
+    pattern_20: case_08196, case_14344, case_15376, case_15424, case_16000
+    pattern_21: case_08196, case_14344, case_15376, case_16144, case_16192
+    pattern_22: case_08196, case_14344, case_15376, case_16144, case_16288
+    pattern_23: case_00049, case_00241, case_01009, case_01021, case_02048
+    pattern_24: case_00097, case_00241, case_01009, case_01021, case_02048
+    pattern_25: case_00385, case_00961, case_01009, case_04081, case_16377
+    pattern_26: case_00769, case_00961, case_01009, case_04081, case_16377
+    pattern_27: case_00049, case_00241, case_01009, case_02041, case_02048
+    pattern_28: case_00049, case_00241, case_01009, case_02041, case_16377
+  assignment_05 | local_steps 5 | combinations 226576 | best_local_score 117 | best_score_tie_count 70 | best_local_switch 2 | best_pattern_count_after_switch 28 | best_local_eta_sum_min 8.250000 | best_local_eta_sum_max 9.000000
+    pattern_01: case_00049, case_00241, case_01009, case_01021, case_04095
+    pattern_02: case_00049, case_00241, case_01009, case_01021, case_08189
+    pattern_03: case_00049, case_00241, case_01009, case_04081, case_04095
+    pattern_04: case_00049, case_00241, case_01009, case_04081, case_08189
+    pattern_05: case_00097, case_00241, case_01009, case_01021, case_04095
+    pattern_06: case_00097, case_00241, case_01009, case_01021, case_08189
+    pattern_07: case_00097, case_00241, case_01009, case_04081, case_08189
+    pattern_08: case_00097, case_00481, case_01009, case_04081, case_04095
+    pattern_09: case_00097, case_00481, case_01009, case_04081, case_08189
+    pattern_10: case_00193, case_00241, case_01009, case_01021, case_04095
+    pattern_11: case_00193, case_00241, case_01009, case_01021, case_08189
+    pattern_12: case_00385, case_00481, case_01009, case_04081, case_04095
+    pattern_13: case_00385, case_00961, case_01009, case_04081, case_08189
+    pattern_14: case_00769, case_00961, case_01009, case_04081, case_04095
+    pattern_15: case_00769, case_00961, case_01009, case_04081, case_08189
+    pattern_16: case_00049, case_00241, case_01009, case_02041, case_08189
+    pattern_17: case_00097, case_00481, case_01009, case_02041, case_04095
+    pattern_18: case_00385, case_00961, case_01009, case_02041, case_04095
+    pattern_19: case_00769, case_00961, case_01009, case_02041, case_04095
+    pattern_20: case_08196, case_14344, case_15376, case_15424, case_16000
+    pattern_21: case_08196, case_14344, case_15376, case_16144, case_16192
+    pattern_22: case_08196, case_14344, case_15376, case_16144, case_16288
+    pattern_23: case_00049, case_00241, case_01009, case_01021, case_02048
+    pattern_24: case_00097, case_00241, case_01009, case_01021, case_02048
+    pattern_25: case_00385, case_00961, case_01009, case_04081, case_16377
+    pattern_26: case_00769, case_00961, case_01009, case_04081, case_16377
+    pattern_27: case_00049, case_00241, case_01009, case_02041, case_02048
+    pattern_28: case_00049, case_00241, case_01009, case_02041, case_16377
+  assignment_07 | local_steps 4 | combinations 9792 | best_local_score 100 | best_score_tie_count 17 | best_local_switch 2 | best_pattern_count_after_switch 17 | best_local_eta_sum_min 7.750000 | best_local_eta_sum_max 7.750000
+    pattern_01: case_00049, case_00241, case_01009, case_01021
+    pattern_02: case_00049, case_00241, case_01009, case_04081
+    pattern_03: case_00097, case_00241, case_01009, case_01021
+    pattern_04: case_00097, case_00241, case_01009, case_04081
+    pattern_05: case_00097, case_00481, case_01009, case_01021
+    pattern_06: case_00193, case_00241, case_01009, case_01021
+    pattern_07: case_00193, case_00241, case_01009, case_04081
+    pattern_08: case_00193, case_00481, case_01009, case_01021
+    pattern_09: case_00193, case_00481, case_01009, case_04081
+    pattern_10: case_00193, case_00961, case_01009, case_01021
+    pattern_11: case_00193, case_00961, case_01009, case_04081
+    pattern_12: case_00385, case_00481, case_01009, case_01021
+    pattern_13: case_00385, case_00481, case_01009, case_04081
+    pattern_14: case_00385, case_00961, case_01009, case_01021
+    pattern_15: case_00385, case_00961, case_01009, case_04081
+    pattern_16: case_00769, case_00961, case_01009, case_01021
+    pattern_17: case_00769, case_00961, case_01009, case_04081
+
+generation_history:
+  generation 0000 | best_score 383 | best_eta_sum 27.000000 | average_score 330.913 | unique 240
+  generation 0025 | best_score 383 | best_eta_sum 27.000000 | average_score 374.754 | unique 93
+  generation 0050 | best_score 383 | best_eta_sum 27.000000 | average_score 374.471 | unique 88
+  generation 0075 | best_score 383 | best_eta_sum 27.000000 | average_score 372.875 | unique 93
+  generation 0100 | best_score 383 | best_eta_sum 27.000000 | average_score 375.054 | unique 94
+  generation 0125 | best_score 383 | best_eta_sum 27.000000 | average_score 374.633 | unique 85
+  generation 0150 | best_score 383 | best_eta_sum 27.000000 | average_score 372.183 | unique 94
+  generation 0175 | best_score 383 | best_eta_sum 27.000000 | average_score 374.154 | unique 86
+  generation 0200 | best_score 383 | best_eta_sum 27.000000 | average_score 374.604 | unique 84
+  generation 0225 | best_score 383 | best_eta_sum 27.000000 | average_score 374.188 | unique 86
+  generation 0250 | best_score 383 | best_eta_sum 27.000000 | average_score 374.387 | unique 89
+  generation 0275 | best_score 383 | best_eta_sum 27.000000 | average_score 375.371 | unique 74
+  generation 0300 | best_score 383 | best_eta_sum 27.000000 | average_score 374.637 | unique 77
+  generation 0325 | best_score 383 | best_eta_sum 27.000000 | average_score 374.467 | unique 83
+  generation 0350 | best_score 383 | best_eta_sum 27.000000 | average_score 374.971 | unique 88
+
+parsed_steps:
+step_001 | assignment 1 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_002 | assignment 2 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_003 | assignment 3 | local_step 1 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 17
+  candidates: case_00008, case_00025, case_00049, case_00097, case_00193, case_00385, case_00769, case_01537, case_04100, case_06146, case_08199, case_12291, case_14337, case_00013, case_03073, case_08196, case_12290
+step_004 | assignment 3 | local_step 2 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 14
+  candidates: case_00032, case_00121, case_00241, case_00481, case_00961, case_01921, case_07682, case_08223, case_14344, case_15873, case_12304, case_15364, case_00061, case_03841
+step_005 | assignment 3 | local_step 3 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_006 | assignment 3 | local_step 4 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 14
+  candidates: case_00512, case_02041, case_08162, case_08703, case_14464, case_15424, case_15904, case_16144, case_16264, case_16353, case_12544, case_16324, case_01021, case_04081
+step_007 | assignment 3 | local_step 5 | materials MAGENTA->YELLOW | eta<= 2 | candidate_count 17
+  candidates: case_02048, case_04094, case_08186, case_10239, case_12285, case_14848, case_15616, case_16000, case_16192, case_16288, case_16336, case_16360, case_16377, case_04095, case_08189, case_13312, case_16372
+step_008 | assignment 4 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_009 | assignment 5 | local_step 1 | materials YELLOW->CYAN | eta<= 2 | candidate_count 17
+  candidates: case_00008, case_00025, case_00049, case_00097, case_00193, case_00385, case_00769, case_01537, case_04100, case_06146, case_08199, case_12291, case_14337, case_00013, case_03073, case_08196, case_12290
+step_010 | assignment 5 | local_step 2 | materials YELLOW->CYAN | eta<= 2 | candidate_count 14
+  candidates: case_00032, case_00121, case_00241, case_00481, case_00961, case_01921, case_07682, case_08223, case_14344, case_15873, case_12304, case_15364, case_00061, case_03841
+step_011 | assignment 5 | local_step 3 | materials YELLOW->CYAN | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_012 | assignment 5 | local_step 4 | materials YELLOW->CYAN | eta<= 2 | candidate_count 14
+  candidates: case_00512, case_02041, case_08162, case_08703, case_14464, case_15424, case_15904, case_16144, case_16264, case_16353, case_12544, case_16324, case_01021, case_04081
+step_013 | assignment 5 | local_step 5 | materials YELLOW->CYAN | eta<= 2 | candidate_count 17
+  candidates: case_02048, case_04094, case_08186, case_10239, case_12285, case_14848, case_15616, case_16000, case_16192, case_16288, case_16336, case_16360, case_16377, case_04095, case_08189, case_13312, case_16372
+step_014 | assignment 6 | local_step 1 | materials CYAN->CYAN | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_015 | assignment 7 | local_step 1 | materials CYAN->MAGENTA | eta<= 2 | candidate_count 17
+  candidates: case_00008, case_00025, case_00049, case_00097, case_00193, case_00385, case_00769, case_01537, case_04100, case_06146, case_08199, case_12291, case_14337, case_00013, case_03073, case_08196, case_12290
+step_016 | assignment 7 | local_step 2 | materials CYAN->MAGENTA | eta<= 2 | candidate_count 18
+  candidates: case_00061, case_03841, case_00031, case_00032, case_00121, case_00241, case_00481, case_00961, case_01921, case_06152, case_07681, case_07682, case_08208, case_08223, case_14343, case_14344, case_15362, case_15873
+step_017 | assignment 7 | local_step 3 | materials CYAN->MAGENTA | eta<= 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_018 | assignment 7 | local_step 4 | materials CYAN->MAGENTA | eta<= 2 | candidate_count 8
+  candidates: case_00511, case_08161, case_08448, case_16322, case_01021, case_04081, case_12416, case_16260
+step_019 | assignment 8 | local_step 1 | materials CYAN->MAGENTA | eta<= 1.5 | candidate_count 1
+  candidates: case_04093
+
+best_candidates:
+01. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+02. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_04081, case_04093
+03. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_01021, case_04093
+04. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_04081, case_04093
+05. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+06. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+07. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+08. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_04081, case_04093
+09. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+10. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_04081, case_04093
+11. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+12. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+13. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+14. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00481, case_01009, case_04081, case_04093
+15. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+16. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00961, case_01009, case_04081, case_04093
+17. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_01021, case_04093
+18. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_04081, case_04093
+19. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_01021, case_04093
+20. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_04081, case_04093
+21. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+22. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_04081, case_04093
+23. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_01021, case_04093
+24. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+25. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+26. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+27. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_04081, case_04093
+28. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+29. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_04081, case_04093
+30. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+31. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+32. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+33. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+34. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_01021, case_04093
+35. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_04081, case_04093
+36. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_01021, case_04093
+37. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_04081, case_04093
+38. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+39. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_04081, case_04093
+40. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_01021, case_04093
+41. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_04081, case_04093
+42. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+43. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+44. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+45. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_04081, case_04093
+46. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+47. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+48. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+49. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+50. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_01021, case_04093
+51. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_04081, case_04093
+52. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_01021, case_04093
+53. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_04081, case_04093
+54. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+55. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+56. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+57. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_01021, case_04093
+58. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_04081, case_04093
+59. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_01021, case_04093
+60. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_04081, case_04093
+61. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+62. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_04081, case_04093
+63. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_01021, case_04093
+64. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+65. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+66. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+67. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+68. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00481, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+69. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+70. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_04081, case_04093
+71. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_01021, case_04093
+72. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_04081, case_04093
+73. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+74. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+75. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+76. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_04081, case_04093
+77. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+78. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_04081, case_04093
+79. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+80. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+81. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+82. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+83. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+84. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+85. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+86. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+87. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+88. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+89. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00961, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+90. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00961, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_01021, case_04093
+91. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00961, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+92. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00961, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+93. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00961, case_01009, case_04081, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+94. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00385, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+95. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00385, case_00481, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_01021, case_04093
+96. score 383 | eta_sum 27.000000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00385, case_00961, case_01009, case_01021, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+97. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+98. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_04081, case_04093
+99. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_01021, case_04093
+100. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00961, case_01009, case_04081, case_04093
+101. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+102. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+103. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+104. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+105. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00961, case_01009, case_04081, case_04093
+106. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+107. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+108. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00961, case_01009, case_01021, case_04093
+109. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_01021, case_04093
+110. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00241, case_01009, case_04081, case_04093
+111. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_01021, case_04093
+112. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00049, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16288, case_00001, case_00097, case_00481, case_01009, case_04081, case_04093
+113. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+114. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+115. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+116. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+117. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00097, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+118. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16000, case_00001, case_00385, case_00481, case_01009, case_01021, case_04093
+119. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+120. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00241, case_01009, case_04081, case_04093
+121. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_15424, case_16192, case_00001, case_00193, case_00481, case_01009, case_01021, case_04093
+122. score 383 | eta_sum 26.750000 | material_switch_count 6 | step_scores [14, 24, 22, 22, 22, 20, 19, 22, 19, 21, 22, 22, 22, 24, 22, 22, 22, 22] | selected_case_keys case_00001, case_00001, case_00193, case_00241, case_01009, case_02041, case_08189, case_00001, case_08196, case_14344, case_15376, case_16144, case_16192, case_00001, case_00193, case_00241, case_01009, case_01021, case_04093
+
+best_candidate_switch_eta:
+01. material_switch_count 6 | eta_sum 27.000000
+02. material_switch_count 6 | eta_sum 27.000000
+03. material_switch_count 6 | eta_sum 27.000000
+04. material_switch_count 6 | eta_sum 27.000000
+05. material_switch_count 6 | eta_sum 27.000000
+06. material_switch_count 6 | eta_sum 27.000000
+07. material_switch_count 6 | eta_sum 27.000000
+08. material_switch_count 6 | eta_sum 27.000000
+09. material_switch_count 6 | eta_sum 27.000000
+10. material_switch_count 6 | eta_sum 27.000000
+11. material_switch_count 6 | eta_sum 27.000000
+12. material_switch_count 6 | eta_sum 27.000000
+13. material_switch_count 6 | eta_sum 27.000000
+14. material_switch_count 6 | eta_sum 27.000000
+15. material_switch_count 6 | eta_sum 27.000000
+16. material_switch_count 6 | eta_sum 27.000000
+17. material_switch_count 6 | eta_sum 27.000000
+18. material_switch_count 6 | eta_sum 27.000000
+19. material_switch_count 6 | eta_sum 27.000000
+20. material_switch_count 6 | eta_sum 27.000000
+21. material_switch_count 6 | eta_sum 27.000000
+22. material_switch_count 6 | eta_sum 27.000000
+23. material_switch_count 6 | eta_sum 27.000000
+24. material_switch_count 6 | eta_sum 27.000000
+25. material_switch_count 6 | eta_sum 27.000000
+26. material_switch_count 6 | eta_sum 27.000000
+27. material_switch_count 6 | eta_sum 27.000000
+28. material_switch_count 6 | eta_sum 27.000000
+29. material_switch_count 6 | eta_sum 27.000000
+30. material_switch_count 6 | eta_sum 27.000000
+31. material_switch_count 6 | eta_sum 27.000000
+32. material_switch_count 6 | eta_sum 27.000000
+33. material_switch_count 6 | eta_sum 27.000000
+34. material_switch_count 6 | eta_sum 27.000000
+35. material_switch_count 6 | eta_sum 27.000000
+36. material_switch_count 6 | eta_sum 27.000000
+37. material_switch_count 6 | eta_sum 27.000000
+38. material_switch_count 6 | eta_sum 27.000000
+39. material_switch_count 6 | eta_sum 27.000000
+40. material_switch_count 6 | eta_sum 27.000000
+41. material_switch_count 6 | eta_sum 27.000000
+42. material_switch_count 6 | eta_sum 27.000000
+43. material_switch_count 6 | eta_sum 27.000000
+44. material_switch_count 6 | eta_sum 27.000000
+45. material_switch_count 6 | eta_sum 27.000000
+46. material_switch_count 6 | eta_sum 27.000000
+47. material_switch_count 6 | eta_sum 27.000000
+48. material_switch_count 6 | eta_sum 27.000000
+49. material_switch_count 6 | eta_sum 27.000000
+50. material_switch_count 6 | eta_sum 27.000000
+51. material_switch_count 6 | eta_sum 27.000000
+52. material_switch_count 6 | eta_sum 27.000000
+53. material_switch_count 6 | eta_sum 27.000000
+54. material_switch_count 6 | eta_sum 27.000000
+55. material_switch_count 6 | eta_sum 27.000000
+56. material_switch_count 6 | eta_sum 27.000000
+57. material_switch_count 6 | eta_sum 27.000000
+58. material_switch_count 6 | eta_sum 27.000000
+59. material_switch_count 6 | eta_sum 27.000000
+60. material_switch_count 6 | eta_sum 27.000000
+61. material_switch_count 6 | eta_sum 27.000000
+62. material_switch_count 6 | eta_sum 27.000000
+63. material_switch_count 6 | eta_sum 27.000000
+64. material_switch_count 6 | eta_sum 27.000000
+65. material_switch_count 6 | eta_sum 27.000000
+66. material_switch_count 6 | eta_sum 27.000000
+67. material_switch_count 6 | eta_sum 27.000000
+68. material_switch_count 6 | eta_sum 27.000000
+69. material_switch_count 6 | eta_sum 27.000000
+70. material_switch_count 6 | eta_sum 27.000000
+71. material_switch_count 6 | eta_sum 27.000000
+72. material_switch_count 6 | eta_sum 27.000000
+73. material_switch_count 6 | eta_sum 27.000000
+74. material_switch_count 6 | eta_sum 27.000000
+75. material_switch_count 6 | eta_sum 27.000000
+76. material_switch_count 6 | eta_sum 27.000000
+77. material_switch_count 6 | eta_sum 27.000000
+78. material_switch_count 6 | eta_sum 27.000000
+79. material_switch_count 6 | eta_sum 27.000000
+80. material_switch_count 6 | eta_sum 27.000000
+81. material_switch_count 6 | eta_sum 27.000000
+82. material_switch_count 6 | eta_sum 27.000000
+83. material_switch_count 6 | eta_sum 27.000000
+84. material_switch_count 6 | eta_sum 27.000000
+85. material_switch_count 6 | eta_sum 27.000000
+86. material_switch_count 6 | eta_sum 27.000000
+87. material_switch_count 6 | eta_sum 27.000000
+88. material_switch_count 6 | eta_sum 27.000000
+89. material_switch_count 6 | eta_sum 27.000000
+90. material_switch_count 6 | eta_sum 27.000000
+91. material_switch_count 6 | eta_sum 27.000000
+92. material_switch_count 6 | eta_sum 27.000000
+93. material_switch_count 6 | eta_sum 27.000000
+94. material_switch_count 6 | eta_sum 27.000000
+95. material_switch_count 6 | eta_sum 27.000000
+96. material_switch_count 6 | eta_sum 27.000000
+97. material_switch_count 6 | eta_sum 26.750000
+98. material_switch_count 6 | eta_sum 26.750000
+99. material_switch_count 6 | eta_sum 26.750000
+100. material_switch_count 6 | eta_sum 26.750000
+101. material_switch_count 6 | eta_sum 26.750000
+102. material_switch_count 6 | eta_sum 26.750000
+103. material_switch_count 6 | eta_sum 26.750000
+104. material_switch_count 6 | eta_sum 26.750000
+105. material_switch_count 6 | eta_sum 26.750000
+106. material_switch_count 6 | eta_sum 26.750000
+107. material_switch_count 6 | eta_sum 26.750000
+108. material_switch_count 6 | eta_sum 26.750000
+109. material_switch_count 6 | eta_sum 26.750000
+110. material_switch_count 6 | eta_sum 26.750000
+111. material_switch_count 6 | eta_sum 26.750000
+112. material_switch_count 6 | eta_sum 26.750000
+113. material_switch_count 6 | eta_sum 26.750000
+114. material_switch_count 6 | eta_sum 26.750000
+115. material_switch_count 6 | eta_sum 26.750000
+116. material_switch_count 6 | eta_sum 26.750000
+117. material_switch_count 6 | eta_sum 26.750000
+118. material_switch_count 6 | eta_sum 26.750000
+119. material_switch_count 6 | eta_sum 26.750000
+120. material_switch_count 6 | eta_sum 26.750000
+121. material_switch_count 6 | eta_sum 26.750000
+122. material_switch_count 6 | eta_sum 26.750000

@@ -1,0 +1,40 @@
+local_gradient_analysis:
+  gradient_assignment_count: 1
+  assignment_16 | local_steps 5 | combinations 226576 | best_local_score 117 | best_score_tie_count 70 | best_local_switch 2 | best_pattern_count_after_switch 28 | best_local_eta_sum_min 8.250000 | best_local_eta_sum_max 9.000000 | left_property True | right_property True
+    pattern_01: case_00049, case_00241, case_01009, case_01021, case_04095
+    pattern_02: case_00049, case_00241, case_01009, case_01021, case_08189
+    pattern_03: case_00049, case_00241, case_01009, case_04081, case_04095
+    pattern_04: case_00049, case_00241, case_01009, case_04081, case_08189
+    pattern_05: case_00097, case_00241, case_01009, case_01021, case_04095
+    pattern_06: case_00097, case_00241, case_01009, case_01021, case_08189
+    pattern_07: case_00097, case_00241, case_01009, case_04081, case_08189
+    pattern_08: case_00097, case_00481, case_01009, case_04081, case_04095
+    pattern_09: case_00097, case_00481, case_01009, case_04081, case_08189
+    pattern_10: case_00193, case_00241, case_01009, case_01021, case_04095
+    pattern_11: case_00193, case_00241, case_01009, case_01021, case_08189
+    pattern_12: case_00385, case_00481, case_01009, case_04081, case_04095
+    pattern_13: case_00385, case_00961, case_01009, case_04081, case_08189
+    pattern_14: case_00769, case_00961, case_01009, case_04081, case_04095
+    pattern_15: case_00769, case_00961, case_01009, case_04081, case_08189
+    pattern_16: case_00049, case_00241, case_01009, case_02041, case_08189
+    pattern_17: case_00097, case_00481, case_01009, case_02041, case_04095
+    pattern_18: case_00385, case_00961, case_01009, case_02041, case_04095
+    pattern_19: case_00769, case_00961, case_01009, case_02041, case_04095
+    pattern_20: case_08196, case_14344, case_15376, case_15424, case_16000
+    pattern_21: case_08196, case_14344, case_15376, case_16144, case_16192
+    pattern_22: case_08196, case_14344, case_15376, case_16144, case_16288
+    pattern_23: case_00049, case_00241, case_01009, case_01021, case_02048
+    pattern_24: case_00097, case_00241, case_01009, case_01021, case_02048
+    pattern_25: case_00385, case_00961, case_01009, case_04081, case_16377
+    pattern_26: case_00769, case_00961, case_01009, case_04081, case_16377
+    pattern_27: case_00049, case_00241, case_01009, case_02041, case_02048
+    pattern_28: case_00049, case_00241, case_01009, case_02041, case_16377
+
+global_pattern_analysis:
+  ranked_candidate_count: 28
+  saved_candidate_count: 1
+  min_material_switch_count_global: 2
+  min_switch_candidate_count: 25
+  switch_count_histogram: {'2': 25, '3': 3}
+  top_candidate: rank=1, score=840, switches=2, eta_sum=9.000000
+  top_candidate_case_keys: case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00049, case_00241, case_01009, case_01021, case_04095, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001

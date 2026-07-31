@@ -1,0 +1,272 @@
+{
+  "source_adjacency_json": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_B_0.4n_0.15mm_PLA_XLIS_2m\\adjacency\\beam_step_adjacency.json",
+  "source_score_final_json": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_B_0.4n_0.15mm_PLA_XLIS_2m\\simulation\\intermediate\\beam_step_adjacency_clusters_best_switch_eta_ranked.json",
+  "local_summary": {
+    "gradient_assignment_count": 1,
+    "gradient_assignments": [
+      {
+        "assignment_index": 17,
+        "local_step_count": 5,
+        "combination_count": 226576,
+        "uses_left_boundary_property": true,
+        "uses_right_boundary_property": true,
+        "best_local_score": 117,
+        "best_local_best_score_tie_count": 70,
+        "best_local_pattern_count_after_switch": 28,
+        "best_local_material_switch_count": 2,
+        "best_local_eta_sum_min": 8.25,
+        "best_local_eta_sum_max": 9.0,
+        "selected_case_key_sets": [
+          [
+            "case_00049",
+            "case_00241",
+            "case_01009",
+            "case_01021",
+            "case_04095"
+          ],
+          [
+            "case_00049",
+            "case_00241",
+            "case_01009",
+            "case_01021",
+            "case_08189"
+          ],
+          [
+            "case_00049",
+            "case_00241",
+            "case_01009",
+            "case_04081",
+            "case_04095"
+          ],
+          [
+            "case_00049",
+            "case_00241",
+            "case_01009",
+            "case_04081",
+            "case_08189"
+          ],
+          [
+            "case_00097",
+            "case_00241",
+            "case_01009",
+            "case_01021",
+            "case_04095"
+          ],
+          [
+            "case_00097",
+            "case_00241",
+            "case_01009",
+            "case_01021",
+            "case_08189"
+          ],
+          [
+            "case_00097",
+            "case_00241",
+            "case_01009",
+            "case_04081",
+            "case_08189"
+          ],
+          [
+            "case_00097",
+            "case_00481",
+            "case_01009",
+            "case_04081",
+            "case_04095"
+          ],
+          [
+            "case_00097",
+            "case_00481",
+            "case_01009",
+            "case_04081",
+            "case_08189"
+          ],
+          [
+            "case_00193",
+            "case_00241",
+            "case_01009",
+            "case_01021",
+            "case_04095"
+          ],
+          [
+            "case_00193",
+            "case_00241",
+            "case_01009",
+            "case_01021",
+            "case_08189"
+          ],
+          [
+            "case_00385",
+            "case_00481",
+            "case_01009",
+            "case_04081",
+            "case_04095"
+          ],
+          [
+            "case_00385",
+            "case_00961",
+            "case_01009",
+            "case_04081",
+            "case_08189"
+          ],
+          [
+            "case_00769",
+            "case_00961",
+            "case_01009",
+            "case_04081",
+            "case_04095"
+          ],
+          [
+            "case_00769",
+            "case_00961",
+            "case_01009",
+            "case_04081",
+            "case_08189"
+          ],
+          [
+            "case_00049",
+            "case_00241",
+            "case_01009",
+            "case_02041",
+            "case_08189"
+          ],
+          [
+            "case_00097",
+            "case_00481",
+            "case_01009",
+            "case_02041",
+            "case_04095"
+          ],
+          [
+            "case_00385",
+            "case_00961",
+            "case_01009",
+            "case_02041",
+            "case_04095"
+          ],
+          [
+            "case_00769",
+            "case_00961",
+            "case_01009",
+            "case_02041",
+            "case_04095"
+          ],
+          [
+            "case_08196",
+            "case_14344",
+            "case_15376",
+            "case_15424",
+            "case_16000"
+          ],
+          [
+            "case_08196",
+            "case_14344",
+            "case_15376",
+            "case_16144",
+            "case_16192"
+          ],
+          [
+            "case_08196",
+            "case_14344",
+            "case_15376",
+            "case_16144",
+            "case_16288"
+          ],
+          [
+            "case_00049",
+            "case_00241",
+            "case_01009",
+            "case_01021",
+            "case_02048"
+          ],
+          [
+            "case_00097",
+            "case_00241",
+            "case_01009",
+            "case_01021",
+            "case_02048"
+          ],
+          [
+            "case_00385",
+            "case_00961",
+            "case_01009",
+            "case_04081",
+            "case_16377"
+          ],
+          [
+            "case_00769",
+            "case_00961",
+            "case_01009",
+            "case_04081",
+            "case_16377"
+          ],
+          [
+            "case_00049",
+            "case_00241",
+            "case_01009",
+            "case_02041",
+            "case_02048"
+          ],
+          [
+            "case_00049",
+            "case_00241",
+            "case_01009",
+            "case_02041",
+            "case_16377"
+          ]
+        ]
+      }
+    ]
+  },
+  "global_summary": {
+    "ranked_candidate_count": 28,
+    "saved_candidate_count": 1,
+    "min_material_switch_count_global": 2,
+    "min_switch_candidate_count": 25,
+    "switch_count_histogram": {
+      "2": 25,
+      "3": 3
+    },
+    "top_candidate": {
+      "rank": 1,
+      "score": 868,
+      "material_switch_count": 2,
+      "eta_sum": 9.0,
+      "selected_case_keys": [
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00049",
+        "case_00241",
+        "case_01009",
+        "case_01021",
+        "case_04095",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001",
+        "case_00001"
+      ]
+    }
+  }
+}

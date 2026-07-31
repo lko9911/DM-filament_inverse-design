@@ -1,10 +1,10 @@
 {
-  "source_assignment_count": 8,
-  "expanded_event_count": 466,
-  "layer_region_occurrence_assignment_count": 466,
+  "source_assignment_count": 14,
+  "expanded_event_count": 13,
+  "layer_region_occurrence_assignment_count": 13,
   "z_axis_region_assignment_count": 0,
   "skipped_event_count": 0,
-  "total_region_deposition_e_mm": 514.8823000000001,
-  "layer_count": 466,
-  "region_count": 7
+  "total_region_deposition_e_mm": 83.38637000000023,
+  "layer_count": 1,
+  "region_count": 13
 }

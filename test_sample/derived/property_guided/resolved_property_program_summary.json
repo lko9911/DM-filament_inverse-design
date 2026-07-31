@@ -4,6 +4,6 @@
   "guided_assignment_count": 0,
   "resolved_assignments": [],
   "skip_reason": "No property-guided assignments; the source workbook is not required.",
-  "source_property_program": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\input\\config\\Property_height_50mm_0.4n_0.15mm_PLA_XLIS_15m.json",
+  "source_property_program": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\input\\config\\Property_Checkboard_3mm.json",
   "resolved_property_program": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\test_sample\\derived\\property_guided\\resolved_property_program.json"
 }

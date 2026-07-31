@@ -1,0 +1,2453 @@
+{
+  "source_gcode": "C:\\Users\\lko99\\Desktop\\z axis test_prusa XL_ver2\\50mm\\height_50mm_0.4n_0.15mm_PLA_XLIS_28m_FeedStart_10_end_130_mod_PrusaXL.gcode",
+  "voxel_threshold_e": 2.0,
+  "total_filament_e_mm": 977.737,
+  "voxel_count": 489,
+  "voxels": [
+    {
+      "voxel_id": 1,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 2,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 3,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 4,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 5,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 6,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 7,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 8,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 9,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 10,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 11,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 12,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 13,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 14,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 15,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 16,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 17,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 18,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 19,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 20,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 21,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 22,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 23,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 24,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 25,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 26,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 1
+    },
+    {
+      "voxel_id": 27,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 28,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 29,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 30,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 31,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 32,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 33,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 34,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 35,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 36,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 37,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 38,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 39,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 40,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 41,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 42,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 43,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 44,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 45,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 46,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 47,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 48,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 49,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 50,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 51,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 52,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 2
+    },
+    {
+      "voxel_id": 53,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 54,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 55,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 56,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 57,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 58,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 59,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 60,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 61,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 62,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 63,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 64,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 65,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 66,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 67,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 68,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 69,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 70,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 71,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 72,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 73,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 74,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 75,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 76,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 77,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 78,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 3
+    },
+    {
+      "voxel_id": 79,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 80,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 81,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 82,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 83,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 84,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 85,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 86,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 87,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 88,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 89,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 90,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 91,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 92,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 93,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 94,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 95,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 96,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 97,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 98,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 99,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 100,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 101,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 102,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 103,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 4
+    },
+    {
+      "voxel_id": 104,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 105,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 106,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 107,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 108,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 109,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 110,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 111,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 112,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 113,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 114,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 115,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 116,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 117,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 118,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 119,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 120,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 121,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 122,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 123,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 124,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 125,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 126,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 127,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 128,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 129,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 5
+    },
+    {
+      "voxel_id": 130,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 131,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 132,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 133,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 134,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 135,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 136,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 137,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 138,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 139,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 140,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 141,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 142,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 143,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 144,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 145,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 146,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 147,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 148,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 149,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 150,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 151,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 152,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 153,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 154,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 155,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 6
+    },
+    {
+      "voxel_id": 156,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 157,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 158,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 159,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 160,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 161,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 162,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 163,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 164,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 165,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 166,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 167,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 168,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 169,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 170,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 171,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 172,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 173,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 174,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 175,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 176,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 177,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 178,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 179,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 180,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 181,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 7
+    },
+    {
+      "voxel_id": 182,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 183,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 184,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 185,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 186,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 187,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 188,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 189,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 190,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 191,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 192,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 193,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 194,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 195,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 196,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 197,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 198,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 199,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 200,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 201,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 202,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 203,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 204,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 205,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 206,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 8
+    },
+    {
+      "voxel_id": 207,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 208,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 209,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 210,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 211,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 212,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 213,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 214,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 215,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 216,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 217,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 218,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 219,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 220,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 221,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 222,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 223,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 224,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 225,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 226,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 227,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 228,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 229,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 230,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 231,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 232,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 9
+    },
+    {
+      "voxel_id": 233,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 234,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 235,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 236,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 237,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 238,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 239,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 240,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 241,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 242,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 243,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 244,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 245,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 246,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 247,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 248,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 249,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 250,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 251,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 252,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 253,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 254,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 255,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 256,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 257,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 258,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 10
+    },
+    {
+      "voxel_id": 259,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 260,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 261,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 262,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 263,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 264,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 265,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 266,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 267,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 268,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 269,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 270,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 271,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 272,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 273,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 274,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 275,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 276,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 277,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 278,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 279,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 280,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 281,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 282,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 283,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 284,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 11
+    },
+    {
+      "voxel_id": 285,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 286,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 287,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 288,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 289,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 290,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 291,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 292,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 293,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 294,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 295,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 296,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 297,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 298,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 299,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 300,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 301,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 302,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 303,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 304,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 305,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 306,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 307,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 308,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 309,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 12
+    },
+    {
+      "voxel_id": 310,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 311,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 312,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 313,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 314,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 315,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 316,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 317,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 318,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 319,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 320,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 321,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 322,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 323,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 324,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 325,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 326,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 327,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 328,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 329,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 330,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 331,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 332,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 333,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 334,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 335,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 13
+    },
+    {
+      "voxel_id": 336,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 337,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 338,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 339,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 340,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 341,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 342,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 343,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 344,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 345,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 346,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 347,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 348,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 349,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 350,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 351,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 352,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 353,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 354,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 355,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 356,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 357,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 358,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 359,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 360,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 361,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 14
+    },
+    {
+      "voxel_id": 362,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 363,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 364,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 365,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 366,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 367,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 368,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 369,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 370,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 371,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 372,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 373,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 374,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 375,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 376,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 377,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 378,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 379,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 380,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 381,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 382,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 383,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 384,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 385,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 386,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 387,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 15
+    },
+    {
+      "voxel_id": 388,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 389,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 390,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 391,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 392,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 393,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 394,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 395,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 396,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 397,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 398,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 399,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 400,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 401,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 402,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 403,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 404,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 405,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 406,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 407,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 408,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 409,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 410,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 411,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 412,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 16
+    },
+    {
+      "voxel_id": 413,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 414,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 415,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 416,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 417,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 418,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 419,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 420,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 421,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 422,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 423,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 424,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 425,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 426,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 427,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 428,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 429,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 430,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 431,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 432,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 433,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 434,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 435,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 436,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 437,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 438,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 17
+    },
+    {
+      "voxel_id": 439,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 440,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 441,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 442,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 443,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 444,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 445,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 446,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 447,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 448,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 449,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 450,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 451,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 452,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 453,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 454,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 455,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 456,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 457,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 458,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 459,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 460,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 461,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 462,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 463,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 464,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 18
+    },
+    {
+      "voxel_id": 465,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 466,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 467,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 468,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 469,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 470,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 471,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 472,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 473,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 474,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 475,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 476,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 477,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 478,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 479,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 480,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 481,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 482,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 483,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 484,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 485,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 486,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 487,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 488,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    },
+    {
+      "voxel_id": 489,
+      "voxel_filament_e_mm": 1.999462,
+      "layer_num": 19
+    }
+  ]
+}

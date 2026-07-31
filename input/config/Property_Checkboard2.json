@@ -1,0 +1,1288 @@
+{
+  "voxel_threshold_e": 2.0,
+  "voxel_count": 54,
+  "preheat_prime_e": 0.0,
+  "assignments": [
+    {
+      "assignment_index": 1,
+      "source_component_index": 1,
+      "source_component_name": "Custom",
+      "start_voxel_index": 1,
+      "end_voxel_index": 20,
+      "start_layer": 1,
+      "end_layer": 1,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "BLACK",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "BLACK": 100.0
+      },
+      "final_material_ratios": {
+        "BLACK": 100.0
+      },
+      "requested_color": "BLACK",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "BLACK",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "BLACK",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#111111",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 2,
+      "source_component_index": 13,
+      "source_component_name": "B",
+      "start_voxel_index": 21,
+      "end_voxel_index": 24,
+      "start_layer": 2,
+      "end_layer": 2,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "BLACK",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "BLACK": 100.0
+      },
+      "final_material_ratios": {
+        "BLACK": 100.0
+      },
+      "requested_color": "BLACK",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "BLACK",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "BLACK",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#111111",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 3,
+      "source_component_index": 11,
+      "source_component_name": "Black5",
+      "start_voxel_index": 25,
+      "end_voxel_index": 25,
+      "start_layer": 3,
+      "end_layer": 3,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "BLACK",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "BLACK": 100.0
+      },
+      "final_material_ratios": {
+        "BLACK": 100.0
+      },
+      "requested_color": "BLACK",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "BLACK",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "BLACK",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#111111",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 4,
+      "source_component_index": 4,
+      "source_component_name": "Black4",
+      "start_voxel_index": 26,
+      "end_voxel_index": 26,
+      "start_layer": 4,
+      "end_layer": 4,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "BLACK",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "BLACK": 100.0
+      },
+      "final_material_ratios": {
+        "BLACK": 100.0
+      },
+      "requested_color": "BLACK",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "BLACK",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "BLACK",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#111111",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 5,
+      "source_component_index": 6,
+      "source_component_name": "Black3",
+      "start_voxel_index": 27,
+      "end_voxel_index": 27,
+      "start_layer": 5,
+      "end_layer": 5,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "BLACK",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "BLACK": 100.0
+      },
+      "final_material_ratios": {
+        "BLACK": 100.0
+      },
+      "requested_color": "BLACK",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "BLACK",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "BLACK",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#111111",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 6,
+      "source_component_index": 8,
+      "source_component_name": "Black1",
+      "start_voxel_index": 28,
+      "end_voxel_index": 28,
+      "start_layer": 6,
+      "end_layer": 6,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "BLACK",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "BLACK": 100.0
+      },
+      "final_material_ratios": {
+        "BLACK": 100.0
+      },
+      "requested_color": "BLACK",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "BLACK",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "BLACK",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#111111",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 7,
+      "source_component_index": 9,
+      "source_component_name": "Black2",
+      "start_voxel_index": 29,
+      "end_voxel_index": 29,
+      "start_layer": 7,
+      "end_layer": 7,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "BLACK",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "BLACK": 100.0
+      },
+      "final_material_ratios": {
+        "BLACK": 100.0
+      },
+      "requested_color": "BLACK",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "BLACK",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "BLACK",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#111111",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 8,
+      "source_component_index": 12,
+      "source_component_name": "G",
+      "start_voxel_index": 30,
+      "end_voxel_index": 33,
+      "start_layer": 8,
+      "end_layer": 8,
+      "Property_type": "Gradient",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "manual",
+      "assignment_mode": "manual",
+      "Property_start": 7,
+      "Property_end": 10
+    },
+    {
+      "assignment_index": 9,
+      "source_component_index": 2,
+      "source_component_name": "W",
+      "start_voxel_index": 34,
+      "end_voxel_index": 50,
+      "start_layer": 9,
+      "end_layer": 9,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "WHITE",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "WHITE": 100.0
+      },
+      "final_material_ratios": {
+        "WHITE": 100.0
+      },
+      "requested_color": "WHITE",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "WHITE",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "WHITE",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f2f2f2",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 10,
+      "source_component_index": 3,
+      "source_component_name": "White2",
+      "start_voxel_index": 51,
+      "end_voxel_index": 51,
+      "start_layer": 10,
+      "end_layer": 10,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "WHITE",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "WHITE": 100.0
+      },
+      "final_material_ratios": {
+        "WHITE": 100.0
+      },
+      "requested_color": "WHITE",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "WHITE",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "WHITE",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f2f2f2",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 11,
+      "source_component_index": 5,
+      "source_component_name": "White4",
+      "start_voxel_index": 52,
+      "end_voxel_index": 52,
+      "start_layer": 11,
+      "end_layer": 11,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "WHITE",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "WHITE": 100.0
+      },
+      "final_material_ratios": {
+        "WHITE": 100.0
+      },
+      "requested_color": "WHITE",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "WHITE",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "WHITE",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f2f2f2",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 12,
+      "source_component_index": 7,
+      "source_component_name": "White1",
+      "start_voxel_index": 53,
+      "end_voxel_index": 53,
+      "start_layer": 12,
+      "end_layer": 12,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "WHITE",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "WHITE": 100.0
+      },
+      "final_material_ratios": {
+        "WHITE": 100.0
+      },
+      "requested_color": "WHITE",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "WHITE",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "WHITE",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f2f2f2",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 13,
+      "source_component_index": 10,
+      "source_component_name": "White3",
+      "start_voxel_index": 54,
+      "end_voxel_index": 54,
+      "start_layer": 13,
+      "end_layer": 13,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "WHITE",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "WHITE": 100.0
+      },
+      "final_material_ratios": {
+        "WHITE": 100.0
+      },
+      "requested_color": "WHITE",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "WHITE",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "WHITE",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f2f2f2",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    }
+  ],
+  "region_recognition_mode": "z-axis",
+  "brighter_mode": false,
+  "disabled_source_component_indices": [],
+  "source_gcode": "C:\\Users\\lko99\\Desktop\\Checkboard2.gcode",
+  "reordered_full_gcode": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_Checkboard2\\input\\Property_Checkboard2_ordered.gcode",
+  "before_order_gcode": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_Checkboard2\\input\\Property_Checkboard2_before_order.gcode",
+  "after_order_gcode": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_Checkboard2\\input\\Property_Checkboard2_after_order.gcode",
+  "reordered_full_gcode_strategy": "reorder_mesh_occurrences_within_each_layer_keep_xyz",
+  "before_component_lengths": [
+    {
+      "assignment_index": 1,
+      "source_component_index": 1,
+      "source_component_name": "Custom",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 39.0,
+      "component_voxel_count": 20
+    },
+    {
+      "assignment_index": 2,
+      "source_component_index": 2,
+      "source_component_name": "W",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 32.18104000000002,
+      "component_voxel_count": 17
+    },
+    {
+      "assignment_index": 3,
+      "source_component_index": 3,
+      "source_component_name": "White2",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 4,
+      "source_component_index": 4,
+      "source_component_name": "Black4",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 5,
+      "source_component_index": 5,
+      "source_component_name": "White4",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 6,
+      "source_component_index": 6,
+      "source_component_name": "Black3",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 7,
+      "source_component_index": 7,
+      "source_component_name": "White1",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 8,
+      "source_component_index": 8,
+      "source_component_name": "Black1",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 9,
+      "source_component_index": 9,
+      "source_component_name": "Black2",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 10,
+      "source_component_index": 10,
+      "source_component_name": "White3",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 11,
+      "source_component_index": 11,
+      "source_component_name": "Black5",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 12,
+      "source_component_index": 12,
+      "source_component_name": "G",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 6.214590000000008,
+      "component_voxel_count": 4
+    },
+    {
+      "assignment_index": 13,
+      "source_component_index": 13,
+      "source_component_name": "B",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 6.214590000000008,
+      "component_voxel_count": 4
+    }
+  ],
+  "ordered_component_lengths": [
+    {
+      "assignment_index": 1,
+      "source_component_index": 1,
+      "source_component_name": "Custom",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 39.0,
+      "component_voxel_count": 20,
+      "mapped_step_lengths_e_mm": [
+        39.0
+      ]
+    },
+    {
+      "assignment_index": 2,
+      "source_component_index": 13,
+      "source_component_name": "B",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 6.214590000000008,
+      "component_voxel_count": 4,
+      "mapped_step_lengths_e_mm": [
+        6.214590000000008
+      ]
+    },
+    {
+      "assignment_index": 3,
+      "source_component_index": 11,
+      "source_component_name": "Black5",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    },
+    {
+      "assignment_index": 4,
+      "source_component_index": 4,
+      "source_component_name": "Black4",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    },
+    {
+      "assignment_index": 5,
+      "source_component_index": 6,
+      "source_component_name": "Black3",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    },
+    {
+      "assignment_index": 6,
+      "source_component_index": 8,
+      "source_component_name": "Black1",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    },
+    {
+      "assignment_index": 7,
+      "source_component_index": 9,
+      "source_component_name": "Black2",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    },
+    {
+      "assignment_index": 8,
+      "source_component_index": 12,
+      "source_component_name": "G",
+      "property_type": "Gradient",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 6.214590000000008,
+      "component_voxel_count": 4,
+      "mapped_step_lengths_e_mm": [
+        6.214590000000008
+      ]
+    },
+    {
+      "assignment_index": 9,
+      "source_component_index": 2,
+      "source_component_name": "W",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 32.18104000000002,
+      "component_voxel_count": 17,
+      "mapped_step_lengths_e_mm": [
+        32.18104000000002
+      ]
+    },
+    {
+      "assignment_index": 10,
+      "source_component_index": 3,
+      "source_component_name": "White2",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    },
+    {
+      "assignment_index": 11,
+      "source_component_index": 5,
+      "source_component_name": "White4",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    },
+    {
+      "assignment_index": 12,
+      "source_component_index": 7,
+      "source_component_name": "White1",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    },
+    {
+      "assignment_index": 13,
+      "source_component_index": 10,
+      "source_component_name": "White3",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.7327899999999872,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.7327899999999872
+      ]
+    }
+  ],
+  "mapped_after_step_lengths_e_mm": [
+    39.0,
+    6.214590000000008,
+    0.7327899999999872,
+    0.7327899999999872,
+    0.7327899999999872,
+    0.7327899999999872,
+    0.7327899999999872,
+    6.214590000000008,
+    32.18104000000002,
+    0.7327899999999872,
+    0.7327899999999872,
+    0.7327899999999872,
+    0.7327899999999872
+  ],
+  "resolution_mode": "layer_region_occurrence",
+  "layer_region_analysis_path": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_Checkboard2\\input\\Property_Checkboard2_layer_region_analysis.json",
+  "layer_region_execution_plan_path": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_Checkboard2\\input\\Property_Checkboard2_layer_region_execution_plan.json",
+  "layer_region_execution_plan": {
+    "schema": "b_fdm.layer_region_execution_plan.v1",
+    "resolution_mode": "layer_region_occurrence",
+    "source_gcode": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_Checkboard2\\input\\Property_Checkboard2_ordered.gcode",
+    "event_count": 12,
+    "mapped_deposition_e_mm": 51.20533000000003,
+    "skipped_region_deposition_e_mm": {},
+    "non_region_deposition_e_mm": 39.0,
+    "events": [
+      {
+        "sequence_index": 1,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "B",
+        "occurrence_index": 1,
+        "source_line_start": 1885,
+        "source_line_end": 1967,
+        "extrusion_e_mm": 6.214590000000003,
+        "segment_count": 45,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          157.45,
+          165.55,
+          169.45,
+          177.55
+        ],
+        "source_component_index": 13,
+        "execution_step_index": 1
+      },
+      {
+        "sequence_index": 2,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Black5",
+        "occurrence_index": 1,
+        "source_line_start": 1986,
+        "source_line_end": 2013,
+        "extrusion_e_mm": 0.7327899999999978,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          174.25,
+          176.75,
+          182.25,
+          184.75
+        ],
+        "source_component_index": 11,
+        "execution_step_index": 2
+      },
+      {
+        "sequence_index": 3,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Black4",
+        "occurrence_index": 1,
+        "source_line_start": 2032,
+        "source_line_end": 2060,
+        "extrusion_e_mm": 0.7327899999999978,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          168.25,
+          170.75,
+          182.25,
+          184.75
+        ],
+        "source_component_index": 4,
+        "execution_step_index": 3
+      },
+      {
+        "sequence_index": 4,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Black3",
+        "occurrence_index": 1,
+        "source_line_start": 2079,
+        "source_line_end": 2106,
+        "extrusion_e_mm": 0.7327899999999996,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          171.25,
+          173.75,
+          185.25,
+          187.75
+        ],
+        "source_component_index": 6,
+        "execution_step_index": 4
+      },
+      {
+        "sequence_index": 5,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Black1",
+        "occurrence_index": 1,
+        "source_line_start": 2125,
+        "source_line_end": 2153,
+        "extrusion_e_mm": 0.7327900000000014,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          168.25,
+          170.75,
+          188.25,
+          190.75
+        ],
+        "source_component_index": 8,
+        "execution_step_index": 5
+      },
+      {
+        "sequence_index": 6,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Black2",
+        "occurrence_index": 1,
+        "source_line_start": 2172,
+        "source_line_end": 2199,
+        "extrusion_e_mm": 0.7327900000000014,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          174.25,
+          176.75,
+          188.25,
+          190.75
+        ],
+        "source_component_index": 9,
+        "execution_step_index": 6
+      },
+      {
+        "sequence_index": 7,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "G",
+        "occurrence_index": 1,
+        "source_line_start": 2218,
+        "source_line_end": 2300,
+        "extrusion_e_mm": 6.214590000000005,
+        "segment_count": 45,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          168.45,
+          176.55,
+          169.45,
+          177.55
+        ],
+        "source_component_index": 12,
+        "execution_step_index": 7
+      },
+      {
+        "sequence_index": 8,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "W",
+        "occurrence_index": 1,
+        "source_line_start": 2313,
+        "source_line_end": 2503,
+        "extrusion_e_mm": 32.181040000000074,
+        "segment_count": 113,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          183.45,
+          202.55,
+          169.45,
+          188.55
+        ],
+        "source_component_index": 2,
+        "execution_step_index": 8
+      },
+      {
+        "sequence_index": 9,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "White2",
+        "occurrence_index": 1,
+        "source_line_start": 2520,
+        "source_line_end": 2547,
+        "extrusion_e_mm": 0.7327899999999872,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          168.25,
+          170.75,
+          185.25,
+          187.75
+        ],
+        "source_component_index": 3,
+        "execution_step_index": 9
+      },
+      {
+        "sequence_index": 10,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "White4",
+        "occurrence_index": 1,
+        "source_line_start": 2565,
+        "source_line_end": 2593,
+        "extrusion_e_mm": 0.7327899999999872,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          171.25,
+          173.75,
+          182.25,
+          184.75
+        ],
+        "source_component_index": 5,
+        "execution_step_index": 10
+      },
+      {
+        "sequence_index": 11,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "White1",
+        "occurrence_index": 1,
+        "source_line_start": 2612,
+        "source_line_end": 2639,
+        "extrusion_e_mm": 0.7327899999999872,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          171.25,
+          173.75,
+          188.25,
+          190.75
+        ],
+        "source_component_index": 7,
+        "execution_step_index": 11
+      },
+      {
+        "sequence_index": 12,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "White3",
+        "occurrence_index": 1,
+        "source_line_start": 2658,
+        "source_line_end": 2685,
+        "extrusion_e_mm": 0.7327899999999872,
+        "segment_count": 12,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          174.25,
+          176.75,
+          185.25,
+          187.75
+        ],
+        "source_component_index": 10,
+        "execution_step_index": 12
+      }
+    ]
+  },
+  "layer_region_mapped_step_lengths_e_mm": [
+    6.214590000000003,
+    0.7327899999999978,
+    0.7327899999999978,
+    0.7327899999999996,
+    0.7327900000000014,
+    0.7327900000000014,
+    6.214590000000005,
+    32.181040000000074,
+    0.7327899999999872,
+    0.7327899999999872,
+    0.7327899999999872,
+    0.7327899999999872
+  ],
+  "layer_region_summary": {
+    "layer_count": 1,
+    "region_count": 12,
+    "occurrence_count": 12,
+    "execution_event_count": 12,
+    "total_deposition_e_mm": 90.20533000000007,
+    "region_deposition_e_mm": 51.205330000000025,
+    "non_region_deposition_e_mm": 39.0,
+    "warnings": [
+      "Some deposition is outside labeled regions. Prime, skirt, support, wipe, or unlabeled model extrusion must be handled as synchronization consumption."
+    ]
+  }
+}

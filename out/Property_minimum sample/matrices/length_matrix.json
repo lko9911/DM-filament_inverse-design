@@ -1,0 +1,334 @@
+{
+  "sample_info_path": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\input\\config\\sample_info_minimum sample.json",
+  "property_program_path": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\input\\config\\Property_minimum sample.json",
+  "property_type": "Gradient",
+  "assignment_count": 8,
+  "base_step_count": 19,
+  "total_step_count": 19,
+  "total_filament_e_mm": 1966.11696,
+  "length_matrix_sum_e_mm": 1966.1169599999985,
+  "length_matrix_remainder_e_mm": 1.5916157281026244e-12,
+  "length_matrix": [
+    39.0,
+    206.6994999999999,
+    101.42261400000004,
+    101.42261400000004,
+    101.42261400000004,
+    101.42261400000004,
+    101.42261400000004,
+    34.450310000000044,
+    78.26500399999983,
+    78.26500399999983,
+    78.26500399999983,
+    78.26500399999983,
+    78.26500399999983,
+    157.55412999999984,
+    118.16567499999988,
+    118.16567499999988,
+    118.16567499999988,
+    118.16567499999988,
+    157.3122299999999
+  ],
+  "length_matrix_summary": {
+    "format": "1 x total_step_count",
+    "base_step_count": 19,
+    "total_step_count": 19,
+    "total_filament_e_mm": 1966.11696,
+    "length_matrix_sum_e_mm": 1966.1169599999985,
+    "length_matrix_remainder_e_mm": 1.5916157281026244e-12,
+    "remainder_note": "Remainder is reported only. It is not appended as an extra step because the result matrix must stay aligned with Property_sample gradient steps."
+  },
+  "assignments": [
+    {
+      "assignment_index": 1,
+      "start_voxel_index": 1,
+      "end_voxel_index": 20,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "component",
+      "assignment_total_filament_e_mm": 39.0,
+      "step_values": [
+        39.0
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "start_voxel_index": 1,
+          "end_voxel_index": 20,
+          "layer_start": 1,
+          "layer_end": 1,
+          "step_filament_e_mm": 39.0
+        }
+      ],
+      "step_sum_filament_e_mm": 39.0
+    },
+    {
+      "assignment_index": 2,
+      "start_voxel_index": 21,
+      "end_voxel_index": 124,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "component",
+      "assignment_total_filament_e_mm": 206.6994999999999,
+      "step_values": [
+        206.6994999999999
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "start_voxel_index": 21,
+          "end_voxel_index": 124,
+          "layer_start": 2,
+          "layer_end": 2,
+          "step_filament_e_mm": 206.6994999999999
+        }
+      ],
+      "step_sum_filament_e_mm": 206.6994999999999
+    },
+    {
+      "assignment_index": 3,
+      "start_voxel_index": 125,
+      "end_voxel_index": 378,
+      "raw_gradient_steps": 5,
+      "gradient_steps": 5,
+      "gradient_direction": "printing",
+      "resolution_mode": "component",
+      "assignment_total_filament_e_mm": 507.1130700000002,
+      "step_values": [
+        101.42261400000004,
+        101.42261400000004,
+        101.42261400000004,
+        101.42261400000004,
+        101.42261400000004
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "start_voxel_index": 125,
+          "end_voxel_index": 174,
+          "layer_start": 3,
+          "layer_end": 3,
+          "step_filament_e_mm": 101.42261400000004
+        },
+        {
+          "step_index": 2,
+          "start_voxel_index": 175,
+          "end_voxel_index": 225,
+          "layer_start": 3,
+          "layer_end": 4,
+          "step_filament_e_mm": 101.42261400000004
+        },
+        {
+          "step_index": 3,
+          "start_voxel_index": 226,
+          "end_voxel_index": 276,
+          "layer_start": 4,
+          "layer_end": 5,
+          "step_filament_e_mm": 101.42261400000004
+        },
+        {
+          "step_index": 4,
+          "start_voxel_index": 277,
+          "end_voxel_index": 327,
+          "layer_start": 5,
+          "layer_end": 6,
+          "step_filament_e_mm": 101.42261400000004
+        },
+        {
+          "step_index": 5,
+          "start_voxel_index": 328,
+          "end_voxel_index": 378,
+          "layer_start": 6,
+          "layer_end": 6,
+          "step_filament_e_mm": 101.42261400000004
+        }
+      ],
+      "step_sum_filament_e_mm": 507.1130700000002
+    },
+    {
+      "assignment_index": 4,
+      "start_voxel_index": 379,
+      "end_voxel_index": 396,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "component",
+      "assignment_total_filament_e_mm": 34.450310000000044,
+      "step_values": [
+        34.450310000000044
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "start_voxel_index": 379,
+          "end_voxel_index": 396,
+          "layer_start": 7,
+          "layer_end": 7,
+          "step_filament_e_mm": 34.450310000000044
+        }
+      ],
+      "step_sum_filament_e_mm": 34.450310000000044
+    },
+    {
+      "assignment_index": 5,
+      "start_voxel_index": 397,
+      "end_voxel_index": 592,
+      "raw_gradient_steps": 5,
+      "gradient_steps": 5,
+      "gradient_direction": "printing",
+      "resolution_mode": "component",
+      "assignment_total_filament_e_mm": 391.3250199999992,
+      "step_values": [
+        78.26500399999983,
+        78.26500399999983,
+        78.26500399999983,
+        78.26500399999983,
+        78.26500399999983
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "start_voxel_index": 397,
+          "end_voxel_index": 435,
+          "layer_start": 8,
+          "layer_end": 8,
+          "step_filament_e_mm": 78.26500399999983
+        },
+        {
+          "step_index": 2,
+          "start_voxel_index": 436,
+          "end_voxel_index": 474,
+          "layer_start": 8,
+          "layer_end": 9,
+          "step_filament_e_mm": 78.26500399999983
+        },
+        {
+          "step_index": 3,
+          "start_voxel_index": 475,
+          "end_voxel_index": 513,
+          "layer_start": 9,
+          "layer_end": 10,
+          "step_filament_e_mm": 78.26500399999983
+        },
+        {
+          "step_index": 4,
+          "start_voxel_index": 514,
+          "end_voxel_index": 552,
+          "layer_start": 10,
+          "layer_end": 11,
+          "step_filament_e_mm": 78.26500399999983
+        },
+        {
+          "step_index": 5,
+          "start_voxel_index": 553,
+          "end_voxel_index": 592,
+          "layer_start": 11,
+          "layer_end": 11,
+          "step_filament_e_mm": 78.26500399999983
+        }
+      ],
+      "step_sum_filament_e_mm": 391.3250199999992
+    },
+    {
+      "assignment_index": 6,
+      "start_voxel_index": 593,
+      "end_voxel_index": 671,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "component",
+      "assignment_total_filament_e_mm": 157.55412999999984,
+      "step_values": [
+        157.55412999999984
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "start_voxel_index": 593,
+          "end_voxel_index": 671,
+          "layer_start": 12,
+          "layer_end": 12,
+          "step_filament_e_mm": 157.55412999999984
+        }
+      ],
+      "step_sum_filament_e_mm": 157.55412999999984
+    },
+    {
+      "assignment_index": 7,
+      "start_voxel_index": 672,
+      "end_voxel_index": 908,
+      "raw_gradient_steps": 4,
+      "gradient_steps": 4,
+      "gradient_direction": "printing",
+      "resolution_mode": "component",
+      "assignment_total_filament_e_mm": 472.6626999999995,
+      "step_values": [
+        118.16567499999988,
+        118.16567499999988,
+        118.16567499999988,
+        118.16567499999988
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "start_voxel_index": 672,
+          "end_voxel_index": 730,
+          "layer_start": 13,
+          "layer_end": 13,
+          "step_filament_e_mm": 118.16567499999988
+        },
+        {
+          "step_index": 2,
+          "start_voxel_index": 731,
+          "end_voxel_index": 789,
+          "layer_start": 13,
+          "layer_end": 14,
+          "step_filament_e_mm": 118.16567499999988
+        },
+        {
+          "step_index": 3,
+          "start_voxel_index": 790,
+          "end_voxel_index": 848,
+          "layer_start": 14,
+          "layer_end": 15,
+          "step_filament_e_mm": 118.16567499999988
+        },
+        {
+          "step_index": 4,
+          "start_voxel_index": 849,
+          "end_voxel_index": 908,
+          "layer_start": 15,
+          "layer_end": 15,
+          "step_filament_e_mm": 118.16567499999988
+        }
+      ],
+      "step_sum_filament_e_mm": 472.6626999999995
+    },
+    {
+      "assignment_index": 8,
+      "start_voxel_index": 909,
+      "end_voxel_index": 987,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "component",
+      "assignment_total_filament_e_mm": 157.3122299999999,
+      "step_values": [
+        157.3122299999999
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "start_voxel_index": 909,
+          "end_voxel_index": 987,
+          "layer_start": 16,
+          "layer_end": 16,
+          "step_filament_e_mm": 157.3122299999999
+        }
+      ],
+      "step_sum_filament_e_mm": 157.3122299999999
+    }
+  ]
+}

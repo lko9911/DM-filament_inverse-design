@@ -89,20 +89,26 @@ def component_color_percentages(component: "ComponentModel") -> dict[str, float]
     return percentages
 
 
-def component_color_order_key(component: "ComponentModel") -> tuple[int, int, int, int]:
+def component_copy_order_rank(component: "ComponentModel") -> int:
+    name = component_display_name(component).upper()
+    return 0 if re.search(r"\(\s*1\s*\)", name) else 1
+
+
+def component_color_order_key(component: "ComponentModel") -> tuple[int, int, int, int, int]:
     name = component_display_name(component).upper()
     percentages = component_color_percentages(component)
+    copy_rank = component_copy_order_rank(component)
 
     if "CUSTOM" in name:
-        return (COLOR_LABEL_SEQUENCE_RANK[("custom", None)], 0, 0, component.index)
+        return (COLOR_LABEL_SEQUENCE_RANK[("custom", None)], 0, 0, copy_rank, component.index)
     if "PURPLE" in name or "PUPLE" in name:
-        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "PURPLE")], 0, 0, component.index)
+        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "PURPLE")], 0, 0, copy_rank, component.index)
     if "MAGENTA" in name or name.strip() in {"M", "M100"}:
-        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "MAGENTA")], 0, 0, component.index)
+        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "MAGENTA")], 0, 0, copy_rank, component.index)
     if "YELLOW" in name or name.strip() in {"Y", "Y100"}:
-        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "YELLOW")], 0, 0, component.index)
+        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "YELLOW")], 0, 0, copy_rank, component.index)
     if "CYAN" in name or name.strip() in {"C", "C100"}:
-        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "CYAN")], 0, 0, component.index)
+        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "CYAN")], 0, 0, copy_rank, component.index)
 
     if {"MAGENTA", "YELLOW"}.issubset(percentages):
         rank = COLOR_LABEL_SEQUENCE_RANK[("mix", ("MAGENTA", "YELLOW"))]
@@ -110,6 +116,7 @@ def component_color_order_key(component: "ComponentModel") -> tuple[int, int, in
             rank,
             -int(round(percentages["MAGENTA"] * 1000.0)),
             int(round(percentages["YELLOW"] * 1000.0)),
+            copy_rank,
             component.index,
         )
     if {"YELLOW", "CYAN"}.issubset(percentages):
@@ -118,6 +125,7 @@ def component_color_order_key(component: "ComponentModel") -> tuple[int, int, in
             rank,
             -int(round(percentages["YELLOW"] * 1000.0)),
             int(round(percentages["CYAN"] * 1000.0)),
+            copy_rank,
             component.index,
         )
     if {"CYAN", "MAGENTA"}.issubset(percentages):
@@ -126,10 +134,11 @@ def component_color_order_key(component: "ComponentModel") -> tuple[int, int, in
             rank,
             -int(round(percentages["CYAN"] * 1000.0)),
             int(round(percentages["MAGENTA"] * 1000.0)),
+            copy_rank,
             component.index,
         )
 
-    return (len(COLOR_LABEL_SEQUENCE), 0, 0, component.index)
+    return (len(COLOR_LABEL_SEQUENCE), 0, 0, copy_rank, component.index)
 
 
 def apply_color_label_default_order(

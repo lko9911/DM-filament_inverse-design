@@ -485,7 +485,7 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
         }
         components_by_index = {component.index: component for component in self.components}
         restored_count = 0
-        for output_order, assignment in enumerate(payload.get("assignments", []), start=1):
+        for assignment in payload.get("assignments", []):
             component = components_by_name.get(str(assignment.get("source_component_name", "")))
             if component is None:
                 try:
@@ -498,7 +498,7 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
 
             state = self.states[component.index]
             state["enabled"] = True
-            state["order"] = output_order
+            state["order"] = component.index
             property_type = str(assignment.get("Property_type", state.get("property_type", "Property")))
             state["property_type"] = property_type
             state["gradient_steps"] = int(assignment.get("gradient_steps", state.get("gradient_steps", 1)))

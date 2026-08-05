@@ -788,15 +788,7 @@ def parse_full_gcode_objects(path: Path) -> list[ComponentModel]:
             x, y, z, e = next_x, next_y, next_z, next_e
 
     components: list[ComponentModel] = []
-    declaration_rank = {key: rank for rank, key in enumerate(object_order)}
-    chronological_object_order = sorted(
-        object_order,
-        key=lambda key: (
-            first_extrusion_order_by_object.get(key, float("inf")),
-            declaration_rank[key],
-        ),
-    )
-    for key in chronological_object_order:
+    for key in object_order:
         segments = segments_by_object[key]
         if not segments:
             continue

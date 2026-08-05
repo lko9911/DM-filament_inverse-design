@@ -107,7 +107,7 @@ def infer_color_label_from_component_name(component: "ComponentModel") -> str | 
 
 def component_copy_order_rank(component: "ComponentModel") -> int:
     name = component_display_name(component).upper()
-    return 0 if re.search(r"\(\s*1\s*\)", name) else 1
+    return 1 if re.search(r"\(\s*1\s*\)", name) else 0
 
 
 def component_color_order_key(component: "ComponentModel") -> tuple[int, int, int, int, int]:

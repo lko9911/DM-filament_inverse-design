@@ -726,20 +726,22 @@ def detect_repeated_layer_runs(
 
     if not any(len(run) > 1 for run in runs):
         return None
+    return runs
+
+
+def repeated_layer_run_combination_count(
+    step_candidates: list[list[StepCandidate]],
+    layer_runs: list[list[list[int]]],
+) -> int:
     total_combination_count = 1
-    for run in runs:
+    for run in layer_runs:
         template_positions = run[0]
         run_combination_count = prod(
             len(step_candidates[position])
             for position in template_positions
         )
         total_combination_count *= run_combination_count
-        if (
-            run_combination_count <= 0
-            or total_combination_count > MAX_REPEATED_LAYER_TEMPLATE_COMBINATIONS
-        ):
-            return None
-    return runs
+    return total_combination_count
 
 
 def detect_repeated_layer_template(
@@ -869,6 +871,110 @@ def run_repeated_layer_runs_exact(
     }
 
 
+def run_repeated_layer_runs_ga(
+    step_candidates: list[list[StepCandidate]],
+    layer_runs: list[list[list[int]]],
+) -> tuple[list[CandidateState], dict[str, object], list[dict[str, object]]]:
+    """Search one template per repeated run with GA, then copy it to every layer."""
+    template_position_groups = [run[0] for run in layer_runs]
+    compressed_candidates = [
+        step_candidates[position]
+        for template_positions in template_position_groups
+        for position in template_positions
+    ]
+    if not compressed_candidates:
+        return [], {}, []
+
+    def expand_template_genome(compressed_genome: list[int]) -> list[int]:
+        genome = [0] * len(step_candidates)
+        genome_offset = 0
+        for run, template_positions in zip(layer_runs, template_position_groups):
+            template_choices = compressed_genome[
+                genome_offset : genome_offset + len(template_positions)
+            ]
+            genome_offset += len(template_positions)
+            for layer_positions in run:
+                for local_index, position in enumerate(layer_positions):
+                    genome[position] = int(template_choices[local_index])
+        return genome
+
+    def evaluate_template_genome(compressed_genome: list[int]) -> CandidateState:
+        genome = expand_template_genome(compressed_genome)
+        state = evaluate_genome(genome, step_candidates)
+        return CandidateState(
+            selected_case_keys=state.selected_case_keys,
+            selected_rows_per_step=state.selected_rows_per_step,
+            step_scores=state.step_scores,
+            total_score=state.total_score,
+            eta_sum=state.eta_sum,
+            material_switch_count=simulate_material_switch_count(
+                state.selected_rows_per_step
+            ),
+        )
+
+    def repeated_layer_sort_key(item: tuple[list[int], CandidateState]) -> tuple[int, int, float, list[str]]:
+        _genome, state = item
+        return (
+            int(state.material_switch_count if state.material_switch_count is not None else 10**9),
+            -int(state.total_score),
+            -float(state.eta_sum),
+            state.selected_case_keys,
+        )
+
+    rng = random.Random(GA_RANDOM_SEED)
+    population = initialize_population(compressed_candidates, rng)
+    archive: dict[tuple[int, ...], CandidateState] = {}
+    generation_history: list[GenerationInfo] = []
+
+    for generation in range(GA_GENERATIONS + 1):
+        evaluated_population = [
+            (genome, evaluate_template_genome(genome))
+            for genome in population
+        ]
+        evaluated_population.sort(key=repeated_layer_sort_key)
+
+        for genome, state in evaluated_population:
+            archive[genome_signature(genome)] = state
+
+        scores = [state.total_score for _genome, state in evaluated_population]
+        best_state = evaluated_population[0][1]
+        generation_history.append(
+            GenerationInfo(
+                generation=generation,
+                best_score=best_state.total_score,
+                best_eta_sum=best_state.eta_sum,
+                average_score=sum(scores) / len(scores),
+                unique_genome_count=len({genome_signature(genome) for genome, _state in evaluated_population}),
+            )
+        )
+
+        if generation == GA_GENERATIONS:
+            break
+
+        next_population = [list(genome) for genome, _state in evaluated_population[:GA_ELITE_COUNT]]
+        while len(next_population) < GA_POPULATION_SIZE:
+            parent_a = tournament_select(evaluated_population, rng)
+            parent_b = tournament_select(evaluated_population, rng)
+            child = crossover(parent_a, parent_b, rng)
+            next_population.append(mutate(child, compressed_candidates, rng))
+        population = next_population
+
+    evaluated = list(archive.values())
+    best_states = select_repeated_layer_best_states(evaluated)
+    return best_states[:GA_MAX_BEST_CANDIDATES], {
+        "run_count": len(layer_runs),
+        "layer_count": sum(len(run) for run in layer_runs),
+        "run_layer_counts": [len(run) for run in layer_runs],
+        "run_steps_per_layer": [len(run[0]) for run in layer_runs],
+        "template_combination_count": repeated_layer_run_combination_count(
+            step_candidates,
+            layer_runs,
+        ),
+        "expanded_step_count": len(step_candidates),
+        "template_search_algorithm": "genetic_algorithm",
+    }, generation_history
+
+
 def format_step_summary(steps: list[StepInfo]) -> list[str]:
     lines: list[str] = []
     for step in steps:
@@ -912,12 +1018,23 @@ def main() -> None:
     search_started_at = time.perf_counter()
     repeated_layer_summary: dict[str, int] | None = None
     if repeated_layer_runs is not None:
-        best_states, repeated_layer_summary = run_repeated_layer_runs_exact(
+        repeated_layer_combination_count = repeated_layer_run_combination_count(
             step_candidates,
             repeated_layer_runs,
         )
-        generation_history = []
-        search_algorithm = "repeated_layer_exact"
+        if repeated_layer_combination_count <= MAX_REPEATED_LAYER_TEMPLATE_COMBINATIONS:
+            best_states, repeated_layer_summary = run_repeated_layer_runs_exact(
+                step_candidates,
+                repeated_layer_runs,
+            )
+            generation_history = []
+            search_algorithm = "repeated_layer_exact"
+        else:
+            best_states, repeated_layer_summary, generation_history = run_repeated_layer_runs_ga(
+                step_candidates,
+                repeated_layer_runs,
+            )
+            search_algorithm = "repeated_layer_ga"
     else:
         best_states, generation_history = run_genetic_algorithm(step_candidates)
         search_algorithm = "genetic_algorithm"

@@ -179,12 +179,36 @@ def expand_layer_region_program(
         if isinstance(event, dict)
         and float(event.get("extrusion_e_mm", event.get("deposition_e_mm", 0.0))) > 0
     ]
-    usable_events.sort(
-        key=lambda event: int(
-            event.get("execution_step_index", event.get("sequence_index", event.get("sequence", 0)))
-        )
-    )
     source_map = _source_assignment_map(assignments)
+    source_order_by_component_index = {
+        source_component_index: position
+        for position, source_component_index in enumerate(source_map)
+    }
+    use_z_axis_region_recognition = _uses_z_axis_region_recognition(program)
+    if use_z_axis_region_recognition:
+        usable_events.sort(
+            key=lambda event: int(
+                event.get("execution_step_index", event.get("sequence_index", event.get("sequence", 0)))
+            )
+        )
+        layer_region_ordering = "chronological_gcode_deposition"
+    else:
+        usable_events.sort(
+            key=lambda event: (
+                int(event.get("layer_index", 0)),
+                source_order_by_component_index.get(
+                    int(event.get("source_component_index", -1)),
+                    10**9,
+                ),
+                int(
+                    event.get(
+                        "execution_step_index",
+                        event.get("sequence_index", event.get("sequence", 0)),
+                    )
+                ),
+            )
+        )
+        layer_region_ordering = "layer_then_property_assignment_order"
 
     grouped: dict[int, list[dict[str, Any]]] = defaultdict(list)
     skipped: list[dict[str, Any]] = []
@@ -210,7 +234,6 @@ def expand_layer_region_program(
     expanded_lengths: list[float] = []
     emitted_z_axis_sources: set[int] = set()
     z_axis_assignment_index_remap: dict[int, int] = {}
-    use_z_axis_region_recognition = _uses_z_axis_region_recognition(program)
     for event in usable_events:
         try:
             source_index = int(event["source_component_index"])
@@ -362,7 +385,7 @@ def expand_layer_region_program(
             )
         },
         "skipped_events": skipped,
-        "ordering": "chronological_gcode_deposition",
+        "ordering": layer_region_ordering,
         "gradient_sampling": "deposition_midpoint_or_layer_midpoint",
     }
 

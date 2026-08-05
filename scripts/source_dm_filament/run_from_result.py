@@ -142,11 +142,10 @@ def flip_matrix_by_row(matrix: list[list[int]]) -> list[list[int]]:
 
 
 def build_dm_material_matrix(material_matrix: list[list[int]]) -> list[list[int]]:
-    # Result matrix files are written in the human-readable orientation.
-    # Source_DM_filament expects the legacy mirrored orientation that was
-    # previously baked into standalone export helpers, so we mirror both axes
-    # only for the MATLAB handoff.
-    return flip_matrix_by_row(flip_matrix_by_step(material_matrix))
+    # Keep columns in assignment/length order. Ti controls the reverse
+    # fabrication order, so mirroring columns here would pair each length with
+    # the opposite assignment's material definition.
+    return flip_matrix_by_row(material_matrix)
 
 
 def build_tdef_blocks(material_matrix: list[list[int]]) -> list[list[list[int]]]:

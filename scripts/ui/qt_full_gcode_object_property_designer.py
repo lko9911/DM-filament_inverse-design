@@ -38,6 +38,7 @@ try:
         NO_MATERIAL,
         PROPERTY_TARGET_OPTIONS,
         PROPERTY_TYPE_OPTIONS,
+        apply_color_label_default_order,
         build_property_payload,
         component_voxel_count,
         default_state,
@@ -62,6 +63,7 @@ except ImportError:
         NO_MATERIAL,
         PROPERTY_TARGET_OPTIONS,
         PROPERTY_TYPE_OPTIONS,
+        apply_color_label_default_order,
         build_property_payload,
         component_voxel_count,
         default_state,
@@ -179,6 +181,7 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
         self.output_path = output_path
         self.voxel_threshold_e = voxel_threshold_e
         self.states = {component.index: default_state(component) for component in components}
+        apply_color_label_default_order(self.components, self.states)
         configured_recognition_mode = os.environ.get(
             REGION_RECOGNITION_MODE_ENV_KEY
         )
@@ -498,7 +501,6 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
 
             state = self.states[component.index]
             state["enabled"] = True
-            state["order"] = component.index
             property_type = str(assignment.get("Property_type", state.get("property_type", "Property")))
             state["property_type"] = property_type
             state["gradient_steps"] = int(assignment.get("gradient_steps", state.get("gradient_steps", 1)))
@@ -537,11 +539,7 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
                 state["brighter_mode"] = default_brighter
 
         if restored_count:
-            max_order = max(int(state["order"]) for state in self.states.values())
-            for component in self.components:
-                if int(self.states[component.index].get("order", component.index)) <= 0:
-                    max_order += 1
-                    self.states[component.index]["order"] = max_order
+            apply_color_label_default_order(self.components, self.states)
 
         disabled_indices = payload.get("disabled_source_component_indices", [])
         if isinstance(disabled_indices, list):

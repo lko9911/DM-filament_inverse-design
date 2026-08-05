@@ -39,6 +39,20 @@ PROPERTY_TYPE_OPTIONS = ["Property", "Gradient"]
 GRADIENT_DIRECTION_OPTIONS = ["printing", "layer"]
 ASSIGNMENT_MODE_OPTIONS = ["manual", "property_guided"]
 PROPERTY_TARGET_OPTIONS = ["Eb", "elongation", "R0", "GF", "color"]
+COLOR_LABEL_SEQUENCE = [
+    ("custom", None),
+    ("pure", "MAGENTA"),
+    ("mix", ("MAGENTA", "YELLOW")),
+    ("pure", "YELLOW"),
+    ("mix", ("YELLOW", "CYAN")),
+    ("pure", "CYAN"),
+    ("mix", ("CYAN", "MAGENTA")),
+    ("pure", "PURPLE"),
+]
+COLOR_LABEL_SEQUENCE_RANK = {
+    key: rank
+    for rank, key in enumerate(COLOR_LABEL_SEQUENCE)
+}
 
 
 def normalize_gradient_direction(value: object) -> str:
@@ -48,8 +62,86 @@ def normalize_gradient_direction(value: object) -> str:
     return "printing"
 
 
+def component_display_name(component: "ComponentModel") -> str:
+    return str(component.display_name or component.path.stem or component.path.name)
+
+
+def expand_color_label_token(value: str) -> str:
+    return {
+        "M": "MAGENTA",
+        "C": "CYAN",
+        "Y": "YELLOW",
+        "P": "PURPLE",
+        "W": "WHITE",
+        "B": "BLACK",
+    }.get(value.upper(), value.upper())
+
+
+def component_color_percentages(component: "ComponentModel") -> dict[str, float]:
+    percentages: dict[str, float] = {}
+    name = component_display_name(component).upper()
+    for token in re.split(r"[^A-Z0-9.]+", name):
+        match = re.fullmatch(r"([MCY])(\d+(?:\.\d+)?)", token)
+        if match is None:
+            continue
+        material = expand_color_label_token(match.group(1))
+        percentages[material] = max(percentages.get(material, 0.0), float(match.group(2)))
+    return percentages
+
+
+def component_color_order_key(component: "ComponentModel") -> tuple[int, int, int, int]:
+    name = component_display_name(component).upper()
+    percentages = component_color_percentages(component)
+
+    if "CUSTOM" in name:
+        return (COLOR_LABEL_SEQUENCE_RANK[("custom", None)], 0, 0, component.index)
+    if "PURPLE" in name or "PUPLE" in name:
+        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "PURPLE")], 0, 0, component.index)
+    if "MAGENTA" in name or name.strip() in {"M", "M100"}:
+        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "MAGENTA")], 0, 0, component.index)
+    if "YELLOW" in name or name.strip() in {"Y", "Y100"}:
+        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "YELLOW")], 0, 0, component.index)
+    if "CYAN" in name or name.strip() in {"C", "C100"}:
+        return (COLOR_LABEL_SEQUENCE_RANK[("pure", "CYAN")], 0, 0, component.index)
+
+    if {"MAGENTA", "YELLOW"}.issubset(percentages):
+        rank = COLOR_LABEL_SEQUENCE_RANK[("mix", ("MAGENTA", "YELLOW"))]
+        return (
+            rank,
+            -int(round(percentages["MAGENTA"] * 1000.0)),
+            int(round(percentages["YELLOW"] * 1000.0)),
+            component.index,
+        )
+    if {"YELLOW", "CYAN"}.issubset(percentages):
+        rank = COLOR_LABEL_SEQUENCE_RANK[("mix", ("YELLOW", "CYAN"))]
+        return (
+            rank,
+            -int(round(percentages["YELLOW"] * 1000.0)),
+            int(round(percentages["CYAN"] * 1000.0)),
+            component.index,
+        )
+    if {"CYAN", "MAGENTA"}.issubset(percentages):
+        rank = COLOR_LABEL_SEQUENCE_RANK[("mix", ("CYAN", "MAGENTA"))]
+        return (
+            rank,
+            -int(round(percentages["CYAN"] * 1000.0)),
+            int(round(percentages["MAGENTA"] * 1000.0)),
+            component.index,
+        )
+
+    return (len(COLOR_LABEL_SEQUENCE), 0, 0, component.index)
+
+
+def apply_color_label_default_order(
+    components: list["ComponentModel"],
+    states: dict[int, dict[str, object]],
+) -> None:
+    for order, component in enumerate(sorted(components, key=component_color_order_key), start=1):
+        states[component.index]["order"] = order
+
+
 def infer_material_from_component_name(component: "ComponentModel") -> str | None:
-    name = (component.display_name or component.path.stem).upper()
+    name = component_display_name(component).upper()
     tokens = [token for token in re.split(r"[^A-Z]+", name) if token]
     token_set = set(tokens)
     abbreviation_map = {
@@ -80,7 +172,7 @@ def infer_material_from_component_name(component: "ComponentModel") -> str | Non
 
 
 def infer_gradient_steps_from_component_name(component: "ComponentModel") -> int | None:
-    name = (component.display_name or component.path.stem).upper()
+    name = component_display_name(component).upper()
     match = re.search(r"\b(\d+)\s*STEP\b", name)
     if match is None:
         match = re.search(r"_(\d+)\s*STEP\b", name)

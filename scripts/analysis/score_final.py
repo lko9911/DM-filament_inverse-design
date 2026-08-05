@@ -804,6 +804,8 @@ def save_candidate_simulation_files(
     simulation_payload["candidate_score"] = score
     simulation_payload["candidate_eta_sum"] = eta_sum
     simulation_payload["candidate_selected_case_keys"] = result_item["selected_case_keys"]
+    simulation_payload["candidate_binary_matrix"] = result_item["binary_matrix"]
+    simulation_payload["candidate_material_name_matrix"] = result_item["material_name_matrix"]
 
     json_path = candidate_dir / f"{candidate_name}_simulation.json"
     txt_path = candidate_dir / f"{candidate_name}_simulation.txt"

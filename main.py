@@ -1099,6 +1099,22 @@ def build_po_from_simulation_payload(candidate_payload: dict) -> list[list[int]]
     return po_segments
 
 
+def get_result_material_name_matrix(candidate_payload: dict) -> list[list[str]]:
+    material_name_matrix = candidate_payload.get("candidate_material_name_matrix")
+    if isinstance(material_name_matrix, list) and material_name_matrix:
+        return material_name_matrix
+
+    material_name_matrix = candidate_payload.get("simulation_material_name_matrix")
+    if not isinstance(material_name_matrix, list) or not material_name_matrix:
+        raise ValueError(
+            "candidate_material_name_matrix or simulation_material_name_matrix "
+            "was not found in candidate simulation payload."
+        )
+    if bool(candidate_payload.get("step_reversed_for_simulation")):
+        return [list(reversed(row)) for row in material_name_matrix]
+    return material_name_matrix
+
+
 def save_optimal_candidate_simulation(
     summary: dict[str, object],
     matrix: list[list[int]],
@@ -1235,10 +1251,7 @@ def save_single_result_files(
     step_spatial_metadata: list[dict[str, object]],
     output_dir: Path,
 ) -> tuple[list[float], list[list[int]], list[list[int]]]:
-    material_name_matrix = candidate_payload.get("simulation_material_name_matrix")
-    if not isinstance(material_name_matrix, list) or not material_name_matrix:
-        raise ValueError("simulation_material_name_matrix was not found in candidate simulation payload.")
-
+    material_name_matrix = get_result_material_name_matrix(candidate_payload)
     matrix = convert_material_names_to_codes(material_name_matrix)
     po = build_po_from_simulation_payload(candidate_payload)
     if len(length) != len(matrix[0]):

@@ -89,6 +89,22 @@ def component_color_percentages(component: "ComponentModel") -> dict[str, float]
     return percentages
 
 
+def infer_color_label_from_component_name(component: "ComponentModel") -> str | None:
+    name = component_display_name(component).upper()
+    if "PURPLE" in name or "PUPLE" in name:
+        return "PURPLE"
+    percentages = component_color_percentages(component)
+    for first, second in (("MAGENTA", "YELLOW"), ("YELLOW", "CYAN"), ("CYAN", "MAGENTA")):
+        if first in percentages and second in percentages:
+            first_key = first[0]
+            second_key = second[0]
+            return f"{first_key}{int(round(percentages[first]))}_{second_key}{int(round(percentages[second]))}"
+    for material, key in (("MAGENTA", "M100"), ("YELLOW", "Y100"), ("CYAN", "C100")):
+        if material in name or name.strip() == key:
+            return key
+    return None
+
+
 def component_copy_order_rank(component: "ComponentModel") -> int:
     name = component_display_name(component).upper()
     return 0 if re.search(r"\(\s*1\s*\)", name) else 1
@@ -150,6 +166,10 @@ def apply_color_label_default_order(
 
 
 def infer_material_from_component_name(component: "ComponentModel") -> str | None:
+    inferred_color_label = infer_color_label_from_component_name(component)
+    if inferred_color_label:
+        return normalize_color_profile_key(inferred_color_label)
+
     name = component_display_name(component).upper()
     tokens = [token for token in re.split(r"[^A-Z]+", name) if token]
     token_set = set(tokens)
@@ -452,13 +472,17 @@ def build_property_payload(
                 start_ratio = 100.0
                 end_ratio = 0.0
             color_recipe: dict[str, object] | None = None
-            if resolve_color_properties and material_start in COLOR_OPTIONS:
-                color_recipe = resolve_color_recipe(
-                    material_start,
-                    brighter_mode=assignment_brighter_mode,
-                    target_mpa=clamp_float(state.get("property_mpa", 0.0), 0.0, 0.0, 99999.0),
-                    target_gf=clamp_float(state.get("property_gf", 0.0), 0.0, 0.0, 99999.0),
-                )
+            if resolve_color_properties and material_start not in {UNKNOWN_MATERIAL, NO_MATERIAL}:
+                try:
+                    color_recipe = resolve_color_recipe(
+                        material_start,
+                        brighter_mode=assignment_brighter_mode,
+                        target_mpa=clamp_float(state.get("property_mpa", 0.0), 0.0, 0.0, 99999.0),
+                        target_gf=clamp_float(state.get("property_gf", 0.0), 0.0, 0.0, 99999.0),
+                    )
+                except KeyError:
+                    color_recipe = None
+            if color_recipe is not None:
                 material_count = int(color_recipe["material_count"])
                 material_start = str(color_recipe["material_start"])
                 material_end_value = color_recipe.get("material_end")

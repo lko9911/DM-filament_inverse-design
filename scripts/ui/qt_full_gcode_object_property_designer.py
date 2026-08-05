@@ -326,6 +326,10 @@ class QtFullGcodeObjectDesigner(QtWidgets.QMainWindow):
 
         self.material_start_combo = QtWidgets.QComboBox()
         self.material_start_combo.addItems(COLOR_OPTIONS)
+        for state in self.states.values():
+            material_start = str(state.get("material_start", "")).strip()
+            if material_start and self.material_start_combo.findText(material_start) < 0:
+                self.material_start_combo.addItem(material_start)
         for color_index, color_key in enumerate(COLOR_OPTIONS):
             swatch = QtGui.QColor(color_profile_swatch(color_key))
             self.material_start_combo.setItemData(color_index, swatch, QtCore.Qt.DecorationRole)

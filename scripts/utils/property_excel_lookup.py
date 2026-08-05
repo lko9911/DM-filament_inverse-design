@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import math
 import os
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from zipfile import ZipFile
@@ -76,8 +77,33 @@ LEGACY_COLOR_PROFILE_ALIASES = {
 
 
 def normalize_color_profile_key(value: object) -> str:
-    key = str(value or "").strip().upper()
+    key = re.sub(r"[^A-Z0-9]+", "_", str(value or "").strip().upper()).strip("_")
     return LEGACY_COLOR_PROFILE_ALIASES.get(key, key)
+
+
+def _dynamic_ratio_profile(color_key: str) -> dict[str, object] | None:
+    parts = re.findall(r"([CMY])(\d+(?:\.\d+)?)", color_key)
+    if not parts:
+        return None
+    material_by_key = {"C": "CYAN", "M": "MAGENTA", "Y": "YELLOW"}
+    values: list[tuple[str, float]] = []
+    for material_key, ratio_text in parts:
+        values.append((material_by_key[material_key], float(ratio_text)))
+    if not values:
+        return None
+    if len(values) == 1:
+        return _profile(values[0][0], None, 48, 0, "#ffffff")
+    first, second = values[:2]
+    total = first[1] + second[1]
+    if total <= 0.0:
+        return None
+    return {
+        "material_start": first[0],
+        "material_end": second[0],
+        "material_start_ratio": 100.0 * first[1] / total,
+        "material_end_ratio": 100.0 * second[1] / total,
+        "swatch_hex": "#ffffff",
+    }
 
 
 def color_profile_swatch(value: object) -> str:
@@ -256,10 +282,10 @@ def resolve_color_recipe(
     target_gf: float | None = None,
 ) -> dict[str, object]:
     color_key = normalize_color_profile_key(color_name)
-    if color_key not in COLOR_PROFILE_RECIPES:
+    profile = COLOR_PROFILE_RECIPES.get(color_key) or _dynamic_ratio_profile(color_key)
+    if profile is None:
         raise KeyError(f"Unknown color recipe: {color_name}")
 
-    profile = COLOR_PROFILE_RECIPES[color_key]
     material_start = str(profile["material_start"])
     material_end_value = profile.get("material_end")
     material_end = str(material_end_value) if material_end_value else None

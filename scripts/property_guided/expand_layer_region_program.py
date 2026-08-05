@@ -153,6 +153,27 @@ def _configure_gradient_event(
     clone["eta"] = target.get("eta", source.get("eta", source.get("max_eta", 0.0)))
 
 
+def _is_purge_like_assignment(assignment: dict[str, Any]) -> bool:
+    name = str(
+        assignment.get(
+            "source_component_name",
+            assignment.get("component_name", ""),
+        )
+    ).strip().lower()
+    if any(token in name for token in ("purge", "prime", "custom", "unassigned")):
+        return True
+    material = str(assignment.get("material_start", "")).strip().upper()
+    return material in {"", "UNKNOWN", "UNASSIGNED"}
+
+
+def _first_known_material_assignment(assignments: list[dict[str, Any]]) -> dict[str, Any] | None:
+    for assignment in assignments:
+        material = str(assignment.get("material_start", "")).strip().upper()
+        if material and material not in {"UNKNOWN", "UNASSIGNED"}:
+            return assignment
+    return None
+
+
 def expand_layer_region_program(
     program: dict[str, Any],
 ) -> tuple[dict[str, Any], dict[str, Any]]:
@@ -234,6 +255,75 @@ def expand_layer_region_program(
     expanded_lengths: list[float] = []
     emitted_z_axis_sources: set[int] = set()
     z_axis_assignment_index_remap: dict[int, int] = {}
+    synthetic_purge_count = 0
+    if not use_z_axis_region_recognition:
+        mapped_lengths = program.get("mapped_after_step_lengths_e_mm")
+        known_material_assignment = _first_known_material_assignment(assignments)
+        used_source_indices = {
+            int(event["source_component_index"])
+            for event in usable_events
+            if isinstance(event, dict) and "source_component_index" in event
+        }
+        if isinstance(mapped_lengths, list):
+            for source_position, source in enumerate(assignments):
+                try:
+                    source_index = int(source.get("source_component_index", source.get("assignment_index", source_position)))
+                except (TypeError, ValueError):
+                    source_index = source_position
+                if source_index in used_source_indices or not _is_purge_like_assignment(source):
+                    continue
+                try:
+                    purge_length = max(0.0, float(mapped_lengths[source_position]))
+                except (IndexError, TypeError, ValueError):
+                    purge_length = 0.0
+                if purge_length <= 0.0:
+                    continue
+
+                clone = copy.deepcopy(source)
+                material_start = str(clone.get("material_start", "")).strip().upper()
+                if material_start in {"", "UNKNOWN", "UNASSIGNED"} and known_material_assignment is not None:
+                    clone["material_start"] = known_material_assignment.get("material_start")
+                    clone["material_count"] = 1
+                    clone["material_end"] = ""
+                    clone["material_start_ratio"] = 100.0
+                    clone["material_end_ratio"] = 0.0
+                    clone["base_material_ratios"] = {str(clone["material_start"]): 100.0}
+                    clone["final_material_ratios"] = {str(clone["material_start"]): 100.0}
+                    clone["purge_material_inferred_from_first_region"] = True
+
+                new_index = len(expanded_assignments)
+                clone["assignment_index"] = new_index + 1
+                clone["source_definition_assignment_index"] = source.get("assignment_index", source_index)
+                clone["source_component_index"] = source_index
+                clone["start_voxel_index"] = new_index + 1
+                clone["end_voxel_index"] = new_index + 1
+                clone["start_layer"] = -1
+                clone["end_layer"] = -1
+                clone["gradient_steps"] = 1
+                clone["execution_filament_e_mm"] = purge_length
+                clone["component_name"] = str(
+                    clone.get(
+                        "source_component_name",
+                        clone.get("component_name", "Purge"),
+                    )
+                )
+                clone["layer_region_event"] = {
+                    "synthetic": True,
+                    "reason": "purge_or_custom_assignment_without_layer_region_event",
+                    "layer_index": -1,
+                    "layer_label": "purge",
+                    "region_name": clone["component_name"],
+                    "source_component_index": source_index,
+                    "execution_step_index": 0,
+                    "sequence_index": 0,
+                    "extrusion_e_mm": purge_length,
+                    "deposition_e_mm": purge_length,
+                    "feature_types": ["Purge"],
+                }
+                expanded_assignments.append(clone)
+                expanded_lengths.append(purge_length)
+                synthetic_purge_count += 1
+
     for event in usable_events:
         try:
             source_index = int(event["source_component_index"])
@@ -384,6 +474,7 @@ def expand_layer_region_program(
                 z_axis_assignment_index_remap.items()
             )
         },
+        "synthetic_purge_assignment_count": synthetic_purge_count,
         "skipped_events": skipped,
         "ordering": layer_region_ordering,
         "gradient_sampling": "deposition_midpoint_or_layer_midpoint",
@@ -394,6 +485,7 @@ def expand_layer_region_program(
         "expanded_event_count": len(expanded_assignments),
         "layer_region_occurrence_assignment_count": occurrence_count,
         "z_axis_region_assignment_count": z_axis_region_count,
+        "synthetic_purge_assignment_count": synthetic_purge_count,
         "skipped_event_count": len(skipped),
         "total_region_deposition_e_mm": sum(expanded_lengths),
         "layer_count": len({

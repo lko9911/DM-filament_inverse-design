@@ -374,6 +374,20 @@ def filter_compact_material_candidates(
     ]
 
 
+def should_preserve_auto_property_eta_range(
+    assignment: dict[str, object],
+    assignment_type: str,
+    assignment_eta_mode: str,
+    eta_fixed_single_material: bool,
+) -> bool:
+    return (
+        assignment_type == "Property"
+        and assignment_eta_mode == "auto"
+        and bool(assignment.get("requested_color"))
+        and not eta_fixed_single_material
+    )
+
+
 def get_fixed_case_rows_for_step(
     assignment: dict[str, object],
     resolved_step_target: dict[str, object] | None,
@@ -623,6 +637,13 @@ def build_assignment_candidate_matrix(
                 candidates = filter_target_eta_candidates(candidates, resolved_eta_target)
             elif assignment.get("property_guided_resolution") and assignment_type == "Property" and not eta_fixed_single_material:
                 candidates = filter_target_eta_candidates(candidates, float(assignment["eta"]))
+            elif should_preserve_auto_property_eta_range(
+                assignment,
+                assignment_type,
+                assignment_eta_mode,
+                eta_fixed_single_material,
+            ):
+                pass
             elif assignment_type == "Property" and not eta_fixed_single_material:
                 candidates = filter_target_eta_candidates(candidates, eta_limit)
             elif assignment_type == "Gradient" and not eta_fixed_single_material and is_middle_gradient_step(local_step_index, gradient_steps):

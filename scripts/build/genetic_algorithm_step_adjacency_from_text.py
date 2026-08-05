@@ -30,6 +30,8 @@ GA_RANDOM_SEED_ENV_KEY = "B_FDM_GA_RANDOM_SEED"
 GA_MAX_BEST_CANDIDATES_ENV_KEY = "B_FDM_GA_MAX_BEST_CANDIDATES"
 ETA_SUM_FITNESS_WEIGHT_ENV_KEY = "B_FDM_ETA_SUM_FITNESS_WEIGHT"
 GRADIENT_MAX_ETA_HIT_WEIGHT_ENV_KEY = "B_FDM_GRADIENT_MAX_ETA_HIT_WEIGHT"
+REPEATED_LAYER_GA_POPULATION_SIZE_ENV_KEY = "B_FDM_REPEATED_LAYER_GA_POPULATION_SIZE"
+REPEATED_LAYER_GA_GENERATIONS_ENV_KEY = "B_FDM_REPEATED_LAYER_GA_GENERATIONS"
 
 DEFAULT_GA_POPULATION_SIZE = 240
 DEFAULT_GA_GENERATIONS = 350
@@ -40,6 +42,8 @@ DEFAULT_GA_RANDOM_SEED = 42
 DEFAULT_GA_MAX_BEST_CANDIDATES = 200
 DEFAULT_ETA_SUM_FITNESS_WEIGHT = 10.0
 DEFAULT_GRADIENT_MAX_ETA_HIT_WEIGHT = 100.0
+DEFAULT_REPEATED_LAYER_GA_POPULATION_SIZE = 64
+DEFAULT_REPEATED_LAYER_GA_GENERATIONS = 55
 MAX_REPEATED_LAYER_TEMPLATE_COMBINATIONS = 100_000
 
 
@@ -96,6 +100,20 @@ GA_MAX_BEST_CANDIDATES = parse_positive_int_env(
 ETA_SUM_FITNESS_WEIGHT = float(os.environ.get(ETA_SUM_FITNESS_WEIGHT_ENV_KEY, DEFAULT_ETA_SUM_FITNESS_WEIGHT))
 GRADIENT_MAX_ETA_HIT_WEIGHT = float(
     os.environ.get(GRADIENT_MAX_ETA_HIT_WEIGHT_ENV_KEY, DEFAULT_GRADIENT_MAX_ETA_HIT_WEIGHT)
+)
+REPEATED_LAYER_GA_POPULATION_SIZE = min(
+    GA_POPULATION_SIZE,
+    parse_positive_int_env(
+        REPEATED_LAYER_GA_POPULATION_SIZE_ENV_KEY,
+        DEFAULT_REPEATED_LAYER_GA_POPULATION_SIZE,
+    ),
+)
+REPEATED_LAYER_GA_GENERATIONS = min(
+    GA_GENERATIONS,
+    parse_positive_int_env(
+        REPEATED_LAYER_GA_GENERATIONS_ENV_KEY,
+        DEFAULT_REPEATED_LAYER_GA_GENERATIONS,
+    ),
 )
 if GA_ELITE_COUNT >= GA_POPULATION_SIZE:
     raise ValueError(f"{GA_ELITE_COUNT_ENV_KEY} must be smaller than {GA_POPULATION_SIZE_ENV_KEY}")
@@ -875,12 +893,36 @@ def run_repeated_layer_runs_ga(
     step_candidates: list[list[StepCandidate]],
     layer_runs: list[list[list[int]]],
 ) -> tuple[list[CandidateState], dict[str, object], list[dict[str, object]]]:
-    """Search one template per repeated run with GA, then copy it to every layer."""
+    """Search one layer template with GA, then copy matching choices to each layer."""
     template_position_groups = [run[0] for run in layer_runs]
+    template_unit_groups: list[list[list[int]]] = []
+    for template_positions in template_position_groups:
+        units: list[list[int]] = []
+        position_index = 0
+        while position_index < len(template_positions):
+            position = template_positions[position_index]
+            current_candidate_keys = [
+                candidate.case_key
+                for candidate in step_candidates[position]
+            ]
+            if position_index + 1 < len(template_positions):
+                next_position = template_positions[position_index + 1]
+                next_candidate_keys = [
+                    candidate.case_key
+                    for candidate in step_candidates[next_position]
+                ]
+                if next_candidate_keys == current_candidate_keys:
+                    units.append([position_index, position_index + 1])
+                    position_index += 2
+                    continue
+            units.append([position_index])
+            position_index += 1
+        template_unit_groups.append(units)
+
     compressed_candidates = [
-        step_candidates[position]
-        for template_positions in template_position_groups
-        for position in template_positions
+        step_candidates[template_positions[unit[0]]]
+        for template_positions, units in zip(template_position_groups, template_unit_groups)
+        for unit in units
     ]
     if not compressed_candidates:
         return [], {}, []
@@ -888,20 +930,30 @@ def run_repeated_layer_runs_ga(
     def expand_template_genome(compressed_genome: list[int]) -> list[int]:
         genome = [0] * len(step_candidates)
         genome_offset = 0
-        for run, template_positions in zip(layer_runs, template_position_groups):
-            template_choices = compressed_genome[
-                genome_offset : genome_offset + len(template_positions)
+        for run, template_positions, units in zip(layer_runs, template_position_groups, template_unit_groups):
+            unit_choices = compressed_genome[
+                genome_offset : genome_offset + len(units)
             ]
-            genome_offset += len(template_positions)
+            genome_offset += len(units)
+            template_choices = [0] * len(template_positions)
+            for unit, choice in zip(units, unit_choices):
+                for local_index in unit:
+                    template_choices[local_index] = int(choice)
             for layer_positions in run:
                 for local_index, position in enumerate(layer_positions):
                     genome[position] = int(template_choices[local_index])
         return genome
 
+    evaluated_cache: dict[tuple[int, ...], CandidateState] = {}
+
     def evaluate_template_genome(compressed_genome: list[int]) -> CandidateState:
+        signature = genome_signature(compressed_genome)
+        cached = evaluated_cache.get(signature)
+        if cached is not None:
+            return cached
         genome = expand_template_genome(compressed_genome)
         state = evaluate_genome(genome, step_candidates)
-        return CandidateState(
+        evaluated_state = CandidateState(
             selected_case_keys=state.selected_case_keys,
             selected_rows_per_step=state.selected_rows_per_step,
             step_scores=state.step_scores,
@@ -911,22 +963,34 @@ def run_repeated_layer_runs_ga(
                 state.selected_rows_per_step
             ),
         )
+        evaluated_cache[signature] = evaluated_state
+        return evaluated_state
 
     def repeated_layer_sort_key(item: tuple[list[int], CandidateState]) -> tuple[int, int, float, list[str]]:
         _genome, state = item
-        return (
-            int(state.material_switch_count if state.material_switch_count is not None else 10**9),
-            -int(state.total_score),
-            -float(state.eta_sum),
-            state.selected_case_keys,
-        )
+        switch_count = state.material_switch_count if state.material_switch_count is not None else 10**9
+        return (switch_count, -state.total_score, -state.eta_sum, state.selected_case_keys)
+
+    def repeated_layer_tournament_select(
+        evaluated_population: list[tuple[list[int], CandidateState]],
+        rng: random.Random,
+    ) -> list[int]:
+        sample_size = min(GA_TOURNAMENT_SIZE, len(evaluated_population))
+        contenders = rng.sample(evaluated_population, sample_size)
+        winner_genome, _winner_state = min(contenders, key=repeated_layer_sort_key)
+        return list(winner_genome)
 
     rng = random.Random(GA_RANDOM_SEED)
-    population = initialize_population(compressed_candidates, rng)
+    population = [eta_greedy_genome(compressed_candidates), local_adjacency_greedy_genome(compressed_candidates)]
+    while len(population) < REPEATED_LAYER_GA_POPULATION_SIZE:
+        population.append(random_genome(compressed_candidates, rng))
+    population = population[:REPEATED_LAYER_GA_POPULATION_SIZE]
+
     archive: dict[tuple[int, ...], CandidateState] = {}
     generation_history: list[GenerationInfo] = []
+    elite_count = min(GA_ELITE_COUNT, max(1, REPEATED_LAYER_GA_POPULATION_SIZE // 5))
 
-    for generation in range(GA_GENERATIONS + 1):
+    for generation in range(REPEATED_LAYER_GA_GENERATIONS + 1):
         evaluated_population = [
             (genome, evaluate_template_genome(genome))
             for genome in population
@@ -948,13 +1012,13 @@ def run_repeated_layer_runs_ga(
             )
         )
 
-        if generation == GA_GENERATIONS:
+        if generation == REPEATED_LAYER_GA_GENERATIONS:
             break
 
-        next_population = [list(genome) for genome, _state in evaluated_population[:GA_ELITE_COUNT]]
-        while len(next_population) < GA_POPULATION_SIZE:
-            parent_a = tournament_select(evaluated_population, rng)
-            parent_b = tournament_select(evaluated_population, rng)
+        next_population = [list(genome) for genome, _state in evaluated_population[:elite_count]]
+        while len(next_population) < REPEATED_LAYER_GA_POPULATION_SIZE:
+            parent_a = repeated_layer_tournament_select(evaluated_population, rng)
+            parent_b = repeated_layer_tournament_select(evaluated_population, rng)
             child = crossover(parent_a, parent_b, rng)
             next_population.append(mutate(child, compressed_candidates, rng))
         population = next_population
@@ -966,12 +1030,16 @@ def run_repeated_layer_runs_ga(
         "layer_count": sum(len(run) for run in layer_runs),
         "run_layer_counts": [len(run) for run in layer_runs],
         "run_steps_per_layer": [len(run[0]) for run in layer_runs],
+        "run_template_unit_counts": [len(units) for units in template_unit_groups],
         "template_combination_count": repeated_layer_run_combination_count(
             step_candidates,
             layer_runs,
         ),
         "expanded_step_count": len(step_candidates),
-        "template_search_algorithm": "genetic_algorithm",
+        "template_search_algorithm": "genetic_algorithm_switch_first",
+        "template_population_size": REPEATED_LAYER_GA_POPULATION_SIZE,
+        "template_generations": REPEATED_LAYER_GA_GENERATIONS,
+        "template_evaluated_count": len(evaluated_cache),
     }, generation_history
 
 
@@ -1089,8 +1157,10 @@ def main() -> None:
     text_lines.append(f"source_text_path: {report['source_text_path']}")
     text_lines.append(f"search_algorithm: {search_algorithm}")
     if repeated_layer_summary is not None:
+        repeated_layer_mode = repeated_layer_summary.get("template_search_algorithm", search_algorithm)
         text_lines.append(
-            "repeated_layer_exact: "
+            "repeated_layer_template: "
+            f"mode={repeated_layer_mode}, "
             f"runs={repeated_layer_summary['run_count']}, "
             f"layers={repeated_layer_summary['layer_count']}, "
             f"run_layer_counts={repeated_layer_summary['run_layer_counts']}, "
@@ -1167,8 +1237,10 @@ def main() -> None:
     print(f"Best tie count: {report['best_tie_count']}")
     print(f"Search time (seconds): {report['search_time_seconds']:.6f}")
     if repeated_layer_summary is not None:
+        repeated_layer_mode = repeated_layer_summary.get("template_search_algorithm", search_algorithm)
         print(
-            "Repeated-layer exact optimization: "
+            "Repeated-layer template optimization: "
+            f"{repeated_layer_mode}, "
             f"{repeated_layer_summary['run_count']} runs, "
             f"{repeated_layer_summary['layer_count']} layers, "
             f"{repeated_layer_summary['template_combination_count']} template combinations"

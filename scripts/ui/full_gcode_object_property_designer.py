@@ -451,12 +451,24 @@ def write_reordered_full_gcode(
         in_suffix = False
         seen_mesh_segment = False
 
-        for line in layer_lines[first_mesh_start:]:
+        segment_lines = layer_lines[first_mesh_start:]
+        for line_index, line in enumerate(segment_lines):
             if in_suffix:
                 suffix.append(line)
                 continue
 
-            if is_footer_line(line):
+            has_later_segment_start = any(
+                (
+                    (parse_mesh_comment(future_line) is not None and parse_mesh_comment(future_line).upper() != "NONMESH")
+                    or (
+                        (future_selected_id := parse_m486_select(future_line)) is not None
+                        and future_selected_id >= 0
+                        and future_selected_id in m486_names_by_id
+                    )
+                )
+                for future_line in segment_lines[line_index + 1 :]
+            )
+            if is_footer_line(line) and not has_later_segment_start:
                 if current_name is not None:
                     mesh_segments.append((current_name, current_lines))
                     current_name = None

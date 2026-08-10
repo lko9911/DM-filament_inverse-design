@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -340,8 +341,13 @@ def write_reordered_full_gcode(
     components: list[ComponentModel],
     states: dict[int, dict[str, object]],
     output_path: Path,
-    strategy: str = "reorder_mesh_occurrences_within_each_layer_keep_xyz",
+    strategy: str = "preserve_original_gcode_order",
 ) -> Path:
+    if strategy in {"preserve_original_gcode_order", "copy_original_keep_xyz"}:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source_gcode_path, output_path)
+        return output_path
+
     enabled_components = [
         component for component in components if bool(states[component.index].get("enabled", True))
     ]
@@ -440,6 +446,15 @@ def write_reordered_full_gcode(
             split_index -= 1
         return lines[:split_index], lines[split_index:]
 
+    def split_connector_travel(lines: list[str]) -> tuple[list[str], list[str]]:
+        for index in range(len(lines) - 1, -1, -1):
+            if lines[index].strip().upper().startswith(";WIPE_END"):
+                tail = lines[index + 1 :]
+                if tail and all(is_non_extruding_motion(line) for line in tail if strip_comment(line)):
+                    return lines[: index + 1], tail
+                break
+        return split_trailing_travel(lines)
+
     def split_layer_chunk(layer_lines: list[str]) -> tuple[list[str], list[tuple[str, list[str]]], list[str]]:
         if not layer_lines:
             return [], [], []
@@ -506,7 +521,7 @@ def write_reordered_full_gcode(
 
                 mesh_name = canonical_component_name(mesh_name)
                 if current_name is not None:
-                    current_lines, pending_travel = split_trailing_travel(current_lines)
+                    current_lines, pending_travel = split_connector_travel(current_lines)
                     mesh_segments.append((current_name, current_lines))
                 current_name = mesh_name
                 current_lines = [*pending_travel, line]
@@ -529,7 +544,7 @@ def write_reordered_full_gcode(
                 m486_name = m486_names_by_id.get(selected_id)
                 if m486_name is not None:
                     if current_name is not None:
-                        current_lines, pending_travel = split_trailing_travel(current_lines)
+                        current_lines, pending_travel = split_connector_travel(current_lines)
                         mesh_segments.append((current_name, current_lines))
                     current_name = m486_name
                     current_lines = [*pending_travel, line]

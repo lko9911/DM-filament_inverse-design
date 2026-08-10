@@ -1,0 +1,57 @@
+matrix_rows: 1
+matrix_cols: 19
+total_pattern_count: 1
+unconstrained_cartesian_pattern_count: 1
+repeated_layer_template: None
+eta_min: None
+eta_max: None
+brighter_mode: False
+has_assignment_brighter_mode: True
+
+assignment_01 pattern_count: 1
+assignment_02 pattern_count: 1
+assignment_03 pattern_count: 1
+assignment_04 pattern_count: 1
+assignment_05 pattern_count: 1
+assignment_06 pattern_count: 1
+assignment_07 pattern_count: 1
+assignment_08 pattern_count: 1
+
+step_001 | assignment 1 | local_step 1 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_002 | assignment 2 | local_step 1 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_003 | assignment 3 | local_step 1 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_004 | assignment 3 | local_step 2 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_005 | assignment 3 | local_step 3 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_006 | assignment 3 | local_step 4 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_007 | assignment 3 | local_step 5 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_008 | assignment 4 | local_step 1 | materials YELLOW->YELLOW | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_009 | assignment 5 | local_step 1 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_010 | assignment 5 | local_step 2 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_011 | assignment 5 | local_step 3 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_012 | assignment 5 | local_step 4 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_013 | assignment 5 | local_step 5 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_014 | assignment 6 | local_step 1 | materials CYAN->CYAN | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_015 | assignment 7 | local_step 1 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_016 | assignment 7 | local_step 2 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_017 | assignment 7 | local_step 3 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_018 | assignment 7 | local_step 4 | materials MAGENTA->MAGENTA | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_019 | assignment 8 | local_step 1 | materials UNKNOWN->UNKNOWN | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001

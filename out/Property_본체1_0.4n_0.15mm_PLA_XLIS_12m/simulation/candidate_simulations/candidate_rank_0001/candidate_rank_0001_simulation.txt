@@ -1,0 +1,123 @@
+source_matrix_path: score_final_original_candidate_rank_0001
+step_reversed_for_simulation: True
+rule: reverse step order for simulation first; then start from last row; group contiguous same values while scanning right-to-left; try the starting color first on each layer during the first pass; if a target cell has no deposited support directly below, reset that layer and rebuild that layer with the other material first
+shape: 14 x 19
+prioritized_value: MAGENTA
+scan_run_count: 84
+run_count: 84
+deposition_step_count: 266
+simulation_event_count: 266
+material_switch_count: 3
+material_switch_support_point_count: 0
+final_material_counts: {'total_filled': 266, 'by_value': {'CYAN': 14, 'MAGENTA': 224, 'UNKNOWN': 14, 'YELLOW': 14}}
+final_named_material_counts: {'CYAN': 14, 'MAGENTA': 224, 'UNKNOWN': 14, 'YELLOW': 14}
+
+material_switch_events:
+switch_001: row=13 trigger_col=11 from_value=MAGENTA to_value=YELLOW from_material=MAGENTA to_material=YELLOW cleared_count=0
+switch_002: row=13 trigger_col=5 from_value=YELLOW to_value=CYAN from_material=YELLOW to_material=CYAN cleared_count=0
+switch_003: row=13 trigger_col=0 from_value=CYAN to_value=UNKNOWN from_material=CYAN to_material=UNKNOWN cleared_count=0
+
+row_summaries:
+row=13 reset=0 first_material=MAGENTA trigger_col=-1
+row=12 reset=0 first_material=MAGENTA trigger_col=-1
+row=11 reset=0 first_material=MAGENTA trigger_col=-1
+row=10 reset=0 first_material=MAGENTA trigger_col=-1
+row=9 reset=0 first_material=MAGENTA trigger_col=-1
+row=8 reset=0 first_material=MAGENTA trigger_col=-1
+row=7 reset=0 first_material=MAGENTA trigger_col=-1
+row=6 reset=0 first_material=MAGENTA trigger_col=-1
+row=5 reset=0 first_material=MAGENTA trigger_col=-1
+row=4 reset=0 first_material=MAGENTA trigger_col=-1
+row=3 reset=0 first_material=MAGENTA trigger_col=-1
+row=2 reset=0 first_material=MAGENTA trigger_col=-1
+row=1 reset=0 first_material=MAGENTA trigger_col=-1
+row=0 reset=0 first_material=MAGENTA trigger_col=-1
+
+material_switch_support_points:
+(none)
+
+deposition_runs:
+001. row=13 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+002. row=13 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+003. row=13 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+004. row=12 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+005. row=12 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+006. row=12 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+007. row=11 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+008. row=11 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+009. row=11 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+010. row=10 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+011. row=10 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+012. row=10 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+013. row=9 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+014. row=9 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+015. row=9 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+016. row=8 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+017. row=8 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+018. row=8 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+019. row=7 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+020. row=7 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+021. row=7 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+022. row=6 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+023. row=6 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+024. row=6 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+025. row=5 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+026. row=5 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+027. row=5 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+028. row=4 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+029. row=4 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+030. row=4 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+031. row=3 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+032. row=3 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+033. row=3 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+034. row=2 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+035. row=2 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+036. row=2 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+037. row=1 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+038. row=1 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+039. row=1 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+040. row=0 value=MAGENTA start_col=18 end_col=12 direction=right_to_left
+041. row=0 value=MAGENTA start_col=10 end_col=6 direction=right_to_left
+042. row=0 value=MAGENTA start_col=4 end_col=1 direction=right_to_left
+043. row=13 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+044. row=13 value=CYAN start_col=5 end_col=5 direction=right_to_left
+045. row=13 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+046. row=12 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+047. row=12 value=CYAN start_col=5 end_col=5 direction=right_to_left
+048. row=12 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+049. row=11 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+050. row=11 value=CYAN start_col=5 end_col=5 direction=right_to_left
+051. row=11 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+052. row=10 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+053. row=10 value=CYAN start_col=5 end_col=5 direction=right_to_left
+054. row=10 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+055. row=9 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+056. row=9 value=CYAN start_col=5 end_col=5 direction=right_to_left
+057. row=9 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+058. row=8 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+059. row=8 value=CYAN start_col=5 end_col=5 direction=right_to_left
+060. row=8 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+061. row=7 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+062. row=7 value=CYAN start_col=5 end_col=5 direction=right_to_left
+063. row=7 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+064. row=6 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+065. row=6 value=CYAN start_col=5 end_col=5 direction=right_to_left
+066. row=6 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+067. row=5 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+068. row=5 value=CYAN start_col=5 end_col=5 direction=right_to_left
+069. row=5 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+070. row=4 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+071. row=4 value=CYAN start_col=5 end_col=5 direction=right_to_left
+072. row=4 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+073. row=3 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+074. row=3 value=CYAN start_col=5 end_col=5 direction=right_to_left
+075. row=3 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+076. row=2 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+077. row=2 value=CYAN start_col=5 end_col=5 direction=right_to_left
+078. row=2 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+079. row=1 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+080. row=1 value=CYAN start_col=5 end_col=5 direction=right_to_left
+081. row=1 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left
+082. row=0 value=YELLOW start_col=11 end_col=11 direction=right_to_left
+083. row=0 value=CYAN start_col=5 end_col=5 direction=right_to_left
+084. row=0 value=UNKNOWN start_col=0 end_col=0 direction=right_to_left

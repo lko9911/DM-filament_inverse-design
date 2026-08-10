@@ -1,0 +1,109 @@
+matrix_rows: 1
+matrix_cols: 34
+total_pattern_count: 226576
+unconstrained_cartesian_pattern_count: 226576
+repeated_layer_template: None
+eta_min: None
+eta_max: None
+brighter_mode: False
+has_assignment_brighter_mode: True
+
+assignment_01 pattern_count: 1
+assignment_02 pattern_count: 1
+assignment_03 pattern_count: 1
+assignment_04 pattern_count: 1
+assignment_05 pattern_count: 1
+assignment_06 pattern_count: 1
+assignment_07 pattern_count: 1
+assignment_08 pattern_count: 1
+assignment_09 pattern_count: 1
+assignment_10 pattern_count: 1
+assignment_11 pattern_count: 1
+assignment_12 pattern_count: 1
+assignment_13 pattern_count: 1
+assignment_14 pattern_count: 1
+assignment_15 pattern_count: 1
+assignment_16 pattern_count: 1
+assignment_17 pattern_count: 226576
+assignment_18 pattern_count: 1
+assignment_19 pattern_count: 1
+assignment_20 pattern_count: 1
+assignment_21 pattern_count: 1
+assignment_22 pattern_count: 1
+assignment_23 pattern_count: 1
+assignment_24 pattern_count: 1
+assignment_25 pattern_count: 1
+assignment_26 pattern_count: 1
+assignment_27 pattern_count: 1
+assignment_28 pattern_count: 1
+assignment_29 pattern_count: 1
+assignment_30 pattern_count: 1
+
+step_001 | assignment 1 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_002 | assignment 2 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_003 | assignment 3 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_004 | assignment 4 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_005 | assignment 5 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_006 | assignment 6 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_007 | assignment 7 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_008 | assignment 8 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_009 | assignment 9 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_010 | assignment 10 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_011 | assignment 11 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_012 | assignment 12 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_013 | assignment 13 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_014 | assignment 14 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_015 | assignment 15 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_016 | assignment 16 | local_step 1 | materials BLACK->BLACK | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_017 | assignment 17 | local_step 1 | materials BLACK->WHITE | target 40/8 (0.833333/0.166667) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 17
+  candidates: case_00008, case_00025, case_00049, case_00097, case_00193, case_00385, case_00769, case_01537, case_04100, case_06146, case_08199, case_12291, case_14337, case_00013, case_03073, case_08196, case_12290
+step_018 | assignment 17 | local_step 2 | materials BLACK->WHITE | target 32/16 (0.666667/0.333333) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 14
+  candidates: case_00032, case_00121, case_00241, case_00481, case_00961, case_01921, case_07682, case_08223, case_14344, case_15873, case_12304, case_15364, case_00061, case_03841
+step_019 | assignment 17 | local_step 3 | materials BLACK->WHITE | target 24/24 (0.500000/0.500000) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 4
+  candidates: case_01009, case_08066, case_08319, case_15376
+step_020 | assignment 17 | local_step 4 | materials BLACK->WHITE | target 16/32 (0.333333/0.666667) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 14
+  candidates: case_00512, case_02041, case_08162, case_08703, case_14464, case_15424, case_15904, case_16144, case_16264, case_16353, case_12544, case_16324, case_01021, case_04081
+step_021 | assignment 17 | local_step 5 | materials BLACK->WHITE | target 8/40 (0.166667/0.833333) | ratio_tol<= 0.020833 | eta>= None | eta<= 2 | eta_target 2 | candidate_count 17
+  candidates: case_02048, case_04094, case_08186, case_10239, case_12285, case_14848, case_15616, case_16000, case_16192, case_16288, case_16336, case_16360, case_16377, case_04095, case_08189, case_13312, case_16372
+step_022 | assignment 18 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_023 | assignment 19 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_024 | assignment 20 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_025 | assignment 21 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_026 | assignment 22 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_027 | assignment 23 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_028 | assignment 24 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_029 | assignment 25 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_030 | assignment 26 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_031 | assignment 27 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_032 | assignment 28 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_033 | assignment 29 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001
+step_034 | assignment 30 | local_step 1 | materials WHITE->WHITE | target 48/0 (1.000000/0.000000) | ratio_tol<= 0.020833 | eta>= None | eta<= 0 | eta_target 0 | candidate_count 1
+  candidates: case_00001

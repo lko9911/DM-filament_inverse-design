@@ -1,0 +1,80 @@
+source_text_path: test_sample\derived\matrices\assignment_candidate_matrix.txt
+search_algorithm: genetic_algorithm
+total_step_count: 19
+score_rule: step_score = S(t-1,t) + S(t-2,t) when t-2 exists, else S(t-1,t)
+local_gradient_stage: per-Gradient local score maximization, then local material-switch minimization, then global search
+search_time_seconds: 4.001937
+ga_parameters: population_size=240, generations=350, elite_count=12, mutation_rate=0.06, tournament_size=4, random_seed=42, max_best_candidates=200
+best_score: 350
+best_tie_count: 1
+
+local_gradient_preselection:
+  assignment_03 | local_steps 5 | combinations 1 | best_local_score 126 | best_score_tie_count 1 | best_local_switch 0 | best_pattern_count_after_switch 1 | best_local_eta_sum_min 0.000000 | best_local_eta_sum_max 0.000000
+    pattern_01: case_00001, case_00001, case_00001, case_00001, case_00001
+  assignment_05 | local_steps 5 | combinations 1 | best_local_score 98 | best_score_tie_count 1 | best_local_switch 0 | best_pattern_count_after_switch 1 | best_local_eta_sum_min 0.000000 | best_local_eta_sum_max 0.000000
+    pattern_01: case_00001, case_00001, case_00001, case_00001, case_00001
+  assignment_07 | local_steps 4 | combinations 1 | best_local_score 70 | best_score_tie_count 1 | best_local_switch 0 | best_pattern_count_after_switch 1 | best_local_eta_sum_min 0.000000 | best_local_eta_sum_max 0.000000
+    pattern_01: case_00001, case_00001, case_00001, case_00001
+
+generation_history:
+  generation 0000 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0025 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0050 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0075 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0100 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0125 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0150 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0175 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0200 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0225 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0250 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0275 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0300 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0325 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+  generation 0350 | best_score 350 | best_eta_sum 0.000000 | average_score 350.000 | unique 1
+
+parsed_steps:
+step_001 | assignment 1 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_002 | assignment 2 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_003 | assignment 3 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_004 | assignment 3 | local_step 2 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_005 | assignment 3 | local_step 3 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_006 | assignment 3 | local_step 4 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_007 | assignment 3 | local_step 5 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_008 | assignment 4 | local_step 1 | materials YELLOW->YELLOW | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_009 | assignment 5 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_010 | assignment 5 | local_step 2 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_011 | assignment 5 | local_step 3 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_012 | assignment 5 | local_step 4 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_013 | assignment 5 | local_step 5 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_014 | assignment 6 | local_step 1 | materials CYAN->CYAN | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_015 | assignment 7 | local_step 1 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_016 | assignment 7 | local_step 2 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_017 | assignment 7 | local_step 3 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_018 | assignment 7 | local_step 4 | materials MAGENTA->MAGENTA | eta<= 0 | candidate_count 1
+  candidates: case_00001
+step_019 | assignment 8 | local_step 1 | materials UNKNOWN->UNKNOWN | eta<= 0 | candidate_count 1
+  candidates: case_00001
+
+best_candidates:
+01. score 350 | eta_sum 0.000000 | material_switch_count 3 | step_scores [14, 28, 28, 28, 28, 28, 0, 14, 14, 28, 28, 28, 0, 14, 14, 28, 28, 0] | selected_case_keys case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001
+
+best_candidate_switch_eta:
+01. material_switch_count 3 | eta_sum 0.000000

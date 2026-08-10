@@ -1,0 +1,998 @@
+source_matrix_path: optimal_beam_candidate_matrix
+step_reversed_for_simulation: True
+rule: reverse step order for simulation first; then start from last row; group contiguous same values while scanning right-to-left; try the starting color first on each layer during the first pass; if a target cell has no deposited support directly below, reset that layer and rebuild that layer with the other material first
+shape: 14 x 109
+prioritized_value: MAGENTA
+scan_run_count: 136
+run_count: 136
+deposition_step_count: 1526
+simulation_event_count: 1544
+material_switch_count: 5
+material_switch_support_point_count: 822
+final_material_counts: {'total_filled': 1526, 'by_value': {'CYAN': 510, 'MAGENTA': 464, 'YELLOW': 552}}
+final_named_material_counts: {'CYAN': 510, 'MAGENTA': 464, 'YELLOW': 552}
+
+material_switch_events:
+switch_001: row=13 trigger_col=103 from_value=MAGENTA to_value=YELLOW from_material=MAGENTA to_material=YELLOW cleared_count=3
+switch_002: row=13 trigger_col=83 from_value=YELLOW to_value=CYAN from_material=YELLOW to_material=CYAN cleared_count=0
+switch_003: row=11 trigger_col=108 from_value=CYAN to_value=MAGENTA from_material=CYAN to_material=MAGENTA cleared_count=12
+switch_004: row=7 trigger_col=93 from_value=MAGENTA to_value=CYAN from_material=MAGENTA to_material=CYAN cleared_count=0
+switch_005: row=5 trigger_col=99 from_value=CYAN to_value=YELLOW from_material=CYAN to_material=YELLOW cleared_count=0
+
+row_summaries:
+row=13 reset=0 first_material=MAGENTA trigger_col=-1
+row=12 reset=0 first_material=MAGENTA trigger_col=-1
+row=11 reset=1 first_material=YELLOW trigger_col=105
+row=10 reset=0 first_material=YELLOW trigger_col=-1
+row=9 reset=0 first_material=YELLOW trigger_col=-1
+row=8 reset=0 first_material=YELLOW trigger_col=-1
+row=7 reset=1 first_material=MAGENTA trigger_col=81
+row=6 reset=0 first_material=YELLOW trigger_col=-1
+row=5 reset=1 first_material=CYAN trigger_col=99
+row=4 reset=0 first_material=MAGENTA trigger_col=-1
+row=3 reset=0 first_material=MAGENTA trigger_col=-1
+row=2 reset=0 first_material=MAGENTA trigger_col=-1
+row=1 reset=0 first_material=MAGENTA trigger_col=-1
+row=0 reset=0 first_material=MAGENTA trigger_col=-1
+
+material_switch_support_points:
+support_row=13 support_col=105
+support_row=13 support_col=104
+support_row=13 support_col=103
+support_row=13 support_col=102
+support_row=13 support_col=101
+support_row=13 support_col=100
+support_row=13 support_col=99
+support_row=13 support_col=98
+support_row=13 support_col=97
+support_row=13 support_col=96
+support_row=13 support_col=95
+support_row=13 support_col=94
+support_row=13 support_col=93
+support_row=13 support_col=92
+support_row=13 support_col=91
+support_row=13 support_col=90
+support_row=13 support_col=89
+support_row=13 support_col=88
+support_row=13 support_col=87
+support_row=13 support_col=86
+support_row=13 support_col=85
+support_row=13 support_col=84
+support_row=13 support_col=83
+support_row=13 support_col=82
+support_row=13 support_col=81
+support_row=13 support_col=80
+support_row=13 support_col=79
+support_row=13 support_col=78
+support_row=13 support_col=77
+support_row=13 support_col=76
+support_row=13 support_col=75
+support_row=13 support_col=74
+support_row=13 support_col=73
+support_row=13 support_col=72
+support_row=13 support_col=69
+support_row=13 support_col=68
+support_row=13 support_col=67
+support_row=13 support_col=66
+support_row=13 support_col=65
+support_row=13 support_col=64
+support_row=13 support_col=63
+support_row=13 support_col=62
+support_row=13 support_col=61
+support_row=13 support_col=60
+support_row=13 support_col=59
+support_row=13 support_col=58
+support_row=13 support_col=57
+support_row=13 support_col=56
+support_row=13 support_col=55
+support_row=13 support_col=54
+support_row=13 support_col=53
+support_row=13 support_col=52
+support_row=13 support_col=51
+support_row=13 support_col=50
+support_row=13 support_col=49
+support_row=13 support_col=48
+support_row=13 support_col=47
+support_row=13 support_col=46
+support_row=13 support_col=45
+support_row=13 support_col=44
+support_row=13 support_col=43
+support_row=13 support_col=42
+support_row=13 support_col=41
+support_row=13 support_col=40
+support_row=13 support_col=39
+support_row=13 support_col=38
+support_row=13 support_col=37
+support_row=13 support_col=36
+support_row=13 support_col=33
+support_row=13 support_col=32
+support_row=13 support_col=31
+support_row=13 support_col=30
+support_row=13 support_col=29
+support_row=13 support_col=28
+support_row=13 support_col=27
+support_row=13 support_col=26
+support_row=13 support_col=25
+support_row=13 support_col=24
+support_row=13 support_col=23
+support_row=13 support_col=22
+support_row=13 support_col=21
+support_row=13 support_col=20
+support_row=13 support_col=19
+support_row=13 support_col=18
+support_row=13 support_col=17
+support_row=13 support_col=16
+support_row=13 support_col=15
+support_row=13 support_col=14
+support_row=13 support_col=13
+support_row=13 support_col=12
+support_row=13 support_col=11
+support_row=13 support_col=10
+support_row=13 support_col=9
+support_row=13 support_col=8
+support_row=13 support_col=7
+support_row=13 support_col=6
+support_row=13 support_col=5
+support_row=13 support_col=4
+support_row=13 support_col=3
+support_row=13 support_col=2
+support_row=13 support_col=1
+support_row=13 support_col=0
+support_row=12 support_col=108
+support_row=12 support_col=107
+support_row=12 support_col=106
+support_row=12 support_col=105
+support_row=12 support_col=104
+support_row=12 support_col=103
+support_row=12 support_col=102
+support_row=12 support_col=101
+support_row=12 support_col=100
+support_row=12 support_col=99
+support_row=12 support_col=98
+support_row=12 support_col=97
+support_row=12 support_col=96
+support_row=12 support_col=95
+support_row=12 support_col=94
+support_row=12 support_col=93
+support_row=12 support_col=92
+support_row=12 support_col=91
+support_row=12 support_col=90
+support_row=12 support_col=89
+support_row=12 support_col=88
+support_row=12 support_col=87
+support_row=12 support_col=86
+support_row=12 support_col=85
+support_row=12 support_col=84
+support_row=12 support_col=83
+support_row=12 support_col=82
+support_row=12 support_col=81
+support_row=12 support_col=80
+support_row=12 support_col=79
+support_row=12 support_col=78
+support_row=12 support_col=77
+support_row=12 support_col=76
+support_row=12 support_col=75
+support_row=12 support_col=74
+support_row=12 support_col=73
+support_row=12 support_col=72
+support_row=12 support_col=71
+support_row=12 support_col=70
+support_row=12 support_col=69
+support_row=12 support_col=68
+support_row=12 support_col=67
+support_row=12 support_col=66
+support_row=12 support_col=65
+support_row=12 support_col=64
+support_row=12 support_col=63
+support_row=12 support_col=62
+support_row=12 support_col=61
+support_row=12 support_col=60
+support_row=12 support_col=59
+support_row=12 support_col=58
+support_row=12 support_col=57
+support_row=12 support_col=56
+support_row=12 support_col=55
+support_row=12 support_col=54
+support_row=12 support_col=53
+support_row=12 support_col=52
+support_row=12 support_col=51
+support_row=12 support_col=50
+support_row=12 support_col=49
+support_row=12 support_col=48
+support_row=12 support_col=47
+support_row=12 support_col=46
+support_row=12 support_col=45
+support_row=12 support_col=44
+support_row=12 support_col=43
+support_row=12 support_col=42
+support_row=12 support_col=41
+support_row=12 support_col=40
+support_row=12 support_col=39
+support_row=12 support_col=38
+support_row=12 support_col=37
+support_row=12 support_col=36
+support_row=12 support_col=35
+support_row=12 support_col=34
+support_row=12 support_col=33
+support_row=12 support_col=32
+support_row=12 support_col=31
+support_row=12 support_col=30
+support_row=12 support_col=29
+support_row=12 support_col=28
+support_row=12 support_col=27
+support_row=12 support_col=26
+support_row=12 support_col=25
+support_row=12 support_col=24
+support_row=12 support_col=23
+support_row=12 support_col=22
+support_row=12 support_col=21
+support_row=12 support_col=20
+support_row=12 support_col=19
+support_row=12 support_col=18
+support_row=12 support_col=17
+support_row=12 support_col=16
+support_row=12 support_col=15
+support_row=12 support_col=14
+support_row=12 support_col=13
+support_row=12 support_col=12
+support_row=12 support_col=11
+support_row=12 support_col=10
+support_row=12 support_col=9
+support_row=12 support_col=8
+support_row=12 support_col=7
+support_row=12 support_col=6
+support_row=12 support_col=5
+support_row=12 support_col=4
+support_row=12 support_col=3
+support_row=12 support_col=2
+support_row=12 support_col=1
+support_row=12 support_col=0
+support_row=11 support_col=108
+support_row=11 support_col=107
+support_row=11 support_col=106
+support_row=11 support_col=105
+support_row=11 support_col=104
+support_row=11 support_col=103
+support_row=11 support_col=102
+support_row=11 support_col=101
+support_row=11 support_col=100
+support_row=11 support_col=99
+support_row=11 support_col=98
+support_row=11 support_col=97
+support_row=11 support_col=96
+support_row=11 support_col=95
+support_row=11 support_col=94
+support_row=11 support_col=93
+support_row=11 support_col=92
+support_row=11 support_col=91
+support_row=11 support_col=90
+support_row=11 support_col=89
+support_row=11 support_col=88
+support_row=11 support_col=87
+support_row=11 support_col=86
+support_row=11 support_col=85
+support_row=11 support_col=84
+support_row=11 support_col=83
+support_row=11 support_col=82
+support_row=11 support_col=81
+support_row=11 support_col=80
+support_row=11 support_col=79
+support_row=11 support_col=78
+support_row=11 support_col=77
+support_row=11 support_col=76
+support_row=11 support_col=75
+support_row=11 support_col=74
+support_row=11 support_col=73
+support_row=11 support_col=72
+support_row=11 support_col=71
+support_row=11 support_col=70
+support_row=11 support_col=69
+support_row=11 support_col=68
+support_row=11 support_col=67
+support_row=11 support_col=66
+support_row=11 support_col=65
+support_row=11 support_col=64
+support_row=11 support_col=63
+support_row=11 support_col=62
+support_row=11 support_col=61
+support_row=11 support_col=60
+support_row=11 support_col=59
+support_row=11 support_col=58
+support_row=11 support_col=57
+support_row=11 support_col=56
+support_row=11 support_col=55
+support_row=11 support_col=54
+support_row=11 support_col=53
+support_row=11 support_col=52
+support_row=11 support_col=51
+support_row=11 support_col=50
+support_row=11 support_col=49
+support_row=11 support_col=48
+support_row=11 support_col=47
+support_row=11 support_col=46
+support_row=11 support_col=45
+support_row=11 support_col=44
+support_row=11 support_col=43
+support_row=11 support_col=42
+support_row=11 support_col=41
+support_row=11 support_col=40
+support_row=11 support_col=39
+support_row=11 support_col=38
+support_row=11 support_col=37
+support_row=11 support_col=36
+support_row=11 support_col=35
+support_row=11 support_col=34
+support_row=11 support_col=33
+support_row=11 support_col=32
+support_row=11 support_col=31
+support_row=11 support_col=30
+support_row=11 support_col=29
+support_row=11 support_col=28
+support_row=11 support_col=27
+support_row=11 support_col=26
+support_row=11 support_col=25
+support_row=11 support_col=24
+support_row=11 support_col=23
+support_row=11 support_col=22
+support_row=11 support_col=21
+support_row=11 support_col=20
+support_row=11 support_col=19
+support_row=11 support_col=18
+support_row=11 support_col=17
+support_row=11 support_col=16
+support_row=11 support_col=15
+support_row=11 support_col=14
+support_row=11 support_col=13
+support_row=11 support_col=12
+support_row=11 support_col=11
+support_row=11 support_col=10
+support_row=11 support_col=9
+support_row=11 support_col=8
+support_row=11 support_col=7
+support_row=11 support_col=6
+support_row=11 support_col=5
+support_row=11 support_col=4
+support_row=11 support_col=3
+support_row=11 support_col=2
+support_row=11 support_col=1
+support_row=11 support_col=0
+support_row=10 support_col=108
+support_row=10 support_col=107
+support_row=10 support_col=106
+support_row=10 support_col=105
+support_row=10 support_col=104
+support_row=10 support_col=103
+support_row=10 support_col=102
+support_row=10 support_col=101
+support_row=10 support_col=100
+support_row=10 support_col=99
+support_row=10 support_col=98
+support_row=10 support_col=97
+support_row=10 support_col=96
+support_row=10 support_col=95
+support_row=10 support_col=94
+support_row=10 support_col=93
+support_row=10 support_col=92
+support_row=10 support_col=91
+support_row=10 support_col=90
+support_row=10 support_col=89
+support_row=10 support_col=88
+support_row=10 support_col=87
+support_row=10 support_col=86
+support_row=10 support_col=85
+support_row=10 support_col=84
+support_row=10 support_col=83
+support_row=10 support_col=82
+support_row=10 support_col=81
+support_row=10 support_col=80
+support_row=10 support_col=79
+support_row=10 support_col=78
+support_row=10 support_col=77
+support_row=10 support_col=76
+support_row=10 support_col=75
+support_row=10 support_col=74
+support_row=10 support_col=73
+support_row=10 support_col=72
+support_row=10 support_col=71
+support_row=10 support_col=70
+support_row=10 support_col=69
+support_row=10 support_col=68
+support_row=10 support_col=67
+support_row=10 support_col=66
+support_row=10 support_col=65
+support_row=10 support_col=64
+support_row=10 support_col=63
+support_row=10 support_col=62
+support_row=10 support_col=61
+support_row=10 support_col=60
+support_row=10 support_col=59
+support_row=10 support_col=58
+support_row=10 support_col=57
+support_row=10 support_col=56
+support_row=10 support_col=55
+support_row=10 support_col=54
+support_row=10 support_col=53
+support_row=10 support_col=52
+support_row=10 support_col=51
+support_row=10 support_col=50
+support_row=10 support_col=49
+support_row=10 support_col=48
+support_row=10 support_col=47
+support_row=10 support_col=46
+support_row=10 support_col=45
+support_row=10 support_col=44
+support_row=10 support_col=43
+support_row=10 support_col=42
+support_row=10 support_col=41
+support_row=10 support_col=40
+support_row=10 support_col=39
+support_row=10 support_col=38
+support_row=10 support_col=37
+support_row=10 support_col=36
+support_row=10 support_col=35
+support_row=10 support_col=34
+support_row=10 support_col=33
+support_row=10 support_col=32
+support_row=10 support_col=31
+support_row=10 support_col=30
+support_row=10 support_col=29
+support_row=10 support_col=28
+support_row=10 support_col=27
+support_row=10 support_col=26
+support_row=10 support_col=25
+support_row=10 support_col=24
+support_row=10 support_col=23
+support_row=10 support_col=22
+support_row=10 support_col=21
+support_row=10 support_col=20
+support_row=10 support_col=19
+support_row=10 support_col=18
+support_row=10 support_col=17
+support_row=10 support_col=16
+support_row=10 support_col=15
+support_row=10 support_col=14
+support_row=10 support_col=13
+support_row=10 support_col=12
+support_row=10 support_col=11
+support_row=10 support_col=10
+support_row=10 support_col=9
+support_row=10 support_col=8
+support_row=10 support_col=7
+support_row=10 support_col=6
+support_row=10 support_col=5
+support_row=10 support_col=4
+support_row=10 support_col=3
+support_row=10 support_col=2
+support_row=10 support_col=1
+support_row=10 support_col=0
+support_row=9 support_col=108
+support_row=9 support_col=107
+support_row=9 support_col=106
+support_row=9 support_col=105
+support_row=9 support_col=104
+support_row=9 support_col=103
+support_row=9 support_col=102
+support_row=9 support_col=101
+support_row=9 support_col=100
+support_row=9 support_col=99
+support_row=9 support_col=98
+support_row=9 support_col=97
+support_row=9 support_col=96
+support_row=9 support_col=95
+support_row=9 support_col=94
+support_row=9 support_col=93
+support_row=9 support_col=92
+support_row=9 support_col=91
+support_row=9 support_col=90
+support_row=9 support_col=89
+support_row=9 support_col=88
+support_row=9 support_col=87
+support_row=9 support_col=86
+support_row=9 support_col=85
+support_row=9 support_col=84
+support_row=9 support_col=83
+support_row=9 support_col=82
+support_row=9 support_col=81
+support_row=9 support_col=80
+support_row=9 support_col=79
+support_row=9 support_col=78
+support_row=9 support_col=77
+support_row=9 support_col=76
+support_row=9 support_col=75
+support_row=9 support_col=74
+support_row=9 support_col=73
+support_row=9 support_col=72
+support_row=9 support_col=71
+support_row=9 support_col=70
+support_row=9 support_col=69
+support_row=9 support_col=68
+support_row=9 support_col=67
+support_row=9 support_col=66
+support_row=9 support_col=65
+support_row=9 support_col=64
+support_row=9 support_col=63
+support_row=9 support_col=62
+support_row=9 support_col=61
+support_row=9 support_col=60
+support_row=9 support_col=59
+support_row=9 support_col=58
+support_row=9 support_col=57
+support_row=9 support_col=56
+support_row=9 support_col=55
+support_row=9 support_col=54
+support_row=9 support_col=53
+support_row=9 support_col=52
+support_row=9 support_col=51
+support_row=9 support_col=50
+support_row=9 support_col=49
+support_row=9 support_col=48
+support_row=9 support_col=47
+support_row=9 support_col=46
+support_row=9 support_col=45
+support_row=9 support_col=44
+support_row=9 support_col=43
+support_row=9 support_col=42
+support_row=9 support_col=41
+support_row=9 support_col=40
+support_row=9 support_col=39
+support_row=9 support_col=38
+support_row=9 support_col=37
+support_row=9 support_col=36
+support_row=9 support_col=35
+support_row=9 support_col=34
+support_row=9 support_col=33
+support_row=9 support_col=32
+support_row=9 support_col=31
+support_row=9 support_col=30
+support_row=9 support_col=29
+support_row=9 support_col=28
+support_row=9 support_col=27
+support_row=9 support_col=26
+support_row=9 support_col=25
+support_row=9 support_col=24
+support_row=9 support_col=23
+support_row=9 support_col=22
+support_row=9 support_col=21
+support_row=9 support_col=20
+support_row=9 support_col=19
+support_row=9 support_col=18
+support_row=9 support_col=17
+support_row=9 support_col=16
+support_row=9 support_col=15
+support_row=9 support_col=14
+support_row=9 support_col=13
+support_row=9 support_col=12
+support_row=9 support_col=11
+support_row=9 support_col=10
+support_row=9 support_col=9
+support_row=9 support_col=8
+support_row=9 support_col=7
+support_row=9 support_col=6
+support_row=9 support_col=5
+support_row=9 support_col=4
+support_row=9 support_col=3
+support_row=9 support_col=2
+support_row=9 support_col=1
+support_row=9 support_col=0
+support_row=8 support_col=108
+support_row=8 support_col=107
+support_row=8 support_col=106
+support_row=8 support_col=105
+support_row=8 support_col=104
+support_row=8 support_col=103
+support_row=8 support_col=102
+support_row=8 support_col=101
+support_row=8 support_col=100
+support_row=8 support_col=99
+support_row=8 support_col=98
+support_row=8 support_col=97
+support_row=8 support_col=96
+support_row=8 support_col=95
+support_row=8 support_col=94
+support_row=8 support_col=93
+support_row=8 support_col=92
+support_row=8 support_col=91
+support_row=8 support_col=90
+support_row=8 support_col=89
+support_row=8 support_col=88
+support_row=8 support_col=87
+support_row=8 support_col=86
+support_row=8 support_col=85
+support_row=8 support_col=84
+support_row=8 support_col=83
+support_row=8 support_col=82
+support_row=8 support_col=79
+support_row=8 support_col=78
+support_row=8 support_col=77
+support_row=8 support_col=76
+support_row=8 support_col=75
+support_row=8 support_col=74
+support_row=8 support_col=73
+support_row=8 support_col=72
+support_row=8 support_col=71
+support_row=8 support_col=70
+support_row=8 support_col=69
+support_row=8 support_col=68
+support_row=8 support_col=67
+support_row=8 support_col=66
+support_row=8 support_col=65
+support_row=8 support_col=64
+support_row=8 support_col=63
+support_row=8 support_col=62
+support_row=8 support_col=61
+support_row=8 support_col=60
+support_row=8 support_col=59
+support_row=8 support_col=58
+support_row=8 support_col=43
+support_row=8 support_col=42
+support_row=8 support_col=41
+support_row=8 support_col=40
+support_row=8 support_col=39
+support_row=8 support_col=38
+support_row=8 support_col=37
+support_row=8 support_col=36
+support_row=8 support_col=35
+support_row=8 support_col=34
+support_row=8 support_col=33
+support_row=8 support_col=32
+support_row=8 support_col=31
+support_row=8 support_col=30
+support_row=8 support_col=29
+support_row=8 support_col=28
+support_row=8 support_col=27
+support_row=8 support_col=26
+support_row=8 support_col=25
+support_row=8 support_col=24
+support_row=8 support_col=23
+support_row=8 support_col=22
+support_row=8 support_col=7
+support_row=8 support_col=6
+support_row=8 support_col=5
+support_row=8 support_col=4
+support_row=8 support_col=3
+support_row=8 support_col=2
+support_row=8 support_col=1
+support_row=8 support_col=0
+support_row=7 support_col=108
+support_row=7 support_col=107
+support_row=7 support_col=106
+support_row=7 support_col=105
+support_row=7 support_col=104
+support_row=7 support_col=103
+support_row=7 support_col=102
+support_row=7 support_col=101
+support_row=7 support_col=100
+support_row=7 support_col=99
+support_row=7 support_col=98
+support_row=7 support_col=97
+support_row=7 support_col=96
+support_row=7 support_col=95
+support_row=7 support_col=94
+support_row=7 support_col=79
+support_row=7 support_col=78
+support_row=7 support_col=77
+support_row=7 support_col=76
+support_row=7 support_col=75
+support_row=7 support_col=74
+support_row=7 support_col=73
+support_row=7 support_col=72
+support_row=7 support_col=71
+support_row=7 support_col=70
+support_row=7 support_col=69
+support_row=7 support_col=68
+support_row=7 support_col=67
+support_row=7 support_col=66
+support_row=7 support_col=65
+support_row=7 support_col=64
+support_row=7 support_col=63
+support_row=7 support_col=62
+support_row=7 support_col=61
+support_row=7 support_col=60
+support_row=7 support_col=59
+support_row=7 support_col=58
+support_row=7 support_col=43
+support_row=7 support_col=42
+support_row=7 support_col=41
+support_row=7 support_col=40
+support_row=7 support_col=39
+support_row=7 support_col=38
+support_row=7 support_col=37
+support_row=7 support_col=36
+support_row=7 support_col=35
+support_row=7 support_col=34
+support_row=7 support_col=33
+support_row=7 support_col=32
+support_row=7 support_col=31
+support_row=7 support_col=30
+support_row=7 support_col=29
+support_row=7 support_col=28
+support_row=7 support_col=27
+support_row=7 support_col=26
+support_row=7 support_col=25
+support_row=7 support_col=24
+support_row=7 support_col=23
+support_row=7 support_col=22
+support_row=7 support_col=7
+support_row=7 support_col=6
+support_row=7 support_col=5
+support_row=7 support_col=4
+support_row=7 support_col=3
+support_row=7 support_col=2
+support_row=7 support_col=1
+support_row=7 support_col=0
+support_row=6 support_col=108
+support_row=6 support_col=107
+support_row=6 support_col=106
+support_row=6 support_col=105
+support_row=6 support_col=104
+support_row=6 support_col=103
+support_row=6 support_col=102
+support_row=6 support_col=101
+support_row=6 support_col=100
+support_row=6 support_col=77
+support_row=6 support_col=76
+support_row=6 support_col=75
+support_row=6 support_col=74
+support_row=6 support_col=73
+support_row=6 support_col=72
+support_row=6 support_col=71
+support_row=6 support_col=70
+support_row=6 support_col=69
+support_row=6 support_col=68
+support_row=6 support_col=67
+support_row=6 support_col=66
+support_row=6 support_col=65
+support_row=6 support_col=64
+support_row=6 support_col=41
+support_row=6 support_col=40
+support_row=6 support_col=39
+support_row=6 support_col=38
+support_row=6 support_col=37
+support_row=6 support_col=36
+support_row=6 support_col=35
+support_row=6 support_col=34
+support_row=6 support_col=33
+support_row=6 support_col=32
+support_row=6 support_col=31
+support_row=6 support_col=30
+support_row=6 support_col=29
+support_row=6 support_col=28
+support_row=6 support_col=5
+support_row=6 support_col=4
+support_row=6 support_col=3
+support_row=6 support_col=2
+support_row=6 support_col=1
+support_row=6 support_col=0
+support_row=5 support_col=108
+support_row=5 support_col=107
+support_row=5 support_col=106
+support_row=5 support_col=105
+support_row=5 support_col=104
+support_row=5 support_col=103
+support_row=5 support_col=102
+support_row=5 support_col=101
+support_row=5 support_col=100
+support_row=5 support_col=77
+support_row=5 support_col=76
+support_row=5 support_col=75
+support_row=5 support_col=74
+support_row=5 support_col=73
+support_row=5 support_col=72
+support_row=5 support_col=71
+support_row=5 support_col=70
+support_row=5 support_col=69
+support_row=5 support_col=68
+support_row=5 support_col=67
+support_row=5 support_col=66
+support_row=5 support_col=65
+support_row=5 support_col=64
+support_row=5 support_col=41
+support_row=5 support_col=40
+support_row=5 support_col=39
+support_row=5 support_col=38
+support_row=5 support_col=37
+support_row=5 support_col=36
+support_row=5 support_col=35
+support_row=5 support_col=34
+support_row=5 support_col=33
+support_row=5 support_col=32
+support_row=5 support_col=31
+support_row=5 support_col=30
+support_row=5 support_col=29
+support_row=5 support_col=28
+support_row=5 support_col=5
+support_row=5 support_col=4
+support_row=5 support_col=3
+support_row=5 support_col=2
+support_row=5 support_col=1
+support_row=5 support_col=0
+support_row=4 support_col=108
+support_row=4 support_col=107
+support_row=4 support_col=106
+support_row=4 support_col=105
+support_row=4 support_col=104
+support_row=4 support_col=73
+support_row=4 support_col=72
+support_row=4 support_col=71
+support_row=4 support_col=70
+support_row=4 support_col=69
+support_row=4 support_col=68
+support_row=4 support_col=37
+support_row=4 support_col=36
+support_row=4 support_col=35
+support_row=4 support_col=34
+support_row=4 support_col=33
+support_row=4 support_col=32
+support_row=4 support_col=1
+support_row=4 support_col=0
+support_row=3 support_col=108
+support_row=3 support_col=107
+support_row=3 support_col=106
+support_row=3 support_col=105
+support_row=3 support_col=104
+support_row=3 support_col=73
+support_row=3 support_col=72
+support_row=3 support_col=71
+support_row=3 support_col=70
+support_row=3 support_col=69
+support_row=3 support_col=68
+support_row=3 support_col=37
+support_row=3 support_col=36
+support_row=3 support_col=35
+support_row=3 support_col=34
+support_row=3 support_col=33
+support_row=3 support_col=32
+support_row=3 support_col=1
+support_row=3 support_col=0
+support_row=2 support_col=108
+support_row=2 support_col=107
+support_row=2 support_col=106
+support_row=2 support_col=71
+support_row=2 support_col=70
+support_row=2 support_col=35
+support_row=2 support_col=34
+support_row=1 support_col=108
+support_row=1 support_col=107
+support_row=1 support_col=106
+support_row=1 support_col=71
+support_row=1 support_col=70
+support_row=1 support_col=35
+support_row=1 support_col=34
+
+deposition_runs:
+001. row=13 value=MAGENTA start_col=108 end_col=104 direction=right_to_left
+002. row=13 value=MAGENTA start_col=71 end_col=68 direction=right_to_left
+003. row=13 value=MAGENTA start_col=35 end_col=32 direction=right_to_left
+004. row=12 value=MAGENTA start_col=108 end_col=106 direction=right_to_left
+005. row=12 value=MAGENTA start_col=71 end_col=70 direction=right_to_left
+006. row=12 value=MAGENTA start_col=35 end_col=34 direction=right_to_left
+007. row=11 value=MAGENTA start_col=108 end_col=102 direction=right_to_left
+008. row=11 value=MAGENTA start_col=75 end_col=66 direction=right_to_left
+009. row=11 value=MAGENTA start_col=39 end_col=30 direction=right_to_left
+010. row=11 value=MAGENTA start_col=3 end_col=0 direction=right_to_left
+011. row=10 value=MAGENTA start_col=108 end_col=102 direction=right_to_left
+012. row=10 value=MAGENTA start_col=75 end_col=66 direction=right_to_left
+013. row=10 value=MAGENTA start_col=39 end_col=30 direction=right_to_left
+014. row=10 value=MAGENTA start_col=3 end_col=0 direction=right_to_left
+015. row=9 value=MAGENTA start_col=108 end_col=98 direction=right_to_left
+016. row=9 value=MAGENTA start_col=81 end_col=62 direction=right_to_left
+017. row=9 value=MAGENTA start_col=45 end_col=26 direction=right_to_left
+018. row=9 value=MAGENTA start_col=9 end_col=0 direction=right_to_left
+019. row=8 value=MAGENTA start_col=108 end_col=98 direction=right_to_left
+020. row=8 value=MAGENTA start_col=81 end_col=62 direction=right_to_left
+021. row=8 value=MAGENTA start_col=45 end_col=26 direction=right_to_left
+022. row=8 value=MAGENTA start_col=9 end_col=0 direction=right_to_left
+023. row=7 value=MAGENTA start_col=108 end_col=96 direction=right_to_left
+024. row=7 value=MAGENTA start_col=79 end_col=60 direction=right_to_left
+025. row=7 value=MAGENTA start_col=43 end_col=24 direction=right_to_left
+026. row=7 value=MAGENTA start_col=7 end_col=0 direction=right_to_left
+027. row=6 value=MAGENTA start_col=108 end_col=96 direction=right_to_left
+028. row=6 value=MAGENTA start_col=79 end_col=60 direction=right_to_left
+029. row=6 value=MAGENTA start_col=43 end_col=24 direction=right_to_left
+030. row=6 value=MAGENTA start_col=7 end_col=0 direction=right_to_left
+031. row=5 value=MAGENTA start_col=108 end_col=100 direction=right_to_left
+032. row=5 value=MAGENTA start_col=77 end_col=64 direction=right_to_left
+033. row=5 value=MAGENTA start_col=41 end_col=28 direction=right_to_left
+034. row=5 value=MAGENTA start_col=5 end_col=0 direction=right_to_left
+035. row=4 value=MAGENTA start_col=108 end_col=100 direction=right_to_left
+036. row=4 value=MAGENTA start_col=77 end_col=64 direction=right_to_left
+037. row=4 value=MAGENTA start_col=41 end_col=28 direction=right_to_left
+038. row=4 value=MAGENTA start_col=5 end_col=0 direction=right_to_left
+039. row=3 value=MAGENTA start_col=108 end_col=104 direction=right_to_left
+040. row=3 value=MAGENTA start_col=73 end_col=68 direction=right_to_left
+041. row=3 value=MAGENTA start_col=37 end_col=32 direction=right_to_left
+042. row=3 value=MAGENTA start_col=1 end_col=0 direction=right_to_left
+043. row=2 value=MAGENTA start_col=108 end_col=104 direction=right_to_left
+044. row=2 value=MAGENTA start_col=73 end_col=68 direction=right_to_left
+045. row=2 value=MAGENTA start_col=37 end_col=32 direction=right_to_left
+046. row=2 value=MAGENTA start_col=1 end_col=0 direction=right_to_left
+047. row=1 value=MAGENTA start_col=108 end_col=106 direction=right_to_left
+048. row=1 value=MAGENTA start_col=71 end_col=70 direction=right_to_left
+049. row=1 value=MAGENTA start_col=35 end_col=34 direction=right_to_left
+050. row=0 value=MAGENTA start_col=108 end_col=106 direction=right_to_left
+051. row=0 value=MAGENTA start_col=71 end_col=70 direction=right_to_left
+052. row=0 value=MAGENTA start_col=35 end_col=34 direction=right_to_left
+053. row=13 value=YELLOW start_col=103 end_col=84 direction=right_to_left
+054. row=13 value=CYAN start_col=83 end_col=72 direction=right_to_left
+055. row=13 value=YELLOW start_col=67 end_col=48 direction=right_to_left
+056. row=13 value=CYAN start_col=47 end_col=36 direction=right_to_left
+057. row=13 value=YELLOW start_col=31 end_col=12 direction=right_to_left
+058. row=13 value=CYAN start_col=11 end_col=0 direction=right_to_left
+059. row=12 value=YELLOW start_col=105 end_col=86 direction=right_to_left
+060. row=12 value=CYAN start_col=85 end_col=72 direction=right_to_left
+061. row=12 value=YELLOW start_col=69 end_col=50 direction=right_to_left
+062. row=12 value=CYAN start_col=49 end_col=36 direction=right_to_left
+063. row=12 value=YELLOW start_col=33 end_col=14 direction=right_to_left
+064. row=12 value=CYAN start_col=13 end_col=0 direction=right_to_left
+065. row=11 value=YELLOW start_col=101 end_col=86 direction=right_to_left
+066. row=11 value=CYAN start_col=85 end_col=76 direction=right_to_left
+067. row=11 value=YELLOW start_col=65 end_col=50 direction=right_to_left
+068. row=11 value=CYAN start_col=49 end_col=40 direction=right_to_left
+069. row=11 value=YELLOW start_col=29 end_col=14 direction=right_to_left
+070. row=11 value=CYAN start_col=13 end_col=4 direction=right_to_left
+071. row=10 value=YELLOW start_col=101 end_col=86 direction=right_to_left
+072. row=10 value=CYAN start_col=85 end_col=76 direction=right_to_left
+073. row=10 value=YELLOW start_col=65 end_col=50 direction=right_to_left
+074. row=10 value=CYAN start_col=49 end_col=40 direction=right_to_left
+075. row=10 value=YELLOW start_col=29 end_col=14 direction=right_to_left
+076. row=10 value=CYAN start_col=13 end_col=4 direction=right_to_left
+077. row=9 value=YELLOW start_col=97 end_col=88 direction=right_to_left
+078. row=9 value=CYAN start_col=87 end_col=82 direction=right_to_left
+079. row=9 value=YELLOW start_col=61 end_col=52 direction=right_to_left
+080. row=9 value=CYAN start_col=51 end_col=46 direction=right_to_left
+081. row=9 value=YELLOW start_col=25 end_col=16 direction=right_to_left
+082. row=9 value=CYAN start_col=15 end_col=10 direction=right_to_left
+083. row=8 value=YELLOW start_col=97 end_col=88 direction=right_to_left
+084. row=8 value=CYAN start_col=87 end_col=82 direction=right_to_left
+085. row=8 value=YELLOW start_col=61 end_col=52 direction=right_to_left
+086. row=8 value=CYAN start_col=51 end_col=46 direction=right_to_left
+087. row=8 value=YELLOW start_col=25 end_col=16 direction=right_to_left
+088. row=8 value=CYAN start_col=15 end_col=10 direction=right_to_left
+089. row=7 value=YELLOW start_col=95 end_col=94 direction=right_to_left
+090. row=7 value=CYAN start_col=93 end_col=80 direction=right_to_left
+091. row=7 value=YELLOW start_col=59 end_col=58 direction=right_to_left
+092. row=7 value=CYAN start_col=57 end_col=44 direction=right_to_left
+093. row=7 value=YELLOW start_col=23 end_col=22 direction=right_to_left
+094. row=7 value=CYAN start_col=21 end_col=8 direction=right_to_left
+095. row=6 value=YELLOW start_col=95 end_col=94 direction=right_to_left
+096. row=6 value=CYAN start_col=93 end_col=80 direction=right_to_left
+097. row=6 value=YELLOW start_col=59 end_col=58 direction=right_to_left
+098. row=6 value=CYAN start_col=57 end_col=44 direction=right_to_left
+099. row=6 value=YELLOW start_col=23 end_col=22 direction=right_to_left
+100. row=6 value=CYAN start_col=21 end_col=8 direction=right_to_left
+101. row=5 value=YELLOW start_col=99 end_col=92 direction=right_to_left
+102. row=5 value=CYAN start_col=91 end_col=78 direction=right_to_left
+103. row=5 value=YELLOW start_col=63 end_col=56 direction=right_to_left
+104. row=5 value=CYAN start_col=55 end_col=42 direction=right_to_left
+105. row=5 value=YELLOW start_col=27 end_col=20 direction=right_to_left
+106. row=5 value=CYAN start_col=19 end_col=6 direction=right_to_left
+107. row=4 value=YELLOW start_col=99 end_col=92 direction=right_to_left
+108. row=4 value=CYAN start_col=91 end_col=78 direction=right_to_left
+109. row=4 value=YELLOW start_col=63 end_col=56 direction=right_to_left
+110. row=4 value=CYAN start_col=55 end_col=42 direction=right_to_left
+111. row=4 value=YELLOW start_col=27 end_col=20 direction=right_to_left
+112. row=4 value=CYAN start_col=19 end_col=6 direction=right_to_left
+113. row=3 value=YELLOW start_col=103 end_col=90 direction=right_to_left
+114. row=3 value=CYAN start_col=89 end_col=74 direction=right_to_left
+115. row=3 value=YELLOW start_col=67 end_col=54 direction=right_to_left
+116. row=3 value=CYAN start_col=53 end_col=38 direction=right_to_left
+117. row=3 value=YELLOW start_col=31 end_col=18 direction=right_to_left
+118. row=3 value=CYAN start_col=17 end_col=2 direction=right_to_left
+119. row=2 value=YELLOW start_col=103 end_col=90 direction=right_to_left
+120. row=2 value=CYAN start_col=89 end_col=74 direction=right_to_left
+121. row=2 value=YELLOW start_col=67 end_col=54 direction=right_to_left
+122. row=2 value=CYAN start_col=53 end_col=38 direction=right_to_left
+123. row=2 value=YELLOW start_col=31 end_col=18 direction=right_to_left
+124. row=2 value=CYAN start_col=17 end_col=2 direction=right_to_left
+125. row=1 value=YELLOW start_col=105 end_col=84 direction=right_to_left
+126. row=1 value=CYAN start_col=83 end_col=72 direction=right_to_left
+127. row=1 value=YELLOW start_col=69 end_col=48 direction=right_to_left
+128. row=1 value=CYAN start_col=47 end_col=36 direction=right_to_left
+129. row=1 value=YELLOW start_col=33 end_col=12 direction=right_to_left
+130. row=1 value=CYAN start_col=11 end_col=0 direction=right_to_left
+131. row=0 value=YELLOW start_col=105 end_col=84 direction=right_to_left
+132. row=0 value=CYAN start_col=83 end_col=72 direction=right_to_left
+133. row=0 value=YELLOW start_col=69 end_col=48 direction=right_to_left
+134. row=0 value=CYAN start_col=47 end_col=36 direction=right_to_left
+135. row=0 value=YELLOW start_col=33 end_col=12 direction=right_to_left
+136. row=0 value=CYAN start_col=11 end_col=0 direction=right_to_left

@@ -1,0 +1,483 @@
+[
+  {
+    "assignment_index": 1,
+    "source_component_index": 37,
+    "source_component_name": "Custom",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 39.0,
+    "component_voxel_count": 20,
+    "mapped_step_lengths_e_mm": [
+      39.0
+    ]
+  },
+  {
+    "assignment_index": 2,
+    "source_component_index": 14,
+    "source_component_name": "Magenta",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 3,
+    "source_component_index": 25,
+    "source_component_name": "Magenta (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47625999999514,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47625999999514
+    ]
+  },
+  {
+    "assignment_index": 4,
+    "source_component_index": 4,
+    "source_component_name": "M83-Y33",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 5,
+    "source_component_index": 24,
+    "source_component_name": "M83-Y17 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47625999999514,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47625999999514
+    ]
+  },
+  {
+    "assignment_index": 6,
+    "source_component_index": 7,
+    "source_component_name": "M67-Y33",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 7,
+    "source_component_index": 23,
+    "source_component_name": "M67-Y33 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47625999999514,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47625999999514
+    ]
+  },
+  {
+    "assignment_index": 8,
+    "source_component_index": 20,
+    "source_component_name": "M50-Y50",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 9,
+    "source_component_index": 19,
+    "source_component_name": "M50-Y50 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47626000000122,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47626000000122
+    ]
+  },
+  {
+    "assignment_index": 10,
+    "source_component_index": 13,
+    "source_component_name": "M33-Y67",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 11,
+    "source_component_index": 18,
+    "source_component_name": "M33-Y67 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47626000000298,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47626000000298
+    ]
+  },
+  {
+    "assignment_index": 12,
+    "source_component_index": 17,
+    "source_component_name": "M17-Y83",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 13,
+    "source_component_index": 2,
+    "source_component_name": "M17-Y83 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47626000000298,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47626000000298
+    ]
+  },
+  {
+    "assignment_index": 14,
+    "source_component_index": 35,
+    "source_component_name": "Yellow",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 15,
+    "source_component_index": 34,
+    "source_component_name": "Yellow (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47626000000298,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47626000000298
+    ]
+  },
+  {
+    "assignment_index": 16,
+    "source_component_index": 33,
+    "source_component_name": "Y83-C17",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 17,
+    "source_component_index": 36,
+    "source_component_name": "Y83-C17 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47626000000298,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47626000000298
+    ]
+  },
+  {
+    "assignment_index": 18,
+    "source_component_index": 32,
+    "source_component_name": "Y67-C33",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 19,
+    "source_component_index": 31,
+    "source_component_name": "Y67-C33 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47626000000298,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47626000000298
+    ]
+  },
+  {
+    "assignment_index": 20,
+    "source_component_index": 30,
+    "source_component_name": "Y50-C50",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 21,
+    "source_component_index": 29,
+    "source_component_name": "Y50-C50 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47625999999514,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47625999999514
+    ]
+  },
+  {
+    "assignment_index": 22,
+    "source_component_index": 8,
+    "source_component_name": "Y33-C67",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 23,
+    "source_component_index": 28,
+    "source_component_name": "Y33-C67 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47625999999514,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47625999999514
+    ]
+  },
+  {
+    "assignment_index": 24,
+    "source_component_index": 27,
+    "source_component_name": "Y17-C83",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 25,
+    "source_component_index": 6,
+    "source_component_name": "Y17-C83 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.4762599999965,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.4762599999965
+    ]
+  },
+  {
+    "assignment_index": 26,
+    "source_component_index": 11,
+    "source_component_name": "Cyan",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 27,
+    "source_component_index": 9,
+    "source_component_name": "Cyan (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.4762600000003,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.4762600000003
+    ]
+  },
+  {
+    "assignment_index": 28,
+    "source_component_index": 10,
+    "source_component_name": "C83-M17",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 29,
+    "source_component_index": 22,
+    "source_component_name": "C83-M17 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.4762600000003,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.4762600000003
+    ]
+  },
+  {
+    "assignment_index": 30,
+    "source_component_index": 1,
+    "source_component_name": "C67-M33",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 31,
+    "source_component_index": 12,
+    "source_component_name": "C67-M33 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.4762600000005,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.4762600000005
+    ]
+  },
+  {
+    "assignment_index": 32,
+    "source_component_index": 15,
+    "source_component_name": "C50-M50",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 33,
+    "source_component_index": 3,
+    "source_component_name": "C50-M50 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47625999999997,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47625999999997
+    ]
+  },
+  {
+    "assignment_index": 34,
+    "source_component_index": 16,
+    "source_component_name": "C33-M67",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 35,
+    "source_component_index": 21,
+    "source_component_name": "C33-M67 (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.4762599999998,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.4762599999998
+    ]
+  },
+  {
+    "assignment_index": 36,
+    "source_component_index": 26,
+    "source_component_name": "Purple",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 0.7390799999999444,
+    "component_voxel_count": 1,
+    "mapped_step_lengths_e_mm": [
+      0.7390799999999444
+    ]
+  },
+  {
+    "assignment_index": 37,
+    "source_component_index": 5,
+    "source_component_name": "Purple (1)",
+    "property_type": "Property",
+    "gradient_direction": "printing",
+    "effective_step_count": 1,
+    "component_total_filament_e_mm": 165.47625999999966,
+    "component_voxel_count": 83,
+    "mapped_step_lengths_e_mm": [
+      165.47625999999966
+    ]
+  }
+]

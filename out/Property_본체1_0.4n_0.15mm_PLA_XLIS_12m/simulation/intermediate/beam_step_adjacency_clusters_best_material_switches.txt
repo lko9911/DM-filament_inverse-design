@@ -1,0 +1,10 @@
+source_candidates_path: test_sample\derived\adjacency\beam_step_adjacency_clusters_best.txt
+candidate_count: 1
+min_material_switch_count: 3
+min_count_candidate_ranks: 1
+switch_count_histogram:
+- 3: 1
+
+candidate_results:
+0001. score=84 material_switch_count=3 selected_case_keys=case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001
+      switch_events=1@row13,col11:MAGENTA->YELLOW; 2@row13,col5:YELLOW->CYAN; 3@row13,col0:CYAN->UNKNOWN

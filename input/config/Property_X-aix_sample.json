@@ -1,0 +1,4651 @@
+{
+  "voxel_threshold_e": 2.0,
+  "voxel_count": 2648,
+  "preheat_prime_e": 0.0,
+  "assignments": [
+    {
+      "assignment_index": 1,
+      "source_component_index": 37,
+      "source_component_name": "Custom",
+      "start_voxel_index": 1,
+      "end_voxel_index": 20,
+      "start_layer": 1,
+      "end_layer": 1,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "UNKNOWN",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "UNKNOWN": 100.0
+      },
+      "final_material_ratios": {
+        "UNKNOWN": 100.0
+      }
+    },
+    {
+      "assignment_index": 2,
+      "source_component_index": 2,
+      "source_component_name": "Magenta",
+      "start_voxel_index": 21,
+      "end_voxel_index": 21,
+      "start_layer": 2,
+      "end_layer": 3,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 100.0
+      },
+      "final_material_ratios": {
+        "MAGENTA": 100.0
+      },
+      "requested_color": "M100",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M100",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "MAGENTA",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#d82d4b",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 3,
+      "source_component_index": 13,
+      "source_component_name": "Magenta (1)",
+      "start_voxel_index": 22,
+      "end_voxel_index": 166,
+      "start_layer": 4,
+      "end_layer": 5,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 100.0
+      },
+      "final_material_ratios": {
+        "MAGENTA": 100.0
+      },
+      "requested_color": "M100",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M100",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 1.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "MAGENTA",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#d82d4b",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 4,
+      "source_component_index": 1,
+      "source_component_name": "M83-Y33",
+      "start_voxel_index": 167,
+      "end_voxel_index": 167,
+      "start_layer": 6,
+      "end_layer": 7,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 83.33333333333333,
+      "material_end_ratio": 16.666666666666668,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 83.33333333333333,
+        "YELLOW": 16.666666666666668
+      },
+      "final_material_ratios": {
+        "MAGENTA": 83.33333333333333,
+        "YELLOW": 16.666666666666668
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M83_Y17",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M83_Y17",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.8333333333333333,
+          "YELLOW": 0.16666666666666669
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 83.33333333333333,
+        "material_end_ratio": 16.666666666666668,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#dc3524",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 5,
+      "source_component_index": 12,
+      "source_component_name": "M83-Y17 (1)",
+      "start_voxel_index": 168,
+      "end_voxel_index": 312,
+      "start_layer": 8,
+      "end_layer": 9,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 83.33333333333333,
+      "material_end_ratio": 16.666666666666668,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 83.33333333333333,
+        "YELLOW": 16.666666666666668
+      },
+      "final_material_ratios": {
+        "MAGENTA": 83.33333333333333,
+        "YELLOW": 16.666666666666668
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M83_Y17",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M83_Y17",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.8333333333333333,
+          "YELLOW": 0.16666666666666669
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 83.33333333333333,
+        "material_end_ratio": 16.666666666666668,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#dc3524",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 6,
+      "source_component_index": 11,
+      "source_component_name": "M67-Y33",
+      "start_voxel_index": 313,
+      "end_voxel_index": 313,
+      "start_layer": 10,
+      "end_layer": 11,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 66.66666666666667,
+      "material_end_ratio": 33.333333333333336,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 66.66666666666667,
+        "YELLOW": 33.333333333333336
+      },
+      "final_material_ratios": {
+        "MAGENTA": 66.66666666666667,
+        "YELLOW": 33.333333333333336
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M67_Y33",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M67_Y33",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.6666666666666667,
+          "YELLOW": 0.33333333333333337
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 66.66666666666667,
+        "material_end_ratio": 33.333333333333336,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#df5412",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 7,
+      "source_component_index": 7,
+      "source_component_name": "M67-Y33 (1)",
+      "start_voxel_index": 314,
+      "end_voxel_index": 458,
+      "start_layer": 12,
+      "end_layer": 13,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 66.66666666666667,
+      "material_end_ratio": 33.333333333333336,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 66.66666666666667,
+        "YELLOW": 33.333333333333336
+      },
+      "final_material_ratios": {
+        "MAGENTA": 66.66666666666667,
+        "YELLOW": 33.333333333333336
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M67_Y33",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M67_Y33",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.6666666666666667,
+          "YELLOW": 0.33333333333333337
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 66.66666666666667,
+        "material_end_ratio": 33.333333333333336,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#df5412",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 8,
+      "source_component_index": 6,
+      "source_component_name": "M50-Y50",
+      "start_voxel_index": 459,
+      "end_voxel_index": 459,
+      "start_layer": 14,
+      "end_layer": 15,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 50.0,
+      "material_end_ratio": 50.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 50.0,
+        "YELLOW": 50.0
+      },
+      "final_material_ratios": {
+        "MAGENTA": 50.0,
+        "YELLOW": 50.0
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M50_Y50",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M50_Y50",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.5,
+          "YELLOW": 0.5
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 50.0,
+        "material_end_ratio": 50.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#e57000",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 9,
+      "source_component_index": 9,
+      "source_component_name": "M50-Y50 (1)",
+      "start_voxel_index": 460,
+      "end_voxel_index": 604,
+      "start_layer": 16,
+      "end_layer": 17,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 50.0,
+      "material_end_ratio": 50.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 50.0,
+        "YELLOW": 50.0
+      },
+      "final_material_ratios": {
+        "MAGENTA": 50.0,
+        "YELLOW": 50.0
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M50_Y50",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M50_Y50",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.5,
+          "YELLOW": 0.5
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 50.0,
+        "material_end_ratio": 50.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#e57000",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 10,
+      "source_component_index": 8,
+      "source_component_name": "M33-Y67",
+      "start_voxel_index": 605,
+      "end_voxel_index": 605,
+      "start_layer": 18,
+      "end_layer": 19,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 33.333333333333336,
+      "material_end_ratio": 66.66666666666667,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 33.333333333333336,
+        "YELLOW": 66.66666666666667
+      },
+      "final_material_ratios": {
+        "MAGENTA": 33.333333333333336,
+        "YELLOW": 66.66666666666667
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M33_Y67",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M33_Y67",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.33333333333333337,
+          "YELLOW": 0.6666666666666667
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 33.333333333333336,
+        "material_end_ratio": 66.66666666666667,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#ee9800",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 11,
+      "source_component_index": 5,
+      "source_component_name": "M33-Y67 (1)",
+      "start_voxel_index": 606,
+      "end_voxel_index": 750,
+      "start_layer": 20,
+      "end_layer": 21,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 33.333333333333336,
+      "material_end_ratio": 66.66666666666667,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 33.333333333333336,
+        "YELLOW": 66.66666666666667
+      },
+      "final_material_ratios": {
+        "MAGENTA": 33.333333333333336,
+        "YELLOW": 66.66666666666667
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M33_Y67",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M33_Y67",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.33333333333333337,
+          "YELLOW": 0.6666666666666667
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 33.333333333333336,
+        "material_end_ratio": 66.66666666666667,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#ee9800",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 12,
+      "source_component_index": 10,
+      "source_component_name": "M17-Y83",
+      "start_voxel_index": 751,
+      "end_voxel_index": 751,
+      "start_layer": 22,
+      "end_layer": 23,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 16.666666666666668,
+      "material_end_ratio": 83.33333333333333,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 16.666666666666668,
+        "YELLOW": 83.33333333333333
+      },
+      "final_material_ratios": {
+        "MAGENTA": 16.666666666666668,
+        "YELLOW": 83.33333333333333
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M17_Y83",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M17_Y83",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.16666666666666669,
+          "YELLOW": 0.8333333333333333
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 16.666666666666668,
+        "material_end_ratio": 83.33333333333333,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f6c600",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 13,
+      "source_component_index": 4,
+      "source_component_name": "M17-Y83 (1)",
+      "start_voxel_index": 752,
+      "end_voxel_index": 896,
+      "start_layer": 24,
+      "end_layer": 25,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "MAGENTA",
+      "material_start_ratio": 16.666666666666668,
+      "material_end_ratio": 83.33333333333333,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "MAGENTA": 16.666666666666668,
+        "YELLOW": 83.33333333333333
+      },
+      "final_material_ratios": {
+        "MAGENTA": 16.666666666666668,
+        "YELLOW": 83.33333333333333
+      },
+      "material_end": "YELLOW",
+      "requested_color": "M17_Y83",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "M17_Y83",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.16666666666666669,
+          "YELLOW": 0.8333333333333333
+        },
+        "material_count": 2,
+        "material_start": "MAGENTA",
+        "material_end": "YELLOW",
+        "material_start_ratio": 16.666666666666668,
+        "material_end_ratio": 83.33333333333333,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f6c600",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 14,
+      "source_component_index": 15,
+      "source_component_name": "Yellow",
+      "start_voxel_index": 897,
+      "end_voxel_index": 897,
+      "start_layer": 26,
+      "end_layer": 27,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "YELLOW",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 100.0
+      },
+      "final_material_ratios": {
+        "YELLOW": 100.0
+      },
+      "requested_color": "Y100",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y100",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "YELLOW",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f5ed16",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 15,
+      "source_component_index": 17,
+      "source_component_name": "Yellow (1)",
+      "start_voxel_index": 898,
+      "end_voxel_index": 1042,
+      "start_layer": 28,
+      "end_layer": 29,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "YELLOW",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 100.0
+      },
+      "final_material_ratios": {
+        "YELLOW": 100.0
+      },
+      "requested_color": "Y100",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y100",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 1.0
+        },
+        "material_count": 1,
+        "material_start": "YELLOW",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#f5ed16",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 16,
+      "source_component_index": 14,
+      "source_component_name": "Y83-C17",
+      "start_voxel_index": 1043,
+      "end_voxel_index": 1043,
+      "start_layer": 30,
+      "end_layer": 31,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 83.33333333333333,
+      "material_end_ratio": 16.666666666666668,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 83.33333333333333,
+        "CYAN": 16.666666666666668
+      },
+      "final_material_ratios": {
+        "YELLOW": 83.33333333333333,
+        "CYAN": 16.666666666666668
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y83_C17",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y83_C17",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.16666666666666669,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.8333333333333333
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 83.33333333333333,
+        "material_end_ratio": 16.666666666666668,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#9bd400",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 17,
+      "source_component_index": 26,
+      "source_component_name": "Y83-C17 (1)",
+      "start_voxel_index": 1044,
+      "end_voxel_index": 1188,
+      "start_layer": 32,
+      "end_layer": 33,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 83.33333333333333,
+      "material_end_ratio": 16.666666666666668,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 83.33333333333333,
+        "CYAN": 16.666666666666668
+      },
+      "final_material_ratios": {
+        "YELLOW": 83.33333333333333,
+        "CYAN": 16.666666666666668
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y83_C17",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y83_C17",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.16666666666666669,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.8333333333333333
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 83.33333333333333,
+        "material_end_ratio": 16.666666666666668,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#9bd400",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 18,
+      "source_component_index": 22,
+      "source_component_name": "Y67-C33",
+      "start_voxel_index": 1189,
+      "end_voxel_index": 1189,
+      "start_layer": 34,
+      "end_layer": 35,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 66.66666666666667,
+      "material_end_ratio": 33.333333333333336,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 66.66666666666667,
+        "CYAN": 33.333333333333336
+      },
+      "final_material_ratios": {
+        "YELLOW": 66.66666666666667,
+        "CYAN": 33.333333333333336
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y67_C33",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y67_C33",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.33333333333333337,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.6666666666666667
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 66.66666666666667,
+        "material_end_ratio": 33.333333333333336,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#61b600",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 19,
+      "source_component_index": 16,
+      "source_component_name": "Y67-C33 (1)",
+      "start_voxel_index": 1190,
+      "end_voxel_index": 1334,
+      "start_layer": 36,
+      "end_layer": 37,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 66.66666666666667,
+      "material_end_ratio": 33.333333333333336,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 66.66666666666667,
+        "CYAN": 33.333333333333336
+      },
+      "final_material_ratios": {
+        "YELLOW": 66.66666666666667,
+        "CYAN": 33.333333333333336
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y67_C33",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y67_C33",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.33333333333333337,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.6666666666666667
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 66.66666666666667,
+        "material_end_ratio": 33.333333333333336,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#61b600",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 20,
+      "source_component_index": 18,
+      "source_component_name": "Y50-C50",
+      "start_voxel_index": 1335,
+      "end_voxel_index": 1335,
+      "start_layer": 38,
+      "end_layer": 39,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 50.0,
+      "material_end_ratio": 50.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 50.0,
+        "CYAN": 50.0
+      },
+      "final_material_ratios": {
+        "YELLOW": 50.0,
+        "CYAN": 50.0
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y50_C50",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y50_C50",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.5,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.5
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 50.0,
+        "material_end_ratio": 50.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#359f13",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 21,
+      "source_component_index": 23,
+      "source_component_name": "Y50-C50 (1)",
+      "start_voxel_index": 1336,
+      "end_voxel_index": 1480,
+      "start_layer": 40,
+      "end_layer": 41,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 50.0,
+      "material_end_ratio": 50.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 50.0,
+        "CYAN": 50.0
+      },
+      "final_material_ratios": {
+        "YELLOW": 50.0,
+        "CYAN": 50.0
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y50_C50",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y50_C50",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.5,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.5
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 50.0,
+        "material_end_ratio": 50.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#359f13",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 22,
+      "source_component_index": 20,
+      "source_component_name": "Y33-C67",
+      "start_voxel_index": 1481,
+      "end_voxel_index": 1481,
+      "start_layer": 42,
+      "end_layer": 43,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 33.333333333333336,
+      "material_end_ratio": 66.66666666666667,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 33.333333333333336,
+        "CYAN": 66.66666666666667
+      },
+      "final_material_ratios": {
+        "YELLOW": 33.333333333333336,
+        "CYAN": 66.66666666666667
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y33_C67",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y33_C67",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.6666666666666667,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.33333333333333337
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 33.333333333333336,
+        "material_end_ratio": 66.66666666666667,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#168b48",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 23,
+      "source_component_index": 21,
+      "source_component_name": "Y33-C67 (1)",
+      "start_voxel_index": 1482,
+      "end_voxel_index": 1626,
+      "start_layer": 44,
+      "end_layer": 45,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 33.333333333333336,
+      "material_end_ratio": 66.66666666666667,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 33.333333333333336,
+        "CYAN": 66.66666666666667
+      },
+      "final_material_ratios": {
+        "YELLOW": 33.333333333333336,
+        "CYAN": 66.66666666666667
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y33_C67",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y33_C67",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.6666666666666667,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.33333333333333337
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 33.333333333333336,
+        "material_end_ratio": 66.66666666666667,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#168b48",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 24,
+      "source_component_index": 19,
+      "source_component_name": "Y17-C83",
+      "start_voxel_index": 1627,
+      "end_voxel_index": 1627,
+      "start_layer": 46,
+      "end_layer": 47,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 16.666666666666668,
+      "material_end_ratio": 83.33333333333333,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 16.666666666666668,
+        "CYAN": 83.33333333333333
+      },
+      "final_material_ratios": {
+        "YELLOW": 16.666666666666668,
+        "CYAN": 83.33333333333333
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y17_C83",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y17_C83",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.8333333333333333,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.16666666666666669
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 16.666666666666668,
+        "material_end_ratio": 83.33333333333333,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#007879",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 25,
+      "source_component_index": 24,
+      "source_component_name": "Y17-C83 (1)",
+      "start_voxel_index": 1628,
+      "end_voxel_index": 1772,
+      "start_layer": 48,
+      "end_layer": 49,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "YELLOW",
+      "material_start_ratio": 16.666666666666668,
+      "material_end_ratio": 83.33333333333333,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "YELLOW": 16.666666666666668,
+        "CYAN": 83.33333333333333
+      },
+      "final_material_ratios": {
+        "YELLOW": 16.666666666666668,
+        "CYAN": 83.33333333333333
+      },
+      "material_end": "CYAN",
+      "requested_color": "Y17_C83",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "Y17_C83",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.8333333333333333,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.16666666666666669
+        },
+        "material_count": 2,
+        "material_start": "YELLOW",
+        "material_end": "CYAN",
+        "material_start_ratio": 16.666666666666668,
+        "material_end_ratio": 83.33333333333333,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#007879",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 26,
+      "source_component_index": 36,
+      "source_component_name": "Cyan",
+      "start_voxel_index": 1773,
+      "end_voxel_index": 1773,
+      "start_layer": 50,
+      "end_layer": 51,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "CYAN",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 100.0
+      },
+      "final_material_ratios": {
+        "CYAN": 100.0
+      },
+      "requested_color": "C100",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C100",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "CYAN",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#1689ca",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 27,
+      "source_component_index": 35,
+      "source_component_name": "Cyan (1)",
+      "start_voxel_index": 1774,
+      "end_voxel_index": 1918,
+      "start_layer": 52,
+      "end_layer": 53,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 0.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 1,
+      "material_start": "CYAN",
+      "material_start_ratio": 100.0,
+      "material_end_ratio": 0.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 100.0
+      },
+      "final_material_ratios": {
+        "CYAN": 100.0
+      },
+      "requested_color": "C100",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C100",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 1.0,
+          "MAGENTA": 0.0,
+          "YELLOW": 0.0
+        },
+        "material_count": 1,
+        "material_start": "CYAN",
+        "material_end": null,
+        "material_start_ratio": 100.0,
+        "material_end_ratio": 0.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#1689ca",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 28,
+      "source_component_index": 34,
+      "source_component_name": "C83-M17",
+      "start_voxel_index": 1919,
+      "end_voxel_index": 1919,
+      "start_layer": 54,
+      "end_layer": 55,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 83.33333333333333,
+      "material_end_ratio": 16.666666666666668,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 83.33333333333333,
+        "MAGENTA": 16.666666666666668
+      },
+      "final_material_ratios": {
+        "CYAN": 83.33333333333333,
+        "MAGENTA": 16.666666666666668
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "C83_M17",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C83_M17",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.8333333333333333,
+          "MAGENTA": 0.16666666666666669,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 83.33333333333333,
+        "material_end_ratio": 16.666666666666668,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#305ab7",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 29,
+      "source_component_index": 33,
+      "source_component_name": "C83-M17 (1)",
+      "start_voxel_index": 1920,
+      "end_voxel_index": 2064,
+      "start_layer": 56,
+      "end_layer": 57,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 83.33333333333333,
+      "material_end_ratio": 16.666666666666668,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 83.33333333333333,
+        "MAGENTA": 16.666666666666668
+      },
+      "final_material_ratios": {
+        "CYAN": 83.33333333333333,
+        "MAGENTA": 16.666666666666668
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "C83_M17",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C83_M17",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.8333333333333333,
+          "MAGENTA": 0.16666666666666669,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 83.33333333333333,
+        "material_end_ratio": 16.666666666666668,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#305ab7",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 30,
+      "source_component_index": 32,
+      "source_component_name": "C67-M33",
+      "start_voxel_index": 2065,
+      "end_voxel_index": 2065,
+      "start_layer": 58,
+      "end_layer": 59,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 66.66666666666667,
+      "material_end_ratio": 33.333333333333336,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 66.66666666666667,
+        "MAGENTA": 33.333333333333336
+      },
+      "final_material_ratios": {
+        "CYAN": 66.66666666666667,
+        "MAGENTA": 33.333333333333336
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "C67_M33",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C67_M33",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.6666666666666667,
+          "MAGENTA": 0.33333333333333337,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 66.66666666666667,
+        "material_end_ratio": 33.333333333333336,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#4b3f9b",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 31,
+      "source_component_index": 31,
+      "source_component_name": "C67-M33 (1)",
+      "start_voxel_index": 2066,
+      "end_voxel_index": 2210,
+      "start_layer": 60,
+      "end_layer": 61,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 66.66666666666667,
+      "material_end_ratio": 33.333333333333336,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 66.66666666666667,
+        "MAGENTA": 33.333333333333336
+      },
+      "final_material_ratios": {
+        "CYAN": 66.66666666666667,
+        "MAGENTA": 33.333333333333336
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "C67_M33",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C67_M33",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.6666666666666667,
+          "MAGENTA": 0.33333333333333337,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 66.66666666666667,
+        "material_end_ratio": 33.333333333333336,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#4b3f9b",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 32,
+      "source_component_index": 30,
+      "source_component_name": "C50-M50",
+      "start_voxel_index": 2211,
+      "end_voxel_index": 2211,
+      "start_layer": 62,
+      "end_layer": 63,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 50.0,
+      "material_end_ratio": 50.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 50.0,
+        "MAGENTA": 50.0
+      },
+      "final_material_ratios": {
+        "CYAN": 50.0,
+        "MAGENTA": 50.0
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "C50_M50",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C50_M50",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.5,
+          "MAGENTA": 0.5,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 50.0,
+        "material_end_ratio": 50.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#633279",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 33,
+      "source_component_index": 27,
+      "source_component_name": "C50-M50 (1)",
+      "start_voxel_index": 2212,
+      "end_voxel_index": 2356,
+      "start_layer": 64,
+      "end_layer": 65,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 50.0,
+      "material_end_ratio": 50.0,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 50.0,
+        "MAGENTA": 50.0
+      },
+      "final_material_ratios": {
+        "CYAN": 50.0,
+        "MAGENTA": 50.0
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "C50_M50",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C50_M50",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.5,
+          "MAGENTA": 0.5,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 50.0,
+        "material_end_ratio": 50.0,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#633279",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 34,
+      "source_component_index": 29,
+      "source_component_name": "C33-M67",
+      "start_voxel_index": 2357,
+      "end_voxel_index": 2357,
+      "start_layer": 66,
+      "end_layer": 67,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 33.333333333333336,
+      "material_end_ratio": 66.66666666666667,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 33.333333333333336,
+        "MAGENTA": 66.66666666666667
+      },
+      "final_material_ratios": {
+        "CYAN": 33.333333333333336,
+        "MAGENTA": 66.66666666666667
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "C33_M67",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C33_M67",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.33333333333333337,
+          "MAGENTA": 0.6666666666666667,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 33.333333333333336,
+        "material_end_ratio": 66.66666666666667,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#84265f",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 35,
+      "source_component_index": 28,
+      "source_component_name": "C33-M67 (1)",
+      "start_voxel_index": 2358,
+      "end_voxel_index": 2502,
+      "start_layer": 68,
+      "end_layer": 69,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 2.0,
+      "eta_mode": "auto",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 33.333333333333336,
+      "material_end_ratio": 66.66666666666667,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 33.333333333333336,
+        "MAGENTA": 66.66666666666667
+      },
+      "final_material_ratios": {
+        "CYAN": 33.333333333333336,
+        "MAGENTA": 66.66666666666667
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "C33_M67",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "C33_M67",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.33333333333333337,
+          "MAGENTA": 0.6666666666666667,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 33.333333333333336,
+        "material_end_ratio": 66.66666666666667,
+        "eta": 0.0,
+        "fixed_eta": null,
+        "swatch_hex": "#84265f",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 36,
+      "source_component_index": 25,
+      "source_component_name": "Purple",
+      "start_voxel_index": 2503,
+      "end_voxel_index": 2503,
+      "start_layer": 70,
+      "end_layer": 71,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 1.5,
+      "eta_mode": "manual",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 20.833333333333332,
+      "material_end_ratio": 79.16666666666667,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 20.833333333333332,
+        "MAGENTA": 79.16666666666667
+      },
+      "final_material_ratios": {
+        "CYAN": 20.833333333333332,
+        "MAGENTA": 79.16666666666667
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "PURPLE",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "PURPLE",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.20833333333333331,
+          "MAGENTA": 0.7916666666666667,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 20.833333333333332,
+        "material_end_ratio": 79.16666666666667,
+        "eta": 1.5,
+        "fixed_eta": 1.5,
+        "swatch_hex": "#a92862",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    },
+    {
+      "assignment_index": 37,
+      "source_component_index": 3,
+      "source_component_name": "Purple (1)",
+      "start_voxel_index": 2504,
+      "end_voxel_index": 2648,
+      "start_layer": 72,
+      "end_layer": 73,
+      "Property_type": "Property",
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "eta": 1.5,
+      "eta_mode": "manual",
+      "assignment_mode": "manual",
+      "material_count": 2,
+      "material_start": "CYAN",
+      "material_start_ratio": 20.833333333333332,
+      "material_end_ratio": 79.16666666666667,
+      "brighter_mode": false,
+      "base_material_ratios": {
+        "CYAN": 20.833333333333332,
+        "MAGENTA": 79.16666666666667
+      },
+      "final_material_ratios": {
+        "CYAN": 20.833333333333332,
+        "MAGENTA": 79.16666666666667
+      },
+      "material_end": "MAGENTA",
+      "requested_color": "PURPLE",
+      "target_mpa": 0.0,
+      "target_gf": 0.0,
+      "color_recipe": {
+        "requested_color": "PURPLE",
+        "brighter_mode": false,
+        "target_mpa": 0.0,
+        "target_gf": 0.0,
+        "source": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\Property.xlsx",
+        "sheet": "Supplementary Figure 2",
+        "target_cmy": {
+          "CYAN": 0.20833333333333331,
+          "MAGENTA": 0.7916666666666667,
+          "YELLOW": 0.0
+        },
+        "material_count": 2,
+        "material_start": "CYAN",
+        "material_end": "MAGENTA",
+        "material_start_ratio": 20.833333333333332,
+        "material_end_ratio": 79.16666666666667,
+        "eta": 1.5,
+        "fixed_eta": 1.5,
+        "swatch_hex": "#a92862",
+        "matched_excel_row": null,
+        "matched_profile_row": null
+      }
+    }
+  ],
+  "region_recognition_mode": "layer-region",
+  "brighter_mode": false,
+  "disabled_source_component_indices": [],
+  "source_gcode": "C:\\Users\\lko99\\Desktop\\X-aix_tset\\X-aix_sample.gcode",
+  "reordered_full_gcode": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_X-aix_sample\\input\\Property_X-aix_sample_ordered.gcode",
+  "before_order_gcode": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_X-aix_sample\\input\\Property_X-aix_sample_before_order.gcode",
+  "after_order_gcode": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_X-aix_sample\\input\\Property_X-aix_sample_after_order.gcode",
+  "reordered_full_gcode_strategy": "reorder_mesh_occurrences_within_each_layer_keep_xyz",
+  "before_component_lengths": [
+    {
+      "assignment_index": 1,
+      "source_component_index": 1,
+      "source_component_name": "M83-Y33",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 2,
+      "source_component_index": 2,
+      "source_component_name": "Magenta",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 3,
+      "source_component_index": 3,
+      "source_component_name": "Purple (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999992,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 4,
+      "source_component_index": 4,
+      "source_component_name": "M17-Y83 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999972,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 5,
+      "source_component_index": 5,
+      "source_component_name": "M33-Y67 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999972,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 6,
+      "source_component_index": 6,
+      "source_component_name": "M50-Y50",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 7,
+      "source_component_index": 7,
+      "source_component_name": "M67-Y33 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999872,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 8,
+      "source_component_index": 8,
+      "source_component_name": "M33-Y67",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 9,
+      "source_component_index": 9,
+      "source_component_name": "M50-Y50 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999929,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 10,
+      "source_component_index": 10,
+      "source_component_name": "M17-Y83",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 11,
+      "source_component_index": 11,
+      "source_component_name": "M67-Y33",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 12,
+      "source_component_index": 12,
+      "source_component_name": "M83-Y17 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999872,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 13,
+      "source_component_index": 13,
+      "source_component_name": "Magenta (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999872,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 14,
+      "source_component_index": 14,
+      "source_component_name": "Y83-C17",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 15,
+      "source_component_index": 15,
+      "source_component_name": "Yellow",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 16,
+      "source_component_index": 16,
+      "source_component_name": "Y67-C33 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.27939000003016,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 17,
+      "source_component_index": 17,
+      "source_component_name": "Yellow (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999972,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 18,
+      "source_component_index": 18,
+      "source_component_name": "Y50-C50",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 19,
+      "source_component_index": 19,
+      "source_component_name": "Y17-C83",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 20,
+      "source_component_index": 20,
+      "source_component_name": "Y33-C67",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 21,
+      "source_component_index": 21,
+      "source_component_name": "Y33-C67 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999896,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 22,
+      "source_component_index": 22,
+      "source_component_name": "Y67-C33",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 23,
+      "source_component_index": 23,
+      "source_component_name": "Y50-C50 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.27938999998776,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 24,
+      "source_component_index": 24,
+      "source_component_name": "Y17-C83 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999888,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 25,
+      "source_component_index": 25,
+      "source_component_name": "Purple",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 26,
+      "source_component_index": 26,
+      "source_component_name": "Y83-C17 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793900000231,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 27,
+      "source_component_index": 27,
+      "source_component_name": "C50-M50 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.27939000000026,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 28,
+      "source_component_index": 28,
+      "source_component_name": "C33-M67 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793900000025,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 29,
+      "source_component_index": 29,
+      "source_component_name": "C33-M67",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 30,
+      "source_component_index": 30,
+      "source_component_name": "C50-M50",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 31,
+      "source_component_index": 31,
+      "source_component_name": "C67-M33 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.27938999999105,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 32,
+      "source_component_index": 32,
+      "source_component_name": "C67-M33",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 33,
+      "source_component_index": 33,
+      "source_component_name": "C83-M17 (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.2793899999914,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 34,
+      "source_component_index": 34,
+      "source_component_name": "C83-M17",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 35,
+      "source_component_index": 35,
+      "source_component_name": "Cyan (1)",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 288.27938999999174,
+      "component_voxel_count": 145
+    },
+    {
+      "assignment_index": 36,
+      "source_component_index": 36,
+      "source_component_name": "Cyan",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1
+    },
+    {
+      "assignment_index": 37,
+      "source_component_index": 37,
+      "source_component_name": "Custom",
+      "enabled_in_dm": true,
+      "component_total_filament_e_mm": 39.0,
+      "component_voxel_count": 20
+    }
+  ],
+  "ordered_component_lengths": [
+    {
+      "assignment_index": 1,
+      "source_component_index": 37,
+      "source_component_name": "Custom",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 39.0,
+      "component_voxel_count": 20,
+      "mapped_step_lengths_e_mm": [
+        39.0
+      ]
+    },
+    {
+      "assignment_index": 2,
+      "source_component_index": 2,
+      "source_component_name": "Magenta",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 3,
+      "source_component_index": 13,
+      "source_component_name": "Magenta (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999872,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999872
+      ]
+    },
+    {
+      "assignment_index": 4,
+      "source_component_index": 1,
+      "source_component_name": "M83-Y33",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 5,
+      "source_component_index": 12,
+      "source_component_name": "M83-Y17 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999872,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999872
+      ]
+    },
+    {
+      "assignment_index": 6,
+      "source_component_index": 11,
+      "source_component_name": "M67-Y33",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 7,
+      "source_component_index": 7,
+      "source_component_name": "M67-Y33 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999872,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999872
+      ]
+    },
+    {
+      "assignment_index": 8,
+      "source_component_index": 6,
+      "source_component_name": "M50-Y50",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 9,
+      "source_component_index": 9,
+      "source_component_name": "M50-Y50 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999929,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999929
+      ]
+    },
+    {
+      "assignment_index": 10,
+      "source_component_index": 8,
+      "source_component_name": "M33-Y67",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 11,
+      "source_component_index": 5,
+      "source_component_name": "M33-Y67 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999972,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999972
+      ]
+    },
+    {
+      "assignment_index": 12,
+      "source_component_index": 10,
+      "source_component_name": "M17-Y83",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 13,
+      "source_component_index": 4,
+      "source_component_name": "M17-Y83 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999972,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999972
+      ]
+    },
+    {
+      "assignment_index": 14,
+      "source_component_index": 15,
+      "source_component_name": "Yellow",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 15,
+      "source_component_index": 17,
+      "source_component_name": "Yellow (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999972,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999972
+      ]
+    },
+    {
+      "assignment_index": 16,
+      "source_component_index": 14,
+      "source_component_name": "Y83-C17",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 17,
+      "source_component_index": 26,
+      "source_component_name": "Y83-C17 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793900000231,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793900000231
+      ]
+    },
+    {
+      "assignment_index": 18,
+      "source_component_index": 22,
+      "source_component_name": "Y67-C33",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 19,
+      "source_component_index": 16,
+      "source_component_name": "Y67-C33 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.27939000003016,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.27939000003016
+      ]
+    },
+    {
+      "assignment_index": 20,
+      "source_component_index": 18,
+      "source_component_name": "Y50-C50",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 21,
+      "source_component_index": 23,
+      "source_component_name": "Y50-C50 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.27938999998776,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.27938999998776
+      ]
+    },
+    {
+      "assignment_index": 22,
+      "source_component_index": 20,
+      "source_component_name": "Y33-C67",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 23,
+      "source_component_index": 21,
+      "source_component_name": "Y33-C67 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999896,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999896
+      ]
+    },
+    {
+      "assignment_index": 24,
+      "source_component_index": 19,
+      "source_component_name": "Y17-C83",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 25,
+      "source_component_index": 24,
+      "source_component_name": "Y17-C83 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999888,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999888
+      ]
+    },
+    {
+      "assignment_index": 26,
+      "source_component_index": 36,
+      "source_component_name": "Cyan",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 27,
+      "source_component_index": 35,
+      "source_component_name": "Cyan (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.27938999999174,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.27938999999174
+      ]
+    },
+    {
+      "assignment_index": 28,
+      "source_component_index": 34,
+      "source_component_name": "C83-M17",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 29,
+      "source_component_index": 33,
+      "source_component_name": "C83-M17 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999914,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999914
+      ]
+    },
+    {
+      "assignment_index": 30,
+      "source_component_index": 32,
+      "source_component_name": "C67-M33",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 31,
+      "source_component_index": 31,
+      "source_component_name": "C67-M33 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.27938999999105,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.27938999999105
+      ]
+    },
+    {
+      "assignment_index": 32,
+      "source_component_index": 30,
+      "source_component_name": "C50-M50",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 33,
+      "source_component_index": 27,
+      "source_component_name": "C50-M50 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.27939000000026,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.27939000000026
+      ]
+    },
+    {
+      "assignment_index": 34,
+      "source_component_index": 29,
+      "source_component_name": "C33-M67",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 35,
+      "source_component_index": 28,
+      "source_component_name": "C33-M67 (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793900000025,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793900000025
+      ]
+    },
+    {
+      "assignment_index": 36,
+      "source_component_index": 25,
+      "source_component_name": "Purple",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 0.6382099999998445,
+      "component_voxel_count": 1,
+      "mapped_step_lengths_e_mm": [
+        0.6382099999998445
+      ]
+    },
+    {
+      "assignment_index": 37,
+      "source_component_index": 3,
+      "source_component_name": "Purple (1)",
+      "property_type": "Property",
+      "gradient_direction": "printing",
+      "effective_step_count": 1,
+      "component_total_filament_e_mm": 288.2793899999992,
+      "component_voxel_count": 145,
+      "mapped_step_lengths_e_mm": [
+        288.2793899999992
+      ]
+    }
+  ],
+  "mapped_after_step_lengths_e_mm": [
+    39.0,
+    0.6382099999998445,
+    288.2793899999872,
+    0.6382099999998445,
+    288.2793899999872,
+    0.6382099999998445,
+    288.2793899999872,
+    0.6382099999998445,
+    288.2793899999929,
+    0.6382099999998445,
+    288.2793899999972,
+    0.6382099999998445,
+    288.2793899999972,
+    0.6382099999998445,
+    288.2793899999972,
+    0.6382099999998445,
+    288.2793900000231,
+    0.6382099999998445,
+    288.27939000003016,
+    0.6382099999998445,
+    288.27938999998776,
+    0.6382099999998445,
+    288.2793899999896,
+    0.6382099999998445,
+    288.2793899999888,
+    0.6382099999998445,
+    288.27938999999174,
+    0.6382099999998445,
+    288.2793899999914,
+    0.6382099999998445,
+    288.27938999999105,
+    0.6382099999998445,
+    288.27939000000026,
+    0.6382099999998445,
+    288.2793900000025,
+    0.6382099999998445,
+    288.2793899999992
+  ],
+  "resolution_mode": "layer_region_occurrence",
+  "layer_region_analysis_path": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_X-aix_sample\\input\\Property_X-aix_sample_layer_region_analysis.json",
+  "layer_region_execution_plan_path": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_X-aix_sample\\input\\Property_X-aix_sample_layer_region_execution_plan.json",
+  "layer_region_execution_plan": {
+    "schema": "b_fdm.layer_region_execution_plan.v1",
+    "resolution_mode": "layer_region_occurrence",
+    "source_gcode": "C:\\Users\\lko99\\Desktop\\AML \uc5f0\uad6c\uc2e4 \uc790\ub8cc\\1. b-FDM Study\\DM-filament_inverse-design\\out\\Property_X-aix_sample\\input\\Property_X-aix_sample_ordered.gcode",
+    "event_count": 72,
+    "mapped_deposition_e_mm": 5200.516799999942,
+    "skipped_region_deposition_e_mm": {},
+    "non_region_deposition_e_mm": 39.0,
+    "events": [
+      {
+        "sequence_index": 1,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Magenta",
+        "occurrence_index": 1,
+        "source_line_start": 3038,
+        "source_line_end": 3039,
+        "extrusion_e_mm": 0.36106,
+        "segment_count": 1,
+        "feature_types": [
+          "Custom"
+        ],
+        "bounds_xy": [
+          226.795,
+          226.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 2,
+        "execution_step_index": 1
+      },
+      {
+        "sequence_index": 2,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Magenta (1)",
+        "occurrence_index": 1,
+        "source_line_start": 3059,
+        "source_line_end": 3456,
+        "extrusion_e_mm": 163.18136000000007,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          197.644,
+          216.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 13,
+        "execution_step_index": 2
+      },
+      {
+        "sequence_index": 3,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M83-Y33",
+        "occurrence_index": 1,
+        "source_line_start": 3469,
+        "source_line_end": 3470,
+        "extrusion_e_mm": 0.36106000000000904,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          227.295,
+          227.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 1,
+        "execution_step_index": 3
+      },
+      {
+        "sequence_index": 4,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M83-Y17 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 3486,
+        "source_line_end": 3884,
+        "extrusion_e_mm": 163.1813600000021,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          177.644,
+          196.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 12,
+        "execution_step_index": 4
+      },
+      {
+        "sequence_index": 5,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M67-Y33",
+        "occurrence_index": 1,
+        "source_line_start": 3897,
+        "source_line_end": 3898,
+        "extrusion_e_mm": 0.36106000000000904,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          227.795,
+          227.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 11,
+        "execution_step_index": 5
+      },
+      {
+        "sequence_index": 6,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M67-Y33 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 3914,
+        "source_line_end": 4311,
+        "extrusion_e_mm": 163.18136000000288,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          157.644,
+          176.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 7,
+        "execution_step_index": 6
+      },
+      {
+        "sequence_index": 7,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M50-Y50",
+        "occurrence_index": 1,
+        "source_line_start": 4324,
+        "source_line_end": 4325,
+        "extrusion_e_mm": 0.36106000000000904,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          228.295,
+          228.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 6,
+        "execution_step_index": 7
+      },
+      {
+        "sequence_index": 8,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M50-Y50 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 4341,
+        "source_line_end": 4739,
+        "extrusion_e_mm": 163.18135999999345,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          137.644,
+          156.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 9,
+        "execution_step_index": 8
+      },
+      {
+        "sequence_index": 9,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M33-Y67",
+        "occurrence_index": 1,
+        "source_line_start": 4753,
+        "source_line_end": 4754,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          228.795,
+          228.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 8,
+        "execution_step_index": 9
+      },
+      {
+        "sequence_index": 10,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M33-Y67 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 4770,
+        "source_line_end": 5168,
+        "extrusion_e_mm": 163.1813599999931,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          117.644,
+          136.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 5,
+        "execution_step_index": 10
+      },
+      {
+        "sequence_index": 11,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M17-Y83",
+        "occurrence_index": 1,
+        "source_line_start": 5181,
+        "source_line_end": 5182,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          229.295,
+          229.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 10,
+        "execution_step_index": 11
+      },
+      {
+        "sequence_index": 12,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "M17-Y83 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 5198,
+        "source_line_end": 5596,
+        "extrusion_e_mm": 163.1813599999931,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          97.644,
+          116.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 4,
+        "execution_step_index": 12
+      },
+      {
+        "sequence_index": 13,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Yellow",
+        "occurrence_index": 1,
+        "source_line_start": 5609,
+        "source_line_end": 5610,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          229.795,
+          229.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 15,
+        "execution_step_index": 13
+      },
+      {
+        "sequence_index": 14,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Yellow (1)",
+        "occurrence_index": 1,
+        "source_line_start": 5626,
+        "source_line_end": 6024,
+        "extrusion_e_mm": 163.18135999999004,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          77.644,
+          96.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 17,
+        "execution_step_index": 14
+      },
+      {
+        "sequence_index": 15,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y83-C17",
+        "occurrence_index": 1,
+        "source_line_start": 6037,
+        "source_line_end": 6038,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          230.295,
+          230.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 14,
+        "execution_step_index": 15
+      },
+      {
+        "sequence_index": 16,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y83-C17 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 6054,
+        "source_line_end": 6452,
+        "extrusion_e_mm": 163.18135999999095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          57.644,
+          76.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 26,
+        "execution_step_index": 16
+      },
+      {
+        "sequence_index": 17,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y67-C33",
+        "occurrence_index": 1,
+        "source_line_start": 6465,
+        "source_line_end": 6466,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          230.795,
+          230.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 22,
+        "execution_step_index": 17
+      },
+      {
+        "sequence_index": 18,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y67-C33 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 6482,
+        "source_line_end": 6880,
+        "extrusion_e_mm": 163.18135999999095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          37.644,
+          56.744,
+          190.367,
+          289.467
+        ],
+        "source_component_index": 16,
+        "execution_step_index": 18
+      },
+      {
+        "sequence_index": 19,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y50-C50",
+        "occurrence_index": 1,
+        "source_line_start": 6892,
+        "source_line_end": 6893,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          231.295,
+          231.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 18,
+        "execution_step_index": 19
+      },
+      {
+        "sequence_index": 20,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y50-C50 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 6912,
+        "source_line_end": 7311,
+        "extrusion_e_mm": 163.18135999999095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          197.644,
+          216.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 23,
+        "execution_step_index": 20
+      },
+      {
+        "sequence_index": 21,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y33-C67",
+        "occurrence_index": 1,
+        "source_line_start": 7324,
+        "source_line_end": 7325,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          231.795,
+          231.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 20,
+        "execution_step_index": 21
+      },
+      {
+        "sequence_index": 22,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y33-C67 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 7345,
+        "source_line_end": 7742,
+        "extrusion_e_mm": 163.18135999999095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          177.644,
+          196.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 21,
+        "execution_step_index": 22
+      },
+      {
+        "sequence_index": 23,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y17-C83",
+        "occurrence_index": 1,
+        "source_line_start": 7755,
+        "source_line_end": 7756,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          232.295,
+          232.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 19,
+        "execution_step_index": 23
+      },
+      {
+        "sequence_index": 24,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Y17-C83 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 7775,
+        "source_line_end": 8173,
+        "extrusion_e_mm": 163.18135999999095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          157.644,
+          176.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 24,
+        "execution_step_index": 24
+      },
+      {
+        "sequence_index": 25,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Cyan",
+        "occurrence_index": 1,
+        "source_line_start": 8186,
+        "source_line_end": 8187,
+        "extrusion_e_mm": 0.3610599999999522,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          232.795,
+          232.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 36,
+        "execution_step_index": 25
+      },
+      {
+        "sequence_index": 26,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Cyan (1)",
+        "occurrence_index": 1,
+        "source_line_start": 8206,
+        "source_line_end": 8603,
+        "extrusion_e_mm": 163.18135999999663,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          137.644,
+          156.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 35,
+        "execution_step_index": 26
+      },
+      {
+        "sequence_index": 27,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "C83-M17",
+        "occurrence_index": 1,
+        "source_line_start": 8616,
+        "source_line_end": 8617,
+        "extrusion_e_mm": 0.36106000000017957,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          233.295,
+          233.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 34,
+        "execution_step_index": 27
+      },
+      {
+        "sequence_index": 28,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "C83-M17 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 8636,
+        "source_line_end": 9034,
+        "extrusion_e_mm": 163.18136000000095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          117.644,
+          136.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 33,
+        "execution_step_index": 28
+      },
+      {
+        "sequence_index": 29,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "C67-M33",
+        "occurrence_index": 1,
+        "source_line_start": 9047,
+        "source_line_end": 9048,
+        "extrusion_e_mm": 0.36106000000017957,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          233.795,
+          233.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 32,
+        "execution_step_index": 29
+      },
+      {
+        "sequence_index": 30,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "C67-M33 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 9067,
+        "source_line_end": 9465,
+        "extrusion_e_mm": 163.18136000000095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          97.644,
+          116.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 31,
+        "execution_step_index": 30
+      },
+      {
+        "sequence_index": 31,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "C50-M50",
+        "occurrence_index": 1,
+        "source_line_start": 9478,
+        "source_line_end": 9479,
+        "extrusion_e_mm": 0.36106000000017957,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          234.295,
+          234.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 30,
+        "execution_step_index": 31
+      },
+      {
+        "sequence_index": 32,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "C50-M50 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 9498,
+        "source_line_end": 9896,
+        "extrusion_e_mm": 163.18136000000095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          77.644,
+          96.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 27,
+        "execution_step_index": 32
+      },
+      {
+        "sequence_index": 33,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "C33-M67",
+        "occurrence_index": 1,
+        "source_line_start": 9909,
+        "source_line_end": 9910,
+        "extrusion_e_mm": 0.36106000000017957,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          234.795,
+          234.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 29,
+        "execution_step_index": 33
+      },
+      {
+        "sequence_index": 34,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "C33-M67 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 9929,
+        "source_line_end": 10327,
+        "extrusion_e_mm": 163.18136000000095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          57.644,
+          76.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 28,
+        "execution_step_index": 34
+      },
+      {
+        "sequence_index": 35,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Purple",
+        "occurrence_index": 1,
+        "source_line_start": 10348,
+        "source_line_end": 10349,
+        "extrusion_e_mm": 0.36106000000017957,
+        "segment_count": 1,
+        "feature_types": [
+          "External perimeter"
+        ],
+        "bounds_xy": [
+          235.295,
+          235.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 25,
+        "execution_step_index": 35
+      },
+      {
+        "sequence_index": 36,
+        "layer_index": 0,
+        "layer_label": 0,
+        "layer_z": 0.2,
+        "region_name": "Purple (1)",
+        "occurrence_index": 1,
+        "source_line_start": 10360,
+        "source_line_end": 10757,
+        "extrusion_e_mm": 163.18136000000095,
+        "segment_count": 363,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          37.644,
+          56.744,
+          90.367,
+          189.467
+        ],
+        "source_component_index": 3,
+        "execution_step_index": 36
+      },
+      {
+        "sequence_index": 37,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Magenta",
+        "occurrence_index": 1,
+        "source_line_start": 10779,
+        "source_line_end": 10779,
+        "extrusion_e_mm": 0.27715,
+        "segment_count": 1,
+        "feature_types": [
+          "Solid infill"
+        ],
+        "bounds_xy": [
+          226.795,
+          226.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 2,
+        "execution_step_index": 37
+      },
+      {
+        "sequence_index": 38,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Magenta (1)",
+        "occurrence_index": 1,
+        "source_line_start": 10799,
+        "source_line_end": 11899,
+        "extrusion_e_mm": 125.09802999999978,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          197.419,
+          216.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 13,
+        "execution_step_index": 38
+      },
+      {
+        "sequence_index": 39,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M83-Y33",
+        "occurrence_index": 1,
+        "source_line_start": 11911,
+        "source_line_end": 11911,
+        "extrusion_e_mm": 0.277150000000006,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          227.295,
+          227.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 1,
+        "execution_step_index": 39
+      },
+      {
+        "sequence_index": 40,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M83-Y17 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 11932,
+        "source_line_end": 13030,
+        "extrusion_e_mm": 125.09803000000107,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          177.419,
+          196.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 12,
+        "execution_step_index": 40
+      },
+      {
+        "sequence_index": 41,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M67-Y33",
+        "occurrence_index": 1,
+        "source_line_start": 13042,
+        "source_line_end": 13042,
+        "extrusion_e_mm": 0.277150000000006,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          227.795,
+          227.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 11,
+        "execution_step_index": 41
+      },
+      {
+        "sequence_index": 42,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M67-Y33 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 13064,
+        "source_line_end": 14163,
+        "extrusion_e_mm": 125.09802999999744,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          157.419,
+          176.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 7,
+        "execution_step_index": 42
+      },
+      {
+        "sequence_index": 43,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M50-Y50",
+        "occurrence_index": 1,
+        "source_line_start": 14175,
+        "source_line_end": 14175,
+        "extrusion_e_mm": 0.277150000000006,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          228.295,
+          228.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 6,
+        "execution_step_index": 43
+      },
+      {
+        "sequence_index": 44,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M50-Y50 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 14196,
+        "source_line_end": 15295,
+        "extrusion_e_mm": 125.0980299999975,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          137.419,
+          156.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 9,
+        "execution_step_index": 44
+      },
+      {
+        "sequence_index": 45,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M33-Y67",
+        "occurrence_index": 1,
+        "source_line_start": 15307,
+        "source_line_end": 15307,
+        "extrusion_e_mm": 0.277150000000006,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          228.795,
+          228.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 8,
+        "execution_step_index": 45
+      },
+      {
+        "sequence_index": 46,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M33-Y67 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 15328,
+        "source_line_end": 16426,
+        "extrusion_e_mm": 125.09802999999835,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          117.419,
+          136.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 5,
+        "execution_step_index": 46
+      },
+      {
+        "sequence_index": 47,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M17-Y83",
+        "occurrence_index": 1,
+        "source_line_start": 16438,
+        "source_line_end": 16438,
+        "extrusion_e_mm": 0.277150000000006,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          229.295,
+          229.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 10,
+        "execution_step_index": 47
+      },
+      {
+        "sequence_index": 48,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "M17-Y83 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 16459,
+        "source_line_end": 17559,
+        "extrusion_e_mm": 125.09802999999874,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          97.419,
+          116.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 4,
+        "execution_step_index": 48
+      },
+      {
+        "sequence_index": 49,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Yellow",
+        "occurrence_index": 1,
+        "source_line_start": 17571,
+        "source_line_end": 17571,
+        "extrusion_e_mm": 0.277150000000006,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          229.795,
+          229.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 15,
+        "execution_step_index": 49
+      },
+      {
+        "sequence_index": 50,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Yellow (1)",
+        "occurrence_index": 1,
+        "source_line_start": 17592,
+        "source_line_end": 18690,
+        "extrusion_e_mm": 125.09802999999874,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          77.419,
+          96.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 17,
+        "execution_step_index": 50
+      },
+      {
+        "sequence_index": 51,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y83-C17",
+        "occurrence_index": 1,
+        "source_line_start": 18702,
+        "source_line_end": 18702,
+        "extrusion_e_mm": 0.277150000000006,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          230.295,
+          230.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 14,
+        "execution_step_index": 51
+      },
+      {
+        "sequence_index": 52,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y83-C17 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 18723,
+        "source_line_end": 19821,
+        "extrusion_e_mm": 125.09802999999874,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          57.419,
+          76.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 26,
+        "execution_step_index": 52
+      },
+      {
+        "sequence_index": 53,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y67-C33",
+        "occurrence_index": 1,
+        "source_line_start": 19833,
+        "source_line_end": 19833,
+        "extrusion_e_mm": 0.277150000000006,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          230.795,
+          230.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 22,
+        "execution_step_index": 53
+      },
+      {
+        "sequence_index": 54,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y67-C33 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 19854,
+        "source_line_end": 20954,
+        "extrusion_e_mm": 125.0980299999967,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          37.419,
+          56.969,
+          190.142,
+          289.692
+        ],
+        "source_component_index": 16,
+        "execution_step_index": 54
+      },
+      {
+        "sequence_index": 55,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y50-C50",
+        "occurrence_index": 1,
+        "source_line_start": 20966,
+        "source_line_end": 20966,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          231.295,
+          231.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 18,
+        "execution_step_index": 55
+      },
+      {
+        "sequence_index": 56,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y50-C50 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 20987,
+        "source_line_end": 22085,
+        "extrusion_e_mm": 125.09802999999624,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          197.419,
+          216.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 23,
+        "execution_step_index": 56
+      },
+      {
+        "sequence_index": 57,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y33-C67",
+        "occurrence_index": 1,
+        "source_line_start": 22097,
+        "source_line_end": 22097,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          231.795,
+          231.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 20,
+        "execution_step_index": 57
+      },
+      {
+        "sequence_index": 58,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y33-C67 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 22118,
+        "source_line_end": 23218,
+        "extrusion_e_mm": 125.09802999999624,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          177.419,
+          196.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 21,
+        "execution_step_index": 58
+      },
+      {
+        "sequence_index": 59,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y17-C83",
+        "occurrence_index": 1,
+        "source_line_start": 23230,
+        "source_line_end": 23230,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          232.295,
+          232.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 19,
+        "execution_step_index": 59
+      },
+      {
+        "sequence_index": 60,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Y17-C83 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 23251,
+        "source_line_end": 24349,
+        "extrusion_e_mm": 125.09802999999624,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          157.419,
+          176.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 24,
+        "execution_step_index": 60
+      },
+      {
+        "sequence_index": 61,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Cyan",
+        "occurrence_index": 1,
+        "source_line_start": 24361,
+        "source_line_end": 24361,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          232.795,
+          232.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 36,
+        "execution_step_index": 61
+      },
+      {
+        "sequence_index": 62,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Cyan (1)",
+        "occurrence_index": 1,
+        "source_line_start": 24382,
+        "source_line_end": 25482,
+        "extrusion_e_mm": 125.09802999999624,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          137.419,
+          156.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 35,
+        "execution_step_index": 62
+      },
+      {
+        "sequence_index": 63,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "C83-M17",
+        "occurrence_index": 1,
+        "source_line_start": 25494,
+        "source_line_end": 25494,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          233.295,
+          233.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 34,
+        "execution_step_index": 63
+      },
+      {
+        "sequence_index": 64,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "C83-M17 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 25515,
+        "source_line_end": 26614,
+        "extrusion_e_mm": 125.09802999999624,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          117.419,
+          136.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 33,
+        "execution_step_index": 64
+      },
+      {
+        "sequence_index": 65,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "C67-M33",
+        "occurrence_index": 1,
+        "source_line_start": 26626,
+        "source_line_end": 26626,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          233.795,
+          233.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 32,
+        "execution_step_index": 65
+      },
+      {
+        "sequence_index": 66,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "C67-M33 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 26647,
+        "source_line_end": 27745,
+        "extrusion_e_mm": 125.09802999999624,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          97.419,
+          116.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 31,
+        "execution_step_index": 66
+      },
+      {
+        "sequence_index": 67,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "C50-M50",
+        "occurrence_index": 1,
+        "source_line_start": 27757,
+        "source_line_end": 27757,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          234.295,
+          234.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 30,
+        "execution_step_index": 67
+      },
+      {
+        "sequence_index": 68,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "C50-M50 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 27778,
+        "source_line_end": 28877,
+        "extrusion_e_mm": 125.09802999999624,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          77.419,
+          96.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 27,
+        "execution_step_index": 68
+      },
+      {
+        "sequence_index": 69,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "C33-M67",
+        "occurrence_index": 1,
+        "source_line_start": 28889,
+        "source_line_end": 28889,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          234.795,
+          234.795,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 29,
+        "execution_step_index": 69
+      },
+      {
+        "sequence_index": 70,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "C33-M67 (1)",
+        "occurrence_index": 1,
+        "source_line_start": 28910,
+        "source_line_end": 30010,
+        "extrusion_e_mm": 125.09803000002216,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          57.419,
+          76.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 28,
+        "execution_step_index": 70
+      },
+      {
+        "sequence_index": 71,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Purple",
+        "occurrence_index": 1,
+        "source_line_start": 30030,
+        "source_line_end": 30030,
+        "extrusion_e_mm": 0.2771499999998923,
+        "segment_count": 1,
+        "feature_types": [
+          "External perimeter"
+        ],
+        "bounds_xy": [
+          235.295,
+          235.295,
+          230.172,
+          239.672
+        ],
+        "source_component_index": 25,
+        "execution_step_index": 71
+      },
+      {
+        "sequence_index": 72,
+        "layer_index": 1,
+        "layer_label": 1,
+        "layer_z": 0.35,
+        "region_name": "Purple (1)",
+        "occurrence_index": 1,
+        "source_line_start": 30055,
+        "source_line_end": 31154,
+        "extrusion_e_mm": 125.09803000002921,
+        "segment_count": 227,
+        "feature_types": [
+          "External perimeter",
+          "Perimeter",
+          "Top solid infill"
+        ],
+        "bounds_xy": [
+          37.419,
+          56.969,
+          90.142,
+          189.692
+        ],
+        "source_component_index": 3,
+        "execution_step_index": 72
+      }
+    ]
+  },
+  "layer_region_mapped_step_lengths_e_mm": [
+    0.36106,
+    163.18136000000007,
+    0.36106000000000904,
+    163.1813600000021,
+    0.36106000000000904,
+    163.18136000000288,
+    0.36106000000000904,
+    163.18135999999345,
+    0.3610599999999522,
+    163.1813599999931,
+    0.3610599999999522,
+    163.1813599999931,
+    0.3610599999999522,
+    163.18135999999004,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999663,
+    0.36106000000017957,
+    163.18136000000095,
+    0.36106000000017957,
+    163.18136000000095,
+    0.36106000000017957,
+    163.18136000000095,
+    0.36106000000017957,
+    163.18136000000095,
+    0.36106000000017957,
+    163.18136000000095,
+    0.27715,
+    125.09802999999978,
+    0.277150000000006,
+    125.09803000000107,
+    0.277150000000006,
+    125.09802999999744,
+    0.277150000000006,
+    125.0980299999975,
+    0.277150000000006,
+    125.09802999999835,
+    0.277150000000006,
+    125.09802999999874,
+    0.277150000000006,
+    125.09802999999874,
+    0.277150000000006,
+    125.09802999999874,
+    0.277150000000006,
+    125.0980299999967,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09803000002216,
+    0.2771499999998923,
+    125.09803000002921
+  ],
+  "layer_region_summary": {
+    "layer_count": 2,
+    "region_count": 36,
+    "occurrence_count": 72,
+    "execution_event_count": 72,
+    "total_deposition_e_mm": 5239.516800000279,
+    "region_deposition_e_mm": 5200.516800000291,
+    "non_region_deposition_e_mm": 39.0,
+    "warnings": [
+      "Some deposition is outside labeled regions. Prime, skirt, support, wipe, or unlabeled model extrusion must be handled as synchronization consumption."
+    ]
+  }
+}

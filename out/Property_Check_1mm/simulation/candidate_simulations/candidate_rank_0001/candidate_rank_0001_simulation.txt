@@ -1,0 +1,265 @@
+source_matrix_path: score_final_original_candidate_rank_0001
+step_reversed_for_simulation: True
+rule: reverse step order for simulation first; then start from last row; group contiguous same values while scanning right-to-left; try the starting color first on each layer during the first pass; if a target cell has no deposited support directly below, reset that layer and rebuild that layer with the other material first
+shape: 14 x 33
+prioritized_value: BLACK
+scan_run_count: 28
+run_count: 28
+deposition_step_count: 462
+simulation_event_count: 478
+material_switch_count: 2
+material_switch_support_point_count: 200
+final_material_counts: {'total_filled': 462, 'by_value': {'BLACK': 249, 'WHITE': 213}}
+final_named_material_counts: {'BLACK': 249, 'WHITE': 213}
+
+material_switch_events:
+switch_001: row=13 trigger_col=12 from_value=BLACK to_value=WHITE from_material=BLACK to_material=WHITE cleared_count=15
+switch_002: row=7 trigger_col=32 from_value=WHITE to_value=BLACK from_material=WHITE to_material=BLACK cleared_count=0
+
+row_summaries:
+row=13 reset=0 first_material=BLACK trigger_col=-1
+row=12 reset=0 first_material=BLACK trigger_col=-1
+row=11 reset=0 first_material=BLACK trigger_col=-1
+row=10 reset=0 first_material=BLACK trigger_col=-1
+row=9 reset=0 first_material=BLACK trigger_col=-1
+row=8 reset=0 first_material=BLACK trigger_col=-1
+row=7 reset=1 first_material=WHITE trigger_col=17
+row=6 reset=0 first_material=WHITE trigger_col=-1
+row=5 reset=0 first_material=WHITE trigger_col=-1
+row=4 reset=0 first_material=WHITE trigger_col=-1
+row=3 reset=0 first_material=WHITE trigger_col=-1
+row=2 reset=0 first_material=WHITE trigger_col=-1
+row=1 reset=0 first_material=WHITE trigger_col=-1
+row=0 reset=0 first_material=WHITE trigger_col=-1
+
+material_switch_support_points:
+support_row=13 support_col=13
+support_row=13 support_col=12
+support_row=13 support_col=11
+support_row=13 support_col=10
+support_row=13 support_col=9
+support_row=13 support_col=8
+support_row=13 support_col=7
+support_row=13 support_col=6
+support_row=13 support_col=5
+support_row=13 support_col=4
+support_row=13 support_col=3
+support_row=13 support_col=2
+support_row=13 support_col=1
+support_row=13 support_col=0
+support_row=12 support_col=14
+support_row=12 support_col=13
+support_row=12 support_col=12
+support_row=12 support_col=11
+support_row=12 support_col=10
+support_row=12 support_col=9
+support_row=12 support_col=8
+support_row=12 support_col=7
+support_row=12 support_col=6
+support_row=12 support_col=5
+support_row=12 support_col=4
+support_row=12 support_col=3
+support_row=12 support_col=2
+support_row=12 support_col=1
+support_row=12 support_col=0
+support_row=11 support_col=14
+support_row=11 support_col=13
+support_row=11 support_col=12
+support_row=11 support_col=11
+support_row=11 support_col=10
+support_row=11 support_col=9
+support_row=11 support_col=8
+support_row=11 support_col=7
+support_row=11 support_col=6
+support_row=11 support_col=5
+support_row=11 support_col=4
+support_row=11 support_col=3
+support_row=11 support_col=2
+support_row=11 support_col=1
+support_row=11 support_col=0
+support_row=10 support_col=17
+support_row=10 support_col=16
+support_row=10 support_col=15
+support_row=10 support_col=14
+support_row=10 support_col=13
+support_row=10 support_col=12
+support_row=10 support_col=11
+support_row=10 support_col=10
+support_row=10 support_col=9
+support_row=10 support_col=8
+support_row=10 support_col=7
+support_row=10 support_col=6
+support_row=10 support_col=5
+support_row=10 support_col=4
+support_row=10 support_col=3
+support_row=10 support_col=2
+support_row=10 support_col=1
+support_row=10 support_col=0
+support_row=9 support_col=17
+support_row=9 support_col=16
+support_row=9 support_col=15
+support_row=9 support_col=14
+support_row=9 support_col=13
+support_row=9 support_col=12
+support_row=9 support_col=11
+support_row=9 support_col=10
+support_row=9 support_col=9
+support_row=9 support_col=8
+support_row=9 support_col=7
+support_row=9 support_col=6
+support_row=9 support_col=5
+support_row=9 support_col=4
+support_row=9 support_col=3
+support_row=9 support_col=2
+support_row=9 support_col=1
+support_row=9 support_col=0
+support_row=8 support_col=16
+support_row=8 support_col=15
+support_row=8 support_col=14
+support_row=8 support_col=13
+support_row=8 support_col=12
+support_row=8 support_col=11
+support_row=8 support_col=10
+support_row=8 support_col=9
+support_row=8 support_col=8
+support_row=8 support_col=7
+support_row=8 support_col=6
+support_row=8 support_col=5
+support_row=8 support_col=4
+support_row=8 support_col=3
+support_row=8 support_col=2
+support_row=8 support_col=1
+support_row=8 support_col=0
+support_row=7 support_col=16
+support_row=7 support_col=15
+support_row=7 support_col=14
+support_row=7 support_col=13
+support_row=7 support_col=12
+support_row=7 support_col=11
+support_row=7 support_col=10
+support_row=7 support_col=9
+support_row=7 support_col=8
+support_row=7 support_col=7
+support_row=7 support_col=6
+support_row=7 support_col=5
+support_row=7 support_col=4
+support_row=7 support_col=3
+support_row=7 support_col=2
+support_row=7 support_col=1
+support_row=7 support_col=0
+support_row=6 support_col=15
+support_row=6 support_col=14
+support_row=6 support_col=13
+support_row=6 support_col=12
+support_row=6 support_col=11
+support_row=6 support_col=10
+support_row=6 support_col=9
+support_row=6 support_col=8
+support_row=6 support_col=7
+support_row=6 support_col=6
+support_row=6 support_col=5
+support_row=6 support_col=4
+support_row=6 support_col=3
+support_row=6 support_col=2
+support_row=6 support_col=1
+support_row=6 support_col=0
+support_row=5 support_col=15
+support_row=5 support_col=14
+support_row=5 support_col=13
+support_row=5 support_col=12
+support_row=5 support_col=11
+support_row=5 support_col=10
+support_row=5 support_col=9
+support_row=5 support_col=8
+support_row=5 support_col=7
+support_row=5 support_col=6
+support_row=5 support_col=5
+support_row=5 support_col=4
+support_row=5 support_col=3
+support_row=5 support_col=2
+support_row=5 support_col=1
+support_row=5 support_col=0
+support_row=4 support_col=13
+support_row=4 support_col=12
+support_row=4 support_col=11
+support_row=4 support_col=10
+support_row=4 support_col=9
+support_row=4 support_col=8
+support_row=4 support_col=7
+support_row=4 support_col=6
+support_row=4 support_col=5
+support_row=4 support_col=4
+support_row=4 support_col=3
+support_row=4 support_col=2
+support_row=4 support_col=1
+support_row=4 support_col=0
+support_row=3 support_col=13
+support_row=3 support_col=12
+support_row=3 support_col=11
+support_row=3 support_col=10
+support_row=3 support_col=9
+support_row=3 support_col=8
+support_row=3 support_col=7
+support_row=3 support_col=6
+support_row=3 support_col=5
+support_row=3 support_col=4
+support_row=3 support_col=3
+support_row=3 support_col=2
+support_row=3 support_col=1
+support_row=3 support_col=0
+support_row=2 support_col=12
+support_row=2 support_col=11
+support_row=2 support_col=10
+support_row=2 support_col=9
+support_row=2 support_col=8
+support_row=2 support_col=7
+support_row=2 support_col=6
+support_row=2 support_col=5
+support_row=2 support_col=4
+support_row=2 support_col=3
+support_row=2 support_col=2
+support_row=2 support_col=1
+support_row=2 support_col=0
+support_row=1 support_col=12
+support_row=1 support_col=11
+support_row=1 support_col=10
+support_row=1 support_col=9
+support_row=1 support_col=8
+support_row=1 support_col=7
+support_row=1 support_col=6
+support_row=1 support_col=5
+support_row=1 support_col=4
+support_row=1 support_col=3
+support_row=1 support_col=2
+support_row=1 support_col=1
+support_row=1 support_col=0
+
+deposition_runs:
+001. row=13 value=BLACK start_col=32 end_col=13 direction=right_to_left
+002. row=12 value=BLACK start_col=32 end_col=14 direction=right_to_left
+003. row=11 value=BLACK start_col=32 end_col=15 direction=right_to_left
+004. row=10 value=BLACK start_col=32 end_col=15 direction=right_to_left
+005. row=9 value=BLACK start_col=32 end_col=18 direction=right_to_left
+006. row=8 value=BLACK start_col=32 end_col=18 direction=right_to_left
+007. row=7 value=BLACK start_col=32 end_col=17 direction=right_to_left
+008. row=6 value=BLACK start_col=32 end_col=17 direction=right_to_left
+009. row=5 value=BLACK start_col=32 end_col=16 direction=right_to_left
+010. row=4 value=BLACK start_col=32 end_col=16 direction=right_to_left
+011. row=3 value=BLACK start_col=32 end_col=14 direction=right_to_left
+012. row=2 value=BLACK start_col=32 end_col=14 direction=right_to_left
+013. row=1 value=BLACK start_col=32 end_col=13 direction=right_to_left
+014. row=0 value=BLACK start_col=32 end_col=13 direction=right_to_left
+015. row=13 value=WHITE start_col=12 end_col=0 direction=right_to_left
+016. row=12 value=WHITE start_col=13 end_col=0 direction=right_to_left
+017. row=11 value=WHITE start_col=14 end_col=0 direction=right_to_left
+018. row=10 value=WHITE start_col=14 end_col=0 direction=right_to_left
+019. row=9 value=WHITE start_col=17 end_col=0 direction=right_to_left
+020. row=8 value=WHITE start_col=17 end_col=0 direction=right_to_left
+021. row=7 value=WHITE start_col=16 end_col=0 direction=right_to_left
+022. row=6 value=WHITE start_col=16 end_col=0 direction=right_to_left
+023. row=5 value=WHITE start_col=15 end_col=0 direction=right_to_left
+024. row=4 value=WHITE start_col=15 end_col=0 direction=right_to_left
+025. row=3 value=WHITE start_col=13 end_col=0 direction=right_to_left
+026. row=2 value=WHITE start_col=13 end_col=0 direction=right_to_left
+027. row=1 value=WHITE start_col=12 end_col=0 direction=right_to_left
+028. row=0 value=WHITE start_col=12 end_col=0 direction=right_to_left

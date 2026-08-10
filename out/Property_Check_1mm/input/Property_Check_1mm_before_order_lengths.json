@@ -1,0 +1,234 @@
+[
+  {
+    "assignment_index": 1,
+    "source_component_index": 1,
+    "source_component_name": "Custom",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 39.0,
+    "component_voxel_count": 20
+  },
+  {
+    "assignment_index": 2,
+    "source_component_index": 2,
+    "source_component_name": "W",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 205.25930999999972,
+    "component_voxel_count": 103
+  },
+  {
+    "assignment_index": 3,
+    "source_component_index": 3,
+    "source_component_name": "G",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 32.18166000000005,
+    "component_voxel_count": 17
+  },
+  {
+    "assignment_index": 4,
+    "source_component_index": 4,
+    "source_component_name": "B",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 32.18166000000028,
+    "component_voxel_count": 17
+  },
+  {
+    "assignment_index": 5,
+    "source_component_index": 5,
+    "source_component_name": "Black (8)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 6,
+    "source_component_index": 6,
+    "source_component_name": "White (7)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 7,
+    "source_component_index": 7,
+    "source_component_name": "Black",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 8,
+    "source_component_index": 8,
+    "source_component_name": "White (11)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 9,
+    "source_component_index": 9,
+    "source_component_name": "Black (5)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 10,
+    "source_component_index": 10,
+    "source_component_name": "White (2)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 11,
+    "source_component_index": 11,
+    "source_component_name": "Black (6)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 12,
+    "source_component_index": 12,
+    "source_component_name": "White (6)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 13,
+    "source_component_index": 13,
+    "source_component_name": "Black (9)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 14,
+    "source_component_index": 14,
+    "source_component_name": "White (8)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 15,
+    "source_component_index": 15,
+    "source_component_name": "Black (7)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 16,
+    "source_component_index": 16,
+    "source_component_name": "White (10)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 17,
+    "source_component_index": 17,
+    "source_component_name": "Black (12)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 18,
+    "source_component_index": 18,
+    "source_component_name": "White (5)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 19,
+    "source_component_index": 19,
+    "source_component_name": "Black (1)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 20,
+    "source_component_index": 20,
+    "source_component_name": "White (1)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 21,
+    "source_component_index": 21,
+    "source_component_name": "Black (3)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 22,
+    "source_component_index": 22,
+    "source_component_name": "White (4)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 23,
+    "source_component_index": 23,
+    "source_component_name": "Black (4)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 24,
+    "source_component_index": 24,
+    "source_component_name": "White (9)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 25,
+    "source_component_index": 25,
+    "source_component_name": "Black (2)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 26,
+    "source_component_index": 26,
+    "source_component_name": "White (3)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 27,
+    "source_component_index": 27,
+    "source_component_name": "Black (11)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 28,
+    "source_component_index": 28,
+    "source_component_name": "White",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  },
+  {
+    "assignment_index": 29,
+    "source_component_index": 29,
+    "source_component_name": "Black (10)",
+    "enabled_in_dm": true,
+    "component_total_filament_e_mm": 0.07377000000008138,
+    "component_voxel_count": 1
+  }
+]

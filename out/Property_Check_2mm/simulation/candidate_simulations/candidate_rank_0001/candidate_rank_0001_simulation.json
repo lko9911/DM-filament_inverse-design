@@ -1,0 +1,9695 @@
+{
+  "source_matrix_path": "score_final_original_candidate_rank_0001",
+  "step_reversed_for_simulation": true,
+  "rule": "reverse step order for simulation first; then start from last row; group contiguous same values while scanning right-to-left; try the starting color first on each layer during the first pass; if a target cell has no deposited support directly below, reset that layer and rebuild that layer with the other material first",
+  "row_count": 14,
+  "col_count": 34,
+  "prioritized_value": "BLACK",
+  "scan_run_count": 28,
+  "run_count": 28,
+  "deposition_step_count": 476,
+  "simulation_event_count": 493,
+  "material_switch_count": 2,
+  "material_switch_support_point_count": 200,
+  "scan_runs": [
+    {
+      "row_index": 13,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 13,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 13,
+      "value": "WHITE",
+      "start_col": 12,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 12,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 14,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 12,
+      "value": "WHITE",
+      "start_col": 13,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 11,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 15,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 11,
+      "value": "WHITE",
+      "start_col": 14,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 10,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 15,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 10,
+      "value": "WHITE",
+      "start_col": 14,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 9,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 18,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 9,
+      "value": "WHITE",
+      "start_col": 17,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 8,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 18,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 8,
+      "value": "WHITE",
+      "start_col": 17,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 7,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 17,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 7,
+      "value": "WHITE",
+      "start_col": 16,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 6,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 17,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 6,
+      "value": "WHITE",
+      "start_col": 16,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 5,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 16,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 5,
+      "value": "WHITE",
+      "start_col": 15,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 4,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 16,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 4,
+      "value": "WHITE",
+      "start_col": 15,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 3,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 14,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 3,
+      "value": "WHITE",
+      "start_col": 13,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 2,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 14,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 2,
+      "value": "WHITE",
+      "start_col": 13,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 1,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 13,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 1,
+      "value": "WHITE",
+      "start_col": 12,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 0,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 13,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 0,
+      "value": "WHITE",
+      "start_col": 12,
+      "end_col": 0,
+      "direction": "right_to_left"
+    }
+  ],
+  "runs": [
+    {
+      "row_index": 13,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 13,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 12,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 14,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 11,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 15,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 10,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 15,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 9,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 18,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 8,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 18,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 7,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 17,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 6,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 17,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 5,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 16,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 4,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 16,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 3,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 14,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 2,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 14,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 1,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 13,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 0,
+      "value": "BLACK",
+      "start_col": 33,
+      "end_col": 13,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 13,
+      "value": "WHITE",
+      "start_col": 12,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 12,
+      "value": "WHITE",
+      "start_col": 13,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 11,
+      "value": "WHITE",
+      "start_col": 14,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 10,
+      "value": "WHITE",
+      "start_col": 14,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 9,
+      "value": "WHITE",
+      "start_col": 17,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 8,
+      "value": "WHITE",
+      "start_col": 17,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 7,
+      "value": "WHITE",
+      "start_col": 16,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 6,
+      "value": "WHITE",
+      "start_col": 16,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 5,
+      "value": "WHITE",
+      "start_col": 15,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 4,
+      "value": "WHITE",
+      "start_col": 15,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 3,
+      "value": "WHITE",
+      "start_col": 13,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 2,
+      "value": "WHITE",
+      "start_col": 13,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 1,
+      "value": "WHITE",
+      "start_col": 12,
+      "end_col": 0,
+      "direction": "right_to_left"
+    },
+    {
+      "row_index": 0,
+      "value": "WHITE",
+      "start_col": 12,
+      "end_col": 0,
+      "direction": "right_to_left"
+    }
+  ],
+  "deposition_steps": [
+    {
+      "order_index": 1,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 2,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 3,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 4,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 5,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 6,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 7,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 8,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 9,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 10,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 11,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 12,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 13,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 14,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 15,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 16,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 17,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 18,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 19,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 20,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 21,
+      "run_index": 1,
+      "row_index": 13,
+      "col_index": 13,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 22,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 23,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 24,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 25,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 26,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 27,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 28,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 29,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 30,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 31,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 32,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 33,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 34,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 35,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 36,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 37,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 38,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 39,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 40,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 41,
+      "run_index": 2,
+      "row_index": 12,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 42,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 43,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 44,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 45,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 46,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 47,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 48,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 49,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 50,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 51,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 52,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 53,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 54,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 55,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 56,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 57,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 58,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 59,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 60,
+      "run_index": 3,
+      "row_index": 11,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 61,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 62,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 63,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 64,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 65,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 66,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 67,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 68,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 69,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 70,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 71,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 72,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 73,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 74,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 75,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 76,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 77,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 78,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 79,
+      "run_index": 4,
+      "row_index": 10,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 80,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 81,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 82,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 83,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 84,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 85,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 86,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 87,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 88,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 89,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 90,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 91,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 92,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 93,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 94,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 95,
+      "run_index": 5,
+      "row_index": 9,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 96,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 97,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 98,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 99,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 100,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 101,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 102,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 103,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 104,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 105,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 106,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 107,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 108,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 109,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 110,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 111,
+      "run_index": 6,
+      "row_index": 8,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 112,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 113,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 114,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 115,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 116,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 117,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 118,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 119,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 120,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 121,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 122,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 123,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 124,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 125,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 126,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 127,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 128,
+      "run_index": 7,
+      "row_index": 7,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 129,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 130,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 131,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 132,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 133,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 134,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 135,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 136,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 137,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 138,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 139,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 140,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 141,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 142,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 143,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 144,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 145,
+      "run_index": 8,
+      "row_index": 6,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 146,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 147,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 148,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 149,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 150,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 151,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 152,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 153,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 154,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 155,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 156,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 157,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 158,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 159,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 160,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 161,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 162,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 163,
+      "run_index": 9,
+      "row_index": 5,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 164,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 165,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 166,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 167,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 168,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 169,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 170,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 171,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 172,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 173,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 174,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 175,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 176,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 177,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 178,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 179,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 180,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 181,
+      "run_index": 10,
+      "row_index": 4,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 182,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 183,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 184,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 185,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 186,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 187,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 188,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 189,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 190,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 191,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 192,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 193,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 194,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 195,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 196,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 197,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 198,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 199,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 200,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 201,
+      "run_index": 11,
+      "row_index": 3,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 202,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 203,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 204,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 205,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 206,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 207,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 208,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 209,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 210,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 211,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 212,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 213,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 214,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 215,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 216,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 217,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 218,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 219,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 220,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 221,
+      "run_index": 12,
+      "row_index": 2,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 222,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 223,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 224,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 225,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 226,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 227,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 228,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 229,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 230,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 231,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 232,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 233,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 234,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 235,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 236,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 237,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 238,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 239,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 240,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 241,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 242,
+      "run_index": 13,
+      "row_index": 1,
+      "col_index": 13,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 243,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 244,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 245,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 246,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 247,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 248,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 249,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 250,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 251,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 252,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 253,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 254,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 255,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 256,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 257,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 258,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 259,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 260,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 261,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 262,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 263,
+      "run_index": 14,
+      "row_index": 0,
+      "col_index": 13,
+      "value": "BLACK"
+    },
+    {
+      "order_index": 264,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 265,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 266,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 267,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 268,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 269,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 270,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 271,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 272,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 273,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 274,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 275,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 276,
+      "run_index": 15,
+      "row_index": 13,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 277,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 278,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 279,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 280,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 281,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 282,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 283,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 284,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 285,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 286,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 287,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 288,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 289,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 290,
+      "run_index": 16,
+      "row_index": 12,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 291,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 292,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 293,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 294,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 295,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 296,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 297,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 298,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 299,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 300,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 301,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 302,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 303,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 304,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 305,
+      "run_index": 17,
+      "row_index": 11,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 306,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 307,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 308,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 309,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 310,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 311,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 312,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 313,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 314,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 315,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 316,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 317,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 318,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 319,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 320,
+      "run_index": 18,
+      "row_index": 10,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 321,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 17,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 322,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 16,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 323,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 324,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 325,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 326,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 327,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 328,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 329,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 330,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 331,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 332,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 333,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 334,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 335,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 336,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 337,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 338,
+      "run_index": 19,
+      "row_index": 9,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 339,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 17,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 340,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 16,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 341,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 342,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 343,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 344,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 345,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 346,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 347,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 348,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 349,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 350,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 351,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 352,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 353,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 354,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 355,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 356,
+      "run_index": 20,
+      "row_index": 8,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 357,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 16,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 358,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 359,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 360,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 361,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 362,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 363,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 364,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 365,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 366,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 367,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 368,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 369,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 370,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 371,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 372,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 373,
+      "run_index": 21,
+      "row_index": 7,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 374,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 16,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 375,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 376,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 377,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 378,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 379,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 380,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 381,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 382,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 383,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 384,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 385,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 386,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 387,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 388,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 389,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 390,
+      "run_index": 22,
+      "row_index": 6,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 391,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 392,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 393,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 394,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 395,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 396,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 397,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 398,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 399,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 400,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 401,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 402,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 403,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 404,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 405,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 406,
+      "run_index": 23,
+      "row_index": 5,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 407,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 408,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 409,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 410,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 411,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 412,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 413,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 414,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 415,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 416,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 417,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 418,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 419,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 420,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 421,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 422,
+      "run_index": 24,
+      "row_index": 4,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 423,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 424,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 425,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 426,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 427,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 428,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 429,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 430,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 431,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 432,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 433,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 434,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 435,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 436,
+      "run_index": 25,
+      "row_index": 3,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 437,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 438,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 439,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 440,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 441,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 442,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 443,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 444,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 445,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 446,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 447,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 448,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 449,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 450,
+      "run_index": 26,
+      "row_index": 2,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 451,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 452,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 453,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 454,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 455,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 456,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 457,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 458,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 459,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 460,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 461,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 462,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 463,
+      "run_index": 27,
+      "row_index": 1,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 464,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 465,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 466,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 467,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 468,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 469,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 470,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 471,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 472,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 473,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 474,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 475,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "order_index": 476,
+      "run_index": 28,
+      "row_index": 0,
+      "col_index": 0,
+      "value": "WHITE"
+    }
+  ],
+  "row_summaries": [
+    {
+      "row_index": 13,
+      "reset_happened": 0,
+      "first_material": "BLACK",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 12,
+      "reset_happened": 0,
+      "first_material": "BLACK",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 11,
+      "reset_happened": 0,
+      "first_material": "BLACK",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 10,
+      "reset_happened": 0,
+      "first_material": "BLACK",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 9,
+      "reset_happened": 0,
+      "first_material": "BLACK",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 8,
+      "reset_happened": 0,
+      "first_material": "BLACK",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 7,
+      "reset_happened": 1,
+      "first_material": "WHITE",
+      "trigger_col_index": 17
+    },
+    {
+      "row_index": 6,
+      "reset_happened": 0,
+      "first_material": "WHITE",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 5,
+      "reset_happened": 0,
+      "first_material": "WHITE",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 4,
+      "reset_happened": 0,
+      "first_material": "WHITE",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 3,
+      "reset_happened": 0,
+      "first_material": "WHITE",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 2,
+      "reset_happened": 0,
+      "first_material": "WHITE",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 1,
+      "reset_happened": 0,
+      "first_material": "WHITE",
+      "trigger_col_index": -1
+    },
+    {
+      "row_index": 0,
+      "reset_happened": 0,
+      "first_material": "WHITE",
+      "trigger_col_index": -1
+    }
+  ],
+  "simulation_events": [
+    {
+      "event_type": "deposit",
+      "order_index": 1,
+      "row_index": 13,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 2,
+      "row_index": 13,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 3,
+      "row_index": 13,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 4,
+      "row_index": 13,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 5,
+      "row_index": 13,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 6,
+      "row_index": 13,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 7,
+      "row_index": 13,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 8,
+      "row_index": 13,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 9,
+      "row_index": 13,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 10,
+      "row_index": 13,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 11,
+      "row_index": 13,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 12,
+      "row_index": 13,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 13,
+      "row_index": 13,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 14,
+      "row_index": 13,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 15,
+      "row_index": 13,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 16,
+      "row_index": 13,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 17,
+      "row_index": 13,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 18,
+      "row_index": 13,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 19,
+      "row_index": 13,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 20,
+      "row_index": 13,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 21,
+      "row_index": 13,
+      "col_index": 13,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 22,
+      "row_index": 12,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 23,
+      "row_index": 12,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 24,
+      "row_index": 12,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 25,
+      "row_index": 12,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 26,
+      "row_index": 12,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 27,
+      "row_index": 12,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 28,
+      "row_index": 12,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 29,
+      "row_index": 12,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 30,
+      "row_index": 12,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 31,
+      "row_index": 12,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 32,
+      "row_index": 12,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 33,
+      "row_index": 12,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 34,
+      "row_index": 12,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 35,
+      "row_index": 12,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 36,
+      "row_index": 12,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 37,
+      "row_index": 12,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 38,
+      "row_index": 12,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 39,
+      "row_index": 12,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 40,
+      "row_index": 12,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 41,
+      "row_index": 12,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 42,
+      "row_index": 11,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 43,
+      "row_index": 11,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 44,
+      "row_index": 11,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 45,
+      "row_index": 11,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 46,
+      "row_index": 11,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 47,
+      "row_index": 11,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 48,
+      "row_index": 11,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 49,
+      "row_index": 11,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 50,
+      "row_index": 11,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 51,
+      "row_index": 11,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 52,
+      "row_index": 11,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 53,
+      "row_index": 11,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 54,
+      "row_index": 11,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 55,
+      "row_index": 11,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 56,
+      "row_index": 11,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 57,
+      "row_index": 11,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 58,
+      "row_index": 11,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 59,
+      "row_index": 11,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 60,
+      "row_index": 11,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 61,
+      "row_index": 10,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 62,
+      "row_index": 10,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 63,
+      "row_index": 10,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 64,
+      "row_index": 10,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 65,
+      "row_index": 10,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 66,
+      "row_index": 10,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 67,
+      "row_index": 10,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 68,
+      "row_index": 10,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 69,
+      "row_index": 10,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 70,
+      "row_index": 10,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 71,
+      "row_index": 10,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 72,
+      "row_index": 10,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 73,
+      "row_index": 10,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 74,
+      "row_index": 10,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 75,
+      "row_index": 10,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 76,
+      "row_index": 10,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 77,
+      "row_index": 10,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 78,
+      "row_index": 10,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 79,
+      "row_index": 10,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 80,
+      "row_index": 9,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 81,
+      "row_index": 9,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 82,
+      "row_index": 9,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 83,
+      "row_index": 9,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 84,
+      "row_index": 9,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 85,
+      "row_index": 9,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 86,
+      "row_index": 9,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 87,
+      "row_index": 9,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 88,
+      "row_index": 9,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 89,
+      "row_index": 9,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 90,
+      "row_index": 9,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 91,
+      "row_index": 9,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 92,
+      "row_index": 9,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 93,
+      "row_index": 9,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 94,
+      "row_index": 9,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 95,
+      "row_index": 9,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 96,
+      "row_index": 8,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 97,
+      "row_index": 8,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 98,
+      "row_index": 8,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 99,
+      "row_index": 8,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 100,
+      "row_index": 8,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 101,
+      "row_index": 8,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 102,
+      "row_index": 8,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 103,
+      "row_index": 8,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 104,
+      "row_index": 8,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 105,
+      "row_index": 8,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 106,
+      "row_index": 8,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 107,
+      "row_index": 8,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 108,
+      "row_index": 8,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 109,
+      "row_index": 8,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 110,
+      "row_index": 8,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 111,
+      "row_index": 8,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 112,
+      "row_index": 7,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 113,
+      "row_index": 7,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 114,
+      "row_index": 7,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 115,
+      "row_index": 7,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 116,
+      "row_index": 7,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 117,
+      "row_index": 7,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 118,
+      "row_index": 7,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 119,
+      "row_index": 7,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 120,
+      "row_index": 7,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 121,
+      "row_index": 7,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 122,
+      "row_index": 7,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 123,
+      "row_index": 7,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 124,
+      "row_index": 7,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 125,
+      "row_index": 7,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 126,
+      "row_index": 7,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 127,
+      "row_index": 7,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "reset",
+      "row_index": 7,
+      "trigger_col_index": 17,
+      "failed_value": "BLACK",
+      "replacement_value": "WHITE",
+      "cleared_count": 16,
+      "cleared_cols": [
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18
+      ]
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 128,
+      "row_index": 13,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 129,
+      "row_index": 13,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 130,
+      "row_index": 13,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 131,
+      "row_index": 13,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 132,
+      "row_index": 13,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 133,
+      "row_index": 13,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 134,
+      "row_index": 13,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 135,
+      "row_index": 13,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 136,
+      "row_index": 13,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 137,
+      "row_index": 13,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 138,
+      "row_index": 13,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 139,
+      "row_index": 13,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 140,
+      "row_index": 13,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 141,
+      "row_index": 12,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 142,
+      "row_index": 12,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 143,
+      "row_index": 12,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 144,
+      "row_index": 12,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 145,
+      "row_index": 12,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 146,
+      "row_index": 12,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 147,
+      "row_index": 12,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 148,
+      "row_index": 12,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 149,
+      "row_index": 12,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 150,
+      "row_index": 12,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 151,
+      "row_index": 12,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 152,
+      "row_index": 12,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 153,
+      "row_index": 12,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 154,
+      "row_index": 12,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 155,
+      "row_index": 11,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 156,
+      "row_index": 11,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 157,
+      "row_index": 11,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 158,
+      "row_index": 11,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 159,
+      "row_index": 11,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 160,
+      "row_index": 11,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 161,
+      "row_index": 11,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 162,
+      "row_index": 11,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 163,
+      "row_index": 11,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 164,
+      "row_index": 11,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 165,
+      "row_index": 11,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 166,
+      "row_index": 11,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 167,
+      "row_index": 11,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 168,
+      "row_index": 11,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 169,
+      "row_index": 11,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 170,
+      "row_index": 10,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 171,
+      "row_index": 10,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 172,
+      "row_index": 10,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 173,
+      "row_index": 10,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 174,
+      "row_index": 10,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 175,
+      "row_index": 10,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 176,
+      "row_index": 10,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 177,
+      "row_index": 10,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 178,
+      "row_index": 10,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 179,
+      "row_index": 10,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 180,
+      "row_index": 10,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 181,
+      "row_index": 10,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 182,
+      "row_index": 10,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 183,
+      "row_index": 10,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 184,
+      "row_index": 10,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 185,
+      "row_index": 9,
+      "col_index": 17,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 186,
+      "row_index": 9,
+      "col_index": 16,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 187,
+      "row_index": 9,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 188,
+      "row_index": 9,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 189,
+      "row_index": 9,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 190,
+      "row_index": 9,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 191,
+      "row_index": 9,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 192,
+      "row_index": 9,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 193,
+      "row_index": 9,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 194,
+      "row_index": 9,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 195,
+      "row_index": 9,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 196,
+      "row_index": 9,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 197,
+      "row_index": 9,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 198,
+      "row_index": 9,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 199,
+      "row_index": 9,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 200,
+      "row_index": 9,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 201,
+      "row_index": 9,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 202,
+      "row_index": 9,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 203,
+      "row_index": 8,
+      "col_index": 17,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 204,
+      "row_index": 8,
+      "col_index": 16,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 205,
+      "row_index": 8,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 206,
+      "row_index": 8,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 207,
+      "row_index": 8,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 208,
+      "row_index": 8,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 209,
+      "row_index": 8,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 210,
+      "row_index": 8,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 211,
+      "row_index": 8,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 212,
+      "row_index": 8,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 213,
+      "row_index": 8,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 214,
+      "row_index": 8,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 215,
+      "row_index": 8,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 216,
+      "row_index": 8,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 217,
+      "row_index": 8,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 218,
+      "row_index": 8,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 219,
+      "row_index": 8,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 220,
+      "row_index": 8,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 221,
+      "row_index": 7,
+      "col_index": 16,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 222,
+      "row_index": 7,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 223,
+      "row_index": 7,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 224,
+      "row_index": 7,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 225,
+      "row_index": 7,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 226,
+      "row_index": 7,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 227,
+      "row_index": 7,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 228,
+      "row_index": 7,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 229,
+      "row_index": 7,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 230,
+      "row_index": 7,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 231,
+      "row_index": 7,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 232,
+      "row_index": 7,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 233,
+      "row_index": 7,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 234,
+      "row_index": 7,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 235,
+      "row_index": 7,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 236,
+      "row_index": 7,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 237,
+      "row_index": 7,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 238,
+      "row_index": 6,
+      "col_index": 16,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 239,
+      "row_index": 6,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 240,
+      "row_index": 6,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 241,
+      "row_index": 6,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 242,
+      "row_index": 6,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 243,
+      "row_index": 6,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 244,
+      "row_index": 6,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 245,
+      "row_index": 6,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 246,
+      "row_index": 6,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 247,
+      "row_index": 6,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 248,
+      "row_index": 6,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 249,
+      "row_index": 6,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 250,
+      "row_index": 6,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 251,
+      "row_index": 6,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 252,
+      "row_index": 6,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 253,
+      "row_index": 6,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 254,
+      "row_index": 6,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 255,
+      "row_index": 5,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 256,
+      "row_index": 5,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 257,
+      "row_index": 5,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 258,
+      "row_index": 5,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 259,
+      "row_index": 5,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 260,
+      "row_index": 5,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 261,
+      "row_index": 5,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 262,
+      "row_index": 5,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 263,
+      "row_index": 5,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 264,
+      "row_index": 5,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 265,
+      "row_index": 5,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 266,
+      "row_index": 5,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 267,
+      "row_index": 5,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 268,
+      "row_index": 5,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 269,
+      "row_index": 5,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 270,
+      "row_index": 5,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 271,
+      "row_index": 4,
+      "col_index": 15,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 272,
+      "row_index": 4,
+      "col_index": 14,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 273,
+      "row_index": 4,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 274,
+      "row_index": 4,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 275,
+      "row_index": 4,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 276,
+      "row_index": 4,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 277,
+      "row_index": 4,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 278,
+      "row_index": 4,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 279,
+      "row_index": 4,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 280,
+      "row_index": 4,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 281,
+      "row_index": 4,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 282,
+      "row_index": 4,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 283,
+      "row_index": 4,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 284,
+      "row_index": 4,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 285,
+      "row_index": 4,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 286,
+      "row_index": 4,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 287,
+      "row_index": 3,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 288,
+      "row_index": 3,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 289,
+      "row_index": 3,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 290,
+      "row_index": 3,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 291,
+      "row_index": 3,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 292,
+      "row_index": 3,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 293,
+      "row_index": 3,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 294,
+      "row_index": 3,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 295,
+      "row_index": 3,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 296,
+      "row_index": 3,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 297,
+      "row_index": 3,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 298,
+      "row_index": 3,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 299,
+      "row_index": 3,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 300,
+      "row_index": 3,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 301,
+      "row_index": 2,
+      "col_index": 13,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 302,
+      "row_index": 2,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 303,
+      "row_index": 2,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 304,
+      "row_index": 2,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 305,
+      "row_index": 2,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 306,
+      "row_index": 2,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 307,
+      "row_index": 2,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 308,
+      "row_index": 2,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 309,
+      "row_index": 2,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 310,
+      "row_index": 2,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 311,
+      "row_index": 2,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 312,
+      "row_index": 2,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 313,
+      "row_index": 2,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 314,
+      "row_index": 2,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 315,
+      "row_index": 1,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 316,
+      "row_index": 1,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 317,
+      "row_index": 1,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 318,
+      "row_index": 1,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 319,
+      "row_index": 1,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 320,
+      "row_index": 1,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 321,
+      "row_index": 1,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 322,
+      "row_index": 1,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 323,
+      "row_index": 1,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 324,
+      "row_index": 1,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 325,
+      "row_index": 1,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 326,
+      "row_index": 1,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 327,
+      "row_index": 1,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 328,
+      "row_index": 0,
+      "col_index": 12,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 329,
+      "row_index": 0,
+      "col_index": 11,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 330,
+      "row_index": 0,
+      "col_index": 10,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 331,
+      "row_index": 0,
+      "col_index": 9,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 332,
+      "row_index": 0,
+      "col_index": 8,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 333,
+      "row_index": 0,
+      "col_index": 7,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 334,
+      "row_index": 0,
+      "col_index": 6,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 335,
+      "row_index": 0,
+      "col_index": 5,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 336,
+      "row_index": 0,
+      "col_index": 4,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 337,
+      "row_index": 0,
+      "col_index": 3,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 338,
+      "row_index": 0,
+      "col_index": 2,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 339,
+      "row_index": 0,
+      "col_index": 1,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 340,
+      "row_index": 0,
+      "col_index": 0,
+      "value": "WHITE"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 341,
+      "row_index": 7,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 342,
+      "row_index": 7,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 343,
+      "row_index": 7,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 344,
+      "row_index": 7,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 345,
+      "row_index": 7,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 346,
+      "row_index": 7,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 347,
+      "row_index": 7,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 348,
+      "row_index": 7,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 349,
+      "row_index": 7,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 350,
+      "row_index": 7,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 351,
+      "row_index": 7,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 352,
+      "row_index": 7,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 353,
+      "row_index": 7,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 354,
+      "row_index": 7,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 355,
+      "row_index": 7,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 356,
+      "row_index": 7,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 357,
+      "row_index": 7,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 358,
+      "row_index": 6,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 359,
+      "row_index": 6,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 360,
+      "row_index": 6,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 361,
+      "row_index": 6,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 362,
+      "row_index": 6,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 363,
+      "row_index": 6,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 364,
+      "row_index": 6,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 365,
+      "row_index": 6,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 366,
+      "row_index": 6,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 367,
+      "row_index": 6,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 368,
+      "row_index": 6,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 369,
+      "row_index": 6,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 370,
+      "row_index": 6,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 371,
+      "row_index": 6,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 372,
+      "row_index": 6,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 373,
+      "row_index": 6,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 374,
+      "row_index": 6,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 375,
+      "row_index": 5,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 376,
+      "row_index": 5,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 377,
+      "row_index": 5,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 378,
+      "row_index": 5,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 379,
+      "row_index": 5,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 380,
+      "row_index": 5,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 381,
+      "row_index": 5,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 382,
+      "row_index": 5,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 383,
+      "row_index": 5,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 384,
+      "row_index": 5,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 385,
+      "row_index": 5,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 386,
+      "row_index": 5,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 387,
+      "row_index": 5,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 388,
+      "row_index": 5,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 389,
+      "row_index": 5,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 390,
+      "row_index": 5,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 391,
+      "row_index": 5,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 392,
+      "row_index": 5,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 393,
+      "row_index": 4,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 394,
+      "row_index": 4,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 395,
+      "row_index": 4,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 396,
+      "row_index": 4,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 397,
+      "row_index": 4,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 398,
+      "row_index": 4,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 399,
+      "row_index": 4,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 400,
+      "row_index": 4,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 401,
+      "row_index": 4,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 402,
+      "row_index": 4,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 403,
+      "row_index": 4,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 404,
+      "row_index": 4,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 405,
+      "row_index": 4,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 406,
+      "row_index": 4,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 407,
+      "row_index": 4,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 408,
+      "row_index": 4,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 409,
+      "row_index": 4,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 410,
+      "row_index": 4,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 411,
+      "row_index": 3,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 412,
+      "row_index": 3,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 413,
+      "row_index": 3,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 414,
+      "row_index": 3,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 415,
+      "row_index": 3,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 416,
+      "row_index": 3,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 417,
+      "row_index": 3,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 418,
+      "row_index": 3,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 419,
+      "row_index": 3,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 420,
+      "row_index": 3,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 421,
+      "row_index": 3,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 422,
+      "row_index": 3,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 423,
+      "row_index": 3,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 424,
+      "row_index": 3,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 425,
+      "row_index": 3,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 426,
+      "row_index": 3,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 427,
+      "row_index": 3,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 428,
+      "row_index": 3,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 429,
+      "row_index": 3,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 430,
+      "row_index": 3,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 431,
+      "row_index": 2,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 432,
+      "row_index": 2,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 433,
+      "row_index": 2,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 434,
+      "row_index": 2,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 435,
+      "row_index": 2,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 436,
+      "row_index": 2,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 437,
+      "row_index": 2,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 438,
+      "row_index": 2,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 439,
+      "row_index": 2,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 440,
+      "row_index": 2,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 441,
+      "row_index": 2,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 442,
+      "row_index": 2,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 443,
+      "row_index": 2,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 444,
+      "row_index": 2,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 445,
+      "row_index": 2,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 446,
+      "row_index": 2,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 447,
+      "row_index": 2,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 448,
+      "row_index": 2,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 449,
+      "row_index": 2,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 450,
+      "row_index": 2,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 451,
+      "row_index": 1,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 452,
+      "row_index": 1,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 453,
+      "row_index": 1,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 454,
+      "row_index": 1,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 455,
+      "row_index": 1,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 456,
+      "row_index": 1,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 457,
+      "row_index": 1,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 458,
+      "row_index": 1,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 459,
+      "row_index": 1,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 460,
+      "row_index": 1,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 461,
+      "row_index": 1,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 462,
+      "row_index": 1,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 463,
+      "row_index": 1,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 464,
+      "row_index": 1,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 465,
+      "row_index": 1,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 466,
+      "row_index": 1,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 467,
+      "row_index": 1,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 468,
+      "row_index": 1,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 469,
+      "row_index": 1,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 470,
+      "row_index": 1,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 471,
+      "row_index": 1,
+      "col_index": 13,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 472,
+      "row_index": 0,
+      "col_index": 33,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 473,
+      "row_index": 0,
+      "col_index": 32,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 474,
+      "row_index": 0,
+      "col_index": 31,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 475,
+      "row_index": 0,
+      "col_index": 30,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 476,
+      "row_index": 0,
+      "col_index": 29,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 477,
+      "row_index": 0,
+      "col_index": 28,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 478,
+      "row_index": 0,
+      "col_index": 27,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 479,
+      "row_index": 0,
+      "col_index": 26,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 480,
+      "row_index": 0,
+      "col_index": 25,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 481,
+      "row_index": 0,
+      "col_index": 24,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 482,
+      "row_index": 0,
+      "col_index": 23,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 483,
+      "row_index": 0,
+      "col_index": 22,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 484,
+      "row_index": 0,
+      "col_index": 21,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 485,
+      "row_index": 0,
+      "col_index": 20,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 486,
+      "row_index": 0,
+      "col_index": 19,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 487,
+      "row_index": 0,
+      "col_index": 18,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 488,
+      "row_index": 0,
+      "col_index": 17,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 489,
+      "row_index": 0,
+      "col_index": 16,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 490,
+      "row_index": 0,
+      "col_index": 15,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 491,
+      "row_index": 0,
+      "col_index": 14,
+      "value": "BLACK"
+    },
+    {
+      "event_type": "deposit",
+      "order_index": 492,
+      "row_index": 0,
+      "col_index": 13,
+      "value": "BLACK"
+    }
+  ],
+  "material_switch_events": [
+    {
+      "switch_index": 1,
+      "row_index": 13,
+      "trigger_col_index": 12,
+      "from_value": "BLACK",
+      "to_value": "WHITE",
+      "from_material": "BLACK",
+      "to_material": "WHITE",
+      "cleared_count": 16
+    },
+    {
+      "switch_index": 2,
+      "row_index": 7,
+      "trigger_col_index": 33,
+      "from_value": "WHITE",
+      "to_value": "BLACK",
+      "from_material": "WHITE",
+      "to_material": "BLACK",
+      "cleared_count": 0
+    }
+  ],
+  "material_switch_support_points": [
+    {
+      "support_row_index": 13,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 13,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 14
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 12,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 14
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 11,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 17
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 16
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 15
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 14
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 10,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 17
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 16
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 15
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 14
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 9,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 16
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 15
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 14
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 8,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 16
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 15
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 14
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 7,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 15
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 14
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 6,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 15
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 14
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 5,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 4,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 13
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 3,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 2,
+      "support_col_index": 0
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 12
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 11
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 10
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 9
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 8
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 7
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 6
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 5
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 4
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 3
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 2
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 1
+    },
+    {
+      "support_row_index": 1,
+      "support_col_index": 0
+    }
+  ],
+  "final_material_counts": {
+    "total_filled": 476,
+    "by_value": {
+      "BLACK": 263,
+      "WHITE": 213
+    }
+  },
+  "final_named_material_counts": {
+    "BLACK": 263,
+    "WHITE": 213
+  },
+  "simulation_matrix": [
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_end",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ],
+    [
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start",
+      "Material_start"
+    ]
+  ],
+  "simulation_material_name_matrix": [
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ]
+  ],
+  "final_state": [
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ],
+    [
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "WHITE",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK",
+      "BLACK"
+    ]
+  ],
+  "candidate_rank": 1,
+  "original_candidate_rank": 1,
+  "candidate_score": 868,
+  "candidate_eta_sum": 9.0,
+  "candidate_selected_case_keys": [
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00049",
+    "case_00241",
+    "case_01009",
+    "case_01021",
+    "case_04095",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001",
+    "case_00001"
+  ]
+}

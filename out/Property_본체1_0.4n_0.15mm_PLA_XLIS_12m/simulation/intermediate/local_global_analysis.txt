@@ -1,0 +1,17 @@
+local_gradient_analysis:
+  gradient_assignment_count: 3
+  assignment_03 | local_steps 5 | combinations 1 | best_local_score 126 | best_score_tie_count 1 | best_local_switch 0 | best_pattern_count_after_switch 1 | best_local_eta_sum_min 0.000000 | best_local_eta_sum_max 0.000000 | left_property True | right_property True
+    pattern_01: case_00001, case_00001, case_00001, case_00001, case_00001
+  assignment_05 | local_steps 5 | combinations 1 | best_local_score 98 | best_score_tie_count 1 | best_local_switch 0 | best_pattern_count_after_switch 1 | best_local_eta_sum_min 0.000000 | best_local_eta_sum_max 0.000000 | left_property True | right_property True
+    pattern_01: case_00001, case_00001, case_00001, case_00001, case_00001
+  assignment_07 | local_steps 4 | combinations 1 | best_local_score 70 | best_score_tie_count 1 | best_local_switch 0 | best_pattern_count_after_switch 1 | best_local_eta_sum_min 0.000000 | best_local_eta_sum_max 0.000000 | left_property True | right_property True
+    pattern_01: case_00001, case_00001, case_00001, case_00001
+
+global_pattern_analysis:
+  ranked_candidate_count: 1
+  saved_candidate_count: 1
+  min_material_switch_count_global: 3
+  min_switch_candidate_count: 1
+  switch_count_histogram: {'3': 1}
+  top_candidate: rank=1, score=350, switches=3, eta_sum=0.000000
+  top_candidate_case_keys: case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001, case_00001

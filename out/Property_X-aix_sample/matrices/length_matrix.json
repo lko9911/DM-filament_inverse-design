@@ -1,0 +1,3157 @@
+{
+  "sample_info_path": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\input\\config\\sample_info_X-aix_sample.json",
+  "property_program_path": "C:\\Users\\lko99\\Desktop\\AML 연구실 자료\\1. b-FDM Study\\DM-filament_inverse-design\\test_sample\\derived\\layer_region\\expanded_property_program.json",
+  "property_type": "Gradient",
+  "assignment_count": 73,
+  "base_step_count": 73,
+  "total_step_count": 73,
+  "total_filament_e_mm": 5239.5168,
+  "length_matrix_sum_e_mm": 5239.516799999941,
+  "length_matrix_remainder_e_mm": 5.911715561524034e-11,
+  "length_matrix": [
+    39.0,
+    0.36106,
+    163.18136000000007,
+    0.36106000000000904,
+    163.1813600000021,
+    0.36106000000000904,
+    163.18136000000288,
+    0.36106000000000904,
+    163.18135999999345,
+    0.3610599999999522,
+    163.1813599999931,
+    0.3610599999999522,
+    163.1813599999931,
+    0.3610599999999522,
+    163.18135999999004,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999095,
+    0.3610599999999522,
+    163.18135999999663,
+    0.36106000000017957,
+    163.18136000000095,
+    0.36106000000017957,
+    163.18136000000095,
+    0.36106000000017957,
+    163.18136000000095,
+    0.36106000000017957,
+    163.18136000000095,
+    0.36106000000017957,
+    163.18136000000095,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09802999999624,
+    0.2771499999998923,
+    125.09803000002216,
+    0.2771499999998923,
+    125.09803000002921,
+    0.2771499999998923,
+    125.09802999999681,
+    0.2771499999998923,
+    125.09802999999863,
+    0.2771499999998923,
+    125.09802999999863,
+    0.2771499999998923,
+    125.09802999999863,
+    0.2771499999998923,
+    125.09802999999829,
+    0.2771499999998923,
+    125.0980299999975,
+    0.2771499999998923,
+    125.09802999999741,
+    0.2771499999998923,
+    125.09803000000106,
+    0.2771499999998923,
+    125.0980299999998
+  ],
+  "length_matrix_summary": {
+    "format": "1 x total_step_count",
+    "base_step_count": 73,
+    "total_step_count": 73,
+    "total_filament_e_mm": 5239.5168,
+    "length_matrix_sum_e_mm": 5239.516799999941,
+    "length_matrix_remainder_e_mm": 5.911715561524034e-11,
+    "remainder_note": "Remainder is reported only. It is not appended as an extra step because the result matrix must stay aligned with Property_sample gradient steps."
+  },
+  "assignments": [
+    {
+      "assignment_index": 1,
+      "start_voxel_index": 1,
+      "end_voxel_index": 1,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 39.0,
+      "step_values": [
+        39.0
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 0,
+          "region_name": "Custom",
+          "region_occurrence_index": null,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": -1,
+          "layer_end": -1,
+          "z_mm": null,
+          "source_line_start": null,
+          "source_line_end": null,
+          "xy_bounds": null,
+          "segment_count": null,
+          "feature_types": [
+            "Purge"
+          ],
+          "step_filament_e_mm": 39.0
+        }
+      ],
+      "step_sum_filament_e_mm": 39.0
+    },
+    {
+      "assignment_index": 2,
+      "start_voxel_index": 2,
+      "end_voxel_index": 2,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106,
+      "step_values": [
+        0.36106
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 1,
+          "region_name": "Magenta",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 3038,
+          "source_line_end": 3039,
+          "xy_bounds": [
+            226.795,
+            226.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Custom"
+          ],
+          "step_filament_e_mm": 0.36106
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106
+    },
+    {
+      "assignment_index": 3,
+      "start_voxel_index": 3,
+      "end_voxel_index": 3,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18136000000007,
+      "step_values": [
+        163.18136000000007
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 2,
+          "region_name": "Magenta (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 3059,
+          "source_line_end": 3456,
+          "xy_bounds": [
+            197.644,
+            216.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18136000000007
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18136000000007
+    },
+    {
+      "assignment_index": 4,
+      "start_voxel_index": 4,
+      "end_voxel_index": 4,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106000000000904,
+      "step_values": [
+        0.36106000000000904
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 3,
+          "region_name": "M83-Y33",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 3469,
+          "source_line_end": 3470,
+          "xy_bounds": [
+            227.295,
+            227.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.36106000000000904
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106000000000904
+    },
+    {
+      "assignment_index": 5,
+      "start_voxel_index": 5,
+      "end_voxel_index": 5,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.1813600000021,
+      "step_values": [
+        163.1813600000021
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 4,
+          "region_name": "M83-Y17 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 3486,
+          "source_line_end": 3884,
+          "xy_bounds": [
+            177.644,
+            196.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.1813600000021
+        }
+      ],
+      "step_sum_filament_e_mm": 163.1813600000021
+    },
+    {
+      "assignment_index": 6,
+      "start_voxel_index": 6,
+      "end_voxel_index": 6,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106000000000904,
+      "step_values": [
+        0.36106000000000904
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 5,
+          "region_name": "M67-Y33",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 3897,
+          "source_line_end": 3898,
+          "xy_bounds": [
+            227.795,
+            227.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.36106000000000904
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106000000000904
+    },
+    {
+      "assignment_index": 7,
+      "start_voxel_index": 7,
+      "end_voxel_index": 7,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18136000000288,
+      "step_values": [
+        163.18136000000288
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 6,
+          "region_name": "M67-Y33 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 3914,
+          "source_line_end": 4311,
+          "xy_bounds": [
+            157.644,
+            176.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18136000000288
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18136000000288
+    },
+    {
+      "assignment_index": 8,
+      "start_voxel_index": 8,
+      "end_voxel_index": 8,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106000000000904,
+      "step_values": [
+        0.36106000000000904
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 7,
+          "region_name": "M50-Y50",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 4324,
+          "source_line_end": 4325,
+          "xy_bounds": [
+            228.295,
+            228.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.36106000000000904
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106000000000904
+    },
+    {
+      "assignment_index": 9,
+      "start_voxel_index": 9,
+      "end_voxel_index": 9,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18135999999345,
+      "step_values": [
+        163.18135999999345
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 8,
+          "region_name": "M50-Y50 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 4341,
+          "source_line_end": 4739,
+          "xy_bounds": [
+            137.644,
+            156.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18135999999345
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18135999999345
+    },
+    {
+      "assignment_index": 10,
+      "start_voxel_index": 10,
+      "end_voxel_index": 10,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 9,
+          "region_name": "M33-Y67",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 4753,
+          "source_line_end": 4754,
+          "xy_bounds": [
+            228.795,
+            228.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 11,
+      "start_voxel_index": 11,
+      "end_voxel_index": 11,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.1813599999931,
+      "step_values": [
+        163.1813599999931
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 10,
+          "region_name": "M33-Y67 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 4770,
+          "source_line_end": 5168,
+          "xy_bounds": [
+            117.644,
+            136.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.1813599999931
+        }
+      ],
+      "step_sum_filament_e_mm": 163.1813599999931
+    },
+    {
+      "assignment_index": 12,
+      "start_voxel_index": 12,
+      "end_voxel_index": 12,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 11,
+          "region_name": "M17-Y83",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 5181,
+          "source_line_end": 5182,
+          "xy_bounds": [
+            229.295,
+            229.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 13,
+      "start_voxel_index": 13,
+      "end_voxel_index": 13,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.1813599999931,
+      "step_values": [
+        163.1813599999931
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 12,
+          "region_name": "M17-Y83 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 5198,
+          "source_line_end": 5596,
+          "xy_bounds": [
+            97.644,
+            116.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.1813599999931
+        }
+      ],
+      "step_sum_filament_e_mm": 163.1813599999931
+    },
+    {
+      "assignment_index": 14,
+      "start_voxel_index": 14,
+      "end_voxel_index": 14,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 13,
+          "region_name": "Yellow",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 5609,
+          "source_line_end": 5610,
+          "xy_bounds": [
+            229.795,
+            229.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 15,
+      "start_voxel_index": 15,
+      "end_voxel_index": 15,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18135999999004,
+      "step_values": [
+        163.18135999999004
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 14,
+          "region_name": "Yellow (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 5626,
+          "source_line_end": 6024,
+          "xy_bounds": [
+            77.644,
+            96.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18135999999004
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18135999999004
+    },
+    {
+      "assignment_index": 16,
+      "start_voxel_index": 16,
+      "end_voxel_index": 16,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 15,
+          "region_name": "Y83-C17",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 6037,
+          "source_line_end": 6038,
+          "xy_bounds": [
+            230.295,
+            230.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 17,
+      "start_voxel_index": 17,
+      "end_voxel_index": 17,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18135999999095,
+      "step_values": [
+        163.18135999999095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 16,
+          "region_name": "Y83-C17 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 6054,
+          "source_line_end": 6452,
+          "xy_bounds": [
+            57.644,
+            76.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18135999999095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18135999999095
+    },
+    {
+      "assignment_index": 18,
+      "start_voxel_index": 18,
+      "end_voxel_index": 18,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 17,
+          "region_name": "Y67-C33",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 6465,
+          "source_line_end": 6466,
+          "xy_bounds": [
+            230.795,
+            230.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 19,
+      "start_voxel_index": 19,
+      "end_voxel_index": 19,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18135999999095,
+      "step_values": [
+        163.18135999999095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 18,
+          "region_name": "Y67-C33 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 6482,
+          "source_line_end": 6880,
+          "xy_bounds": [
+            37.644,
+            56.744,
+            190.367,
+            289.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18135999999095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18135999999095
+    },
+    {
+      "assignment_index": 20,
+      "start_voxel_index": 20,
+      "end_voxel_index": 20,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 19,
+          "region_name": "Y50-C50",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 6892,
+          "source_line_end": 6893,
+          "xy_bounds": [
+            231.295,
+            231.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 21,
+      "start_voxel_index": 21,
+      "end_voxel_index": 21,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18135999999095,
+      "step_values": [
+        163.18135999999095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 20,
+          "region_name": "Y50-C50 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 6912,
+          "source_line_end": 7311,
+          "xy_bounds": [
+            197.644,
+            216.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18135999999095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18135999999095
+    },
+    {
+      "assignment_index": 22,
+      "start_voxel_index": 22,
+      "end_voxel_index": 22,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 21,
+          "region_name": "Y33-C67",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 7324,
+          "source_line_end": 7325,
+          "xy_bounds": [
+            231.795,
+            231.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 23,
+      "start_voxel_index": 23,
+      "end_voxel_index": 23,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18135999999095,
+      "step_values": [
+        163.18135999999095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 22,
+          "region_name": "Y33-C67 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 7345,
+          "source_line_end": 7742,
+          "xy_bounds": [
+            177.644,
+            196.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18135999999095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18135999999095
+    },
+    {
+      "assignment_index": 24,
+      "start_voxel_index": 24,
+      "end_voxel_index": 24,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 23,
+          "region_name": "Y17-C83",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 7755,
+          "source_line_end": 7756,
+          "xy_bounds": [
+            232.295,
+            232.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 25,
+      "start_voxel_index": 25,
+      "end_voxel_index": 25,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18135999999095,
+      "step_values": [
+        163.18135999999095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 24,
+          "region_name": "Y17-C83 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 7775,
+          "source_line_end": 8173,
+          "xy_bounds": [
+            157.644,
+            176.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18135999999095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18135999999095
+    },
+    {
+      "assignment_index": 26,
+      "start_voxel_index": 26,
+      "end_voxel_index": 26,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.3610599999999522,
+      "step_values": [
+        0.3610599999999522
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 25,
+          "region_name": "Cyan",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 8186,
+          "source_line_end": 8187,
+          "xy_bounds": [
+            232.795,
+            232.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.3610599999999522
+        }
+      ],
+      "step_sum_filament_e_mm": 0.3610599999999522
+    },
+    {
+      "assignment_index": 27,
+      "start_voxel_index": 27,
+      "end_voxel_index": 27,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18135999999663,
+      "step_values": [
+        163.18135999999663
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 26,
+          "region_name": "Cyan (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 8206,
+          "source_line_end": 8603,
+          "xy_bounds": [
+            137.644,
+            156.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18135999999663
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18135999999663
+    },
+    {
+      "assignment_index": 28,
+      "start_voxel_index": 28,
+      "end_voxel_index": 28,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106000000017957,
+      "step_values": [
+        0.36106000000017957
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 27,
+          "region_name": "C83-M17",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 8616,
+          "source_line_end": 8617,
+          "xy_bounds": [
+            233.295,
+            233.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.36106000000017957
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106000000017957
+    },
+    {
+      "assignment_index": 29,
+      "start_voxel_index": 29,
+      "end_voxel_index": 29,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18136000000095,
+      "step_values": [
+        163.18136000000095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 28,
+          "region_name": "C83-M17 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 8636,
+          "source_line_end": 9034,
+          "xy_bounds": [
+            117.644,
+            136.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18136000000095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18136000000095
+    },
+    {
+      "assignment_index": 30,
+      "start_voxel_index": 30,
+      "end_voxel_index": 30,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106000000017957,
+      "step_values": [
+        0.36106000000017957
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 29,
+          "region_name": "C67-M33",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 9047,
+          "source_line_end": 9048,
+          "xy_bounds": [
+            233.795,
+            233.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.36106000000017957
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106000000017957
+    },
+    {
+      "assignment_index": 31,
+      "start_voxel_index": 31,
+      "end_voxel_index": 31,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18136000000095,
+      "step_values": [
+        163.18136000000095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 30,
+          "region_name": "C67-M33 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 9067,
+          "source_line_end": 9465,
+          "xy_bounds": [
+            97.644,
+            116.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18136000000095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18136000000095
+    },
+    {
+      "assignment_index": 32,
+      "start_voxel_index": 32,
+      "end_voxel_index": 32,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106000000017957,
+      "step_values": [
+        0.36106000000017957
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 31,
+          "region_name": "C50-M50",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 9478,
+          "source_line_end": 9479,
+          "xy_bounds": [
+            234.295,
+            234.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.36106000000017957
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106000000017957
+    },
+    {
+      "assignment_index": 33,
+      "start_voxel_index": 33,
+      "end_voxel_index": 33,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18136000000095,
+      "step_values": [
+        163.18136000000095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 32,
+          "region_name": "C50-M50 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 9498,
+          "source_line_end": 9896,
+          "xy_bounds": [
+            77.644,
+            96.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18136000000095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18136000000095
+    },
+    {
+      "assignment_index": 34,
+      "start_voxel_index": 34,
+      "end_voxel_index": 34,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106000000017957,
+      "step_values": [
+        0.36106000000017957
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 33,
+          "region_name": "C33-M67",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 9909,
+          "source_line_end": 9910,
+          "xy_bounds": [
+            234.795,
+            234.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 0.36106000000017957
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106000000017957
+    },
+    {
+      "assignment_index": 35,
+      "start_voxel_index": 35,
+      "end_voxel_index": 35,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18136000000095,
+      "step_values": [
+        163.18136000000095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 34,
+          "region_name": "C33-M67 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 9929,
+          "source_line_end": 10327,
+          "xy_bounds": [
+            57.644,
+            76.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18136000000095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18136000000095
+    },
+    {
+      "assignment_index": 36,
+      "start_voxel_index": 36,
+      "end_voxel_index": 36,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.36106000000017957,
+      "step_values": [
+        0.36106000000017957
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 35,
+          "region_name": "Purple",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 10348,
+          "source_line_end": 10349,
+          "xy_bounds": [
+            235.295,
+            235.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.36106000000017957
+        }
+      ],
+      "step_sum_filament_e_mm": 0.36106000000017957
+    },
+    {
+      "assignment_index": 37,
+      "start_voxel_index": 37,
+      "end_voxel_index": 37,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 163.18136000000095,
+      "step_values": [
+        163.18136000000095
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 36,
+          "region_name": "Purple (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 0,
+          "layer_end": 0,
+          "z_mm": 0.2,
+          "source_line_start": 10360,
+          "source_line_end": 10757,
+          "xy_bounds": [
+            37.644,
+            56.744,
+            90.367,
+            189.467
+          ],
+          "segment_count": 363,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Solid infill"
+          ],
+          "step_filament_e_mm": 163.18136000000095
+        }
+      ],
+      "step_sum_filament_e_mm": 163.18136000000095
+    },
+    {
+      "assignment_index": 38,
+      "start_voxel_index": 38,
+      "end_voxel_index": 38,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 63,
+          "region_name": "Magenta",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 21075,
+          "source_line_end": 21075,
+          "xy_bounds": [
+            226.795,
+            226.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 39,
+      "start_voxel_index": 39,
+      "end_voxel_index": 39,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999624,
+      "step_values": [
+        125.09802999999624
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 64,
+          "region_name": "Magenta (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 21095,
+          "source_line_end": 22195,
+          "xy_bounds": [
+            197.419,
+            216.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999624
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999624
+    },
+    {
+      "assignment_index": 40,
+      "start_voxel_index": 40,
+      "end_voxel_index": 40,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 62,
+          "region_name": "M83-Y33",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 21063,
+          "source_line_end": 21063,
+          "xy_bounds": [
+            227.295,
+            227.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 41,
+      "start_voxel_index": 41,
+      "end_voxel_index": 41,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999624,
+      "step_values": [
+        125.09802999999624
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 65,
+          "region_name": "M83-Y17 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 22216,
+          "source_line_end": 23314,
+          "xy_bounds": [
+            177.419,
+            196.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999624
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999624
+    },
+    {
+      "assignment_index": 42,
+      "start_voxel_index": 42,
+      "end_voxel_index": 42,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 61,
+          "region_name": "M67-Y33",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 21051,
+          "source_line_end": 21051,
+          "xy_bounds": [
+            227.795,
+            227.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 43,
+      "start_voxel_index": 43,
+      "end_voxel_index": 43,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999624,
+      "step_values": [
+        125.09802999999624
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 66,
+          "region_name": "M67-Y33 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 23336,
+          "source_line_end": 24435,
+          "xy_bounds": [
+            157.419,
+            176.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999624
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999624
+    },
+    {
+      "assignment_index": 44,
+      "start_voxel_index": 44,
+      "end_voxel_index": 44,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 60,
+          "region_name": "M50-Y50",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 21039,
+          "source_line_end": 21039,
+          "xy_bounds": [
+            228.295,
+            228.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 45,
+      "start_voxel_index": 45,
+      "end_voxel_index": 45,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999624,
+      "step_values": [
+        125.09802999999624
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 67,
+          "region_name": "M50-Y50 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 24456,
+          "source_line_end": 25555,
+          "xy_bounds": [
+            137.419,
+            156.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999624
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999624
+    },
+    {
+      "assignment_index": 46,
+      "start_voxel_index": 46,
+      "end_voxel_index": 46,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 59,
+          "region_name": "M33-Y67",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 21027,
+          "source_line_end": 21027,
+          "xy_bounds": [
+            228.795,
+            228.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 47,
+      "start_voxel_index": 47,
+      "end_voxel_index": 47,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999624,
+      "step_values": [
+        125.09802999999624
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 68,
+          "region_name": "M33-Y67 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 25576,
+          "source_line_end": 26674,
+          "xy_bounds": [
+            117.419,
+            136.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999624
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999624
+    },
+    {
+      "assignment_index": 48,
+      "start_voxel_index": 48,
+      "end_voxel_index": 48,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 58,
+          "region_name": "M17-Y83",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 21015,
+          "source_line_end": 21015,
+          "xy_bounds": [
+            229.295,
+            229.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 49,
+      "start_voxel_index": 49,
+      "end_voxel_index": 49,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999624,
+      "step_values": [
+        125.09802999999624
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 69,
+          "region_name": "M17-Y83 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 26695,
+          "source_line_end": 27795,
+          "xy_bounds": [
+            97.419,
+            116.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999624
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999624
+    },
+    {
+      "assignment_index": 50,
+      "start_voxel_index": 50,
+      "end_voxel_index": 50,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 57,
+          "region_name": "Yellow",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 21003,
+          "source_line_end": 21003,
+          "xy_bounds": [
+            229.795,
+            229.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 51,
+      "start_voxel_index": 51,
+      "end_voxel_index": 51,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999624,
+      "step_values": [
+        125.09802999999624
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 70,
+          "region_name": "Yellow (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 27816,
+          "source_line_end": 28914,
+          "xy_bounds": [
+            77.419,
+            96.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999624
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999624
+    },
+    {
+      "assignment_index": 52,
+      "start_voxel_index": 52,
+      "end_voxel_index": 52,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 56,
+          "region_name": "Y83-C17",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20991,
+          "source_line_end": 20991,
+          "xy_bounds": [
+            230.295,
+            230.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 53,
+      "start_voxel_index": 53,
+      "end_voxel_index": 53,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09803000002216,
+      "step_values": [
+        125.09803000002216
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 71,
+          "region_name": "Y83-C17 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 28935,
+          "source_line_end": 30033,
+          "xy_bounds": [
+            57.419,
+            76.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09803000002216
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09803000002216
+    },
+    {
+      "assignment_index": 54,
+      "start_voxel_index": 54,
+      "end_voxel_index": 54,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 55,
+          "region_name": "Y67-C33",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20979,
+          "source_line_end": 20979,
+          "xy_bounds": [
+            230.795,
+            230.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 55,
+      "start_voxel_index": 55,
+      "end_voxel_index": 55,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09803000002921,
+      "step_values": [
+        125.09803000002921
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 72,
+          "region_name": "Y67-C33 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 30054,
+          "source_line_end": 31154,
+          "xy_bounds": [
+            37.419,
+            56.969,
+            190.142,
+            289.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09803000002921
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09803000002921
+    },
+    {
+      "assignment_index": 56,
+      "start_voxel_index": 56,
+      "end_voxel_index": 56,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 54,
+          "region_name": "Y50-C50",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20967,
+          "source_line_end": 20967,
+          "xy_bounds": [
+            231.295,
+            231.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 57,
+      "start_voxel_index": 57,
+      "end_voxel_index": 57,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999681,
+      "step_values": [
+        125.09802999999681
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 45,
+          "region_name": "Y50-C50 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 19753,
+          "source_line_end": 20851,
+          "xy_bounds": [
+            197.419,
+            216.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999681
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999681
+    },
+    {
+      "assignment_index": 58,
+      "start_voxel_index": 58,
+      "end_voxel_index": 58,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 53,
+          "region_name": "Y33-C67",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20955,
+          "source_line_end": 20955,
+          "xy_bounds": [
+            231.795,
+            231.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 59,
+      "start_voxel_index": 59,
+      "end_voxel_index": 59,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999863,
+      "step_values": [
+        125.09802999999863
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 44,
+          "region_name": "Y33-C67 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 18632,
+          "source_line_end": 19732,
+          "xy_bounds": [
+            177.419,
+            196.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999863
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999863
+    },
+    {
+      "assignment_index": 60,
+      "start_voxel_index": 60,
+      "end_voxel_index": 60,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 52,
+          "region_name": "Y17-C83",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20943,
+          "source_line_end": 20943,
+          "xy_bounds": [
+            232.295,
+            232.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 61,
+      "start_voxel_index": 61,
+      "end_voxel_index": 61,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999863,
+      "step_values": [
+        125.09802999999863
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 43,
+          "region_name": "Y17-C83 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 17513,
+          "source_line_end": 18611,
+          "xy_bounds": [
+            157.419,
+            176.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999863
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999863
+    },
+    {
+      "assignment_index": 62,
+      "start_voxel_index": 62,
+      "end_voxel_index": 62,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 51,
+          "region_name": "Cyan",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20931,
+          "source_line_end": 20931,
+          "xy_bounds": [
+            232.795,
+            232.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 63,
+      "start_voxel_index": 63,
+      "end_voxel_index": 63,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999863,
+      "step_values": [
+        125.09802999999863
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 42,
+          "region_name": "Cyan (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 16392,
+          "source_line_end": 17492,
+          "xy_bounds": [
+            137.419,
+            156.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999863
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999863
+    },
+    {
+      "assignment_index": 64,
+      "start_voxel_index": 64,
+      "end_voxel_index": 64,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 50,
+          "region_name": "C83-M17",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20919,
+          "source_line_end": 20919,
+          "xy_bounds": [
+            233.295,
+            233.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 65,
+      "start_voxel_index": 65,
+      "end_voxel_index": 65,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999829,
+      "step_values": [
+        125.09802999999829
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 41,
+          "region_name": "C83-M17 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 15272,
+          "source_line_end": 16371,
+          "xy_bounds": [
+            117.419,
+            136.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999829
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999829
+    },
+    {
+      "assignment_index": 66,
+      "start_voxel_index": 66,
+      "end_voxel_index": 66,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 49,
+          "region_name": "C67-M33",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20907,
+          "source_line_end": 20907,
+          "xy_bounds": [
+            233.795,
+            233.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 67,
+      "start_voxel_index": 67,
+      "end_voxel_index": 67,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.0980299999975,
+      "step_values": [
+        125.0980299999975
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 40,
+          "region_name": "C67-M33 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 14153,
+          "source_line_end": 15251,
+          "xy_bounds": [
+            97.419,
+            116.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.0980299999975
+        }
+      ],
+      "step_sum_filament_e_mm": 125.0980299999975
+    },
+    {
+      "assignment_index": 68,
+      "start_voxel_index": 68,
+      "end_voxel_index": 68,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 48,
+          "region_name": "C50-M50",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20895,
+          "source_line_end": 20895,
+          "xy_bounds": [
+            234.295,
+            234.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 69,
+      "start_voxel_index": 69,
+      "end_voxel_index": 69,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09802999999741,
+      "step_values": [
+        125.09802999999741
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 39,
+          "region_name": "C50-M50 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 13033,
+          "source_line_end": 14132,
+          "xy_bounds": [
+            77.419,
+            96.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09802999999741
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09802999999741
+    },
+    {
+      "assignment_index": 70,
+      "start_voxel_index": 70,
+      "end_voxel_index": 70,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 47,
+          "region_name": "C33-M67",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20883,
+          "source_line_end": 20883,
+          "xy_bounds": [
+            234.795,
+            234.795,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 71,
+      "start_voxel_index": 71,
+      "end_voxel_index": 71,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.09803000000106,
+      "step_values": [
+        125.09803000000106
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 38,
+          "region_name": "C33-M67 (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 11912,
+          "source_line_end": 13012,
+          "xy_bounds": [
+            57.419,
+            76.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.09803000000106
+        }
+      ],
+      "step_sum_filament_e_mm": 125.09803000000106
+    },
+    {
+      "assignment_index": 72,
+      "start_voxel_index": 72,
+      "end_voxel_index": 72,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 0.2771499999998923,
+      "step_values": [
+        0.2771499999998923
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 46,
+          "region_name": "Purple",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 20871,
+          "source_line_end": 20871,
+          "xy_bounds": [
+            235.295,
+            235.295,
+            230.172,
+            239.672
+          ],
+          "segment_count": 1,
+          "feature_types": [
+            "External perimeter"
+          ],
+          "step_filament_e_mm": 0.2771499999998923
+        }
+      ],
+      "step_sum_filament_e_mm": 0.2771499999998923
+    },
+    {
+      "assignment_index": 73,
+      "start_voxel_index": 73,
+      "end_voxel_index": 73,
+      "raw_gradient_steps": 1,
+      "gradient_steps": 1,
+      "gradient_direction": "printing",
+      "resolution_mode": "layer_region_occurrence",
+      "assignment_total_filament_e_mm": 125.0980299999998,
+      "step_values": [
+        125.0980299999998
+      ],
+      "step_table": [
+        {
+          "step_index": 1,
+          "resolution_mode": "layer_region_occurrence",
+          "event_sequence": 37,
+          "region_name": "Purple (1)",
+          "region_occurrence_index": 1,
+          "start_voxel_index": null,
+          "end_voxel_index": null,
+          "layer_start": 1,
+          "layer_end": 1,
+          "z_mm": 0.35,
+          "source_line_start": 10792,
+          "source_line_end": 11891,
+          "xy_bounds": [
+            37.419,
+            56.969,
+            90.142,
+            189.692
+          ],
+          "segment_count": 227,
+          "feature_types": [
+            "External perimeter",
+            "Perimeter",
+            "Top solid infill"
+          ],
+          "step_filament_e_mm": 125.0980299999998
+        }
+      ],
+      "step_sum_filament_e_mm": 125.0980299999998
+    }
+  ]
+}

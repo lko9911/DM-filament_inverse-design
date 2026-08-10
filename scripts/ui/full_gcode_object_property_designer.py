@@ -424,6 +424,22 @@ def write_reordered_full_gcode(
     all_lines = source_gcode_path.read_text(encoding="utf-8", errors="ignore").splitlines(keepends=True)
     m486_names_by_id = collect_m486_names(all_lines)
 
+    def is_non_extruding_motion(raw_line: str) -> bool:
+        line = strip_comment(raw_line)
+        if not line:
+            return False
+        words = parse_words(line)
+        g_code = int(words["G"]) if "G" in words else None
+        if g_code not in {0, 1}:
+            return False
+        return float(words.get("E", 0.0)) <= 0.0
+
+    def split_trailing_travel(lines: list[str]) -> tuple[list[str], list[str]]:
+        split_index = len(lines)
+        while split_index > 0 and is_non_extruding_motion(lines[split_index - 1]):
+            split_index -= 1
+        return lines[:split_index], lines[split_index:]
+
     def split_layer_chunk(layer_lines: list[str]) -> tuple[list[str], list[tuple[str, list[str]]], list[str]]:
         if not layer_lines:
             return [], [], []
@@ -443,7 +459,7 @@ def write_reordered_full_gcode(
         if first_mesh_start is None:
             return list(layer_lines), [], []
 
-        prefix = layer_lines[:first_mesh_start]
+        prefix, pending_travel = split_trailing_travel(layer_lines[:first_mesh_start])
         mesh_segments: list[tuple[str, list[str]]] = []
         suffix: list[str] = []
         current_name: str | None = None
@@ -490,9 +506,11 @@ def write_reordered_full_gcode(
 
                 mesh_name = canonical_component_name(mesh_name)
                 if current_name is not None:
+                    current_lines, pending_travel = split_trailing_travel(current_lines)
                     mesh_segments.append((current_name, current_lines))
                 current_name = mesh_name
-                current_lines = [line]
+                current_lines = [*pending_travel, line]
+                pending_travel = []
                 seen_mesh_segment = True
                 continue
 
@@ -511,9 +529,11 @@ def write_reordered_full_gcode(
                 m486_name = m486_names_by_id.get(selected_id)
                 if m486_name is not None:
                     if current_name is not None:
+                        current_lines, pending_travel = split_trailing_travel(current_lines)
                         mesh_segments.append((current_name, current_lines))
                     current_name = m486_name
-                    current_lines = [line]
+                    current_lines = [*pending_travel, line]
+                    pending_travel = []
                     seen_mesh_segment = True
                     continue
 

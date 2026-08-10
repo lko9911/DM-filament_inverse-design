@@ -138,28 +138,90 @@ def component_leading_purge_rank(component: "ComponentModel") -> int:
     return 1
 
 
+def component_layer_order_rank(component: "ComponentModel") -> int:
+    name = component_display_name(component).upper()
+    match = re.search(r"\bLAYER\s*[_\-\s]*(\d+)(?=\D|$)", name)
+    if match is None:
+        match = re.search(r"\bL\s*[_\-\s]*(\d+)(?=\D|$)", name)
+    if match is not None:
+        return int(match.group(1))
+
+    tokens = [token for token in re.split(r"[^A-Z0-9]+", name) if token]
+    for index, token in enumerate(tokens[:-1]):
+        if token in {"LAYER", "L"} and tokens[index + 1].isdigit():
+            return int(tokens[index + 1])
+    return 10000
+
+
 def component_color_order_key(component: "ComponentModel") -> tuple[int, ...]:
     name = component_display_name(component).upper()
     percentages = component_color_percentages(component)
     copy_rank = component_copy_order_rank(component)
     pair_role_rank = component_pair_role_rank(component)
     leading_purge_rank = component_leading_purge_rank(component)
+    layer_rank = component_layer_order_rank(component)
 
     if "CUSTOM" in name:
-        return (leading_purge_rank, COLOR_LABEL_SEQUENCE_RANK[("custom", None)], 0, 0, copy_rank, pair_role_rank, component.index)
+        return (
+            leading_purge_rank,
+            layer_rank,
+            COLOR_LABEL_SEQUENCE_RANK[("custom", None)],
+            0,
+            0,
+            copy_rank,
+            pair_role_rank,
+            component.index,
+        )
     if "PURPLE" in name or "PUPLE" in name:
-        return (leading_purge_rank, COLOR_LABEL_SEQUENCE_RANK[("pure", "PURPLE")], 0, 0, copy_rank, pair_role_rank, component.index)
+        return (
+            leading_purge_rank,
+            layer_rank,
+            COLOR_LABEL_SEQUENCE_RANK[("pure", "PURPLE")],
+            0,
+            0,
+            copy_rank,
+            pair_role_rank,
+            component.index,
+        )
     if "MAGENTA" in name or percentages.get("MAGENTA") == 100.0 or name.strip() in {"M", "M100"}:
-        return (leading_purge_rank, COLOR_LABEL_SEQUENCE_RANK[("pure", "MAGENTA")], 0, 0, copy_rank, pair_role_rank, component.index)
+        return (
+            leading_purge_rank,
+            layer_rank,
+            COLOR_LABEL_SEQUENCE_RANK[("pure", "MAGENTA")],
+            0,
+            0,
+            copy_rank,
+            pair_role_rank,
+            component.index,
+        )
     if "YELLOW" in name or percentages.get("YELLOW") == 100.0 or name.strip() in {"Y", "Y100"}:
-        return (leading_purge_rank, COLOR_LABEL_SEQUENCE_RANK[("pure", "YELLOW")], 0, 0, copy_rank, pair_role_rank, component.index)
+        return (
+            leading_purge_rank,
+            layer_rank,
+            COLOR_LABEL_SEQUENCE_RANK[("pure", "YELLOW")],
+            0,
+            0,
+            copy_rank,
+            pair_role_rank,
+            component.index,
+        )
     if "CYAN" in name or percentages.get("CYAN") == 100.0 or name.strip() in {"C", "C100"}:
-        return (leading_purge_rank, COLOR_LABEL_SEQUENCE_RANK[("pure", "CYAN")], 0, 0, copy_rank, pair_role_rank, component.index)
+        return (
+            leading_purge_rank,
+            layer_rank,
+            COLOR_LABEL_SEQUENCE_RANK[("pure", "CYAN")],
+            0,
+            0,
+            copy_rank,
+            pair_role_rank,
+            component.index,
+        )
 
     if {"MAGENTA", "YELLOW"}.issubset(percentages):
         rank = COLOR_LABEL_SEQUENCE_RANK[("mix", ("MAGENTA", "YELLOW"))]
         return (
             leading_purge_rank,
+            layer_rank,
             rank,
             -int(round(percentages["MAGENTA"] * 1000.0)),
             int(round(percentages["YELLOW"] * 1000.0)),
@@ -171,6 +233,7 @@ def component_color_order_key(component: "ComponentModel") -> tuple[int, ...]:
         rank = COLOR_LABEL_SEQUENCE_RANK[("mix", ("YELLOW", "CYAN"))]
         return (
             leading_purge_rank,
+            layer_rank,
             rank,
             -int(round(percentages["YELLOW"] * 1000.0)),
             int(round(percentages["CYAN"] * 1000.0)),
@@ -182,6 +245,7 @@ def component_color_order_key(component: "ComponentModel") -> tuple[int, ...]:
         rank = COLOR_LABEL_SEQUENCE_RANK[("mix", ("CYAN", "MAGENTA"))]
         return (
             leading_purge_rank,
+            layer_rank,
             rank,
             -int(round(percentages["CYAN"] * 1000.0)),
             int(round(percentages["MAGENTA"] * 1000.0)),
@@ -190,7 +254,7 @@ def component_color_order_key(component: "ComponentModel") -> tuple[int, ...]:
             component.index,
         )
 
-    return (leading_purge_rank, len(COLOR_LABEL_SEQUENCE), 0, 0, copy_rank, pair_role_rank, component.index)
+    return (leading_purge_rank, layer_rank, len(COLOR_LABEL_SEQUENCE), 0, 0, copy_rank, pair_role_rank, component.index)
 
 
 def apply_color_label_default_order(

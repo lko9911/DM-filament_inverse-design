@@ -49,7 +49,15 @@ REGION_END_RE = re.compile(
 )
 BLOCK_COMPONENT_RE = re.compile(r"^BLOCK\s*(?P<number>\d+)(?:[_\-\s]+(?P<rest>.*))?$", re.IGNORECASE)
 FOOTER_LINE_RE = re.compile(
-    r"^(?:;\s*end model|;\s*End of converted G-code|M400\b|M8[23]\b|G9[01]\b|M10[46]\b|M140\b|M84\b)\b",
+    r"^(?:"
+    r";\s*end model|"
+    r";\s*End of converted G-code|"
+    r";\s*Filament-specific end gcode|"
+    r";\s*turn off extruder heaters|"
+    r"G4\b|"
+    r"P\d+\s+S1\b|"
+    r"M400\b|M8[23]\b|G9[01]\b|M10[46]\b|M140\b|M84\b"
+    r")\b",
     re.IGNORECASE,
 )
 

@@ -341,7 +341,7 @@ def write_reordered_full_gcode(
     components: list[ComponentModel],
     states: dict[int, dict[str, object]],
     output_path: Path,
-    strategy: str = "preserve_original_gcode_order",
+    strategy: str = "reorder_mesh_occurrences_within_each_layer_keep_xyz",
 ) -> Path:
     if strategy in {"preserve_original_gcode_order", "copy_original_keep_xyz"}:
         output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -447,12 +447,41 @@ def write_reordered_full_gcode(
         return lines[:split_index], lines[split_index:]
 
     def split_connector_travel(lines: list[str]) -> tuple[list[str], list[str]]:
+        last_positive_extrusion_index: int | None = None
         for index in range(len(lines) - 1, -1, -1):
+            line = strip_comment(lines[index])
+            if line:
+                words = parse_words(line)
+                g_code = int(words["G"]) if "G" in words else None
+                if g_code in {0, 1, 2, 3} and float(words.get("E", 0.0)) > 0.0:
+                    last_positive_extrusion_index = index
+                    break
+
+        search_start = last_positive_extrusion_index if last_positive_extrusion_index is not None else -1
+        for index in range(len(lines) - 1, search_start, -1):
             if lines[index].strip().upper().startswith(";WIPE_END"):
                 tail = lines[index + 1 :]
-                if tail and all(is_non_extruding_motion(line) for line in tail if strip_comment(line)):
+                if tail and not any(
+                    (
+                        int(parse_words(strip_comment(line)).get("G", -1)) in {0, 1, 2, 3}
+                        and float(parse_words(strip_comment(line)).get("E", 0.0)) > 0.0
+                    )
+                    for line in tail
+                    if strip_comment(line)
+                ):
                     return lines[: index + 1], tail
                 break
+        if last_positive_extrusion_index is not None:
+            tail = lines[last_positive_extrusion_index + 1 :]
+            if tail and not any(
+                (
+                    int(parse_words(strip_comment(line)).get("G", -1)) in {0, 1, 2, 3}
+                    and float(parse_words(strip_comment(line)).get("E", 0.0)) > 0.0
+                )
+                for line in tail
+                if strip_comment(line)
+            ):
+                return lines[: last_positive_extrusion_index + 1], tail
         return split_trailing_travel(lines)
 
     def split_layer_chunk(layer_lines: list[str]) -> tuple[list[str], list[tuple[str, list[str]]], list[str]]:

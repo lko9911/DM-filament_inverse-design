@@ -101,6 +101,7 @@ def component_color_percentages(component: "ComponentModel") -> dict[str, float]
 
 def infer_color_label_from_component_name(component: "ComponentModel") -> str | None:
     name = component_display_name(component).upper()
+    tokens = [token for token in re.split(r"[^A-Z0-9.]+", name) if token]
     if "PURPLE" in name or "PUPLE" in name:
         return "PURPLE"
     percentages = component_color_percentages(component)
@@ -110,7 +111,7 @@ def infer_color_label_from_component_name(component: "ComponentModel") -> str | 
             second_key = second[0]
             return f"{first_key}{int(round(percentages[first]))}_{second_key}{int(round(percentages[second]))}"
     for material, key in (("MAGENTA", "M100"), ("YELLOW", "Y100"), ("CYAN", "C100")):
-        if material in name or name.strip() == key:
+        if material in name or key in tokens or name.strip() == key:
             return key
     return None
 

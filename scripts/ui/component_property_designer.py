@@ -118,7 +118,10 @@ def infer_color_label_from_component_name(component: "ComponentModel") -> str | 
 
 def component_copy_order_rank(component: "ComponentModel") -> int:
     name = component_display_name(component).upper()
-    return 1 if re.search(r"\(\s*1\s*\)", name) else 0
+    match = re.search(r"\(\s*(\d+)\s*\)", name)
+    if match is None:
+        return 0
+    return -int(match.group(1))
 
 
 def component_pair_role_rank(component: "ComponentModel") -> int:
